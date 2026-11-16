@@ -1,4 +1,5 @@
 ---
+type: note
 date: 2026-11-16
 tags: [note, owner]
 ---

@@ -1,0 +1,132 @@
+<!doctype html><html lang="he" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grok Trestle — מדריך מלא</title><style>
+:root{--b:#d0d7de;--bg:#f6f8fa;--acc:#0969da}*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:var(--bg);color:#1f2328;line-height:1.6;font-size:16px}
+header{position:sticky;top:0;z-index:5;background:#24292f;color:#fff;padding:10px 14px;font-weight:600}
+main{max-width:860px;margin:auto;padding:10px 14px 60px}
+h1{font-size:1.5em}h2{font-size:1.25em;border-bottom:2px solid var(--b);padding-bottom:4px;margin-top:30px}h3{font-size:1.07em;margin-top:20px}
+nav{background:#fff;border:1px solid var(--b);border-radius:10px;padding:8px 12px}nav ol{margin:4px 0;padding-inline-start:22px}
+a{color:var(--acc)}code{background:#eaeef2;border-radius:4px;padding:1px 5px;font-size:.9em;direction:ltr;unicode-bidi:isolate;word-break:break-word}
+.code{position:relative;margin:8px 0}pre{background:#0d1117;color:#e6edf3;padding:12px;border-radius:8px;overflow-x:auto;font-size:.85em;text-align:left;margin:0;white-space:pre}
+.code button{position:absolute;top:6px;left:6px;background:#30363d;color:#fff;border:0;border-radius:6px;padding:4px 10px;font-size:.8em;cursor:pointer}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;background:#fff;margin:8px 0}th,td{border:1px solid var(--b);padding:6px 8px;text-align:start;vertical-align:top;font-size:.93em}th{background:#eaeef2}
+.note{background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:8px 12px;margin:10px 0}li.sub{margin-inline-start:22px;list-style:circle}li{margin:3px 0}
+</style></head><body><header>Grok Trestle — מדריך מלא</header><main><nav><b>תוכן עניינים</b><ol><li><a href="#s1">1. מה זה ועל מה זה מבוסס</a></li><li><a href="#s2">2. מה שונה מהמקור</a></li><li><a href="#s3">3. מבנה התיקיות</a></li><li><a href="#s4">4. הקמה חד-פעמית</a></li><li><a href="#s5">5. שימוש יומיומי</a></li><li><a href="#s6">6. המיומנויות (skills) אחת-אחת</a></li><li><a href="#s7">7. בדיקת בריאות ודוח</a></li><li><a href="#s8">8. כללי אבטחה</a></li><li><a href="#s9">9. פתרון תקלות</a></li><li><a href="#s10">10. שאלות נפוצות</a></li><li><a href="#s11">קרדיט</a></li></ol></nav>
+<h1 id="s1">Grok Trestle — המדריך המלא</h1>
+<p>מדריך לכלי הזיכרון המשותף של הבוטים של H.S HOLDINGS בכספת ה-Obsidian. גרסה 1.0, 16 בנובמבר 2026.</p>
+<h2 id="s1">1. מה זה ועל מה זה מבוסס</h2>
+<p><b>Grok Trestle</b> הוא סט כלים שגורם לכל הבוטים שלנו (Grok Bot, Deal Analysis, מחקר שוק אטלנטה ואינדיאנפוליס, Contract Desk, Zip Intel, Content Insights, Deal Inbox ומזכירה) לעבוד עם זיכרון משותף אחד: כספת Obsidian שיושבת במאגר GitHub פרטי <code>hs-hold/hs-obsidian</code>.</p>
+<p>הרעיון המרכזי: כל עבודה נפתחת ב<b>טקס פתיחה</b> (הבוט מושך את המידע העדכני וקורא את ההקשר), ונסגרת ב<b>טקס סגירה</b> (הבוט כותב בחזרה מה למד, מה הוחלט ומה פתוח, בודק שהכול תקין ומעלה ל-GitHub). כך הידע מצטבר מעבודה לעבודה ולא הולך לאיבוד בין שיחות ובין בוטים.</p>
+<p>הכלי מבוסס על הפרויקט הפתוח <a href="https://github.com/liormesh/trestle" target="_blank" rel="noopener">trestle</a> של Lior Meshullam (רישיון MIT), שבנוי במקור ל-Claude Code. לקחנו ממנו את השיטה והתאמנו אותה לבוטים של גרוק ולעבודת הנדל&quot;ן שלנו.</p>
+<p>מה יש בכלי:</p>
+<ul><li>5 מיומנויות (skills) לבוטים: ראיון הקמה, פתיחת סשן, סגירת סשן, בדיקת בריאות, דוח מצב.</li><li>6 סקריפטים קטנים שרצים על ה-box בלי שום התקנה (python3 ו-bash בלבד).</li><li>6 תבניות פתקים: פרופיל, פרויקט, עסקה, איש קשר, פגישה, יומן בוט.</li><li>פרופיל החברה <code>00 Profile.md</code> ושני פרויקטים ראשונים בתיקייה <code>Projects</code>.</li></ul>
+<h2 id="s2">2. מה שונה מהמקור</h2>
+<div class="tw"><table><thead><tr><th>נושא</th><th>trestle המקורי</th><th>Grok Trestle שלנו</th></tr></thead><tbody><tr><td>למי</td><td>משתמש יחיד עם Claude Code במחשב שלו</td><td>9 בוטים של גרוק שחולקים box אחד ושלושה שותפים</td></tr><tr><td>איפה הזיכרון</td><td>תיקייה מקומית + קבצי זיכרון של Claude</td><td>כספת Obsidian במאגר GitHub פרטי, מסונכרנת לכל המכשירים</td></tr><tr><td>הפעלה</td><td>פקודות <code>/cq</code>, <code>/73</code>, <code>/onboard</code></td><td>משפט רגיל לבוט: &quot;פתח סשן Indy&quot;, &quot;סגור סשן&quot;</td></tr><tr><td>שומרים (hooks)</td><td>hooks של Claude Code שחוסמים כתיבה של סודות</td><td>אין hooks לגרוק, לכן הסריקה רצה בכל commit דרך <code>safe-push.sh</code>, שמסרב להעלות אם נמצא סוד</td></tr><tr><td>סקריפטים</td><td>Node.js</td><td>python3 ו-bash בלבד, בלי התקנות</td></tr><tr><td>עבודה במקביל</td><td>לא רלוונטי</td><td>נעילה (<code>flock</code>) כדי ששני בוטים לא יכתבו לגיט באותו רגע, ו-<code>pull --rebase</code> לפני כל העלאה</td></tr><tr><td>תוכן</td><td>פיתוח תוכנה</td><td>נדל&quot;ן: עסקאות, אנשי קשר, שווקים, קריטריונים לפליפ ו-BRRRR</td></tr><tr><td>דוח</td><td><code>/visualize</code> כללי</td><td>דוח מצב HTML בעברית שנשמר בתוך הכספת</td></tr><tr><td>רישיון</td><td>MIT</td><td>אותו MIT, עם קרדיט מלא ב-<code>LICENSE-trestle-MIT.txt</code></td></tr></tbody></table></div>
+<h2 id="s3">3. מבנה התיקיות</h2>
+<div class="code"><button onclick="cp('c1',this)">העתק</button><pre dir="ltr" id="c1">hs-obsidian/                         (the vault = the GitHub repo)
+├── 00 Profile.md                    company profile, criteria, rules, bots
+├── 00 Inbox/                        quick notes not filed yet
+├── Projects/                        one note per project
+│   ├── Indy Trip Nov 2026.md
+│   └── Deal Pipeline.md
+├── Deals/                           one note per deal (address.md)
+├── Contacts/                        brokers, wholesalers, contractors, lenders
+├── Markets/Atlanta/ , Markets/Indianapolis/
+├── Meetings/                        YYYY-MM-DD title.md
+├── Notes/                           owner notes
+├── Agents/&lt;bot name&gt;.md             append-only work log per bot
+├── .gitignore                       _private/, .env, workspace files
+└── _system/
+    ├── reports/vault-report.html    latest status report
+    └── grok-trestle/
+        ├── README.md, LICENSE-trestle-MIT.txt
+        ├── GUIDE-he.md/.html, GUIDE-en.md/.html
+        ├── skills/&lt;5 skills&gt;/SKILL.md
+        ├── scripts/                 python3 + bash, stdlib only
+        └── templates/               profile, project, deal, contact, meeting, agent-log</pre></div>
+<p>על ה-box הכספת נמצאת בנתיב <code>/home/box/shared/obsidian-vault</code>.</p>
+<h2 id="s4">4. הקמה חד-פעמית</h2>
+<h3 id="s5">4.1 מה כבר מוכן (לא צריך לעשות כלום)</h3>
+<ul><li>המאגר הפרטי <code>hs-hold/hs-obsidian</code> קיים, והבוטים מחוברים אליו עם טוקן שמוגבל רק למאגר הזה.</li><li>הכלי, התבניות, הפרופיל והפרויקטים כבר הועלו.</li><li>נשאר לרשום את 5 המיומנויות אצל הבוטים (Grok Bot עושה את זה) ולחבר את Obsidian אצלך.</li></ul>
+<h3 id="s5">4.2 טוקן למכשירים שלך</h3>
+<p>מומלץ טוקן נפרד לכל מכשיר שלך, כדי שתוכל לבטל אחד בלי לפגוע בבוטים:</p>
+<ol><li>היכנס ל-<a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">דף יצירת הטוקן</a> ב-GitHub.</li><li>Token name: למשל <code>obsidian-laptop</code>. Expiration: לפי בחירתך (שנה זה נוח).</li><li>Resource owner: <code>hs-hold</code>. Repository access: <b>Only select repositories</b> ובחר רק <code>hs-obsidian</code>.</li><li>Permissions → Repository permissions → <b>Contents: Read and write</b>. (Metadata: Read-only מתווסף לבד.)</li><li>Generate token, והעתק אותו מיד. GitHub מציג אותו פעם אחת בלבד.</li><li>שמור אותו במנהל הסיסמאות שלך. <b>לא</b> בכספת, ולא בצ&#x27;אט.</li></ol>
+<h3 id="s5">4.3 חיבור Obsidian במחשב (Windows או Mac)</h3>
+<ol><li>התקן Git: ב-Windows מ-<a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git-scm.com</a> (עם Git Credential Manager, ברירת המחדל). ב-Mac הרץ בטרמינל <code>git --version</code> ואשר את ההתקנה אם תתבקש.</li><li>פתח טרמינל (ב-Windows: Git Bash או PowerShell) ושכפל את המאגר לתיקייה שבה תרצה את הכספת:</li></ol>
+<div class="code"><button onclick="cp('c2',this)">העתק</button><pre dir="ltr" id="c2">cd ~/Documents
+git clone https://github.com/hs-hold/hs-obsidian.git</pre></div>
+<ol start="3"><li>כשתתבקש: Username = שם המשתמש שלך ב-GitHub, Password = <b>הטוקן</b> (לא הסיסמה). ב-Windows ייפתח חלון של Git Credential Manager, ושם אפשר גם להתחבר דרך הדפדפן. ב-Mac כדאי קודם להריץ פקודה ששומרת את הטוקן ב-Keychain:</li></ol>
+<div class="code"><button onclick="cp('c3',this)">העתק</button><pre dir="ltr" id="c3">git config --global credential.helper osxkeychain</pre></div>
+<ol start="4"><li>ב-Obsidian: <b>Open folder as vault</b> ובחר את התיקייה <code>hs-obsidian</code>.</li><li>Settings → <b>Community plugins</b> → <b>Turn on community plugins</b> → <b>Browse</b> → חפש <b>Git</b> (של Vinzent03) → <b>Install</b> → <b>Enable</b>.</li><li>Settings → Git, והגדר:</li><li class=sub><b>Pull on startup</b>: מופעל.</li><li class=sub><b>Auto pull interval (minutes)</b>: <code>5</code>.</li><li class=sub><b>Auto commit-and-sync interval (minutes)</b>: <code>10</code>.</li><li>בדיקה: פתח את Command palette (Ctrl/Cmd+P) והרץ <b>Git: Pull</b>. אמור להופיע <code>00 Profile.md</code> ובו פרטי החברה.</li></ol>
+<h3 id="s5">4.4 חיבור Obsidian בטלפון (Android או iPhone)</h3>
+<div class="note">המפתח של התוסף עצמו כותב שגרסת המובייל &quot;לא יציבה במיוחד&quot; ועלולה לקרוס במאגר גדול. היא עובדת לכספת קטנה כמו שלנו, אבל אם יש בעיות, אפשרות חלופית היא האפליקציה GitSync (Android ו-iOS) או Working Copy (iOS, בתשלום).</div>
+<ol><li>התקן Obsidian מהחנות, וצור <b>כספת חדשה וריקה</b> בשם <code>hs-obsidian</code>. באייפון <b>אל</b> תסמן Store in iCloud.</li><li>Settings → Community plugins → Turn on → Browse → <b>Git</b> → Install → Enable.</li><li>Settings → Git → בחלק <b>Authentication/Identity</b>: Username = שם המשתמש ב-GitHub, Password/Personal access token = הטוקן של המכשיר (סעיף 4.2). אל תיגע בהגדרות Advanced.</li><li>Command palette → <b>Git: Clone an existing remote repo</b>.</li><li>הדבק את הכתובת עם <code>.git</code> בסוף ולחץ על הכפתור שמתחת לשדה:</li></ol>
+<div class="code"><button onclick="cp('c4',this)">העתק</button><pre dir="ltr" id="c4">https://github.com/hs-hold/hs-obsidian.git</pre></div>
+<ol start="6"><li>כשתישאל על תיקייה, בחר את שורש הכספת. כשתישאל על <code>.obsidian</code>, ענה לפי מה שמוצג (בדרך כלל NO, אין צורך להוריד הגדרות). חכה להודעה <b>Restart Obsidian</b> ואתחל את האפליקציה.</li><li>אחר כך הגדר Pull on startup ו-Auto pull כמו במחשב.</li></ol>
+<h3 id="s5">4.5 רישום המיומנויות אצל הבוטים</h3>
+<p>את זה Grok Bot עושה. נתיבי 5 התיקיות לרישום:</p>
+<div class="code"><button onclick="cp('c5',this)">העתק</button><pre dir="ltr" id="c5">/home/box/shared/obsidian-vault/_system/grok-trestle/skills/vault-setup-interview
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/session-open
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/session-close
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/vault-health-check
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/vault-report</pre></div>
+<h2 id="s5">5. שימוש יומיומי</h2>
+<h3 id="s6">5.1 פתיחת סשן</h3>
+<p>כתוב לכל בוט, למשל:</p>
+<ul><li>&quot;פתח סשן Indy&quot;</li><li>&quot;פתח סשן Deal Pipeline&quot;</li><li>&quot;פתח סשן&quot; (בלי פרויקט: פרופיל, יומן הבוט ומשימות פתוחות)</li></ul>
+<p>הבוט ימשוך עדכונים מ-GitHub, יקרא את הפרופיל, את פתק הפרויקט, את 40 השורות האחרונות ביומן שלו, את כל המשימות הפתוחות ואת מצב הבריאות, ויחזיר לך סיכום קצר. מאחורי הקלעים זו פקודה אחת:</p>
+<div class="code"><button onclick="cp('c6',this)">העתק</button><pre dir="ltr" id="c6">python3 /home/box/shared/obsidian-vault/_system/grok-trestle/scripts/session-open.py --agent &quot;Deal Analysis&quot; --project &quot;Indy&quot;</pre></div>
+<h3 id="s6">5.2 סגירת סשן</h3>
+<p>בסוף עבודה כתוב &quot;סגור סשן&quot; או &quot;תשמור באובסידיאן&quot;. הבוט:</p>
+<ol><li>בוחר מהשיחה רק דברים מאומתים: מה נלמד (עם מקור), מה הוחלט, מה נשאר פתוח ומה בוצע.</li><li>מוסיף רישום מתוארך ליומן שלו <code>Agents/&lt;bot&gt;.md</code> ולפתק הפרויקט, תחת <code>## Log</code>.</li><li>מסמן משימות שבוצעו (<code>- [ ]</code> הופך ל-<code>- [x]</code>).</li><li>מריץ בדיקת בריאות.</li><li>מעלה ל-GitHub בצורה בטוחה, וזה נכנס לך ל-Obsidian תוך כמה דקות.</li></ol>
+<div class="code"><button onclick="cp('c7',this)">העתק</button><pre dir="ltr" id="c7">S=/home/box/shared/obsidian-vault/_system/grok-trestle/scripts
+python3 $S/session-close.py --agent &quot;Deal Analysis&quot; --project &quot;Deal Pipeline&quot; \
+  --summary &quot;Screened 3 Atlanta deals&quot; \
+  --learned &quot;ARV for 123 Main St is 250k (source: URL)&quot; \
+  --decision &quot;Pass on 123 Main St - ROI 9%&quot; \
+  --task &quot;Get rehab quote for 45 Oak Ave&quot;
+python3 $S/vault-health.py
+bash $S/safe-push.sh &quot;Deal Analysis&quot; &quot;session close: Deal Pipeline&quot;</pre></div>
+<h3 id="s6">5.3 טיפים</h3>
+<ul><li>אפשר לבקש גם באמצע: &quot;תשמור את זה באובסידיאן&quot;, וזו אותה סגירת סשן.</li><li>עסקה חדשה → הבוט יוצר <code>Deals/&lt;כתובת&gt;.md</code> מהתבנית. איש קשר → <code>Contacts/&lt;שם&gt;.md</code>. פגישה → <code>Meetings/YYYY-MM-DD &lt;נושא&gt;.md</code>.</li><li>אתה עצמך יכול לכתוב פתקים ב-Obsidian כרגיל. הם יעלו אוטומטית והבוטים יראו אותם בפתיחת הסשן הבאה.</li><li>משימה = שורה שמתחילה ב-<code>- [ ]</code>. כך כל הבוטים והדוח מזהים אותה.</li></ul>
+<h2 id="s6">6. המיומנויות (skills) אחת-אחת</h2>
+<h3 id="s7">6.1 vault-setup-interview — ראיון הקמה</h3>
+<ul><li><b>מתי:</b> &quot;ראיון הקמה&quot;, &quot;עדכן פרופיל&quot;, &quot;הוסף פרויקט&quot;, או כשפתיחת הסשן מדווחת שאין פרופיל.</li><li><b>מה:</b> עד 8 שאלות, אחת בכל פעם: חברה ושותפים, שווקים, קריטריונים, סגנון וכללים, בוטים, פרויקטים, עובדות ומשימות.</li><li><b>כותב:</b> <code>00 Profile.md</code> ו-<code>Projects/&lt;שם&gt;.md</code> מהתבניות. נרשם רק מה שאמרת, בלי ניחושים.</li><li>אפשר להריץ שוב בכל זמן. בריצה חוזרת הוא שואל רק על מה שחסר או השתנה.</li></ul>
+<h3 id="s7">6.2 session-open — פתיחת סשן</h3>
+<ul><li><b>מתי:</b> &quot;פתח סשן &lt;פרויקט&gt;&quot;, או בתחילת כל משימה משמעותית.</li><li><b>מה:</b> pull, ואז פרופיל, פרויקט, יומן הבוט, משימות פתוחות, Inbox ובריאות, הכול בקריאה אחת וחסכונית בטוקנים.</li><li><b>לא כותב כלום.</b></li></ul>
+<h3 id="s7">6.3 session-close — סגירת סשן</h3>
+<ul><li><b>מתי:</b> &quot;סגור סשן&quot;, &quot;תשמור באובסידיאן&quot;, בסוף משימה, או אחרי החלטה או ממצא חשוב.</li><li><b>מה:</b> רישום מתוארך ליומן ולפרויקט, סימון משימות שבוצעו, בדיקת בריאות ו-commit+push בטוח.</li><li><b>כלל ברזל:</b> רק הוספה, לא מחיקה של תוכן של אחרים. רק עובדות מאומתות עם מקור.</li></ul>
+<h3 id="s7">6.4 vault-health-check — בדיקת בריאות</h3>
+<ul><li><b>מתי:</b> &quot;בדיקת בריאות לכספת&quot;, לפני כתיבה גדולה, או כשסגירה מראה WARN.</li><li><b>מה:</b> קישורים שבורים, פתקים בלי frontmatter או בלי <code>type:</code>, פרויקטים פעילים שלא עודכנו 14 יום, פתקי Inbox ישנים מ-7 ימים, ספירת משימות, סריקת סודות ומצב סנכרון.</li></ul>
+<h3 id="s7">6.5 vault-report — דוח מצב</h3>
+<ul><li><b>מתי:</b> &quot;דוח כספת&quot;, &quot;מה המצב באובסידיאן&quot;.</li><li><b>מה:</b> קובץ HTML אחד בעברית, שנפתח בטלפון ובלי אינטרנט: בריאות, פתקים לפי תיקייה, פרויקטים, משימות פתוחות, פעילות כל בוט ו-15 השינויים האחרונים. הקובץ נשמר ב-<code>_system/reports/vault-report.html</code>.</li></ul>
+<h2 id="s7">7. בדיקת בריאות ודוח</h2>
+<div class="code"><button onclick="cp('c8',this)">העתק</button><pre dir="ltr" id="c8">S=/home/box/shared/obsidian-vault/_system/grok-trestle/scripts
+python3 $S/vault-health.py                 # full check
+python3 $S/vault-health.py --stale-days 30 # looser staleness
+python3 $S/secrets-scan.py                 # secrets only
+python3 $S/vault-report.py                 # HTML report into the vault</pre></div>
+<div class="tw"><table><thead><tr><th>תוצאה</th><th>משמעות</th><th>מה עושים</th></tr></thead><tbody><tr><td><code>OK</code></td><td>תקין</td><td>כלום</td></tr><tr><td><code>INFO</code></td><td>מידע (מספר משימות)</td><td>כלום</td></tr><tr><td><code>WARN FRONTMATTER</code></td><td>חסר בלוק <code>---</code> או <code>type:</code></td><td>להעתיק את הראש מהתבנית המתאימה</td></tr><tr><td><code>WARN LINKS</code></td><td><code>[[קישור]]</code> לפתק שלא קיים</td><td>לתקן את השם או ליצור את הפתק</td></tr><tr><td><code>WARN STALE</code></td><td>פרויקט פעיל שלא זז, או Inbox ישן</td><td>להחליט על הצעד הבא או לשנות <code>status:</code></td></tr><tr><td><code>WARN SYNC</code></td><td>שינויים שלא הועלו</td><td>סגירת סשן או <code>safe-push.sh</code></td></tr><tr><td><code>FAIL SECRETS</code></td><td>נמצא משהו שנראה כמו סיסמה או טוקן</td><td><b>לא להעלות</b>. למחוק ולהשאיר הפניה</td></tr></tbody></table></div>
+<p>קוד יציאה: 0 תקין, 1 יש WARN, 2 יש FAIL.</p>
+<h2 id="s8">8. כללי אבטחה</h2>
+<ol><li><b>אף פעם</b> לא כותבים לכספת סיסמאות, טוקנים, מפתחות API, מספרי כרטיס או פרטי התחברות. כותבים רק איפה הם שמורים, למשל &quot;הסיסמה אצל הבעלים במנהל הסיסמאות&quot;.</li><li><code>safe-push.sh</code> סורק כל commit. אם נמצא סוד, <b>שום דבר לא עולה</b> וחוזרת הודעה <code>PUSH: BLOCKED</code>.</li><li>הסריקה היא רשת ביטחון ולא הגנה מושלמת (כמו שכותב גם המפתח המקורי). האחריות היא לא לכתוב סודות מלכתחילה.</li><li>אם סוד כבר עלה ל-GitHub, מחיקה לא מספיקה כי הוא נשאר בהיסטוריה. <b>חייבים לבטל אותו ולהנפיק חדש</b> (rotate).</li><li>הטוקן של הבוטים מוגבל רק למאגר <code>hs-obsidian</code>, ורק ל-Contents. לכל מכשיר שלך כדאי טוקן נפרד, כדי שאפשר יהיה לבטל אחד בלי לפגוע באחרים.</li><li>התיקייה <code>_private/</code> מוחרגת מגיט (<code>.gitignore</code>), כך שמה שבתוכה לא עולה לעולם. ובכל זאת, עדיף לא לשמור בה סודות.</li><li>המאגר חייב להישאר <b>Private</b>.</li><li>הטוקנים פגים בתאריך שבחרת. לפני כן צריך להנפיק חדש, אחרת הסנכרון ייעצר.</li></ol>
+<h2 id="s9">9. פתרון תקלות</h2>
+<div class="tw"><table><thead><tr><th>בעיה</th><th>פתרון</th></tr></thead><tbody><tr><td><code>PULL: FAIL</code> / <code>Authentication failed</code></td><td>הטוקן פג או בוטל. מנפיקים חדש (סעיף 4.2): לבוטים דרך Grok Bot, ל-Obsidian בהגדרות התוסף או בחלון ההתחברות</td></tr><tr><td><code>PUSH: BLOCKED secrets found</code></td><td>למחוק את הערך מהקובץ שצוין ולהריץ שוב. כלום לא עלה</td></tr><tr><td><code>PUSH: FAIL ... conflict</code></td><td>שני גורמים ערכו את אותה שורה. הבוט מריץ <code>git status</code>, משאיר את שתי הגרסאות, <code>git add -A &amp;&amp; git rebase --continue</code> ומעלה שוב</td></tr><tr><td><code>could not get vault lock</code></td><td>בוט אחר כותב כרגע. לנסות שוב בעוד דקה</td></tr><tr><td>ב-Obsidian לא רואים עדכונים</td><td>Command palette → <b>Git: Pull</b>. לוודא ש-Auto pull מוגדר</td></tr><tr><td>התנגשות (conflict) ב-Obsidian</td><td>התוסף מסמן את הקובץ. פותחים, משאירים את שתי הגרסאות, ומריצים <b>Git: Commit-and-sync</b></td></tr><tr><td>הטלפון קורס בשכפול</td><td>לנסות שוב עם Wi-Fi וזיכרון פנוי, או לעבור ל-GitSync / Working Copy (סעיף 4.4)</td></tr><tr><td><code>WARN LINKS</code> אחרי שינוי שם של פתק</td><td>ב-Obsidian להפעיל Settings → Files and links → <b>Automatically update internal links</b></td></tr></tbody></table></div>
+<p>בדיקה ידנית על ה-box:</p>
+<div class="code"><button onclick="cp('c9',this)">העתק</button><pre dir="ltr" id="c9">git -C /home/box/shared/obsidian-vault status -sb
+git -C /home/box/shared/obsidian-vault log --oneline -5</pre></div>
+<h2 id="s10">10. שאלות נפוצות</h2>
+<p><b>האם צריך את Claude Code, Node.js או התקנה כלשהי?</b> לא. הכול רץ על ה-box עם python3 ו-bash שכבר קיימים. אצלך צריך רק Obsidian, התוסף Git, ובמחשב גם Git.</p>
+<p><b>מה קורה אם שני בוטים סוגרים סשן באותו רגע?</b> יש נעילה. השני מחכה עד 120 שניות, עושה <code>pull --rebase</code> ואז מעלה. אם מישהו אחר העלה בינתיים, יש עד 3 ניסיונות חוזרים.</p>
+<p><b>האם בוט יכול למחוק לי פתקים?</b> הכללים במיומנויות הם להוסיף ולא למחוק. גם אם משהו נמחק בטעות, הוא נשאר בהיסטוריית Git וניתן לשחזור.</p>
+<p><b>איפה רואים מה כל בוט עשה?</b> ב-<code>Agents/&lt;שם הבוט&gt;.md</code>, או בדוח המצב בטבלת &quot;פעילות בוטים&quot;.</p>
+<p><b>איך מוסיפים פרויקט חדש?</b> אומרים לבוט &quot;הוסף פרויקט X&quot; (ראיון הקמה), או מעתיקים את <code>templates/project.md</code> לתיקייה <code>Projects/</code>.</p>
+<p><b>איך מוסיפים בוט חדש?</b> מוסיפים את שמו לרשימת הבוטים ב-<code>00 Profile.md</code> ורושמים לו את 5 המיומנויות. היומן שלו נוצר לבד בסגירת הסשן הראשונה.</p>
+<p><b>כמה זה עולה בטוקנים?</b> פתיחה היא קריאה אחת וסגירה היא 1–2 קריאות. זה תוכנן לחיסכון, כמו במקור.</p>
+<p><b>אפשר לבטל?</b> כן. מבטלים את רישום המיומנויות אצל הבוטים. הכספת והפתקים נשארים שלך.</p>
+<h2 id="s11">קרדיט</h2>
+<p>מבוסס על <a href="https://github.com/liormesh/trestle" target="_blank" rel="noopener">trestle</a> מאת Lior Meshullam, ברישיון MIT. הטקסט המלא נמצא ב-<code>LICENSE-trestle-MIT.txt</code>.</p></main><script>
+function cp(id,b){var t=document.getElementById(id).innerText,o=b.innerText;function ok(){b.innerText='✓';setTimeout(function(){b.innerText=o},1200)}
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok,fb)}else fb();
+function fb(){var x=document.createElement('textarea');x.value=t;document.body.appendChild(x);x.select();try{document.execCommand('copy');ok()}catch(e){}document.body.removeChild(x)}}
+</script></body></html>

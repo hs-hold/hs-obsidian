@@ -1,0 +1,132 @@
+<!doctype html><html lang="en" dir="ltr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Grok Trestle — Full Guide</title><style>
+:root{--b:#d0d7de;--bg:#f6f8fa;--acc:#0969da}*{box-sizing:border-box}
+body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif;background:var(--bg);color:#1f2328;line-height:1.6;font-size:16px}
+header{position:sticky;top:0;z-index:5;background:#24292f;color:#fff;padding:10px 14px;font-weight:600}
+main{max-width:860px;margin:auto;padding:10px 14px 60px}
+h1{font-size:1.5em}h2{font-size:1.25em;border-bottom:2px solid var(--b);padding-bottom:4px;margin-top:30px}h3{font-size:1.07em;margin-top:20px}
+nav{background:#fff;border:1px solid var(--b);border-radius:10px;padding:8px 12px}nav ol{margin:4px 0;padding-inline-start:22px}
+a{color:var(--acc)}code{background:#eaeef2;border-radius:4px;padding:1px 5px;font-size:.9em;direction:ltr;unicode-bidi:isolate;word-break:break-word}
+.code{position:relative;margin:8px 0}pre{background:#0d1117;color:#e6edf3;padding:12px;border-radius:8px;overflow-x:auto;font-size:.85em;text-align:left;margin:0;white-space:pre}
+.code button{position:absolute;top:6px;right:6px;background:#30363d;color:#fff;border:0;border-radius:6px;padding:4px 10px;font-size:.8em;cursor:pointer}
+.tw{overflow-x:auto}table{border-collapse:collapse;width:100%;background:#fff;margin:8px 0}th,td{border:1px solid var(--b);padding:6px 8px;text-align:start;vertical-align:top;font-size:.93em}th{background:#eaeef2}
+.note{background:#fff8c5;border:1px solid #d4a72c;border-radius:8px;padding:8px 12px;margin:10px 0}li.sub{margin-inline-start:22px;list-style:circle}li{margin:3px 0}
+</style></head><body><header>Grok Trestle — Full Guide</header><main><nav><b>Contents</b><ol><li><a href="#s1">1. What it is and what it&#x27;s based on</a></li><li><a href="#s2">2. Differences from the original</a></li><li><a href="#s3">3. Folder structure</a></li><li><a href="#s4">4. One-time setup</a></li><li><a href="#s5">5. Daily usage</a></li><li><a href="#s6">6. The skills, one by one</a></li><li><a href="#s7">7. Health check and report</a></li><li><a href="#s8">8. Security rules</a></li><li><a href="#s9">9. Troubleshooting</a></li><li><a href="#s10">10. FAQ</a></li><li><a href="#s11">Credit</a></li></ol></nav>
+<h1 id="s1">Grok Trestle — Full Guide</h1>
+<p>Guide to the shared-memory toolkit for the H.S HOLDINGS bots in our Obsidian vault. Version 1.0, November 16, 2026.</p>
+<h2 id="s1">1. What it is and what it&#x27;s based on</h2>
+<p><b>Grok Trestle</b> is a toolkit that makes all our bots (Grok Bot, Deal Analysis, Atlanta Market Research, Indianapolis Market Research, Contract Desk, Zip Intel, Content Insights, Deal Inbox and מזכירה, the secretary) work from one shared memory: an Obsidian vault stored in the private GitHub repo <code>hs-hold/hs-obsidian</code>.</p>
+<p>The core idea is that every piece of work starts with an <b>opening ritual</b>: the bot pulls the latest notes and reads the context. It ends with a <b>closing ritual</b>: the bot writes back what it learned, what was decided and what is still open, checks the vault is healthy, and pushes to GitHub. Knowledge piles up from session to session instead of getting lost between chats and bots.</p>
+<p>It is based on the open-source project <a href="https://github.com/liormesh/trestle" target="_blank" rel="noopener">trestle</a> by Lior Meshullam (MIT license), which was originally built for Claude Code. We took its method and adapted it to Grok Bot agents and to our real estate work.</p>
+<p>What&#x27;s included:</p>
+<ul><li>5 bot skills: setup interview, session open, session close, health check, status report.</li><li>6 small scripts that run on the box with nothing to install (python3 and bash only).</li><li>6 note templates: profile, project, deal, contact, meeting, agent log.</li><li>The company profile <code>00 Profile.md</code> and two starter projects in <code>Projects/</code>.</li></ul>
+<h2 id="s2">2. Differences from the original</h2>
+<div class="tw"><table><thead><tr><th>Topic</th><th>Original trestle</th><th>Our Grok Trestle</th></tr></thead><tbody><tr><td>Who</td><td>One user running Claude Code on their own machine</td><td>9 Grok bots sharing one box, plus three partners</td></tr><tr><td>Where memory lives</td><td>A local folder plus Claude memory files</td><td>An Obsidian vault in a private GitHub repo, synced to every device</td></tr><tr><td>How it&#x27;s triggered</td><td>Commands <code>/cq</code>, <code>/73</code>, <code>/onboard</code></td><td>A plain sentence to a bot: &quot;open session Indy&quot;, &quot;close session&quot;</td></tr><tr><td>Guardrails</td><td>Claude Code hooks block writing secrets</td><td>Grok has no hooks, so the scan runs on every commit through <code>safe-push.sh</code>, which refuses to push if it finds a secret</td></tr><tr><td>Scripts</td><td>Node.js</td><td>python3 and bash only, nothing to install</td></tr><tr><td>Concurrency</td><td>Not relevant</td><td>A <code>flock</code> lock so two bots never run git at once, and <code>pull --rebase</code> before every push</td></tr><tr><td>Content</td><td>Software development</td><td>Real estate: deals, contacts, markets, flip and BRRRR criteria</td></tr><tr><td>Report</td><td>General-purpose <code>/visualize</code></td><td>A Hebrew HTML status report saved inside the vault</td></tr><tr><td>License</td><td>MIT</td><td>Same MIT, with full credit in <code>LICENSE-trestle-MIT.txt</code></td></tr></tbody></table></div>
+<h2 id="s3">3. Folder structure</h2>
+<div class="code"><button onclick="cp('c1',this)">Copy</button><pre dir="ltr" id="c1">hs-obsidian/                         (the vault = the GitHub repo)
+├── 00 Profile.md                    company profile, criteria, rules, bots
+├── 00 Inbox/                        quick notes not filed yet
+├── Projects/                        one note per project
+│   ├── Indy Trip Nov 2026.md
+│   └── Deal Pipeline.md
+├── Deals/                           one note per deal (address.md)
+├── Contacts/                        brokers, wholesalers, contractors, lenders
+├── Markets/Atlanta/ , Markets/Indianapolis/
+├── Meetings/                        YYYY-MM-DD title.md
+├── Notes/                           owner notes
+├── Agents/&lt;bot name&gt;.md             append-only work log per bot
+├── .gitignore                       _private/, .env, workspace files
+└── _system/
+    ├── reports/vault-report.html    latest status report
+    └── grok-trestle/
+        ├── README.md, LICENSE-trestle-MIT.txt
+        ├── GUIDE-he.md/.html, GUIDE-en.md/.html
+        ├── skills/&lt;5 skills&gt;/SKILL.md
+        ├── scripts/                 python3 + bash, stdlib only
+        └── templates/               profile, project, deal, contact, meeting, agent-log</pre></div>
+<p>On the box, the vault lives at <code>/home/box/shared/obsidian-vault</code>.</p>
+<h2 id="s4">4. One-time setup</h2>
+<h3 id="s5">4.1 Already done (nothing to do)</h3>
+<ul><li>The private repo <code>hs-hold/hs-obsidian</code> exists, and the bots connect to it with a token scoped to that repo only.</li><li>The toolkit, templates, profile and projects are already pushed.</li><li>What&#x27;s left: register the 5 skills with the bots (Grok Bot does this), and connect Obsidian on your devices.</li></ul>
+<h3 id="s5">4.2 A token for your devices</h3>
+<p>Use a separate token for each of your devices, so you can revoke one without breaking the bots:</p>
+<ol><li>Open GitHub&#x27;s <a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">new fine-grained token page</a>.</li><li>Token name: for example <code>obsidian-laptop</code>. Expiration: your choice (one year is convenient).</li><li>Resource owner: <code>hs-hold</code>. Repository access: <b>Only select repositories</b>, then pick only <code>hs-obsidian</code>.</li><li>Permissions → Repository permissions → <b>Contents: Read and write</b>. (Metadata: Read-only is added automatically.)</li><li>Click Generate token and copy it right away. GitHub shows it only once.</li><li>Save it in your password manager. <b>Not</b> in the vault, and not in chat.</li></ol>
+<h3 id="s5">4.3 Connect Obsidian on desktop (Windows or Mac)</h3>
+<ol><li>Install Git. On Windows, get it from <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git-scm.com</a> and keep the default Git Credential Manager. On Mac, run <code>git --version</code> in Terminal and accept the install prompt if one appears.</li><li>Open a terminal (on Windows: Git Bash or PowerShell) and clone the repo where you want the vault to live:</li></ol>
+<div class="code"><button onclick="cp('c2',this)">Copy</button><pre dir="ltr" id="c2">cd ~/Documents
+git clone https://github.com/hs-hold/hs-obsidian.git</pre></div>
+<ol start="3"><li>When prompted, enter your GitHub username as Username and <b>the token</b> as Password (not your GitHub password). On Windows, a Git Credential Manager window opens, where you can also sign in through the browser. On Mac, first run this command so the token is saved in Keychain:</li></ol>
+<div class="code"><button onclick="cp('c3',this)">Copy</button><pre dir="ltr" id="c3">git config --global credential.helper osxkeychain</pre></div>
+<ol start="4"><li>In Obsidian, choose <b>Open folder as vault</b> and pick the <code>hs-obsidian</code> folder.</li><li>Go to Settings → <b>Community plugins</b> → <b>Turn on community plugins</b> → <b>Browse</b>, search for <b>Git</b> (by Vinzent03), then <b>Install</b> → <b>Enable</b>.</li><li>In Settings → Git, set:</li><li class=sub><b>Pull on startup</b>: on.</li><li class=sub><b>Auto pull interval (minutes)</b>: <code>5</code>.</li><li class=sub><b>Auto commit-and-sync interval (minutes)</b>: <code>10</code>.</li><li>To test: open the command palette (Ctrl/Cmd+P) and run <b>Git: Pull</b>. You should see <code>00 Profile.md</code> with the company details.</li></ol>
+<h3 id="s5">4.4 Connect Obsidian on mobile (Android or iPhone)</h3>
+<div class="note">The plugin&#x27;s own author calls the mobile version &quot;very unstable&quot;, and it can crash on large repos. It works for a small vault like ours. If it gives you trouble, the alternatives are the GitSync app (Android and iOS) or Working Copy (iOS, paid).</div>
+<ol><li>Install Obsidian from the app store and create a <b>new, empty vault</b> named <code>hs-obsidian</code>. On iPhone, do <b>not</b> tick Store in iCloud.</li><li>Go to Settings → Community plugins → Turn on → Browse → <b>Git</b> → Install → Enable.</li><li>In Settings → Git, under <b>Authentication/Identity</b>, enter your GitHub username as Username and this device&#x27;s token (from 4.2) as Password/Personal access token. Leave the Advanced settings alone.</li><li>In the command palette, run <b>Git: Clone an existing remote repo</b>.</li><li>Paste the URL, ending in <code>.git</code>, and tap the button below the field:</li></ol>
+<div class="code"><button onclick="cp('c4',this)">Copy</button><pre dir="ltr" id="c4">https://github.com/hs-hold/hs-obsidian.git</pre></div>
+<ol start="6"><li>When asked for a folder, choose the vault root. When asked about <code>.obsidian</code>, answer based on what&#x27;s shown (usually NO; you don&#x27;t need to download settings). Wait for the <b>Restart Obsidian</b> message, then restart the app.</li><li>Then set Pull on startup and Auto pull the same way as on desktop.</li></ol>
+<h3 id="s5">4.5 Register the skills with the bots</h3>
+<p>Grok Bot does this. These are the 5 skill folders to register:</p>
+<div class="code"><button onclick="cp('c5',this)">Copy</button><pre dir="ltr" id="c5">/home/box/shared/obsidian-vault/_system/grok-trestle/skills/vault-setup-interview
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/session-open
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/session-close
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/vault-health-check
+/home/box/shared/obsidian-vault/_system/grok-trestle/skills/vault-report</pre></div>
+<h2 id="s5">5. Daily usage</h2>
+<h3 id="s6">5.1 Opening a session</h3>
+<p>Tell any bot, for example:</p>
+<ul><li>&quot;open session Indy&quot; / &quot;פתח סשן Indy&quot;</li><li>&quot;open session Deal Pipeline&quot;</li><li>&quot;open session&quot; (no project: profile, the bot&#x27;s log and open tasks)</li></ul>
+<p>The bot pulls from GitHub and reads the profile, the project note, the last 40 lines of its own log, every open task and the health status. It then replies with a short summary. Behind the scenes it&#x27;s one command:</p>
+<div class="code"><button onclick="cp('c6',this)">Copy</button><pre dir="ltr" id="c6">python3 /home/box/shared/obsidian-vault/_system/grok-trestle/scripts/session-open.py --agent &quot;Deal Analysis&quot; --project &quot;Indy&quot;</pre></div>
+<h3 id="s6">5.2 Closing a session</h3>
+<p>At the end of a piece of work, say &quot;close session&quot; or &quot;save to Obsidian&quot;. The bot:</p>
+<ol><li>Picks only verified items from the conversation: what was learned (with a source), what was decided, what&#x27;s still open, and what got done.</li><li>Appends a dated entry to its own log <code>Agents/&lt;bot&gt;.md</code> and to the project note, under <code>## Log</code>.</li><li>Ticks finished tasks (<code>- [ ]</code> becomes <code>- [x]</code>).</li><li>Runs the health check.</li><li>Pushes safely to GitHub. The changes show up in your Obsidian within minutes.</li></ol>
+<div class="code"><button onclick="cp('c7',this)">Copy</button><pre dir="ltr" id="c7">S=/home/box/shared/obsidian-vault/_system/grok-trestle/scripts
+python3 $S/session-close.py --agent &quot;Deal Analysis&quot; --project &quot;Deal Pipeline&quot; \
+  --summary &quot;Screened 3 Atlanta deals&quot; \
+  --learned &quot;ARV for 123 Main St is 250k (source: URL)&quot; \
+  --decision &quot;Pass on 123 Main St - ROI 9%&quot; \
+  --task &quot;Get rehab quote for 45 Oak Ave&quot;
+python3 $S/vault-health.py
+bash $S/safe-push.sh &quot;Deal Analysis&quot; &quot;session close: Deal Pipeline&quot;</pre></div>
+<h3 id="s6">5.3 Tips</h3>
+<ul><li>You can also ask mid-task: &quot;save this to Obsidian&quot;. That&#x27;s the same as closing a session.</li><li>A new deal goes to <code>Deals/&lt;address&gt;.md</code>, built from the template. A contact goes to <code>Contacts/&lt;name&gt;.md</code>. A meeting goes to <code>Meetings/YYYY-MM-DD &lt;title&gt;.md</code>.</li><li>You can write notes in Obsidian as usual. They sync automatically, and the bots see them at their next session open.</li><li>A task is a line starting with <code>- [ ]</code>. That&#x27;s how every bot and the report recognize it.</li></ul>
+<h2 id="s6">6. The skills, one by one</h2>
+<h3 id="s7">6.1 vault-setup-interview</h3>
+<ul><li><b>When:</b> &quot;setup interview&quot;, &quot;update profile&quot;, &quot;add a project&quot;, or when session-open reports the profile is missing.</li><li><b>What:</b> up to 8 questions, one at a time: company and partners, markets, criteria, style and rules, bots, projects, facts and tasks.</li><li><b>Writes:</b> <code>00 Profile.md</code> and <code>Projects/&lt;name&gt;.md</code> from the templates. It records only what you said, with no guesses.</li><li>You can run it again at any time. On a re-run, it asks only about what&#x27;s missing or has changed.</li></ul>
+<h3 id="s7">6.2 session-open</h3>
+<ul><li><b>When:</b> &quot;open session &lt;project&gt;&quot;, or at the start of any substantial task.</li><li><b>What:</b> a pull, then the profile, project, bot log, open tasks, inbox and health, all in one token-cheap call.</li><li><b>Writes nothing.</b></li></ul>
+<h3 id="s7">6.3 session-close</h3>
+<ul><li><b>When:</b> &quot;close session&quot;, &quot;save to Obsidian&quot;, at the end of a task, or after an important decision or finding.</li><li><b>What:</b> a dated entry in the log and the project, finished tasks ticked, a health check, and a safe commit and push.</li><li><b>Iron rule:</b> append only; never delete other people&#x27;s content. Only verified facts, each with a source.</li></ul>
+<h3 id="s7">6.4 vault-health-check</h3>
+<ul><li><b>When:</b> &quot;vault health check&quot;, before a large write, or when a close shows a WARN.</li><li><b>What:</b> broken links, notes missing frontmatter or <code>type:</code>, active projects not updated in 14 days, inbox notes older than 7 days, an open-task count, a secrets scan, and sync state.</li></ul>
+<h3 id="s7">6.5 vault-report</h3>
+<ul><li><b>When:</b> &quot;vault report&quot;, &quot;what&#x27;s the status in Obsidian&quot;.</li><li><b>What:</b> one self-contained HTML file in Hebrew that opens on a phone and offline. It covers health, notes per folder, projects, open tasks, each bot&#x27;s activity and the 15 latest changes. It&#x27;s saved to <code>_system/reports/vault-report.html</code>.</li></ul>
+<h2 id="s7">7. Health check and report</h2>
+<div class="code"><button onclick="cp('c8',this)">Copy</button><pre dir="ltr" id="c8">S=/home/box/shared/obsidian-vault/_system/grok-trestle/scripts
+python3 $S/vault-health.py                 # full check
+python3 $S/vault-health.py --stale-days 30 # looser staleness
+python3 $S/secrets-scan.py                 # secrets only
+python3 $S/vault-report.py                 # HTML report into the vault</pre></div>
+<div class="tw"><table><thead><tr><th>Result</th><th>Meaning</th><th>What to do</th></tr></thead><tbody><tr><td><code>OK</code></td><td>Healthy</td><td>Nothing</td></tr><tr><td><code>INFO</code></td><td>Information (task count)</td><td>Nothing</td></tr><tr><td><code>WARN FRONTMATTER</code></td><td>Missing <code>---</code> block or <code>type:</code></td><td>Copy the header from the matching template</td></tr><tr><td><code>WARN LINKS</code></td><td><code>[[link]]</code> to a note that doesn&#x27;t exist</td><td>Fix the name or create the note</td></tr><tr><td><code>WARN STALE</code></td><td>Active project not moving, or an old inbox note</td><td>Decide the next step or change <code>status:</code></td></tr><tr><td><code>WARN SYNC</code></td><td>Changes not pushed</td><td>Close the session or run <code>safe-push.sh</code></td></tr><tr><td><code>FAIL SECRETS</code></td><td>Something that looks like a password or token</td><td><b>Do not push.</b> Delete it and leave a pointer instead</td></tr></tbody></table></div>
+<p>Exit codes: 0 = healthy, 1 = WARN, 2 = FAIL.</p>
+<h2 id="s8">8. Security rules</h2>
+<ol><li><b>Never</b> write passwords, tokens, API keys, card numbers or login details into the vault. Write only where they&#x27;re stored, for example &quot;password is in the owner&#x27;s password manager&quot;.</li><li><code>safe-push.sh</code> scans every commit. If it finds a secret, <b>nothing is pushed</b> and it returns <code>PUSH: BLOCKED</code>.</li><li>The scan is a safety net, not perfect protection (the original author says the same). The real rule is not to write secrets in the first place.</li><li>If a secret was already pushed to GitHub, deleting it isn&#x27;t enough, because it stays in git history. <b>Revoke it and issue a new one</b> (rotate it).</li><li>The bots&#x27; token is limited to the <code>hs-obsidian</code> repo and to Contents only. Give each of your devices its own token, so you can revoke one without affecting the others.</li><li>The <code>_private/</code> folder is excluded from git (<code>.gitignore</code>), so nothing in it is ever pushed. Even so, it&#x27;s better not to keep secrets there.</li><li>The repo must stay <b>Private</b>.</li><li>Tokens expire on the date you picked. Issue a new one before then, or syncing will stop.</li></ol>
+<h2 id="s9">9. Troubleshooting</h2>
+<div class="tw"><table><thead><tr><th>Problem</th><th>Fix</th></tr></thead><tbody><tr><td><code>PULL: FAIL</code> / <code>Authentication failed</code></td><td>The token expired or was revoked. Issue a new one (section 4.2): for the bots, through Grok Bot; for Obsidian, in the plugin settings or the sign-in prompt</td></tr><tr><td><code>PUSH: BLOCKED secrets found</code></td><td>Delete the value from the file named and run it again. Nothing was pushed</td></tr><tr><td><code>PUSH: FAIL ... conflict</code></td><td>Two writers edited the same line. The bot runs <code>git status</code>, keeps both versions, runs <code>git add -A &amp;&amp; git rebase --continue</code>, and pushes again</td></tr><tr><td><code>could not get vault lock</code></td><td>Another bot is writing right now. Try again in a minute</td></tr><tr><td>No updates showing in Obsidian</td><td>Command palette → <b>Git: Pull</b>. Make sure Auto pull is set</td></tr><tr><td>Conflict in Obsidian</td><td>The plugin flags the file. Open it, keep both versions, and run <b>Git: Commit-and-sync</b></td></tr><tr><td>The phone crashes while cloning</td><td>Retry on Wi-Fi with free memory, or switch to GitSync / Working Copy (section 4.4)</td></tr><tr><td><code>WARN LINKS</code> after renaming a note</td><td>In Obsidian, turn on Settings → Files and links → <b>Automatically update internal links</b></td></tr></tbody></table></div>
+<p>Manual check on the box:</p>
+<div class="code"><button onclick="cp('c9',this)">Copy</button><pre dir="ltr" id="c9">git -C /home/box/shared/obsidian-vault status -sb
+git -C /home/box/shared/obsidian-vault log --oneline -5</pre></div>
+<h2 id="s10">10. FAQ</h2>
+<p><b>Do I need Claude Code, Node.js, or any install?</b> No. Everything runs on the box with python3 and bash, which are already there. On your side you only need Obsidian and the Git plugin, plus Git itself on desktop.</p>
+<p><b>What if two bots close a session at the same moment?</b> There&#x27;s a lock. The second bot waits up to 120 seconds, runs <code>pull --rebase</code>, then pushes. If someone else pushed in the meantime, it retries up to 3 times.</p>
+<p><b>Can a bot delete my notes?</b> The skills&#x27; rule is to append, not delete. Even if something gets deleted by mistake, it stays in git history and can be restored.</p>
+<p><b>Where can I see what each bot did?</b> In <code>Agents/&lt;bot name&gt;.md</code>, or in the &quot;bot activity&quot; table of the status report.</p>
+<p><b>How do I add a new project?</b> Tell a bot &quot;add project X&quot; (the setup interview), or copy <code>templates/project.md</code> into <code>Projects/</code>.</p>
+<p><b>How do I add a new bot?</b> Add its name to the bots list in <code>00 Profile.md</code> and register the 5 skills for it. Its log is created automatically at its first session close.</p>
+<p><b>How much does it cost in tokens?</b> Opening is one call and closing is 1–2 calls. It was designed to be cheap, like the original.</p>
+<p><b>Can I turn it off?</b> Yes. Unregister the skills from the bots. The vault and your notes stay yours.</p>
+<h2 id="s11">Credit</h2>
+<p>Based on <a href="https://github.com/liormesh/trestle" target="_blank" rel="noopener">trestle</a> by Lior Meshullam, under the MIT license. The full text is in <code>LICENSE-trestle-MIT.txt</code>.</p></main><script>
+function cp(id,b){var t=document.getElementById(id).innerText,o=b.innerText;function ok(){b.innerText='✓';setTimeout(function(){b.innerText=o},1200)}
+if(navigator.clipboard&&window.isSecureContext){navigator.clipboard.writeText(t).then(ok,fb)}else fb();
+function fb(){var x=document.createElement('textarea');x.value=t;document.body.appendChild(x);x.select();try{document.execCommand('copy');ok()}catch(e){}document.body.removeChild(x)}}
+</script></body></html>

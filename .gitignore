@@ -1,0 +1,7 @@
+# grok-trestle: never commit these
+_private/
+.env
+*.key
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.trash/
