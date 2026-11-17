@@ -4,25 +4,49 @@ status: active
 owner: Tal
 market: Indianapolis
 created: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-17
 tags: [project, indianapolis, trip]
 ---
 # Indy Trip Nov 2026
 
 ## Goal
-Tal's trip to Indianapolis, late November 2026 — meet local players and prepare for deals in the market.
+Tal's trip to Indianapolis, late November 2026 — meet as many local players as possible (agents, contractors, wholesalers, property managers, lenders, title, insurance, inspectors, a local bank, investor groups) and prepare for deals in the market.
 
 ## Key facts (verified only — add source)
-- Research files on the box: `/home/box/shared/indy-trip/` (contacts, brokers, wholesalers, trip workbook).
+- Research files on the box: `/home/box/shared/indy-trip/` and `/workspace/indy-trip/` (contacts, brokers, wholesalers, contractors, territory PDFs, trip workbook).
+- Territory / contact coverage: the 33 zips in [[33 Zips]] / [[Indianapolis]]. Not a funnel change (owner, 2026-11-16).
+- Working trip window used in the contact workbook: Mon–Wed 23–25 Nov 2026; Thanksgiving Thu–Fri 26–27 Nov (most offices closed). **Tal's exact flight dates are still unconfirmed** (open since 2026-11-16).
+- Events checked 2026-11-16 (research only, nobody contacted):
+  - **Tue 24 Nov, 7–10 PM EST:** Property Deal Network, Turner's Bar, 1060 N Capitol Ave 46204. Confirmed on Meetup. Free; buy one drink at full price; age 25+; smart casual. https://www.meetup.com/propertydealnetwork/events/317107458/
+  - **Wed 25 Nov, 6 PM:** Simple Quarters Indy Investor MeetUp, 6767 E Washington St 46219. Date inferred from the site's "last Wednesday of each month" rule. Thanksgiving eve — **not confirmed** that it runs. https://www.simplequarters.com/resources/meetups
+  - **Tue 24 Nov, 10–11:30 AM EST:** Real Estate Wealth Institute, online. Optional.
+  - **Wed 25 Nov:** Agent IMPACT virtual call — cancelled.
+  - **Thu 19 Nov:** CIREIA "Dinner and Deals" with Dave Short (reportedly ~20 flips/year, per CIREIA). This is before the working trip window; only relevant if Tal lands by 19 Nov.
+- Contact research counts (v2, 2026-11-16): 190 contacts (High 26, Medium 68, Low 92, AVOID 4). Later cleaned contractor and broker lists were delivered as HTML/XLSX for the phone. See [[Indy Brokers]], [[Indy Wholesalers]], [[Indy Contractors]], [[Indy Property Managers]], [[Avoid]].
+- Top meeting picks from the v2 research (not a commitment, just the ranked shortlist): Property Deal Network; Simple Quarters MeetUp (confirm it runs); T&H Realty Services (PM); Evergrow PM (watch BBB D-); Intrigue RE & PM (Ryan Rominger); Red Door PM; Simple Quarters (wholesaler); Investors Title Service; Hocker Title & Law; KK Buys Indy Homes.
+- Broker search prompt (owner-approved, use for every new search): [[broker-search-prompt]].
+- Purchase budget: evaluate up to ~$300k if criteria still hit, including $250/mo BRRRR (owner, 2026-11-16).
 
 ## Decisions
-- 
+- 2026-11-16: Territory first, then contact lists. Only contiguous zips that local contacts typically cover.
+- 2026-11-16: "Add all 33 zips" applies to this trip research, not the deal funnel.
+- 2026-11-16–17: Brokers only in the later HTML card lists; phone required; any warning sign means skip entirely; zips only if a source states them; exclude anyone already on a previous list; owner asked to remove Chris Price from the 2026-11-17 batch (team-review noise).
+- Research only — nobody on this trip list has been contacted by us.
 
 ## Open tasks
-- [ ] Add trip dates and event list here once confirmed by the owner
+- [ ] Add Tal's exact flight dates once the owner confirms them
+- [ ] Confirm whether Simple Quarters MeetUp runs on Wed 25 Nov (Thanksgiving eve)
+- [ ] If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals"
+- [ ] Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2
+- [ ] Contractor size / quality research was paused; retry only if the owner asks, in small batches
 
 ## Links
 - Profile: [[00 Profile]]
-- Market folder: `Markets/Indianapolis/`
+- Market: [[Indianapolis]]
+- 33 zips: [[33 Zips]]
+- Contacts index: [[Indy Brokers]]
 
 ## Log
+- 2026-11-16: Territory v2 PDF, contacts v2 workbook, boots-on-ground workbook built (research only).
+- 2026-11-16: First broker/wholesaler HTML; then a brokers-only v2; then "new only" after dropping names already on the previous list (9 remained; 4 of those were Roots Realty).
+- 2026-11-17: Third broker batch, 10 new names found, Chris Price removed at owner request, 9 delivered in `indy-brokers-batch3.html` with caveats moved into "מידע נוסף".
