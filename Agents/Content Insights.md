@@ -17,3 +17,6 @@ Almost no transcript (one message searched, no durable content found) in the Nov
 
 ### 2026-11-17 — Project X Israel course collected
 Owner gave Project X Club LMS access (login in vault). Collected full text of course 1 (81 lessons) to [[Project X Israel - full text]] under Learning/Project X Israel/. Owner rule: every file I produce is saved both in the vault and in Google Drive.
+
+### 2026-11-17 — Project X Israel studied end to end
+All 14 modules studied; insights + draft work plan in [[Project X Israel - insights]] (also Drive: Content Insights/Project X Israel). Plan sent to Grok Bot for proposal to owner.
