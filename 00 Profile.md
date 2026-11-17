@@ -47,7 +47,8 @@ updated: 2026-11-17
   - Atlanta Metro: 30030, 30032, 30033, 30034, 30035, 30038, 30058, 30080, 30088, 30238, 30260, 30273, 30274, 30281, 30294, 30296, 30297, 30316, 30317, 30344, 30345. **30032 and 30058 were added 2026-11-13.**
   - Indianapolis (funnel / inbox): 46201, 46203, 46205, 46208, 46217, 46218, 46219, 46221, 46222, 46224, 46225, 46226, 46228, 46231, 46234, 46237, 46241.
 - **We will never buy in East Point.** Skip East Point addresses even when zip 30344 is on the list (owner, 2026-11-13).
-- Tal's Indianapolis trip / contact coverage uses a wider **33-zip** contiguous list (see [[Indianapolis]] and [[Indy Trip Nov 2026]]). That list is for meetings and coverage, not an automatic expansion of the deal funnel. On 2026-11-16 the owner clarified that "add all 33 zips" meant trip research, not `funnel_zips`.
+- The deal funnel (`funnel_zips`) now includes the Indianapolis 17 buy-box zips **and** Tal's 33-zip trip / contact-coverage list (owner decision 2026-11-17, 23:10 Asia/Jerusalem, superseding the 2026-11-16 note that the 33 were trip-only). The union is **34 unique zips**; 46218 is buy-box only and is included. See [[Indianapolis]].
+- **Atlanta is paused in the funnel** as of 2026-11-17 (owner). Existing Atlanta `funnel_zips` rows were set to `enabled=false`, not deleted, so they can be re-enabled later. The approved Atlanta buy-box list above is unchanged. The four Atlanta buy-box zips that were never in `funnel_zips` (30032, 30058, 30281, 30344) were not added.
 - Skip already-renovated / turnkey / iBuyer listings without full analysis (owner, 2026-11-13).
 - On-market deals are fine to analyze when they are in the buy box, except the 2026-11-15 rule: stop Zillow *email* intake (saved searches and alert emails turned off; mark any stragglers read). The site funnel still pulls listings through site code + RapidAPI.
 

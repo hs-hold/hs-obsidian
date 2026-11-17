@@ -11,11 +11,13 @@ Indianapolis, Indiana — the second market for [[00 Profile]], and the destinat
 ## Two zip lists (do not mix them up)
 1. **Deal funnel / inbox buy box** (owner, 2026-11-13), the 17 zips with Zip Intel notes marked relevant:
    [[46201]], [[46203]], [[46205]], [[46208]], [[46217]], [[46218]], [[46219]], [[46221]], [[46222]], [[46224]], [[46225]], [[46226]], [[46228]], [[46231]], [[46234]], [[46237]], [[46241]]
-2. **Tal trip / contact coverage — 33 zips** (final list used in the 2026-11-16 and 2026-11-17 broker and contact work). These are contiguous areas local contacts typically cover. On 2026-11-16 the owner said "add all 33 zips" means this trip research, **not** an expansion of `funnel_zips`.
+2. **Tal trip / contact coverage — 33 zips** (final list used in the 2026-11-16 and 2026-11-17 broker and contact work). These are contiguous areas local contacts typically cover.
    - Inner ring (meet people who cover these first): [[46222]], [[46224]], [[46241]], [[46221]], [[46203]], [[46225]], [[46107]], [[46201]], [[46219]], [[46226]], [[46208]], [[46205]]
    - Second ring: [[46227]], [[46229]], [[46254]], [[46268]], [[46214]], [[46231]], [[46235]]
    - Third ring / suburbs in the 33: [[46237]], [[46217]], [[46113]], [[46239]], [[46234]], [[46228]], [[46220]], [[46236]], [[46143]], [[46142]], [[46112]], [[46168]], [[46123]], [[46140]]
      (Beech Grove 46107 is inner; Camby 46113, Greenwood 46142/46143, Avon 46123, Brownsburg 46112, Plainfield 46168, Greenfield 46140 are in the 33.)
+
+**Funnel status (owner, 2026-11-17, 23:10 Asia/Jerusalem):** `funnel_zips` now includes both lists — this supersedes the 2026-11-16 note that the 33 were trip-only. The enabled union is **34 unique zips** (the 33 trip zips plus buy-box-only [[46218]], which the owner confirmed should stay in the funnel). Atlanta is paused in the funnel as of 2026-11-17 (owner); those rows were disabled, not deleted. The daily search pulls 2 Indianapolis zips, so a full rotation takes 17 days.
 
 Zip Intel files currently exist only for the 17 buy-box zips (plus a few that overlap). The other 33-list zips do not yet have a Zip Intel note.
 

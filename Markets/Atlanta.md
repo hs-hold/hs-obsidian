@@ -8,6 +8,8 @@ tags: [market, atlanta]
 
 Metro Atlanta, Georgia — one of two markets for [[00 Profile]]. Flip and BRRRR, plus off-market / wholesale intake.
 
+**Funnel status:** Atlanta is paused in the deal funnel as of 2026-11-17 (owner). Existing Atlanta `funnel_zips` rows were set to `enabled=false`, not deleted, so they can be re-enabled later. The four buy-box zips that were never in `funnel_zips` (30032, 30058, 30281, 30344) were not added. The approved buy-box list below is unchanged.
+
 ## Buy box (owner, 2026-11-13)
 [[30030]], [[30032]], [[30033]], [[30034]], [[30035]], [[30038]], [[30058]], [[30080]], [[30088]], [[30238]], [[30260]], [[30273]], [[30274]], [[30281]], [[30294]], [[30296]], [[30297]], [[30316]], [[30317]], [[30344]], [[30345]]
 
