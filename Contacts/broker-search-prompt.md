@@ -1,3 +1,9 @@
+---
+type: note
+created: 2026-11-17
+updated: 2026-11-17
+tags: [contact, prompt, indianapolis]
+---
 # Broker search prompt (owner-approved, Nov 16-17 2026)
 Deep research on BROKERS ONLY in Indianapolis, across our 33 zips. Search multiple sources per broker: Google, Yelp, BBB, BiggerPockets, Reddit, forums, review sites; search by name and by phone.
 - Include only brokers with a phone; keep the email if there is one. Any warning sign at all means the broker is skipped entirely.
