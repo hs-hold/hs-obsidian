@@ -64,3 +64,4 @@ When a bot produces something the owner may want to open later:
 
 ## Log
 - 2026-11-17: Library structure created inside the existing Content Insights folder. First harvest of bot documents from `/home/box/shared`, `/workspace`, deal-outcomes, zip-intel, and indy-trip. Index doc written at the root.
+- 2026-11-17 23:20: evening sync added index lines for the Project X Israel insights + work plan and the other Project X Club course text folders (Content Insights files left in place in its own topic folders). Olive micro-location doc was already filed in עסקאות.
