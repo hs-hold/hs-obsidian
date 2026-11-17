@@ -40,6 +40,7 @@ updated: 2026-11-17
 - Tell the owner whenever Deal Analysis data is not fully certain or is hard to obtain, so he can compromise and still get the data (owner, 2026-11-13).
 - For every high-potential deal, examine what would make it work (price, rehab, rent, financing, expenses, or strategy change) — the "what makes it work" / levers card (owner approved the rules 2026-11-12; site merge/deploy needed separate approval).
 - The deal journal (compare actual rent and expenses after a purchase against our assumptions) is activated **only** when the owner explicitly says he bought a property. Until then, no background checks, runs, or builds related to it (owner, 2026-11-15).
+- **Deep micro-location check (owner, 2026-11-17):** when a deal shows high potential, [[Deal Analysis]] investigates the micro-area in depth before the verdict: which side of the highway or creek it is on, comps from the same pocket, noise, flood, crime, vacant properties, street quality, and why nearby prices are low. The findings go into the conclusion. (Triggered by [[1733 Olive St]].)
 
 ## Buy box and geography
 - Approved buy-box zips (owner, 2026-11-13), kept in sync with Zip Intel notes marked relevant:
