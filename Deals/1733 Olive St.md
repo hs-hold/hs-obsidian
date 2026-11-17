@@ -59,3 +59,10 @@ Analyses and source files (latest used for the numbers above):
 - 2026-11-11 (analysis): `/home/box/shared/deal-outcomes/analyses/2026-11-11/1733-olive-st-46203.md`
 - 2026-11-11 (analysis): `/home/box/shared/deal-outcomes/analyses/2026-11-11/1733-olive-st-46203-v2.md`
 - First file in this backfill: 2026-11-09; latest: 2026-11-11.
+
+## 2026-11-17 Micro-location check (Deal Analysis): recommend REJECT at the $85k ask
+- The owner pointed out the low Zillow prices in the area. The deep check found the house in a small pocket between I-65 and Shelby St, south of Pleasant Run. The old comps, which gave the $250k ARV, came from across Shelby St, outside the pocket.
+- Inside the pocket: 26% of parcels are empty lots (vs 4% in Bates-Hendricks), 15% are on the city's abandoned/vacant list, and 58% are company-owned. Violent crime is about 4x higher, and INDOT models 70.7 dB of highway noise with no sound wall.
+- Re-comped on 4 pocket sales (about $121/sf): ARV about $195k (range $181–214k, conservative $185k). The flip fails at $85k (profit about $10k, 6% ROI); max offer about $57–67k.
+- The site still shows the old PASS. Updating it is waiting on the owner's approval.
+- The new rule this triggered is in [[00 Profile]] (deep micro-location check). Details: /home/box/shared/deal-outcomes/analyses/2026-11-17/1733-olive-micro-location.md
