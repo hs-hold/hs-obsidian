@@ -14,3 +14,6 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 
 Almost no transcript (one message searched, no durable content found) in the Nov 1–17 window.
+
+### 2026-11-17 — Project X Israel course collected
+Owner gave Project X Club LMS access (login in vault). Collected full text of course 1 (81 lessons) to [[Project X Israel - full text]] under Learning/Project X Israel/. Owner rule: every file I produce is saved both in the vault and in Google Drive.
