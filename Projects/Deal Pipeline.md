@@ -42,7 +42,9 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - [ ] After Indy ARV fixes (PR 329 landed): audit the share of deals with no auto ARV / needs_comps, and deals dropped for missing API data (owner asked 2026-11-10; do not start before the fix, then do it)
 - [ ] Daily routine that calls `funnel-run-next-zip` once and hands `deal_queue` (max 5) to Deal Analysis — was pending owner approval
 - [ ] Optional: investigate why the 2026-11-17 daily pull of zip 30273 returned 55 properties and none passed screening (possible screen skip after a timeout retry)
-- [ ] Grok Analyses market filter (Indianapolis vs Georgia) — requested 2026-11-17; cloud agent started, confirm it is live
+- [x] Grok Analyses market filter live (PR 368/369)
+- [ ] Trial criteria Nov 18–24; compare on Nov 25 10:00
+- [ ] Indy-only check-in Nov 24 10:00
 - [ ] Engine tax-change proposal still awaiting a yes from the owner
 - [ ] Older open item: contractor size research, paused
 - [ ] Deep recheck of old contacts (see [[Indy Trip Nov 2026]])
@@ -57,3 +59,4 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-13: 30032/30058 added to the buy box; East Point excluded; 5BR allowed; Malibu and Primrose among the better flip-conditional names; screen-vs-analysis gap noted.
 - 2026-11-15: three wholesaler deals ([[5301 Essex Farms Pl]], [[5811 Shadow Rock Dr]], [[4799 Oak Ct]]) all rejected at ask; Essex already pending on MLS at $290k.
 - 2026-11-17: daily funnel zip 30273 — 0 passed screening. Listing-status pass on the 24 Relevant deals; PR 367 shipped Unavailable + status badges. [[4213 River Rd]] (Anthony / Mr ATL Wholesaler, $249k) rejected; records are 4/3 and 2,911 sf plus unfinished basement, not 5BR / 4,000+ sf.
+- 2026-11-17 evening: trial criteria for Nov 18–24 set (see [[00 Profile]]); MAO required in every analysis; Indianapolis-only focus, funnel expanded with the 33 trip zips, two zips per day with motivated-seller priority. [[1733 Olive St]] rejected after the micro-location check.

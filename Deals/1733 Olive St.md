@@ -42,7 +42,7 @@ The 2026-11-11 v2 rewrite existed because two of the earlier top comps crossed I
 ## Listing status (checked 2026-11-17, no RapidAPI)
 - Status: **for sale**
 - Place on the site after PR 367: Relevant / Market
-- Ask $85k, rent $1,710 (unverified), ARV ~$250k. Passes at asking as a flip. Owner rated 8/10 on 2026-11-15. Still for sale.
+- Ask $85k. **REJECTED 2026-11-17** after the micro-location check (ARV now $195k; max passing price ~$65.7k). Earlier: ARV ~$250k, passed as a flip, owner rated 8/10 on 2026-11-15.
 
 ## Open tasks
 - [ ] 
@@ -66,3 +66,6 @@ Analyses and source files (latest used for the numbers above):
 - Re-comped on 4 pocket sales (about $121/sf): ARV about $195k (range $181–214k, conservative $185k). The flip fails at $85k (profit about $10k, 6% ROI); max offer about $57–67k.
 - The site still shows the old PASS. Updating it is waiting on the owner's approval.
 - The new rule this triggered is in [[00 Profile]] (deep micro-location check). Details: /home/box/shared/deal-outcomes/analyses/2026-11-17/1733-olive-micro-location.md
+
+## 2026-11-17 22:26 — site updated to REJECT (Deal Analysis)
+- Grade D, updated in place (no duplicate). ARV $195k (conservative $185k). Flip at $85k ask: profit ≈ $8.9k, 5.8% ROI. Max passing price $65.7k (conservative $57.4k). BRRRR fails at any price ($203/mo). Revisit only around $60–65k with an engineering check.

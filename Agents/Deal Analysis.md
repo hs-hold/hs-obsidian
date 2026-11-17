@@ -14,3 +14,6 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 
 Key durable output from this period lives in `Deals/` and `/home/box/shared/deal-outcomes/analyses/`. Rules: `/home/box/shared/agent-rules/deal-analysis.md`.
+
+### 2026-11-17 evening — Deal Analysis (from sync 23:13)
+- Counted ~210 deals since Nov 9. Deep micro-location check on [[1733 Olive St]] → REJECT on site. Added the micro-location rule. Indy-only searches through Nov 24, reminder Nov 24 10:00. Received trial criteria and the MAO rule.

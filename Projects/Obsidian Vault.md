@@ -36,3 +36,4 @@ A shared "brain" for every bot and the three partners, so decisions, conclusions
 ## Log
 - 2026-11-16: Vault structure, first Send Offers note, Grok Trestle toolkit, profile and project stubs.
 - 2026-11-17: Broker-search prompt saved to Contacts/. One-time backfill of Nov 1–17 transcripts and shared files.
+- 2026-11-17 23:13: first scheduled sync (evening). Owner Mac clone set up 19:48 with auto-pull every 30 min and graph colors by folder.

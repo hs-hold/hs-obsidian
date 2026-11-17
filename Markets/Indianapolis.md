@@ -11,6 +11,7 @@ Indianapolis, Indiana — the second market for [[00 Profile]], and the destinat
 ## Two zip lists (do not mix them up)
 1. **Deal funnel / inbox buy box** (owner, 2026-11-13), the 17 zips with Zip Intel notes marked relevant:
    [[46201]], [[46203]], [[46205]], [[46208]], [[46217]], [[46218]], [[46219]], [[46221]], [[46222]], [[46224]], [[46225]], [[46226]], [[46228]], [[46231]], [[46234]], [[46237]], [[46241]]
+**2026-11-17 update (owner):** the funnel now uses list 1 **plus all 33 zips of list 2**, and search focuses only on Indianapolis (Atlanta disabled, not deleted). Two zips are pulled per day.
 2. **Tal trip / contact coverage — 33 zips** (final list used in the 2026-11-16 and 2026-11-17 broker and contact work). These are contiguous areas local contacts typically cover.
    - Inner ring (meet people who cover these first): [[46222]], [[46224]], [[46241]], [[46221]], [[46203]], [[46225]], [[46107]], [[46201]], [[46219]], [[46226]], [[46208]], [[46205]]
    - Second ring: [[46227]], [[46229]], [[46254]], [[46268]], [[46214]], [[46231]], [[46235]]

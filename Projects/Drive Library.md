@@ -52,7 +52,7 @@ When a bot produces something the owner may want to open later:
 4. Raw working files (JSON, payloads, drafts) go only to the archive, or stay on the box if they are huge datasets — see the leftover-files note in מקורות-מחקר.
 
 ## Open tasks
-- [ ] Consider adding a Drive step to the twice-daily brain sync routine (suggested; do not change the routine until the owner approves)
+- [x] Drive step is part of the twice-daily brain sync routine (from 2026-11-17)
 - [ ] Contract Desk and מזכירה still have no document outputs to file
 - [ ] דוחות ומחקר is ready for future reports; current research lives in Pages (linked in the index) and in שווקים ומיקודים
 

@@ -18,6 +18,8 @@ updated: 2026-11-17
 - Indianapolis purchase budget is larger than $150k; evaluate deals up to about $300k if returns still meet criteria, including the $250/mo BRRRR cash-flow target (owner, 2026-11-16). In core Indy zips, BRRRR at market rents often ceilings well below $300k.
 - Beds 2–5 are acceptable (5BR added 2026-11-13).
 - In BRRRR search, weight higher rent favorably and flag "works with discount" deals where a modest price cut makes the $250/mo target pass with max cash left $60k; rate the top deal 1–10 (owner, 2026-11-15).
+- **Trial criteria Nov 18–24, 2026** (owner, 2026-11-17 22:27): 65% LTV refi (30y, 7.5%), up to $60k own cash left in, flip profit ≈ $20–25k+, cash flow ≥ $250/mo self-managed, 12% reserves; prefer ARV $200–300k, lower ARV OK in a very good area if numbers work. Plan A/B/C for passes; also mark old BRRRR pass/fail. Compare on 2026-11-25 10:00 and the owner picks.
+- **MAO in every analysis** (owner, 2026-11-17): highest price at which the deal still passes, next to asking, with the % off it needs. No extra conservatism layers.
 
 ## Financing and expense model (placeholders until the owner gives actuals)
 - Interest rate placeholder: 7.5% until the owner provides his rate.
@@ -51,6 +53,7 @@ updated: 2026-11-17
 - **Atlanta is paused in the funnel** as of 2026-11-17 (owner). Existing Atlanta `funnel_zips` rows were set to `enabled=false`, not deleted, so they can be re-enabled later. The approved Atlanta buy-box list above is unchanged. The four Atlanta buy-box zips that were never in `funnel_zips` (30032, 30058, 30281, 30344) were not added.
 - Skip already-renovated / turnkey / iBuyer listings without full analysis (owner, 2026-11-13).
 - On-market deals are fine to analyze when they are in the buy box, except the 2026-11-15 rule: stop Zillow *email* intake (saved searches and alert emails turned off; mark any stragglers read). The site funnel still pulls listings through site code + RapidAPI.
+- **2026-11-17 update (owner):** deal search focuses **only on Indianapolis** for now; the 21 Atlanta zips are disabled in the funnel, not deleted. The funnel now includes the 17 Indy buy-box zips **plus all 33 Tal-trip zips** (supersedes the 2026-11-16 note above). Check-in on Indy-only on 2026-11-24.
 
 ## How the deals site should work
 - Site: Grok Deals (repo `hs-hold/hsdeals-claude-code`; Vercel).
@@ -71,6 +74,8 @@ updated: 2026-11-17
 6. Morning owner update at 9:30 Asia/Jerusalem; no notifications before then (owner, 2026-11-10). Hold earlier results for that update.
 7. Any request to "find deals", even casual, goes through this pipeline (owner, 2026-11-10).
 8. Agents should continuously optimize in motion: flag what works, what doesn't, what wastes resources, and blind spots — not only at setup (owner, 2026-11-12).
+- **2026-11-17 update (owner):** the daily run pulls **two zips per day**, one after the other, up to 5 deals from both to analysis, motivated-seller listings first. Same processing budget; RapidAPI calls double.
+- High-potential deals get a deep micro-location check before the verdict (owner, 2026-11-17; see [[1733 Olive St]]).
 
 ## Off-market / wholesaler intake
 - Inbox: `deals@hs-hold.com` (Gmail, connected). Partner Eran owns this channel.
@@ -95,6 +100,10 @@ updated: 2026-11-17
 - Send Offers site data is saved on the owner's own computer. See [[2026-11-16 Send Offers]].
 - Indianapolis broker / contact searches use the saved prompt in [[broker-search-prompt]].
 - Shared Obsidian vault (this repo, `hs-hold/hs-obsidian`, clone at `/home/box/shared/obsidian-vault`) is the team "brain". Twice-daily harvest at 13:00 and 23:30 Asia/Jerusalem. Also write immediately when something is decided or the owner says "remember this" (owner, 2026-11-17).
+- Contractor talk → remind the contract checklist: milestone payments (never upfront), changes in writing, lien waiver with each payment, one-year warranty, no work before closing (owner, 2026-11-17).
+- Important docs and outputs go to the Google Drive library; bots stay strictly inside it (see [[Drive Library]]) (owner, 2026-11-17).
+- Business decisions told to any bot go to shared memory and the vault immediately (owner, 2026-11-17).
+- Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 
 ## Bots (each keeps `Agents/<bot>.md`)
 - [[Grok Bot]] (main coordinator)

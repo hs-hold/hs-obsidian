@@ -25,7 +25,8 @@ The partners' deal website (Grok Deals / Grok Analyses) — the only place analy
 - 2026-11-17: on-market deals that are pending, under contract, contingent, sold, or off the market leave Relevant and go to Unavailable. Off-market (email) deals are not moved by that listing-status check. Auction listings stay in Relevant with an Auction badge.
 
 ## Open tasks
-- [ ] Confirm the Indianapolis / Georgia filter on Grok Analyses is live
+- [x] Indianapolis / Georgia filter live on Grok Deals and Funnel Grok analyses (PR 368, 369)
+- [ ] PR 370 motivated-seller flag: owner decision to merge / strong-phrases only
 - [ ] Owner may still want a signed-in browser check of the 22 / 2 split
 - [ ] Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it
 
@@ -37,3 +38,5 @@ The partners' deal website (Grok Deals / Grok Analyses) — the only place analy
 - 2026-11-10–11: PR 329 (Indy ARV), PR 334 (funnel-screen / run-next-zip), PR 335 (mobile comps) deployed.
 - 2026-11-15: ingest fix so email/Grok deal ids are accepted (cloud agent; merge/deploy approved that day).
 - 2026-11-17: PR 367 — status badges + Unavailable tab.
+- 2026-11-17: PR 368 — All / Indianapolis / Georgia filter on Grok Deals (merge 80a35d9). PR 369 — same filter on Funnel Grok analyses (/funnel/grok, merge 2b0f7ca). Both live.
+- 2026-11-17: PR 370 — motivated-seller flag (code-only phrase matcher in src/utils/motivatedSeller.ts; strong phrases score 3). Backfill matched 2,120 / 13,674 listings and 381 / 1,992 deals. Not merged, edge functions not deployed; suggestion: show the badge only on strong phrases.
