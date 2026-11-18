@@ -66,3 +66,8 @@ When a bot produces something the owner may want to open later:
 - 2026-11-17: Library structure created inside the existing Content Insights folder. First harvest of bot documents from `/home/box/shared`, `/workspace`, deal-outcomes, zip-intel, and indy-trip. Index doc written at the root.
 - 2026-11-17 23:20: evening sync added index lines for the Project X Israel insights + work plan and the other Project X Club course text folders (Content Insights files left in place in its own topic folders). Olive micro-location doc was already filed in עסקאות.
 - 2026-11-18 13:25: midday sync filed 2 deal analyses as Google Docs in עסקאות (1621 E 46th St, 902 Hearthside Ct) + index lines; raw files archived (46112 search summary → ניתוחי-עסקאות, Deal Inbox handoff 2026-11-18 → inbox-scans, zip-intel 46112 → zip-intel).
+- 2026-11-18 23:30: the evening sync filed:
+  - In עסקאות, as Google Docs: the 13-listing Indy batch summary and the 1735 N Oxford St analysis.
+  - In אנשי קשר: the Indy contacts drip page for day 1 (HTML).
+  - Archived: the Nov 18 research zip in מקורות-מחקר (prefilter dry-run, no-ARV root cause, GitHub tools, dedupe/review), and the raw batch + Oxford files in ניתוחי-עסקאות (no images; the sheet JPGs stay on the box).
+  - Added 3 index lines.
