@@ -20,3 +20,9 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 ### 2026-11-17 evening — Grok Bot (from sync 23:13)
 - Shipped PR 368/369 market filters; set up the vault on the owner's Mac; built the Drive library; set trial criteria, MAO rule, contractor reminder, weekly metrics, Indy contact drip, motivated-seller flag (PR 370, pending); expanded funnel with 33 trip zips, Indy-only, two zips/day.
+
+### 2026-11-18 — Grok Bot (from sync 23:17)
+- Ran a 0-RapidAPI dry-run re-screen of the stuck Indy listings. Deduped against all sources (the no-double-send rule held: 24 S Hawthorne was not re-sent). Sent 13 listings to [[Deal Analysis]], and all were rejected.
+- Launched the coding agent for **PR 371** (funnel pre-screen ladder). It is open and awaits the owner's decision; Grok Bot recommends adding bot-style MAO and ARV tightening before merging.
+- Built `00 Memory.md` and `build_memory_file.py`. Logged the funnel failures in [[כשלים 18.11 — סינון עסקאות]].
+- Routines: daily deal search 08:00, RapidAPI watch 09:00, brain sync 13:00/23:00, Indy contacts drip (Nov 18–20, ~18:15), weekly usage (Sun 09:00), weekly metrics (Sun 09:30), criteria trial review (Nov 25, 10:00).

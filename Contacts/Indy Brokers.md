@@ -45,6 +45,7 @@ No broker published a zip list. Coverage counts are derived from city and county
 | 6.0 | [[Kristal Munoz]] | RE/MAX At The Crossing | (317) 459-0907 | yes | batch 3 HTML |
 | 5.8 | [[Christopher Haven Jones]] | Keller Williams Indy Metro (Associate Broker) | (317) 289-4969 | yes | batch 3 HTML |
 | 5.5 | [[Jim Perry]] | Ever Real Estate (Director of Agent Services); founded Front Porch Real Estate (sold to F.C. Tucker 2021) | (317) 281-9239 | yes | batch 3 HTML |
+| 4.5 | [[Pat McNeill]] | APA Real Estate (broker, appraiser, PM, investor; off-market + buyers list) | (317) 855-0303 | yes | drip day 1 (2026-11-18) |
 
 ## Removed or not recommended
 - [[Chris Price]] (KW / The Indy Property Source): researched in batch 3 (score 8.0, covers all 33 zips, investor/REO focus, average sale $99k) but **removed from the delivered list at the owner's request on 2026-11-17** because of two small negative teammate reviews. Not listed as a warning-sign skip by the researcher.
