@@ -40,4 +40,5 @@ Property: 4 BR / 2F+1H, 2,992 sf above grade + 858 finished basement, 1997, 2-ca
 - Project: [[Deal Pipeline]]
 
 ## Log
+- Drive copy (owner folder עסקאות): https://docs.google.com/document/d/1RJrar-KcEVobTQw46KMIOdXnOOA8jRlc4mWFoi9dnu8/edit
 - 2026-11-18: analysis `/home/box/shared/deal-outcomes/analyses/2026-11-18/search-46112/902-hearthside-ct-brownsburg-in-46112.md`; posted to site (POST 200).
