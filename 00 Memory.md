@@ -1,0 +1,309 @@
+---
+type: memory
+generated: true
+tags: [memory]
+---
+# 00 Memory — compressed team brain
+Generated 2026-11-18 17:44 Asia/Jerusalem from commit 30c0c9b 2026-11-18 13:21 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
+
+## Bots (9)
+### Grok Bot — [[Grok Bot]]
+- Role: main coordinator; coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
+- Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
+- Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
+- Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
+- Latest log (2026-11-17 evening — Grok Bot (from sync 23:13)): Shipped PR 368/369 market filters; set up the vault on the owner's Mac; built the Drive library; set trial criteria, MAO rule, contractor reminder, weekly metrics, Indy contact drip, motivated-seller flag (PR 370, pending); expanded funnel with 33 trip zips, Indy-only, two zips/day.
+- Open: Register the 5 grok-trestle skills with all bots
+- Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
+- Recent ([[2026-11-18]]): (Grok Bot, Nov 17 23:20, owner) Final Indy outreach post written ("Expanding into Indianapolis, who should we meet?"); area line updated to cover the north zips and Brownsburg/Plainfield/Greenfield/Camby. See [[Indy …
+- Recent ([[2026-11-18]]): (Grok Bot, Nov 17 23:22) BiggerPockets-podcasts to-do from מזכירה is on hold until the owner says what he wants (asked via מזכירה).
+- Last activity seen in vault: 2026-11-18
+### Deal Analysis — [[Deal Analysis]]
+- Role: Deal analysis bot.
+- Job: Staged flow for each property: (1) ARV from closed comps, last 6 months, within half a mile, same type, filtered by condition, MEDIAN of adjusted prices, with adjustments for corner or noisy lots, busy roads (small, noted), lot size, exterior condition, garage vs street parking, school and park …
+- Rules/data: `/home/box/shared/agent-rules/deal-analysis.md`, `/home/box/shared/zip-intel/<zip>.md`, `/home/box/shared/deal-outcomes`, `/home/box/shared/deal-outcomes/analyses`
+- Rule: Tell the owner whenever Deal Analysis data is not fully certain or is hard to obtain, so he can compromise and still get the data (owner, 2026-11-13).
+- Rule: Deep micro-location check (owner, 2026-11-17): when a deal shows high potential, [[Deal Analysis]] investigates the micro-area in depth before the verdict: which side of the highway or creek it is on, comps from the …
+- Rule: Grok Deals shows only deals Deal Analysis has reviewed, at high quality: comps with notes, rehab breakdown, verdict, each comp's real time-to-sell, and whether it crosses a highway (owner, 2026-11-11).
+- Schedule: Indy-only check-in Nov 24 10:00 (Deal Analysis).
+- Latest log (2026-11-17 evening — Deal Analysis (from sync 23:13)): Counted ~210 deals since Nov 9. Deep micro-location check on [[1733 Olive St]] → REJECT on site. Added the micro-location rule. Indy-only searches through Nov 24, reminder Nov 24 10:00. Received trial criteria and the MAO rule.
+- Recent ([[2026-11-18]]): (Deal Analysis, morning) Daily search zip [[46112]] (Brownsburg): 3 queued; 2 were already pending and skipped. [[902 Hearthside Ct]] ($332k, Opendoor) REJECT (D). MAO $181,300 = 45.4% below ask. Too big/expensive to …
+- Recent ([[2026-11-18]]): (Deal Analysis) Funnel screening ARVs in 46112 were unusable ($657k–845k) because total sf included basements — a known weakness of the screen.
+- Last activity seen in vault: 2026-11-18
+### Atlanta Market Research — [[Atlanta Market Research]]
+- Role: Market research analyst.
+- Job: Studies the metro Atlanta, Georgia housing market by zip code and identifies the zip codes most likely to produce deals that meet the owner's criteria: monthly rent at least 1% of total investment (purchase plus rehab), flip profit at least $30,000 after selling costs, and ROI at least 15% on total …
+- Last activity seen in vault: 2026-11-17
+### Indianapolis Market Research — [[Indianapolis Market Research]]
+- Role: Market research analyst.
+- Job: Studies the Indianapolis, Indiana housing market by zip code and identifies the zip codes most likely to produce deals that meet the owner's criteria: monthly rent at least 1% of total investment (purchase plus rehab), flip profit at least $30,000 after selling costs, and ROI at least 15% on total …
+- Rules/data: `/home/box/shared/indy-arv-adjustments.md`
+- Last activity seen in vault: 2026-11-17
+### Contract Desk — [[Contract Desk]]
+- Role: Contract review assistant.
+- Job: accept a real estate contract (PDF, image or pasted text) such as a purchase and sale agreement, wholesale assignment contract, addendum, lease, contractor agreement or lender document, review it, and flag anything that needs attention. Read PDFs with poppler-utils.
+- Rules/data: `/home/box/shared/agent-rules/contract-checklist.md`
+- Last activity seen in vault: 2026-11-17
+### Zip Intel — [[Zip Intel]]
+- Role: Zip code investor-intelligence researcher.
+- Job: take the zip codes chosen by the Atlanta Market Research and Indianapolis Market Research bots (ask them for their current lists) and research each zip in depth for what makes investing harder or easier: permit difficulty and timelines, code enforcement, city or municipality hostility to investors …
+- Rules/data: `/home/box/shared/zip-intel`, `/home/box/shared/zip-intel/<zip>.md`
+- Rule: Approved buy-box zips (owner, 2026-11-13), kept in sync with Zip Intel notes marked relevant:; Atlanta Metro: 30030, 30032, 30033, 30034, 30035, 30038, 30058, 30080, 30088, 30238, 30260, 30273, 30274, 30281, 30294 …
+- Recent ([[2026-11-18]]): (Zip Intel, morning) New research file for [[46112]] Brownsburg (split jurisdiction town/unincorporated, Hendricks courts, BPD crime numbers).
+- Last activity seen in vault: 2026-11-18
+### Content Insights — [[Content Insights]]
+- Role: Content-to-action analyst.
+- Job: consume it fully, understand it, write the conclusions down, and propose how to apply them inside our business.
+- Rules/data: `/home/box/shared/content-insights`
+- Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
+- Latest log (2026-11-17 — Project X Israel studied end to end): All 14 modules studied; insights + draft work plan in [[Project X Israel - insights]] (also Drive: Content Insights/Project X Israel). Plan sent to Grok Bot for proposal to owner.
+- Recent ([[2026-11-17]]): (Content Insights 21:50–22:46) Project X Israel course studied in full (14 modules, 81 lessons; 6 lessons without transcript). Insights + 15-item work plan in [[Project X Israel - insights]] and Drive. Text collections …
+- Recent ([[2026-11-17]]): (Content Insights 21:46–22:13) Content Insights works as a "student": studies content in depth, summarizes, and sends an action plan to Grok Bot, which proposes implementation to the owner. Its files go to Obsidian and …
+- Last activity seen in vault: 2026-11-17
+### Deal Inbox — [[Deal Inbox]]
+- Role: Email deal intake.
+- Job: Reads the Gmail inbox where wholesalers send off-market deals, extracts every deal, enters it on the DealFlow site as a Grok deal, hands it to the Deal Analysis bot, and prepares replies to wholesalers (answers, requests for missing info, counteroffers). It NEVER sends email itself: every reply is …
+- Rules/data: `/home/box/shared/agent-rules/deal-inbox.md`, `/home/box/shared/tools/insert_deal.py`, `/home/box/shared/zip-intel`
+- Rule: Deal Inbox does Stage 1 (buy box) only; Deal Analysis does ARV, rehab, max offer, and go/no-go.
+- Recent ([[2026-11-18]]): (Deal Inbox, ~08:00) Handoff to Deal Analysis covering mail from 2026-11-17 08:00 to 2026-11-18 08:00 (`/home/box/shared/deal-outcomes/deal-analysis-handoff-2026-11-18.md`). New leads: [[2906 Horse Shoe Dr SE]] …
+- Last activity seen in vault: 2026-11-18
+### מזכירה — [[מזכירה]]
+- Role: Personal secretary.
+- Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
+- Last activity seen in vault: 2026-11-17
+
+## Owner rules & active criteria (from [[00 Profile]] + project decisions)
+- Primary strategy is BRRRR; flip is a secondary alternative. The pass/fail call and the max offer follow the BRRRR target (owner, 2026-11-12).
+- Flip: profit ≥ $30k and ROI ≥ 15%, with price ≥ 15% below ARV including selling costs. A listing can pass the pre-filter at asking or after a discount of up to about 15–25% off asking (owner, 2026-11-10). Base flip hold is 6 months, with 12 months as a stress …
+- BRRRR: equity ≥ 15% and ≥ $30k, cash left in the deal after a 65% LTV refi ≤ $60k, cash flow ≥ $250/mo.
+- Rental screen: near the 1% rule (monthly rent vs purchase + rehab).
+- Indianapolis purchase budget is larger than $150k; evaluate deals up to about $300k if returns still meet criteria, including the $250/mo BRRRR cash-flow target (owner, 2026-11-16). In core Indy zips, BRRRR at market rents often ceilings well below $300k.
+- Beds 2–5 are acceptable (5BR added 2026-11-13).
+- In BRRRR search, weight higher rent favorably and flag "works with discount" deals where a modest price cut makes the $250/mo target pass with max cash left $60k; rate the top deal 1–10 (owner, 2026-11-15).
+- Trial criteria Nov 18–24, 2026 (owner, 2026-11-17 22:27): 65% LTV refi (30y, 7.5%), up to $60k own cash left in, flip profit ≈ $20–25k+, cash flow ≥ $250/mo self-managed, 12% reserves; prefer ARV $200–300k, lower ARV OK in a very good area if numbers work. …
+- MAO in every analysis (owner, 2026-11-17): highest price at which the deal still passes, next to asking, with the % off it needs. No extra conservatism layers.
+- Interest rate placeholder: 7.5% until the owner provides his rate.
+- First loan (flip / BRRRR hold): hard money 90% purchase / 100% rehab, 2 points, 12%, 4–6 months as modeled on the site.
+- Refi: 65% LTV. Partial refi below 65% is a legitimate lever. Leaving the full $60k in for cash flow at 6–8% cash-on-cash is acceptable (owner, 2026-11-12).
+- Tax appeal is scenario-only, not counted as possible by default (owner, 2026-11-12).
+- Reserves: 12% of monthly rent (vacancy + maintenance + capex combined) everywhere, including the BRRRR engine (owner, 2026-11-13).
+- Base management in the BRRRR engine: $150/mo. Self-managed in principle; the auto-adjust rule below can drop management to $0.
+- Owner auto-adjust (2026-11-13): if BRRRR cash flow is under $250/mo, raise Money in the Deal to the smallest amount (max $60k) that reaches $250; if $60k still falls short, set management to $0 and show "management $0" at the top of the deal page.
+- Use actual tax and insurance when verified; do not invent them.
+- Verified data only — no default or estimated ARV or rent. Every number gets a source.
+- ARV from closed comps, last 6 months, within half a mile, same type, filtered by condition; MEDIAN of adjusted prices. Comp filters and dollar adjustments: `/home/box/shared/agent-rules/comp-adjustments.md` (owner-approved 2026-11-09). Indianapolis-specific …
+- Comps must never be taken from across a highway; a highway is a hard barrier, including for the most relevant comps (owner, 2026-11-11).
+- Real time-to-sell comes from listing history, including take-downs and relists — not only the "Listed for sale" date. If a property left the market and came back at a much higher price, treat it as likely renovated and count time-to-sell only from the latest …
+- Before choosing comps, read the zip note in [[Atlanta]] / [[Indianapolis]] (source files also live at `/home/box/shared/zip-intel/<zip>.md`). Owner notes in those files override research.
+- Average up to three Zillow school ratings (two if only two exist). Owner prefers 4 or higher; alert clearly below 4.
+- Flag if the owner of record is a company rather than an individual.
+- Tell the owner whenever Deal Analysis data is not fully certain or is hard to obtain, so he can compromise and still get the data (owner, 2026-11-13).
+- For every high-potential deal, examine what would make it work (price, rehab, rent, financing, expenses, or strategy change) — the "what makes it work" / levers card (owner approved the rules 2026-11-12; site merge/deploy needed separate approval).
+- The deal journal (compare actual rent and expenses after a purchase against our assumptions) is activated only when the owner explicitly says he bought a property. Until then, no background checks, runs, or builds related to it (owner, 2026-11-15).
+- Deep micro-location check (owner, 2026-11-17): when a deal shows high potential, [[Deal Analysis]] investigates the micro-area in depth before the verdict: which side of the highway or creek it is on, comps from the same pocket, noise, flood, crime, vacant …
+- Approved buy-box zips (owner, 2026-11-13), kept in sync with Zip Intel notes marked relevant:; Atlanta Metro: 30030, 30032, 30033, 30034, 30035, 30038, 30058, 30080, 30088, 30238, 30260, 30273, 30274, 30281, 30294, 30296, 30297, 30316, 30317, 30344, 30345. …
+- We will never buy in East Point. Skip East Point addresses even when zip 30344 is on the list (owner, 2026-11-13).
+- The deal funnel (`funnel_zips`) now includes the Indianapolis 17 buy-box zips and Tal's 33-zip trip / contact-coverage list (owner decision 2026-11-17, 23:10 Asia/Jerusalem, superseding the 2026-11-16 note that the 33 were trip-only). The union is 34 unique …
+- Atlanta is paused in the funnel as of 2026-11-17 (owner). Existing Atlanta `funnel_zips` rows were set to `enabled=false`, not deleted, so they can be re-enabled later. The approved Atlanta buy-box list above is unchanged. The four Atlanta buy-box zips that …
+- Skip already-renovated / turnkey / iBuyer listings without full analysis (owner, 2026-11-13).
+- On-market deals are fine to analyze when they are in the buy box, except the 2026-11-15 rule: stop Zillow *email* intake (saved searches and alert emails turned off; mark any stragglers read). The site funnel still pulls listings through site code + RapidAPI.
+- 2026-11-17 update (owner): deal search focuses only on Indianapolis for now; the 21 Atlanta zips are disabled in the funnel, not deleted. The funnel now includes the 17 Indy buy-box zips plus all 33 Tal-trip zips (supersedes the 2026-11-16 note above). …
+- Site: Grok Deals (repo `hs-hold/hsdeals-claude-code`; Vercel).
+- Grok Deals shows only deals Deal Analysis has reviewed, at high quality: comps with notes, rehab breakdown, verdict, each comp's real time-to-sell, and whether it crosses a highway (owner, 2026-11-11).
+- Agent numbers (ARV, rehab, rent, and the rest of the analysis) always override API estimates. Use the API only for factual fields (list price, specs, year built, school ratings, taxes, photos, flood risk).
+- Every deal that passes Deal Analysis must be viewable on the site (owner, 2026-11-11).
+- Unanalyzed deals are not potential deals and must not appear under "Relevant" or "Rejected", including in the Email tab (owner, 2026-11-15).
+- Tabs at the top: Market (default) and Email, so email deals are not stacked above market deals (owner, 2026-11-15). An "Unavailable" tab was added 2026-11-17 (PR 367) for on-market deals that are pending, under contract, contingent, sold, or off-market.
+- Rank every list from best to worst by how far below asking a deal must go to pass BRRRR; ties go to the higher rent-to-price deal (owner, 2026-11-15).
+- "Schools sum (0–30)" auto-filled from Zillow API; "Inventory (mo)" must be returned by Deal Analysis and auto-filled (owner, 2026-11-13).
+- 2026-11-17 update (owner): the daily run pulls two zips per day, one after the other, up to 5 deals from both to analysis, motivated-seller listings first. Same processing budget; RapidAPI calls double.
+- High-potential deals get a deep micro-location check before the verdict (owner, 2026-11-17; see [[1733 Olive St]]).
+- Inbox: `deals@hs-hold.com` (Gmail, connected). Partner Eran owns this channel.
+- Deal Inbox does Stage 1 (buy box) only; Deal Analysis does ARV, rehab, max offer, and go/no-go.
+- Do not draft any wholesaler reply about a deal while it is with Deal Analysis; wait, then draft one reply that reflects the analysis (owner, 2026-11-15).
+- If a buy-box deal could work with negotiation, do not close the door; draft a reply with the math. A hard close-out is only for deals outside the buy box, or deals that cannot work at any realistic price (owner, 2026-11-13).
+- In wholesaler emails, round numbers to the nearest thousand and keep them consistent (owner, 2026-11-13).
+- After the daily inbox scan, mark only the emails that were actually read as read (owner, 2026-11-13).
+- Full buy-box block: at most once per ~30 days per wholesaler.
+- Language / style: Hebrew, short. On voice, give counts only; details go to the chat.
+- Standing rules:; Research only — do not contact outside parties without explicit approval.; Verified data only — no guesses; every number gets a source.; RapidAPI is pay-per-call (plan 6,000 calls/month, resets around the 27th) — keep calls minimal.; Keep …
+- The social media / Meta ads marketing pipeline idea was cancelled on 2026-11-09; never build it or bring it up again.
+- Send Offers site data is saved on the owner's own computer. See [[2026-11-16 Send Offers]].
+- Indianapolis broker / contact searches use the saved prompt in [[broker-search-prompt]].
+- Shared Obsidian vault (this repo, `hs-hold/hs-obsidian`, clone at `/home/box/shared/obsidian-vault`) is the team "brain". Twice-daily harvest at 13:00 and 23:30 Asia/Jerusalem. Also write immediately when something is decided or the owner says "remember this" …
+- Contractor talk → remind the contract checklist: milestone payments (never upfront), changes in writing, lien waiver with each payment, one-year warranty, no work before closing (owner, 2026-11-17).
+- Important docs and outputs go to the Google Drive library; bots stay strictly inside it (see [[Drive Library]]) (owner, 2026-11-17).
+- Business decisions told to any bot go to shared memory and the vault immediately (owner, 2026-11-17).
+- Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
+- See [[00 Profile]] for the dated owner rules (pre-filter, highway comps, time-to-sell, levers, auto-adjust cash-in, site tabs, ranking, unanalyzed deals must not appear, deal journal only after a stated purchase). ([[Deal Pipeline]])
+- 2026-11-15: owner rated [[1733 Olive St]] 8/10 as the top BRRRR-oriented example (ask $85k, rent $1,710 unverified, ARV ~$250k); works at ~$84.4k with partial refi or at ask with interest-only; rent and insurance … ([[Deal Pipeline]])
+- 2026-11-17: listing-status check (no RapidAPI) of on-market "Relevant" deals; under-contract deals moved to the Unavailable tab (PR 367). Auction listings stay in Relevant with an Auction badge. ([[Deal Pipeline]])
+- Site UX and display rules: see [[00 Profile]] (tabs, ranking, unanalyzed deals hidden, BRRRR badge, auto-adjust money-in-deal, schools sum, inventory months). ([[Deals Site]])
+- 2026-11-17: on-market deals that are pending, under contract, contingent, sold, or off the market leave Relevant and go to Unavailable. Off-market (email) deals are not moved by that listing-status check. Auction … ([[Deals Site]])
+- 2026-11-17: Reuse the existing Content Insights folder as the single library root rather than creating a duplicate. ([[Drive Library]])
+- 2026-11-17: Owner-facing folder holds only the latest human-readable version of each document (PDF / Excel / Google Doc / HTML for phone lists). Raw, older, JSON, CSV, and Markdown dumps go to the archive as zip files. ([[Drive Library]])
+- 2026-11-17: Secrets, tokens, passwords, `.env`, and anything under `/home/box/shared/secrets` are never uploaded. Pages are linked from the index, not copied. ([[Drive Library]])
+- 2026-11-17 (owner): Bots must stay strictly inside this library folder and not browse the rest of Drive. Folder IDs belong in shared memory so bots do not need to ask for permission each time. ([[Drive Library]])
+- 2026-11-16: Territory first, then contact lists. Only contiguous zips that local contacts typically cover. ([[Indy Trip Nov 2026]])
+- 2026-11-16: "Add all 33 zips" applies to this trip research, not the deal funnel. ([[Indy Trip Nov 2026]])
+- 2026-11-16–17: Brokers only in the later HTML card lists; phone required; any warning sign means skip entirely; zips only if a source states them; exclude anyone already on a previous list; owner asked to remove Chris … ([[Indy Trip Nov 2026]])
+- Research only — nobody on this trip list has been contacted by us. ([[Indy Trip Nov 2026]])
+- 2026-11-16: Owner wants every bot to save information in Obsidian, synced via GitHub. After the vault and toolkit were built he said "רגע עצור" ("wait, stop") — registering the five skills and wiring the other bots was … ([[Obsidian Vault]])
+- 2026-11-17: Owner wants a central harvest, not each bot remembering to save. Harvest twice a day at 13:00 and 23:30 Asia/Jerusalem, plus an immediate write when something is decided or he says to remember it. A one-time … ([[Obsidian Vault]])
+- 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
+
+## Open decisions / items (last 7 days + projects; unchecked only)
+- [[2906 Horse Shoe Dr SE]] — needs a number before 20:00 Asia/Jerusalem today (showing 19:00–20:00, best offers after 1 pm ET). — [[2026-11-18]]
+- Owner decision on the [[4213 River Rd]] counter-offer (cap $178k). — [[2026-11-18]]
+- Deal Analysis to analyze 5748 Northfield, 6949 Cedar Hill, 9526 Autumn Ct (Atlanta leads come in by email even though the funnel is Indy-only this week). — [[2026-11-18]]
+- 1621 E 46th St payload was prepared but not posted to the site (per the analysis file). — [[2026-11-18]]
+- Indy trip contact drip: first small batch due by 19:00 tonight (Nov 18–20 plan). — [[2026-11-18]]
+- Owner yes/no: launch a coding agent on the funnel fixes (ARV basement bug, pending pre-filter, rent data, screen alignment) — PR, merge needs owner approval. — [[2026-11-18]]
+- Owner yes/no: re-analyze Kenwood, Union, Fletcher. — [[2026-11-18]]
+- Owner yes/no: set up the multi-account `Accounts/` structure. — [[2026-11-18]]
+- Motivated-seller tag PR 370 (hs-hold/hsdeals-claude-code): awaiting owner decision on stronger-phrase threshold (2,120/13,674 listings flagged ≈15%, recommended strong phrases only) before merge. — [[2026-11-18]]
+- Confirm the Analyses market filter is live. — [[2026-11-17]]
+- Restate the duplicates request if it still matters. — [[2026-11-17]]
+- Optional code check on the 30273 empty screen. — [[2026-11-17]]
+- Skill registration still on hold. — [[2026-11-17]]
+- PR 370 (motivated-seller flag) not merged or deployed; owner decision on strong-phrases-only display. — [[2026-11-17]]
+- Deal criteria trial runs Nov 18–24; review Nov 25 10:00 (routine set). — [[2026-11-17]]
+- Indy-only check-in Nov 24 10:00 (Deal Analysis). — [[2026-11-17]]
+- Indy contact drip Nov 18–20 evenings. — [[2026-11-17]]
+- Atlanta Market Research waits for the owner's own confirmation to write to the vault. — [[2026-11-17]]
+- Content Insights: report usage of the first video; remaining videos only with approval. — [[2026-11-17]]
+- Known gap: needs_comps and held are dead ends in practice: 85% of screened Indy listings (879 of 1,040) never get a decision. — [[Deal Pipeline - How It Works]]
+- Known gap: The screening ARV uses total sqft including basements, so ARV is inflated in basement zips. — [[Deal Pipeline - How It Works]]
+- Known gap: The SAFMR table is missing 18 of the 34 Indy zips, so those listings land in "held". — [[Deal Pipeline - How It Works]]
+- Known gap: The screen flip has no financing cost and a 25% band, so its MAO is about $12–20k above Deal Analysis on a $150–250k basis. — [[Deal Pipeline - How It Works]]
+- Known gap: The queue does not exclude `is_pending` or `is_contingent`, and junk got through (sqft 2, sqft 25,850, a $1,275 "price"). — [[Deal Pipeline - How It Works]]
+- Known gap: There is no read-only queue peek, and 28 of 52 queue rows expired without analysis. — [[Deal Pipeline - How It Works]]
+- After Indy ARV fixes (PR 329 landed): audit the share of deals with no auto ARV / needs_comps, and deals dropped for missing API data (owner asked 2026-11-10; do not start before the fix, then do it) — [[Deal Pipeline]]
+- Daily routine that calls `funnel-run-next-zip` once and hands `deal_queue` (max 5) to Deal Analysis — was pending owner approval — [[Deal Pipeline]]
+- Optional: investigate why the 2026-11-17 daily pull of zip 30273 returned 55 properties and none passed screening (possible screen skip after a timeout retry) — [[Deal Pipeline]]
+- Trial criteria Nov 18–24; compare on Nov 25 10:00 — [[Deal Pipeline]]
+- Indy-only check-in Nov 24 10:00 — [[Deal Pipeline]]
+- Engine tax-change proposal still awaiting a yes from the owner — [[Deal Pipeline]]
+- Older open item: contractor size research, paused — [[Deal Pipeline]]
+- Deep recheck of old contacts (see [[Indy Trip Nov 2026]]) — [[Deal Pipeline]]
+- PR 370 motivated-seller flag: owner decision to merge / strong-phrases only — [[Deals Site]]
+- Owner may still want a signed-in browser check of the 22 / 2 split — [[Deals Site]]
+- Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it — [[Deals Site]]
+- Contract Desk and מזכירה still have no document outputs to file — [[Drive Library]]
+- דוחות ומחקר is ready for future reports; current research lives in Pages (linked in the index) and in שווקים ומיקודים — [[Drive Library]]
+- Add Tal's exact flight dates once the owner confirms them — [[Indy Trip Nov 2026]]
+- Confirm whether Simple Quarters MeetUp runs on Wed 25 Nov (Thanksgiving eve) — [[Indy Trip Nov 2026]]
+- If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals" — [[Indy Trip Nov 2026]]
+- Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2 — [[Indy Trip Nov 2026]]
+- Contractor size / quality research was paused; retry only if the owner asks, in small batches — [[Indy Trip Nov 2026]]
+- Register the 5 grok-trestle skills and tell all bots to use the vault — only when the owner says to continue — [[Obsidian Vault]]
+- Owner: connect Obsidian desktop/mobile via the Obsidian Git plugin (guide section 4) — [[Obsidian Vault]]
+- Optional: mention grok-trestle in the vault root README — [[Obsidian Vault]]
+- Confirm the twice-daily harvest routine is actually scheduled after this backfill — [[Obsidian Vault]]
+
+## Key recent outcomes (last 7 days, newest first; D=decision, Owner=owner info, C=conclusion, H=happened, A=agent work)
+### [[2026-11-18]]
+- D: (Grok Bot, Nov 17 23:20, owner) Final Indy outreach post written ("Expanding into Indianapolis, who should we meet?"); area line updated to cover the north zips and …
+- D: (Grok Bot, Nov 17 23:22) BiggerPockets-podcasts to-do from מזכירה is on hold until the owner says what he wants (asked via מזכירה).
+- Owner: (Grok Bot, 07:41) Owner has several Grok Bot accounts under different emails and wants one personal system to see everything from all accounts in one place. Proposed: each account's main bot writes a …
+- Owner: (Grok Bot, 08:50 voice call) Owner thought thousands of deals/day pass the filter. Actual: 2 zips/day (since Nov 18), a few hundred listings, 1–5 pass the screen, max 5 go to analysis.
+- C: (Deal Analysis, morning) [[1621 E 46th St]] (46205, subject-to from Edwin Kasela, $189,800): REJECT. MAO $155,100 = 18.3% below ask. Fails the trial on cash left ($97.8k). Subject-to has positive …
+- C: (Deal Analysis, morning) Daily search zip [[46112]] (Brownsburg): 3 queued; 2 were already pending and skipped. [[902 Hearthside Ct]] ($332k, Opendoor) REJECT (D). MAO $181,300 = 45.4% below ask. Too …
+- C: (Deal Analysis) Funnel screening ARVs in 46112 were unusable ($657k–845k) because total sf included basements — a known weakness of the screen.
+- C: (Grok Bot, 08:05) Daily search ran two zips: 46107 (0 deals) and [[46112]] (3 to full analysis), ~0.4% usage. So the two-zips/day rule worked.
+- C: (Grok Bot/Deal Analysis, 08:15) No deal passed. [[902 Hearthside Ct]] rejected under both methods (ask $332k, MAO $181k). Two funnel bugs: (1) 46112 screen uses sqft incl. basement → inflated ARV …
+- C: (Grok Bot, 08:50) Usage: no per-stage usage breakdown exists. Week-to-date 53.7% (resets Sat 14:29). Morning pull ≈0.4%, ≈0.2% per analysis → est. 7–10%/week for the pipeline (estimate, not …
+- C: (Grok Bot, 09:05) Pipeline deep-dive ([[Deal Pipeline - How It Works]], Page "משפך העסקאות: איפה נופלות עסקאות ותוכנית פעולה"): 85% of Indy listings get no decision because ARV or rent is missing; 43 …
+- C: (RapidAPI usage watch, 09:00) 4,070/6,000 left (67.8%), resets Nov 27 17:52; no alert.
+- A: (Grok Bot 09:03) Added [[Deal Pipeline - How It Works]] (code + prod audit).
+- A: (Deal Inbox, ~08:00) Handoff to Deal Analysis covering mail from 2026-11-17 08:00 to 2026-11-18 08:00 (`/home/box/shared/deal-outcomes/deal-analysis-handoff-2026-11-18.md`). New leads: [[2906 Horse …
+- A: (Zip Intel, morning) New research file for [[46112]] Brownsburg (split jurisdiction town/unincorporated, Hendricks courts, BPD crime numbers).
+### [[2026-11-17]]
+- D: Shared vault is the team brain. Harvest twice a day at 13:00 and 23:30 Asia/Jerusalem, plus immediate writes for decisions or "remember this". A one-time backfill of the last few weeks was approved.
+- D: Keep using [[broker-search-prompt]] for every contact/broker search. Owner asked to remove Chris Price from the new broker batch (team-review noise) and to put the other caveats inside each card's …
+- D: On-market Relevant deals should be checked against current listing status (Zillow etc., no RapidAPI). Pending / under contract / sold / off-market go to a new Unavailable area on the site. Auction …
+- D: Grok Analyses should be filterable at the top by Indianapolis vs Georgia (requested; build started).
+- D: (Grok Bot 22:22, corrected 22:27) Trial deal criteria for Nov 18–24: refi at 65% LTV / 30y / 7.5%, up to $60k of our own cash may stay in after the refi, flip profit about $20–25k or more, cash flow …
+- D: (Grok Bot 22:33) Every analysis shows a MAO (highest price at which the deal still passes) next to the asking price, with the % off it needs. No extra conservatism layers (no rehab padding, no …
+- D: (Grok Bot 22:34) From the course work plan, item 2: only the contractor part. Whenever the owner talks about a contractor, remind him: payment by milestones (never upfront), every change in writing …
+- D: (Grok Bot 22:34–22:37) Build a motivated-seller flag on the site with pure code (keyword match on listing text, no AI/tokens).
+- D: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
+- D: (Deal Analysis 22:24, Grok Bot 23:12) Focus only on Indianapolis for the coming week. Atlanta zips are disabled in the funnel, not deleted. Deal Analysis will ask on Nov 24 at 10:00 whether to keep …
+- D: (Grok Bot 23:10) The deal funnel includes the 17 Indy buy-box zips plus all 33 zips of Tal's trip list (supersedes the Nov 16 "trip research only" note). About 38 distinct Indy zips.
+- D: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
+- D: (Grok Bot 22:16–22:18) Drive library: all important bot documents and outputs go to Google Drive — a tidy owner folder plus a bot archive — and bots access only the library root folder, never the …
+- D: (Deal Analysis 22:06) New rule: for any high-potential deal, run a deep micro-location check (side of highway/creek, comps from the same pocket, noise, flood, crime, vacant lots, street quality, why …
+- D: (Content Insights 21:46–22:13) Content Insights works as a "student": studies content in depth, summarizes, and sends an action plan to Grok Bot, which proposes implementation to the owner. Its files …
+- Owner: (Grok Bot 22:27) Reserves of 12% cover vacancy, maintenance and capex together; the owner was fine with what was set.
+- Owner: (Content Insights 21:48) The owner gave Content Insights access to the Project X Club LMS (credentials stored in the secure vault, not here). Six courses, about 201 lessons in total.
+- Owner: (Content Insights 22:42) Owner chose the off-market / PropStream webinars as the first video to study.
+- C: (Deal Analysis 22:18–22:26) [[1733 Olive St]] rejected (grade D). It sits in a narrow pocket between I-65 and Shelby St; the old $250k ARV comps were outside the pocket. New ARV $195k (conservative …
+- C: (Grok Bot 22:32) The team is already conservative enough (65% refi, 12% reserves, verified comps only, hard comp rules).
+- C: (Grok Bot 23:06) Motivated-seller flag, first run: 2,120 of 13,674 market listings and 381 of 1,992 deals matched (~15%, likely too broad because of weak words like "as-is" / "vacant"). …
+- C: (Grok Bot 22:02) The Grok app seems to allow one signed-in account at a time (not verified as certain).
+- H: Daily funnel scan of zip 30273: 55 properties, none passed screening (0 sent to analysis). First attempt timed out; retry took ~10 minutes. Usage 34.6% → 35.1%. Possible that screening did not …
+- H: RapidAPI 24h alert: 175 calls vs a 75-call threshold (173 zillow-search). Month-to-date 1,923 / 6,000; reset 27 Nov 17:52 Asia/Jerusalem. Average recent pace (~67/day) would not exhaust the quota …
+- H: Site status check of 24 "Relevant" deals (23 on-market, 1 off-market: [[4436 Malibu Dr]]). None passed $250/mo BRRRR at asking. Under contract: [[1544 Boulder Walk Way SE]] (price up to $399k) and …
+- H: PR 367 shipped: status badges + Unavailable tab. Counts after deploy (from site data, not a signed-in browser): 22 Relevant (10 Market / 12 Email), 2 Unavailable.
+- H: Third broker batch: 10 new names, Chris Price removed, 9 delivered in `indy-brokers-batch3.html`.
+- H: [[4213 River Rd]] (Anthony / Mr ATL Wholesaler, $249k) rejected by Deal Analysis; public record is 4/3 and 2,911 sf plus unfinished basement, not 5BR / 4,000+ sf. Max BRRRR offer about $154k.
+- H: A voice-call request about "duplicates" was not received in full; the owner was asked to restate it in chat.
+- H: Reminder set for 20:00 Asia/Jerusalem to connect bots to Obsidian; do not start the skill rollout without confirmation.
+- A: (Grok Bot 19:38, 20:01) Market filter All / Indianapolis / Georgia is live on Grok Deals (PR 368) and on the Funnel Grok analyses page (PR 369). Funnel page: 24 Relevant (2 Indy, 22 Georgia).
+- A: (Grok Bot 19:42–20:24) One-time backfill finished (9 daily notes, 62 deals, 58 markets/zips, 40 contacts, 4 projects, profile). The owner's Mac now has the vault cloned, auto-pull every 30 min, and …
+- A: (Grok Bot 22:23) Drive library built inside the existing Content Insights folder: 20 owner-facing docs by topic, an archive for bots, and an index doc. See [[Drive Library]].
+- A: (Content Insights 21:50–22:46) Project X Israel course studied in full (14 modules, 81 lessons; 6 lessons without transcript). Insights + 15-item work plan in [[Project X Israel - insights]] and …
+- A: (Grok Bot 22:39) Recommended subset of the other courses to Content Insights: Cycle 28 deal days (incl. the 2130 Carrollton Ave Indy offer exercise), off-market webinars + PropStream, wholesaler and …
+- A: (Deal Analysis 21:56) About 210 deals passed through Deal Analysis since Nov 9 (138 Zillow-alert screens, only Primrose Pl and Eleanor St came out CONDITIONAL; ~74 full analysis files).
+### [[2026-11-16]]
+- D: From today, information should be saved in Obsidian, synced via GitHub. Vault: private repo hs-hold/hs-obsidian. After the toolkit was built, the owner said "רגע עצור" — skill registration and bot …
+- D: Send Offers site data is saved on the owner's own computer. See [[2026-11-16 Send Offers]].
+- D: Tal is flying to the US in a little over a week and will visit Indianapolis to meet as many local people as possible. Territory and zips first, then contacts. Only contiguous areas local contacts …
+- D: "Add all 33 zips" means Tal's trip research, not the deal funnel.
+- D: Indianapolis purchase budget is larger than $150k; evaluate up to about $300k if criteria still hit, including $250/mo BRRRR.
+- D: Secretary bot [[מזכירה]] was created (id dddd24b9-f165-4978-8c67-ebfbcd6b9a0b).
+- D: Broker-search prompt refined through the day (brokers only, phone required, skip any warning sign, zips only with a source, mobile HTML cards). Final wording: [[broker-search-prompt]].
+- H: Trip research delivered: territory v2 PDF, contacts v2 (190 rows), boots-on-ground workbook, then cleaned contractor / wholesaler / broker workbooks and HTML. Nobody was contacted.
+- H: Grok Trestle toolkit written into the vault (skills, scripts, Hebrew and English guides).
+- H: First broker HTML, then a brokers-only v2, then a "new only" file after dropping names already on the previous list (9 remained; 4 of them at Roots Realty: Alisha Hernandez, Max Moore, Andres Martin …
+- H: Events for the trip week were checked (Property Deal Network 24 Nov confirmed; Simple Quarters 25 Nov not confirmed; Thanksgiving closures). Flight dates still unknown.
+### [[2026-11-15]]
+- D: Unanalyzed deals are not potential deals and must not appear under Relevant or Rejected, including the Email tab.
+- D: Site lists: Market and Email tabs at the top, Market open by default.
+- D: Rank every list by how far below asking a deal must go to pass BRRRR; ties go to higher rent-to-price.
+- D: In BRRRR search, weight higher rent favorably and flag "works with discount" deals; rate the top deal 1–10. Owner rated [[1733 Olive St]] 8/10.
+- D: Deal journal is activated only when the owner explicitly says he bought a property.
+- D: Do not draft a wholesaler reply while a deal is with Deal Analysis; wait and send one reply that reflects the analysis.
+- D: Stop Zillow email intake (saved searches and alert emails off; mark stragglers read). The site funnel is unchanged.
+- H: Three wholesaler deals analyzed and rejected at ask: [[5301 Essex Farms Pl]] ($205k stated; already pending on MLS at $290k), [[5811 Shadow Rock Dr]] ($130k), [[4799 Oak Ct]] ($110k). Files in …
+- H: Updates: Primrose stayed a weak flip-only conditional; Riverdale / Bethsaida only works at a deep discount; [[2195 Trailwood Dr SE]] rejected at $259.9k (walk-away ~$180–200k, unfinished basement).
+- H: Owner approved fixing deal-analysis-ingest so it accepts email/Grok deal ids (138 deals from 13 and 15 Nov). Cloud agent started with merge/deploy approval.
+### [[2026-11-14]]
+- H: Shared box files (Zip Intel notes, agent rules, some deal-outcome copies) show this day's timestamps, likely from a sync or write wave. No separate owner decisions were recovered for this date from …
+- H: Content from adjacent days (13 and 15) is recorded on those daily notes.
+### [[2026-11-13]]
+- D: Buy box: 30032 and 30058 approved. Full Atlanta and Indianapolis zip lists frozen in Deal Inbox rules (see [[00 Profile]]).
+- D: We will never buy in East Point; skip those addresses even when [[30344]] is on the list. Existing East Point deals from the earlier batch were closed.
+- D: 5-bedroom homes are acceptable (beds 2–5).
+- D: On-market deals in the buy box may be analyzed; skip already-renovated / turnkey homes.
+- D: If a buy-box deal could work with negotiation, do not close the door in the wholesaler reply.
+- D: In wholesaler emails, round numbers to the nearest thousand.
+- D: After the daily inbox scan, mark only emails that were actually read as read.
+- D: BRRRR auto-adjust: if cash flow is under $250/mo, raise money in the deal up to $60k to reach $250; if that still falls short, drop management to $0 and show it at the top of the deal page. Reserves …
+- D: "Schools sum (0–30)" and "Inventory (mo)" should be auto-filled on the deal page. Deal Analysis must return months of supply.
+- D: Tell the owner when analysis data is uncertain or hard to obtain.
+- H: Deal Inbox entered 52 on-market Grok deals in 30032 (51) and 30058 (1) after skipping renovated / turnkey / iBuyer / inactive / >$300k.
+- H: Better flip-conditional names: [[3490 Primrose Pl]] (grade B, flip only), [[4436 Malibu Dr]] (off-market / later the lone off-market Relevant deal).
+- H: Funnel pulls of 30034, 30296, 46221, 46222 (10 RapidAPI calls) found no new deal within 25% off. Finding: the screen's max offer is much looser than Deal Analysis's flip formula, so the queue fills …
+- H: Zip Intel notes expanded (including 30032, 30058, and a Fulton / South Fulton section for 30296 / Bethsaida).
+### [[2026-11-12]]
+- D: BRRRR is the primary strategy; pass/fail and max offer follow the BRRRR target; flip is secondary. Base flip hold stays 6 months, 12 months is a stress case.
+- D: Lever rules approved: partial refi below 65% is legitimate; leaving the full $60k in for 6–8% cash-on-cash is acceptable; lever combos use 7.5%; tax appeal is scenario-only. The site "what makes it …
+- D: Agents should continuously optimize in motion (what works, what doesn't, wasted resources, blind spots).
+- H: Analyses including [[1564 Columbia Dr]], [[3425 Longleaf Dr]], [[2343 Deer Pass Way]], [[2164 Riverbrook Rd]], [[728 Sunnybrook Dr]], and other Decatur / Smyrna names. Columbia and Longleaf posted as …
+- H: Pattern noted: BRRRR is cash-flow-bound at 65% / 7.5% for many deals above ~$250k ARV.
+- H: A burst of 42 RapidAPI calls across 20 zips jammed the DB via funnel_properties triggers and needed a restart — after this, never pull many zips in a burst and never call RapidAPI from an agent.
+
+## Where to look (folder map)
+[[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.
