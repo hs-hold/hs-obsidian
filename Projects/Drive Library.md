@@ -71,3 +71,8 @@ When a bot produces something the owner may want to open later:
   - In אנשי קשר: the Indy contacts drip page for day 1 (HTML).
   - Archived: the Nov 18 research zip in מקורות-מחקר (prefilter dry-run, no-ARV root cause, GitHub tools, dedupe/review), and the raw batch + Oxford files in ניתוחי-עסקאות (no images; the sheet JPGs stay on the box).
   - Added 3 index lines.
+- 2026-11-19 13:30: the midday sync filed:
+  - In עסקאות, as Google Docs: the Indy ARV diagnostic (4 listings) and the Atlanta held deals (4).
+  - In דוחות ומחקר: the Indianapolis basement / above-grade ARV research (Google Doc).
+  - Archived: `analyses-2026-11-19-raw.zip` in ניתוחי-עסקאות (no images) and `research-2026-11-19.zip` in מקורות-מחקר.
+  - Added 3 index lines. Nothing was replaced, since these are new topics.
