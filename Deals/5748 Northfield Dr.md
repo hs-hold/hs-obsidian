@@ -41,3 +41,6 @@ Not analyzed yet. Note: the deal search is Indianapolis-only this week (Atlanta 
 
 ## Log
 - 2026-11-18 ~08:00: handed to Deal Analysis by Deal Inbox.
+
+## Analysis 2026-11-19
+REJECT: Clayton County (not DeKalb); ARV $220k, trial MAO $98.7k (43.6% below $175k ask); schools 3.0 alert. Not posted to the site. See [[2026-11-19 Atlanta held deals (4)]].

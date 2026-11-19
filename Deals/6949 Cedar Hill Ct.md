@@ -41,3 +41,6 @@ Not analyzed yet. Note: the deal search is Indianapolis-only this week (Atlanta 
 
 ## Log
 - 2026-11-18 ~08:00: handed to Deal Analysis by Deal Inbox.
+
+## Analysis 2026-11-19
+REJECT: ARV $264k (low confidence), trial MAO $89.8k (38.9% below $147k ask); mid-gut. Not posted to the site. See [[2026-11-19 Atlanta held deals (4)]].
