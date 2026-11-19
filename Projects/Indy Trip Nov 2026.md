@@ -44,9 +44,11 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - Profile: [[00 Profile]]
 - Market: [[Indianapolis]]
 - 33 zips: [[33 Zips]]
-- Contacts index: [[Indy Brokers]]
+- Contacts index: [[Indy Brokers]], [[Indy Contractors]], [[Indy Lenders]]
 
 ## Log
 - 2026-11-16: Territory v2 PDF, contacts v2 workbook, boots-on-ground workbook built (research only).
 - 2026-11-16: First broker/wholesaler HTML; then a brokers-only v2; then "new only" after dropping names already on the previous list (9 remained; 4 of those were Roots Realty).
 - 2026-11-17: Third broker batch, 10 new names found, Chris Price removed at owner request, 9 delivered in `indy-brokers-batch3.html` with caveats moved into "מידע נוסף".
+- 2026-11-18: Contacts drip day 1 (`indy-contacts-drip-2026-11-18.html`).
+- 2026-11-19: 10 new brokers on owner request (`brokers-new-2026-11-19.html`, top: Gretchen Szostak 8.2, Bryan Arnold 8.0). Contacts drip day 2: lender Sam Barrow, contractor Gary Brackett. Day 3 (title/attorney, insurance, local bank, investor groups) on Nov 20.

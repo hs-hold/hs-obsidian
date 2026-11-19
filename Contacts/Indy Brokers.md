@@ -2,7 +2,7 @@
 type: contact-index
 category: broker
 market: Indianapolis
-updated: 2026-11-17
+updated: 2026-11-19
 tags: [contact, broker]
 ---
 # Indy Brokers
@@ -47,6 +47,21 @@ No broker published a zip list. Coverage counts are derived from city and county
 | 5.5 | [[Jim Perry]] | Ever Real Estate (Director of Agent Services); founded Front Porch Real Estate (sold to F.C. Tucker 2021) | (317) 281-9239 | yes | batch 3 HTML |
 | 4.5 | [[Pat McNeill]] | APA Real Estate (broker, appraiser, PM, investor; off-market + buyers list) | (317) 855-0303 | yes | drip day 1 (2026-11-18) |
 
+
+### 19 Nov 2026 — 10 new names (`/home/box/shared/indy-trip/brokers-new-2026-11-19.html`)
+| Score / rank | Name | Company | Phone | Investors | Notes |
+|---|---|---|---|---|---|
+| 8.2 | Gretchen Szostak | DNA Properties Indy (Managing Broker) | (317) 721-5310 | yes | Google 5.0/17 including investor clients; official “Investor” title |
+| 8.0 | Bryan Arnold | Keller Williams Indy Metro North (Listing Indy) | (219) 776-0622 | yes | On the BP Indy investor-agent finder; Zillow 5.0/38, Google 5.0/60 |
+| 7.4 | Damian Szostak | DNA Properties Indy (Associate Broker) | (317) 413-7825 | yes | Same firm as Gretchen; personal bio says he works with investors |
+| 7.0 | Andy Deemer | F.C. Tucker — The “Deem” Team | (317) 997-0281 | yes | Two Reddit recs (May 2025); one 2018 Zillow investor review; avg sale $473k |
+| 6.6 | Amy Cox | Crossroads Real Estate Group | (317) 432-3662 | yes | Investor since 2005; office in 46203; Experience 4.95/22 (2018–2020) |
+| 6.5 | Alex Hallmann | @properties Indy | (317) 224-3335 | no published investor specialty | Zillow 5.0/79; Reddit rec Jan 2026; sales in 46201/46205/46219/46235 |
+| 6.4 | Clark Giles | Your Realty Link | (317) 294-9608 | yes | Site lists investors / investment property; Reddit recs for Irvington; also an attorney |
+| 6.0 | Angela Arnold | eXp Realty (Clubhouse RE Mega Team) | (317) 983-4663 | yes | Own investors page + Happy Homes; no third-party reviews found (not the Atlanta agent of the same name) |
+| 5.8 | Bryan Coe | Carpenter Realtors | (317) 445-2160 | yes | Investor 8 years; sales in 46201, 46222, 46218; $80–255k; 0 reviews, only 7 sales |
+| 5.6 | Nolan Lamkin | CENTURY 21 Scheetz | (317) 696-9545 | yes | Own site shows rents/expenses/comps before offers; 0 Zillow reviews, 5 sales |
+
 ## Removed or not recommended
 - [[Chris Price]] (KW / The Indy Property Source): researched in batch 3 (score 8.0, covers all 33 zips, investor/REO focus, average sale $99k) but **removed from the delivered list at the owner's request on 2026-11-17** because of two small negative teammate reviews. Not listed as a warning-sign skip by the researcher.
 - [[Lauren Perry]]: appeared in batch 3 research but was dropped because she was already on a previous list.
@@ -56,5 +71,6 @@ No broker published a zip list. Coverage counts are derived from city and county
 - `/workspace/indy-trip/indy-brokers.xlsx` (first list)
 - `/workspace/indy-trip/indy-brokers-v2.html`, `indy-brokers-new-only.html`
 - `/workspace/indy-trip/indy-brokers-batch3.html`
+- `/home/box/shared/indy-trip/brokers-new-2026-11-19.html` (10 new, 2026-11-19)
 
 Related: [[Indy Wholesalers]], [[Indy Contractors]], [[Indy Property Managers]], [[Avoid]].

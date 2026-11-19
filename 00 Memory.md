@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-19 13:16 Asia/Jerusalem from commit 5df8eb8 2026-11-19 10:18 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-19 23:16 Asia/Jerusalem from commit 62d099d 2026-11-19 13:17 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (9)
@@ -13,11 +13,11 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
 - Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
-- Latest log (2026-11-19 — Grok Bot (from sync 13:15)): Voice calls with the owner. Ran coding agents for PRs 372–375 and steered PR 371. Landed all five in one batch (owner rule: merges and deploys always together, never piecemeal), with 4 migrations, 9 functions and a cache-only re-screen of 732 rows that queued 0. Sent the 4-listing ARV diagnostic to …
+- Latest log (2026-11-19 — Grok Bot (from sync 23:15)): Owner kept the PR 370 motivated-seller tag loose; approved the Marion County Assessor backfill. PR 376 filled 133/197 holds, 0 queued; it also adds an automatic county lookup to the daily search. PRs 370 + 376 await the next single batch. Found 10 new Indy brokers with the saved prompt; contacts …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
-- Recent ([[2026-11-19]]): (Grok Bot, call ~10:32, owner) All merges and deploys land together in one batch after every open question is answered, never piecemeal.
-- Recent ([[2026-11-19]]): (Grok Bot, call ~10:32, owner) Approved the one-time cache-only re-screen after the batch deploy.
+- Recent ([[2026-11-19]]): (Grok Bot chat, 13:20, owner) Approved pulling Marion County Assessor above-grade / basement / finished-basement area for the 197 `basement_unknown` holds (0 RapidAPI calls).
+- Recent ([[2026-11-19]]): (Grok Bot chat, 18:15, owner) Asked for 10 new Indy brokers using the saved broker-search prompt.
 - Last activity seen in vault: 2026-11-19
 ### Deal Analysis — [[Deal Analysis]]
 - Role: Deal analysis bot.
@@ -155,10 +155,12 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
 
 ## Open decisions / items (last 7 days + projects; unchecked only)
-- Owner yes/no: pull above-grade and basement data from the Marion County Assessor for the 197 `basement_unknown` holds, so they re-enter the screen with no RapidAPI calls (proposed ~12:30, no answer … — [[2026-11-19]]
 - Data sources still missing for some fixes (county class, flood zone and the Abandoned list on sold comps; city, township and school on sold caches). The code is wired and idle until those fields … — [[2026-11-19]]
 - Indy contacts drip: Nov 19 and 20 at ~18:15. — [[2026-11-19]]
-- Motivated-seller PR 370: still awaiting the owner's phrase-threshold decision (not part of today's batch). — [[2026-11-19]]
+- Next merge batch: PR 370 (motivated-seller tag, loose) + PR 376 (Marion County assessor lookup) — merge and deploy together, per the one-batch rule. — [[2026-11-19]]
+- 64 holds still without above-grade data (49 in 46112 need a Hendricks County source; 15 with no clear parcel). — [[2026-11-19]]
+- Indy contacts drip day 3 on Nov 20 (~18:15): closing attorney/title, insurance, local bank, investor groups; delete the routine after it. — [[2026-11-19]]
+- Partners should coordinate Tal's meetings with the new contacts. — [[2026-11-19]]
 - [[2906 Horse Shoe Dr SE]] — needs a number before 20:00 Asia/Jerusalem today (showing 19:00–20:00, best offers after 1 pm ET). — [[2026-11-18]]
 - Owner decision on the [[4213 River Rd]] counter-offer (cap $178k). — [[2026-11-18]]
 - Deal Analysis to analyze 5748 Northfield, 6949 Cedar Hill, 9526 Autumn Ct (Atlanta leads come in by email even though the funnel is Indy-only this week). — [[2026-11-18]]
@@ -195,7 +197,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Engine tax-change proposal still awaiting a yes from the owner — [[Deal Pipeline]]
 - Older open item: contractor size research, paused — [[Deal Pipeline]]
 - Deep recheck of old contacts (see [[Indy Trip Nov 2026]]) — [[Deal Pipeline]]
-- PR 370 motivated-seller flag: owner decision to merge / strong-phrases only — [[Deals Site]]
+- PR 370 motivated-seller flag: owner decided 2026-11-19 to keep it loose (any motivation phrase flags); merge in the next batch with PR 376 — [[Deals Site]]
 - Owner may still want a signed-in browser check of the 22 / 2 split — [[Deals Site]]
 - Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it — [[Deals Site]]
 - Contract Desk and מזכירה still have no document outputs to file — [[Drive Library]]
@@ -219,8 +221,12 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - D: (Grok Bot, call ~10:30, owner) Revised fix #3: outlier comps (±25% from the median $/sf) are flagged, not removed. They stay in the comp list passed to Deal Analysis with the % deviation; a renovated …
 - D: (Grok Bot, call ~10:32, owner) All merges and deploys land together in one batch after every open question is answered, never piecemeal.
 - D: (Grok Bot, call ~10:32, owner) Approved the one-time cache-only re-screen after the batch deploy.
+- D: (Grok Bot chat, 13:20, owner) Motivated-seller tag (PR 370) stays loose: "every motivation word helps", so any motivation phrase flags a listing (no strong-phrase threshold). PR 370 joins the next …
+- D: (Grok Bot chat, 13:20, owner) Approved pulling Marion County Assessor above-grade / basement / finished-basement area for the 197 `basement_unknown` holds (0 RapidAPI calls).
+- D: (Grok Bot chat, 18:15, owner) Asked for 10 new Indy brokers using the saved broker-search prompt.
 - Owner: (Grok Bot chat, ~12:30) The owner was surprised that basic house-size data is missing from the API. Explanation given: the size is listed, but as one number that may or may not include the basement. …
 - Owner: (Deal Inbox, Nov 19) Townhomes are fine for the buy box. Don't reject a deal just for being a townhome; zip and numbers still apply.
+- Owner: (Grok Bot chat, 11:34) The owner asked why basic house size is "missing" from the API. Answer recorded: size is present but as one number; in basement-heavy Indy some agents include the basement and …
 - C: (Grok Bot, 08:05) Daily search: zips 46113 and 46123, 335 listings (108 + 227), 0 sent to analysis. 3 passed the first screen but failed the sanity check: 1 pending, 2 oversized (5,196 and 4,360 sf …
 - C: (Grok Bot, ~09:20) From the Nov 18 ARV backfill: 467 of 486 left after dedupe. At a $20k flip-profit bar, 30 pass the first screen, 406 are rejected and 31 are on hold (27 at $25k). Only 3 of the 30 …
 - C: (Deal Analysis, ~10:00) ARV diagnostic of 4 listings (prescreen ARV > 2.5× ask): all REJECT. The prescreen ARV was wrong every time (comps across Meridian/rail/I-465, basement or attic counted as …
@@ -231,8 +237,15 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - C: (Grok Bot / coding agent, ~11:40) Batch landed: PRs 375, 374, 372, 373 and 371 squash-merged to main (hs-hold/hsdeals-claude-code). 4 migrations were applied to prod (`funnel_queue_gates` …
 - C: (Coding agent, ~11:40) Re-screen (0 RapidAPI calls): 732 rows screened and 0 queued. Held: 197 `basement_unknown`, 60 low comps, 36 missing sf, 5 ARV > 2× ask, 4 commercial, 3 duplex, 1 …
 - C: (Grok Bot, ~12:30) The big blocker is basement data: the listing API gives one sqft number with no above-grade/basement split. The Marion County Assessor has the split (above-grade, basement …
+- C: (Coding agent, PR 376, 14:08) Source that splits above-grade from finished basement: the live Marion County property record card (`maps.indy.gov`), matched by address through the Indy GIS parcel …
+- C: (Coding agent, PR 376) 133 of 197 holds filled and re-screened, 0 queued for Deal Analysis, RapidAPI usage unchanged (969 logged). In 46 listings the listing sqft included the basement (house …
+- C: (Coding agent, PR 376) 64 still held: 49 in zip 46112 (Hendricks County, outside Marion, not in this source) and 15 with no single clear parcel.
+- C: (Grok Bot, 14:08) The screen is now accurate but still finds no deal; the main blockers are too few comps and high asking prices. To be revisited at the criteria comparison on Nov 25.
 - A: (Grok Bot) Launched coding agents for PRs 372 (pending pre-queue), 373 (new construction), 374 (zip retry and 6 h page cache) and 375 (RapidAPI logger wrapper `rapidApiGet`). Steered PR 371 with the …
 - A: (Deal Analysis) ARV diagnostic (4 listings), Atlanta held deals (4), and the basement rule committed to agent-rules.
+- A: (Grok Bot) Launched coding agent bc-7bd31e7a → PR 376 (`cursor/marion-assessor-basement-e4d7`, +1328/-3): one-time backfill plus an automatic Marion County lookup in the daily search. Not merged …
+- A: (Grok Bot, 18:24) 10 new Indy brokers found with the saved prompt (research only, nobody contacted): top 3 Gretchen Szostak (8.2), Bryan Arnold (8.0), Damian Szostak (7.4). File …
+- A: (Grok Bot, routine 18:24) Indy contacts drip, day 2: 2 new — lender Sam Barrow (Indy Private Lending, 6/10) and contractor Gary Brackett (All Pro Construction, 4/10); no new inspector passed. Skipped …
 ### [[2026-11-18]]
 - D: (Grok Bot, Nov 17 23:20, owner) Final Indy outreach post written ("Expanding into Indianapolis, who should we meet?"); area line updated to cover the north zips and …
 - D: (Grok Bot, Nov 17 23:22) BiggerPockets-podcasts to-do from מזכירה is on hold until the owner says what he wants (asked via מזכירה).

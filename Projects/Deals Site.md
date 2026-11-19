@@ -26,7 +26,7 @@ The partners' deal website (Grok Deals / Grok Analyses) — the only place analy
 
 ## Open tasks
 - [x] Indianapolis / Georgia filter live on Grok Deals and Funnel Grok analyses (PR 368, 369)
-- [ ] PR 370 motivated-seller flag: owner decision to merge / strong-phrases only
+- [ ] PR 370 motivated-seller flag: owner decided 2026-11-19 to keep it loose (any motivation phrase flags); merge in the next batch with PR 376
 - [ ] Owner may still want a signed-in browser check of the 22 / 2 split
 - [ ] Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it
 

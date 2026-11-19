@@ -2,7 +2,7 @@
 type: contact-index
 category: contractor
 market: Indianapolis
-updated: 2026-11-16
+updated: 2026-11-19
 tags: [contact, contractor]
 ---
 # Indy Contractors
@@ -43,4 +43,9 @@ The remaining 35 kept contractors are in the workbook (same columns).
 
 Also on the avoid list from earlier research (not necessarily in this excluded sheet): Off Leash Construction (closed, Ch. 7, Sept 2026), Hoosier Custom Construction, Little Enterprises (GC license inactive per BuildZoom, Jul 2025 — verify on indy.gov). See [[Avoid]].
 
-Related: [[Indy Brokers]], [[Indy Trip Nov 2026]].
+## Added by the contacts drip
+| Score | Name | Phone | Notes | Source |
+|---|---|---|---|---|
+| 4/10 (unverified) | Gary Brackett — All Pro Construction (All Pro Contracting LLC, 46268) | (317) 526-4227 | GC and licensed broker; renovation plus buy/sell for investors; claims 20+ years; no independent reviews or BBB profile found (negatives found belong to similarly named firms elsewhere). | drip day 2 (2026-11-19) |
+
+Related: [[Indy Brokers]], [[Indy Lenders]], [[Indy Trip Nov 2026]].

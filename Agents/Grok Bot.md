@@ -31,3 +31,7 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Voice calls with the owner. Ran coding agents for PRs 372–375 and steered PR 371. Landed all five in **one batch** (owner rule: merges and deploys always together, never piecemeal), with 4 migrations, 9 functions and a cache-only re-screen of 732 rows that queued 0. Sent the 4-listing ARV diagnostic to [[Deal Analysis]].
 - New standing rules: skip new construction and pending listings before the queue, and apply the Indy 50% finished-basement rule.
 - Open: owner yes/no on pulling Marion County Assessor above-grade/basement data for the 197 held listings.
+
+### 2026-11-19 — Grok Bot (from sync 23:15)
+- Owner kept the PR 370 motivated-seller tag loose; approved the Marion County Assessor backfill. PR 376 filled 133/197 holds, 0 queued; it also adds an automatic county lookup to the daily search. PRs 370 + 376 await the next single batch.
+- Found 10 new Indy brokers with the saved prompt; contacts drip day 2 delivered (Sam Barrow, Gary Brackett). Drip day 3 on Nov 20, then delete that routine.
