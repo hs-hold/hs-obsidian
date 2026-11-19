@@ -36,6 +36,11 @@ Both-strategies names that recurred: [[46221]] (Decatur Twp, often cited as a to
 - Indianapolis-specific adjustment research: `/home/box/shared/indy-arv-adjustments.md` (no local paired-sales study exists; dollar defaults are estimates from appraiser guidance, studies, and FHFA).
 - Shared comp rules: `/home/box/shared/agent-rules/comp-adjustments.md`.
 
+## Basement and above-grade area (owner, 2026-11-19)
+- ARV uses above-grade GLA only. A finished basement adds exactly 50% of above-grade $/sf × finished sf as a separate line. Unfinished basement and unfinished upper floors add $0. This applies to the site prescreen and Deal Analysis.
+- The listing API has a single sqft field with no above-grade split. The Marion County Assessor has the split for free. Research: `/home/box/shared/research/indy-basement-sqft-2026-11-19.md`.
+- Comp boundaries: comps don't cross I-65, I-70, I-465, I-69, rail, N Meridian, Madison Ave or 38th St, and don't mix Lawrence with Indianapolis. Radius 0.5 mi.
+
 ## Links
 - Profile: [[00 Profile]]
 - Trip: [[Indy Trip Nov 2026]]

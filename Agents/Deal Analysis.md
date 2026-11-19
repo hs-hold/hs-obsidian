@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Deal Analysis"
 created: 2026-11-09
-updated: 2026-11-17
+updated: 2026-11-19
 tags: [agent]
 ---
 # Deal Analysis — work log
@@ -17,3 +17,8 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 
 ### 2026-11-17 evening — Deal Analysis (from sync 23:13)
 - Counted ~210 deals since Nov 9. Deep micro-location check on [[1733 Olive St]] → REJECT on site. Added the micro-location rule. Indy-only searches through Nov 24, reminder Nov 24 10:00. Received trial criteria and the MAO rule.
+
+### 2026-11-19 — Deal Analysis (from sync 13:15)
+- [[2026-11-19 Indy ARV diagnostic (4 listings)]] and [[2026-11-19 Atlanta held deals (4)]]: all REJECT.
+- New rule (owner, 11:33 in its own chat), commit 5a38484 in `agent-rules/comp-adjustments.md`: Indy above-grade GLA only; finished basement as a separate line at 50% × above-grade $/sf; unfinished basement $0; every analysis states the basis of each sqft figure.
+- From Nov 19 the site prescreen passes flagged outlier comps (with % deviation and `upside_arv`), so weigh them in context.

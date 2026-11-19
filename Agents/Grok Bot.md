@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Grok Bot"
 created: 2026-11-16
-updated: 2026-11-17
+updated: 2026-11-19
 tags: [agent]
 ---
 # Grok Bot — work log
@@ -26,3 +26,8 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Launched the coding agent for **PR 371** (funnel pre-screen ladder). It is open and awaits the owner's decision; Grok Bot recommends adding bot-style MAO and ARV tightening before merging.
 - Built `00 Memory.md` and `build_memory_file.py`. Logged the funnel failures in [[כשלים 18.11 — סינון עסקאות]].
 - Routines: daily deal search 08:00, RapidAPI watch 09:00, brain sync 13:00/23:00, Indy contacts drip (Nov 18–20, ~18:15), weekly usage (Sun 09:00), weekly metrics (Sun 09:30), criteria trial review (Nov 25, 10:00).
+
+### 2026-11-19 — Grok Bot (from sync 13:15)
+- Voice calls with the owner. Ran coding agents for PRs 372–375 and steered PR 371. Landed all five in **one batch** (owner rule: merges and deploys always together, never piecemeal), with 4 migrations, 9 functions and a cache-only re-screen of 732 rows that queued 0. Sent the 4-listing ARV diagnostic to [[Deal Analysis]].
+- New standing rules: skip new construction and pending listings before the queue, and apply the Indy 50% finished-basement rule.
+- Open: owner yes/no on pulling Marion County Assessor above-grade/basement data for the 197 held listings.
