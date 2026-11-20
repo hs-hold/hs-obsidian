@@ -73,3 +73,39 @@ A local "boots" team still matters even with a list engine: realtor, contractor,
 - All 2020 dollar costs and the text-blast tactic.
 - Unverified 2020 vendor and VA contacts.
 - Assuming a dialer or SMS vendor is compliant because a 2020 course used one.
+
+## Owner discussion 2026-11-20 (Grok Bot, ~10:30–13:00 Asia/Jerusalem)
+Status: **draft, not approved.** The owner chose this skill as the one to discuss (and dropped [[seller-and-wholesaler-call-scripts]] for Tal). See [[2026-11-20]].
+
+Open decisions:
+1. **Scope** — checklist/filter for inbound leads only, or a paid outreach machine? Draft recommends checklist first; machine only after a local team and a legal review.
+2. **Runner** — existing Deal Inbox + Zip Intel, or a new "Off-Market Desk" bot.
+3. **Budget** — if a machine, re-price 2026 PropStream / skip tracing / dialer.
+
+### 2026 owner-identification tools (no skip tracing)
+Public records give owner name + mailing address, not phone. A skip-traced number gives no consent for calls/texts → **direct mail is the safe channel**.
+
+| Tool | What you get | Price |
+|---|---|---|
+| Marion County assessor cards / MapIndy | owner, address, parcel | free |
+| Marion recorder, tax-sale reports, mycase | motivation (estate, eviction, divorce, tax debt) | basic free; Tapestry $6.95/search |
+| PropertyRadar | owner, mailing address, absentee, equity, distress, mail | $119/mo, postcard 66¢ |
+| PropStream | ownership, liens, foreclosures, 165 filters, mail | sub price not on official page; postcard 57¢ |
+| DealMachine | driving for dollars, AI postcards | Basic ~$119/mo (unverified), postcard 75¢ |
+| RealEstateAPI / ATTOM / Regrid | owner-data API | from $599/mo; ATTOM/Regrid unpublished |
+
+TCPA exposure for calls, texts and AI voice: **$500–1,500 per violation**.
+
+### Creative / underused methods (fit score 1–10)
+- 9 — Indy official lists: unsafe buildings, long-term vacant property program (new Jan 2026), demolition, sheriff sales (free; enrich owner from assessor card).
+- 9 — Mail with QR to a consent page (company name, opt-out, record kept) — the lawful path to calls/texts.
+- 8 — Driving for dollars (DealMachine from $99/mo; PropStream AI photo condition) — fits Tal's trip.
+- 8 — Local partnerships: estate/eviction attorneys, estate-sale companies, property managers — fits the trip.
+- 6 — Nextdoor / Facebook groups (Nextdoor business promotion only from a verified business page since Aug 2026).
+- 5 — Cold email under CAN-SPAM (email via enrichment ~8¢/contact; low reach).
+- 5 — Manual LinkedIn for out-of-state owners (no bots).
+- 2 — Ringless voicemail, texts to landlines, AI profile search (FCC: prerecorded voice → prior written consent).
+
+**Recommendation:** free Indy lists + driving for dollars during Tal's trip + QR-consent mail; call/text only after consent; legal review before calls/texts/email at volume. Operational summary, not legal advice.
+
+Reminder to the owner: Sun 2026-11-22 10:00 Israel time (routine `reminder-off-market-outreach-methods`).

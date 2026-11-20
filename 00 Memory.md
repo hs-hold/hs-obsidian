@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-20 13:21 Asia/Jerusalem from commit 14076c3 2026-11-20 10:04 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-20 13:23 Asia/Jerusalem from commit 10917e3 2026-11-20 13:21 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (9)
@@ -17,8 +17,8 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
 - Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
-- Recent ([[2026-11-20]]): (Grok Bot chat, 02:39, owner) No skill is saved without approval. Content Insights drafts each skill to `/home/box/shared/skills-proposed/<slug>.md` and sends it to Grok Bot; Grok Bot brings it to the owner with a short …
 - Recent ([[2026-11-20]]): (Grok Bot chat, ~02:50) 7 skill drafts were put to the owner (multi-select). Grok Bot's recommendation: approve the skills into existing bots first, and consider a new bot only when the work becomes regular (e.g. seller …
+- Recent ([[2026-11-20]]): (Grok Bot chat, ~10:30–13:00, owner) Tal does not need a call script. Skill proposal #3 [[seller-and-wholesaler-call-scripts]] is dropped as far as Tal's trip is concerned. The owner chose to discuss the off-market …
 - Last activity seen in vault: 2026-11-20
 ### Deal Analysis — [[Deal Analysis]]
 - Role: Deal analysis bot.
@@ -159,13 +159,17 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
 
 ## Open decisions / items (last 7 days + projects; unchecked only)
-- Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). — [[2026-11-20]]
+- Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). Update ~10:30–13:00: #3 call scripts dropped for Tal; off-market leads under … — [[2026-11-20]]
 - Owner: analyse the two Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln) or leave them? Recommendation: leave. — [[2026-11-20]]
 - Next merge batch (one batch): PR 370 + PR 376, plus proposed fixes: read-only `deal_queue` peek (GET must not consume), screened-listing count in the funnel health response, "ready for full … — [[2026-11-20]]
 - Zip Intel note for 46140 (Greenfield) is still missing. — [[2026-11-20]]
 - Content Insights: re-record video 10-2, then 10-3 — only within a new owner-approved budget (4% used up). — [[2026-11-20]]
 - Indy contacts drip day 3 today ~18:15 (attorney/title, insurance, local bank, investor groups), then delete the routine. — [[2026-11-20]]
 - Trial-vs-old criteria comparison Nov 25 10:00. — [[2026-11-20]]
+- Owner: off-market leads skill decisions — scope (checklist/filter for inbound leads vs a paid outreach machine), who runs it (Deal Inbox + Zip Intel vs a new Off-Market Desk bot), budget (if a … — [[2026-11-20]]
+- Reminder Sun Nov 22 10:00 Israel time: off-market outreach methods. — [[2026-11-20]]
+- Legal review before any call/text/email outreach at volume. — [[2026-11-20]]
+- Consider for Tal's trip: driving for dollars + meeting estate/eviction attorneys, estate-sale companies, PMs (see [[Indy Trip Nov 2026]]). — [[2026-11-20]]
 - Data sources still missing for some fixes (county class, flood zone and the Abandoned list on sold comps; city, township and school on sold caches). The code is wired and idle until those fields … — [[2026-11-19]]
 - Indy contacts drip: Nov 19 and 20 at ~18:15. — [[2026-11-19]]
 - Next merge batch: PR 370 (motivated-seller tag, loose) + PR 376 (Marion County assessor lookup) — merge and deploy together, per the one-batch rule. — [[2026-11-19]]
@@ -210,6 +214,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Deep recheck of old contacts (see [[Indy Trip Nov 2026]]) — [[Deal Pipeline]]
 - Next single batch: PR 370 + PR 376, plus (proposed 2026-11-20) a read-only `deal_queue` peek so GET does not mark unpulled items 'sent', a screened-listing count in the funnel health response, and … — [[Deal Pipeline]]
 - Owner: analyse the two sent-but-unanalysed Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln)? Recommendation: no — [[Deal Pipeline]]
+- Off-market lead source (2026-11-20): owner to decide scope / runner / budget of [[off-market-lead-generation]]; recommended start = free Indy lists + direct mail with QR consent; reminder Sun Nov 22 … — [[Deal Pipeline]]
 - PR 370 motivated-seller flag: owner decided 2026-11-19 to keep it loose (any motivation phrase flags); merge in the next batch with PR 376 — [[Deals Site]]
 - Owner may still want a signed-in browser check of the 22 / 2 split — [[Deals Site]]
 - Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it — [[Deals Site]]
@@ -220,6 +225,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals" — [[Indy Trip Nov 2026]]
 - Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2 — [[Indy Trip Nov 2026]]
 - Contractor size / quality research was paused; retry only if the owner asks, in small batches — [[Indy Trip Nov 2026]]
+- Idea (2026-11-20, pending owner decision): driving for dollars during the trip and meeting estate/eviction attorneys, estate-sale companies and PMs for referrals — see [[off-market-lead-generation]] — [[Indy Trip Nov 2026]]
 - Register the 5 grok-trestle skills and tell all bots to use the vault — only when the owner says to continue — [[Obsidian Vault]]
 - Owner: connect Obsidian desktop/mobile via the Obsidian Git plugin (guide section 4) — [[Obsidian Vault]]
 - Optional: mention grok-trestle in the vault root README — [[Obsidian Vault]]
@@ -232,18 +238,28 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - D: (Grok Bot chat, 02:39, owner) No skill is saved without approval. Content Insights drafts each skill to `/home/box/shared/skills-proposed/<slug>.md` and sends it to Grok Bot; Grok Bot brings it to …
 - D: (Grok Bot chat, ~02:50) 7 skill drafts were put to the owner (multi-select). Grok Bot's recommendation: approve the skills into existing bots first, and consider a new bot only when the work becomes …
 - D: (Deal Analysis / owner, 07:12) Owner approved analysing the 4244 Canby Ln wholesale lead.
+- D: (Grok Bot chat, ~10:30–13:00, owner) Tal does not need a call script. Skill proposal #3 [[seller-and-wholesaler-call-scripts]] is dropped as far as Tal's trip is concerned. The owner chose to discuss …
 - Owner: (Grok Bot chat, 02:38–02:39) The owner set the 4% budget and approval flow above in his own words; he wants Content Insights to remember where it stopped and continue from that point.
+- Owner: (Grok Bot chat, ~10:30–13:00) Owner thought ~40% of weekly usage had been used overnight (it was ~2.7%).
+- Owner: (Voice call, ~10:30–13:00) Owner asked for 2026 owner-identification tools without skip tracing, and for creative, less-common legal ways to reach owners by phone/text/email. He didn't understand the …
+- Owner: (Grok Bot chat, ~10:30–13:00) Owner: "תזכיר לי את זה בהמשך" — remind him of the outreach-methods research later.
 - C: (Deal Analysis, 07:22) [[4244 Canby Ln]] (Decatur GA 30035; New Western $139k, also MLS $145k): REJECT. ARV $254k, rehab $56.7k, rent $1,800 → cash flow $30/mo at 65% LTV; trial MAO $105.4k (27.3% …
 - C: (Grok Bot, 08:07) Daily search: zips 46140 and 46142 pulled one after the other, no failures; 46140 queued 1, 46142 queued 0. Next due zip 46143. Usage ~0% for the run (86.7% weekly; resets Sat Nov …
 - C: (Deal Analysis, 08:19) [[1019 N Broadway St]] (Greenfield 46140, ask $149.9k): REJECT. ARV $189.2k (screen $205.7k), rehab $75.8k (screen $39.1k), rent $1,500. Trial MAO $70.8k (52.8% below ask); old …
 - C: (Deal Analysis, 08:19) Queue bug: `GET deal-analysis-ingest?limit=5` marks items 'sent' even if not analysed. Two Nov 19 items from 46123 (7228 Lockford Walk N, Avon $405k; 1881 Wynnewood Ln, Avon …
 - C: (Content Insights, 02:46) Video 10-1 (off-market part 1) transcribed and summarised. Key point: build the Indy team base first (agent for comps/rents, contractor for quick rehab estimates, attorney …
 - C: (Content Insights, 10:05) Stopped at 87.5% weekly usage (the 4% budget; started 84.8%). Video 10-2 recording captured only ~11.5 min and the transcript is unusable; no notes. Resume: re-record 10-2 …
+- C: (Grok Bot, ~10:30–13:00) Usage check: the owner asked whether 40% of weekly usage was used overnight. No — the weekly limit rose only ~2.7% (84.8% → 87.5%), mostly Content Insights (self-stopped at …
+- C: (Grok Bot, voice-call research, ~10:30–13:00) Owner identification without skip tracing (2026): public records give owner name + mailing address, not phone; a skip-traced number gives no legal …
+- C: (Grok Bot, ~10:30–13:00) Creative/underused outreach methods, scored for fit (1–10): Indy official lists — unsafe buildings, long-term vacant property program (new from Jan 2026), demolition lists …
 - A: (Content Insights, 02:46) 7 skill proposals (drafts, not installed), in `Learning/Skill proposals/` and `/home/box/shared/skills-proposed/`: [[offer-mao-calculation]] (Deal Analysis) …
 - A: (Grok Bot) Relayed the owner's skills rules to Content Insights; sent the 46140 item to Deal Analysis with trial + old BRRRR criteria; reported the result to the owner in Hebrew (08:20) with two …
 - A: (Grok Bot, ~10:24) Looked up PropStream plan pricing (ties to video 10-3 / off-market skill). No conclusion recorded.
 - A: (מזכירה, morning) To-do reminder: watch BiggerPockets podcasts; a clarifying question to the owner is still unanswered.
 - A: (Drive sync, 13:2x) Filed both deal analyses as Google Docs in עסקאות and a raw zip in the archive. See [[Drive Library]].
+- A: (Grok Bot, ~10:30–13:00) Walked the owner through the [[off-market-lead-generation]] draft (2020 funnel; course cost ~$1,000–1,300 per round, outdated; mass SMS problematic under TCPA) and posed 3 …
+- A: (Grok Bot, ~10:30–13:00) Ran two research passes from the voice call and posted the tool table + ranked method list to the chat.
+- A: (Grok Bot, ~10:30–13:00) Set a reminder for Sun Nov 22 10:00 Israel time (routine `reminder-off-market-outreach-methods`), before Tal's trip, with the recommendation, ranked list and tool comparison …
 ### [[2026-11-19]]
 - D: (Grok Bot, call ~09:30, owner) New-construction homes are skipped entirely before the analysis queue, because a new home listed at market price leaves no room to add value or negotiate. They never go …
 - D: (Grok Bot, call ~09:30, owner) The pending/contingent/under-contract/sold/off-market check runs before queue entry, using the stored status field with no API calls. Coming-soon listings stay in.

@@ -60,3 +60,6 @@ Log: motivation in their words, timeline, decision maker, their asking number, a
 - HelloSign and PropStream are 2020 tool names; substitute only after confirming what the team uses.
 - The "we also have a team of Realtors" line should be used only if that is currently true.
 - Scripts written for U.S. seller calls still have to comply with current calling-consent rules.
+
+## Status
+- 2026-11-20 (~10:30–13:00 Asia/Jerusalem, owner to Grok Bot): **"Tal doesn't need a script"** — not needed for Tal's Indy trip; treat as dropped for now. See [[2026-11-20]] and [[off-market-lead-generation]].

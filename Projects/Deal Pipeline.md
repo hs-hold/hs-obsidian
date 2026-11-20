@@ -50,6 +50,7 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - [ ] Deep recheck of old contacts (see [[Indy Trip Nov 2026]])
 - [ ] Next single batch: PR 370 + PR 376, plus (proposed 2026-11-20) a read-only `deal_queue` peek so GET does not mark unpulled items 'sent', a screened-listing count in the funnel health response, and "ready for full renovation"/"blank canvas" listing text → heavy rehab tier
 - [ ] Owner: analyse the two sent-but-unanalysed Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln)? Recommendation: no
+- [ ] Off-market lead source (2026-11-20): owner to decide scope / runner / budget of [[off-market-lead-generation]]; recommended start = free Indy lists + direct mail with QR consent; reminder Sun Nov 22 10:00
 
 ## Links
 - Profile: [[00 Profile]]

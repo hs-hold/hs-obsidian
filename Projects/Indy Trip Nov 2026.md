@@ -39,6 +39,7 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - [ ] If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals"
 - [ ] Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2
 - [ ] Contractor size / quality research was paused; retry only if the owner asks, in small batches
+- [ ] Idea (2026-11-20, pending owner decision): driving for dollars during the trip and meeting estate/eviction attorneys, estate-sale companies and PMs for referrals — see [[off-market-lead-generation]]
 
 ## Links
 - Profile: [[00 Profile]]
