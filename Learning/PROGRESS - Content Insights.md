@@ -48,3 +48,9 @@ Stopped: 2026-11-20 02:46 (Asia/Jerusalem)
 Paths: `/home/box/shared/skills-proposed/<slug>.md` and vault `Learning/Skill proposals/<slug>.md`.
 
 **Not done this session:** studying remaining course text end-to-end; watching 10-2/10-3; drafting an inspection-reading skill; saving any skill as an official skill; contacting anyone.
+
+## Stop point — Nov 20, 10:05 (Asia/Jerusalem)
+- Stopped: weekly usage reached 87.5% (budget stop point; baseline 84.8%).
+- Video 9-10-2 (Oren Sofrin, off-market pt 2): recording captured only ~11.5 min and Whisper output is mostly garbage (only a sample English seller call at 05:35–08:55 is usable). NO notes written. RESUME: re-record 10-2 from 00:00 (https://lms.projectxclub.com/courses/9/10-2), raise silence threshold/minimum length so buffering doesn't stop it, then notes.
+- Then: 10-3 PropStream (https://lms.projectxclub.com/courses/9/10-3).
+- Skills proposed so far: 7 (see /home/box/shared/skills-proposed/). No new ones this session.
