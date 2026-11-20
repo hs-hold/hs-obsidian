@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Content Insights"
 created: 2026-11-09
-updated: 2026-11-17
+updated: 2026-11-20
 tags: [agent]
 ---
 # Content Insights — work log
@@ -20,3 +20,6 @@ Owner gave Project X Club LMS access (login in vault). Collected full text of co
 
 ### 2026-11-17 — Project X Israel studied end to end
 All 14 modules studied; insights + draft work plan in [[Project X Israel - insights]] (also Drive: Content Insights/Project X Israel). Plan sent to Grok Bot for proposal to owner.
+
+### 2026-11-20 — Video 10-1 notes and skill proposals
+Watched/transcribed Course 9 lesson 10-1 (Oren Sofrin, off-market part 1, 22:53). Notes and transcript saved under [[9-10-1-notes]] and [[9-10-1-transcript]] in [[Cycle 28 Recordings - full text|Learning/Cycle 28 Recordings]], and in Drive Cycle 28 folder. Drafted 7 skill *proposals* (not installed as skills) under `Learning/Skill proposals/` and `/home/box/shared/skills-proposed/`. Resume at Course 9, lesson 10-2. See [[PROGRESS - Content Insights]].
