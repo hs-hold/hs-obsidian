@@ -2,7 +2,7 @@
 type: contact-index
 category: lender
 market: Indianapolis
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [contact, lender]
 ---
 # Indy Lenders
@@ -16,3 +16,5 @@ Research only for [[Indy Trip Nov 2026]]; nobody contacted. Lenders found earlie
 Rejected 2026-11-19 as national with no local presence: KREC, The Hard Money Co., Lima One. Already on earlier lists: Loan Goat.
 
 Related: [[Indy Contractors]], [[Indy Brokers]].
+
+- 2026-11-20: local banks / credit unions from drip day 3 (NBOFI, Mutual Savings Bank, Fahey Bank, Financial Health FCU) are in [[Indy Insurance, Banks & Title]].

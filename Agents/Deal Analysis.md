@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Deal Analysis"
 created: 2026-11-09
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [agent]
 ---
 # Deal Analysis — work log
@@ -27,3 +27,6 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 - [[4244 Canby Ln]] (New Western, Atlanta 30035): REJECT, trial MAO $105.4k vs $145k MLS / $108.4k vs $139k wholesale; payload not posted.
 - [[1019 N Broadway St]] (daily funnel 46140): REJECT, trial MAO $70.8k vs $149.9k; posted as deal 35161f1b. Proposed screen lesson: "ready for full renovation" text forces the heavy rehab tier.
 - Found that `GET deal-analysis-ingest` marks unpulled items 'sent'; two Avon items (Nov 19, 46123) are sent-but-unanalysed pending the owner's answer.
+
+### 2026-11-20 evening — Deal Analysis (from sync 23:25)
+- [[714 Cather Ct]] (wholesaler Adam via Deal Inbox, Atlanta 30088): REJECT, trial MAO $86.1k vs $143k ask; payload posted on owner instruction (deal b74f7b63).

@@ -4,7 +4,7 @@ status: active
 owner: H.S HOLDINGS
 market: both
 created: 2026-11-16
-updated: 2026-11-17
+updated: 2026-11-20
 tags: [project, deals]
 ---
 # Deal Pipeline
@@ -66,3 +66,4 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-19: daily zips 46113/46123, 0 sent. Owner approved pending + new-construction pre-queue skips, the Indy 50% finished-basement rule, 8 prescreen fixes (outliers flagged, not removed) and one-batch landing. PRs 375/374/372/373/371 merged; 4 migrations and 9 functions deployed; cache-only re-screen of 732 rows queued 0 (197 held for `basement_unknown`). [[2026-11-19 Indy ARV diagnostic (4 listings)]] and [[2026-11-19 Atlanta held deals (4)]]: all reject. Next proposed step: Marion County Assessor above-grade/basement data. See [[2026-11-19]].
 - 2026-11-19 (evening): owner approved the Marion County backfill; PR 376 filled 133/197 holds from the live county property card and re-screened them: 0 queued (main blockers: too few comps, high asks). 64 still held (49 in 46112, outside Marion). PR 370 motivated-seller tag kept loose by the owner. PRs 370 + 376 wait for the next single batch.
 - 2026-11-20: daily zips 46140/46142 → 1 queued → [[1019 N Broadway St]] REJECT (rehab tier was the screen's big miss: $75.8k vs $39.1k). Deal Analysis found the ingest GET marks unpulled items 'sent'. Next due zip 46143. Wholesale lead [[4244 Canby Ln]] also REJECT. See [[2026-11-20]].
+- 2026-11-20 evening: WhatsApp wholesale lead from [[Adam (Atlanta wholesaler)]] → [[714 Cather Ct]] (30088, $143k, hoarder) REJECT, trial MAO $86.1k; posted to the site on owner instruction (deal b74f7b63).

@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Deal Inbox"
 created: 2026-11-11
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [agent]
 ---
 # Deal Inbox — work log
@@ -18,3 +18,7 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 ### 2026-11-19 — Deal Inbox (from sync 13:15)
 - Owner decision: townhomes are fine for the buy box (zip and numbers still apply).
 - At 09:56 the owner asked to analyze 4 metro-Atlanta deals held under the Indy-only rule. All were rejected: [[2026-11-19 Atlanta held deals (4)]].
+
+### 2026-11-20 — Deal Inbox (from sync 23:25)
+- 06:50 inbox scan: [[4244 Canby Ln]] handed off (REJECT).
+- 20:43: owner forwarded wholesaler Adam's WhatsApp blast (19:27); handed [[714 Cather Ct]] (only buy-box item of 5) to Deal Analysis → REJECT; relayed the owner's "post it" instruction. New contact [[Adam (Atlanta wholesaler)]].

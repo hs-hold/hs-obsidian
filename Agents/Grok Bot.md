@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Grok Bot"
 created: 2026-11-16
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [agent]
 ---
 # Grok Bot — work log
@@ -42,3 +42,7 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - [ ] Get the owner's answer on the 7 skill proposals and the two Avon queue items.
 - (~10:30–13:00, backfill) Usage check for the owner: weekly +2.7% overnight (84.8%→87.5%, mostly Content Insights), Grok Bot 49.1% of 87.5%, reset Sat Nov 21 14:29, no extra credits. Owner dropped call scripts for Tal and discussed [[off-market-lead-generation]]; two voice-call research passes (owner-ID tools without skip tracing; ranked creative outreach methods → recommend free Indy lists + driving for dollars + QR-consent mail). Reminder set Sun Nov 22 10:00 (`reminder-off-market-outreach-methods`).
 - [ ] Owner decisions on the off-market skill: scope, runner, budget.
+
+### 2026-11-20 evening — Grok Bot (from sync 23:25)
+- Indy contacts drip day 3 (18:21): 10 new insurance/bank/title/investor-group contacts → [[Indy Insurance, Banks & Title]]. Drip finished; delete the routine.
+- Evening brain sync ran without transcript tools; artifacts-only harvest. Next sync: backfill owner messages after 13:21.

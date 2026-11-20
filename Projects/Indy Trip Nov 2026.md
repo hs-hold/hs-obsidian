@@ -4,7 +4,7 @@ status: active
 owner: Tal
 market: Indianapolis
 created: 2026-11-16
-updated: 2026-11-17
+updated: 2026-11-20
 tags: [project, indianapolis, trip]
 ---
 # Indy Trip Nov 2026
@@ -53,3 +53,4 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - 2026-11-17: Third broker batch, 10 new names found, Chris Price removed at owner request, 9 delivered in `indy-brokers-batch3.html` with caveats moved into "מידע נוסף".
 - 2026-11-18: Contacts drip day 1 (`indy-contacts-drip-2026-11-18.html`).
 - 2026-11-19: 10 new brokers on owner request (`brokers-new-2026-11-19.html`, top: Gretchen Szostak 8.2, Bryan Arnold 8.0). Contacts drip day 2: lender Sam Barrow, contractor Gary Brackett. Day 3 (title/attorney, insurance, local bank, investor groups) on Nov 20.
+- 2026-11-20: Contacts drip day 3 (last): 10 new — insurance 3, banks 4, title/attorney 2, investor group 1 (top Killion & Hall 8/10) → [[Indy Insurance, Banks & Title]]. Drip routine should now be deleted. Indiana Apartment Association events Dec 1–3 may fit the trip.
