@@ -35,3 +35,8 @@ Durable facts from this period were written into the shared vault (daily notes, 
 ### 2026-11-19 — Grok Bot (from sync 23:15)
 - Owner kept the PR 370 motivated-seller tag loose; approved the Marion County Assessor backfill. PR 376 filled 133/197 holds, 0 queued; it also adds an automatic county lookup to the daily search. PRs 370 + 376 await the next single batch.
 - Found 10 new Indy brokers with the saved prompt; contacts drip day 2 delivered (Sam Barrow, Gary Brackett). Drip day 3 on Nov 20, then delete that routine.
+
+### 2026-11-20 — Grok Bot (from sync 13:20)
+- New owner rules for content → skills: Content Insights drafts skills only; Grok Bot brings each to the owner with "why it helps us"; nothing is saved before his yes; new-bot candidates are proposed, never created without approval. Content Insights' course-study budget was 4% of weekly usage (used up at 10:05).
+- Daily search 08:00: 46140 + 46142, 1 queued → [[1019 N Broadway St]] REJECT. Reported to the owner with next-batch fixes (read-only queue peek, screened count, "full renovation" → heavy rehab tier).
+- [ ] Get the owner's answer on the 7 skill proposals and the two Avon queue items.

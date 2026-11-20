@@ -48,6 +48,8 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - [ ] Engine tax-change proposal still awaiting a yes from the owner
 - [ ] Older open item: contractor size research, paused
 - [ ] Deep recheck of old contacts (see [[Indy Trip Nov 2026]])
+- [ ] Next single batch: PR 370 + PR 376, plus (proposed 2026-11-20) a read-only `deal_queue` peek so GET does not mark unpulled items 'sent', a screened-listing count in the funnel health response, and "ready for full renovation"/"blank canvas" listing text → heavy rehab tier
+- [ ] Owner: analyse the two sent-but-unanalysed Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln)? Recommendation: no
 
 ## Links
 - Profile: [[00 Profile]]
@@ -62,3 +64,4 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-17 evening: trial criteria for Nov 18–24 set (see [[00 Profile]]); MAO required in every analysis; Indianapolis-only focus, funnel expanded with the 33 trip zips, two zips per day with motivated-seller priority. [[1733 Olive St]] rejected after the micro-location check.
 - 2026-11-19: daily zips 46113/46123, 0 sent. Owner approved pending + new-construction pre-queue skips, the Indy 50% finished-basement rule, 8 prescreen fixes (outliers flagged, not removed) and one-batch landing. PRs 375/374/372/373/371 merged; 4 migrations and 9 functions deployed; cache-only re-screen of 732 rows queued 0 (197 held for `basement_unknown`). [[2026-11-19 Indy ARV diagnostic (4 listings)]] and [[2026-11-19 Atlanta held deals (4)]]: all reject. Next proposed step: Marion County Assessor above-grade/basement data. See [[2026-11-19]].
 - 2026-11-19 (evening): owner approved the Marion County backfill; PR 376 filled 133/197 holds from the live county property card and re-screened them: 0 queued (main blockers: too few comps, high asks). 64 still held (49 in 46112, outside Marion). PR 370 motivated-seller tag kept loose by the owner. PRs 370 + 376 wait for the next single batch.
+- 2026-11-20: daily zips 46140/46142 → 1 queued → [[1019 N Broadway St]] REJECT (rehab tier was the screen's big miss: $75.8k vs $39.1k). Deal Analysis found the ingest GET marks unpulled items 'sent'. Next due zip 46143. Wholesale lead [[4244 Canby Ln]] also REJECT. See [[2026-11-20]].

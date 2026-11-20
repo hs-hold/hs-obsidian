@@ -4,7 +4,7 @@ status: active
 owner: H.S HOLDINGS
 market: both
 created: 2026-11-17
-updated: 2026-11-19
+updated: 2026-11-20
 tags: [project, drive]
 ---
 # Drive Library
@@ -77,3 +77,4 @@ When a bot produces something the owner may want to open later:
   - Archived: `analyses-2026-11-19-raw.zip` in ניתוחי-עסקאות (no images) and `research-2026-11-19.zip` in מקורות-מחקר.
   - Added 3 index lines. Nothing was replaced, since these are new topics.
 - 2026-11-19 23:20: the evening sync filed in אנשי קשר (HTML): the 10 new Indy brokers (`מתווכים אינדי — 10 חדשים 19.11.html`) and the contacts drip day 2 (`אנשי קשר אינדי — טפטוף 19.11.html`, a proper text/html copy). The drip run's text/plain copy in טיול אינדי was moved to the archive's טיול-אינדי folder and its index line repointed. Added 1 index line.
+- 2026-11-20 13:21: the midday sync filed in עסקאות, as Google Docs: 4244 Canby Ln (Decatur 30035) and 1019 N Broadway St (Greenfield 46140) analyses, both rejected. Archived `analyses-2026-11-20-raw.zip` (no images) in ניתוחי-עסקאות. Added 2 index lines. Content Insights had already filed its 10-1 notes/transcript and skill-proposal drafts itself.

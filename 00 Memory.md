@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-19 23:16 Asia/Jerusalem from commit 62d099d 2026-11-19 13:17 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-20 13:21 Asia/Jerusalem from commit 14076c3 2026-11-20 10:04 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (9)
@@ -13,12 +13,13 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
 - Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
-- Latest log (2026-11-19 — Grok Bot (from sync 23:15)): Owner kept the PR 370 motivated-seller tag loose; approved the Marion County Assessor backfill. PR 376 filled 133/197 holds, 0 queued; it also adds an automatic county lookup to the daily search. PRs 370 + 376 await the next single batch. Found 10 new Indy brokers with the saved prompt; contacts …
+- Latest log (2026-11-20 — Grok Bot (from sync 13:20)): New owner rules for content → skills: Content Insights drafts skills only; Grok Bot brings each to the owner with "why it helps us"; nothing is saved before his yes; new-bot candidates are proposed, never created without approval. Content Insights' course-study budget was 4% of weekly usage (used …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
-- Recent ([[2026-11-19]]): (Grok Bot chat, 13:20, owner) Approved pulling Marion County Assessor above-grade / basement / finished-basement area for the 197 `basement_unknown` holds (0 RapidAPI calls).
-- Recent ([[2026-11-19]]): (Grok Bot chat, 18:15, owner) Asked for 10 new Indy brokers using the saved broker-search prompt.
-- Last activity seen in vault: 2026-11-19
+- Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
+- Recent ([[2026-11-20]]): (Grok Bot chat, 02:39, owner) No skill is saved without approval. Content Insights drafts each skill to `/home/box/shared/skills-proposed/<slug>.md` and sends it to Grok Bot; Grok Bot brings it to the owner with a short …
+- Recent ([[2026-11-20]]): (Grok Bot chat, ~02:50) 7 skill drafts were put to the owner (multi-select). Grok Bot's recommendation: approve the skills into existing bots first, and consider a new bot only when the work becomes regular (e.g. seller …
+- Last activity seen in vault: 2026-11-20
 ### Deal Analysis — [[Deal Analysis]]
 - Role: Deal analysis bot.
 - Job: Staged flow for each property: (1) ARV from closed comps, last 6 months, within half a mile, same type, filtered by condition, MEDIAN of adjusted prices, with adjustments for corner or noisy lots, busy roads (small, noted), lot size, exterior condition, garage vs street parking, school and park …
@@ -27,10 +28,10 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Deep micro-location check (owner, 2026-11-17): when a deal shows high potential, [[Deal Analysis]] investigates the micro-area in depth before the verdict: which side of the highway or creek it is on, comps from the …
 - Rule: Grok Deals shows only deals Deal Analysis has reviewed, at high quality: comps with notes, rehab breakdown, verdict, each comp's real time-to-sell, and whether it crosses a highway (owner, 2026-11-11).
 - Schedule: Indy-only check-in Nov 24 10:00 (Deal Analysis).
-- Latest log (2026-11-19 — Deal Analysis (from sync 13:15)): New rule (owner, 11:33 in its own chat), commit 5a38484 in `agent-rules/comp-adjustments.md`: Indy above-grade GLA only; finished basement as a separate line at 50% × above-grade $/sf; unfinished basement $0; every analysis states the basis of each sqft figure. From Nov 19 the site prescreen passes …
-- Recent ([[2026-11-19]]): (Deal Analysis, ~10:00) ARV diagnostic of 4 listings (prescreen ARV > 2.5× ask): all REJECT. The prescreen ARV was wrong every time (comps across Meridian/rail/I-465, basement or attic counted as GLA, a duplex, a …
-- Recent ([[2026-11-19]]): (Deal Analysis, ~10:18) Atlanta held deals (4), requested by the owner through [[Deal Inbox]] at 09:56: all REJECT and not posted. See [[2026-11-19 Atlanta held deals (4)]].
-- Last activity seen in vault: 2026-11-19
+- Latest log (2026-11-20 — Deal Analysis (from sync 13:20)): Found that `GET deal-analysis-ingest` marks unpulled items 'sent'; two Avon items (Nov 19, 46123) are sent-but-unanalysed pending the owner's answer.
+- Recent ([[2026-11-20]]): (Deal Analysis, 08:19) Queue bug: `GET deal-analysis-ingest?limit=5` marks items 'sent' even if not analysed. Two Nov 19 items from 46123 (7228 Lockford Walk N, Avon $405k; 1881 Wynnewood Ln, Avon $400k; both far above …
+- Recent ([[2026-11-20]]): (Deal Analysis / owner, 07:12) Owner approved analysing the 4244 Canby Ln wholesale lead.
+- Last activity seen in vault: 2026-11-20
 ### Atlanta Market Research — [[Atlanta Market Research]]
 - Role: Market research analyst.
 - Job: Studies the metro Atlanta, Georgia housing market by zip code and identifies the zip codes most likely to produce deals that meet the owner's criteria: monthly rent at least 1% of total investment (purchase plus rehab), flip profit at least $30,000 after selling costs, and ROI at least 15% on total …
@@ -55,12 +56,13 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 ### Content Insights — [[Content Insights]]
 - Role: Content-to-action analyst.
 - Job: consume it fully, understand it, write the conclusions down, and propose how to apply them inside our business.
-- Rules/data: `/home/box/shared/content-insights`
+- Rules/data: `/home/box/shared/content-insights`, `/home/box/shared/skills-proposed`
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
-- Latest log (2026-11-17 — Project X Israel studied end to end): All 14 modules studied; insights + draft work plan in [[Project X Israel - insights]] (also Drive: Content Insights/Project X Israel). Plan sent to Grok Bot for proposal to owner.
-- Recent ([[2026-11-17]]): (Content Insights 21:50–22:46) Project X Israel course studied in full (14 modules, 81 lessons; 6 lessons without transcript). Insights + 15-item work plan in [[Project X Israel - insights]] and Drive. Text collections …
-- Recent ([[2026-11-17]]): (Content Insights 21:46–22:13) Content Insights works as a "student": studies content in depth, summarizes, and sends an action plan to Grok Bot, which proposes implementation to the owner. Its files go to Obsidian and …
-- Last activity seen in vault: 2026-11-17
+- Schedule: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
+- Latest log (2026-11-20 — rules and stop point (from sync 13:20)): Owner rules (via Grok Bot, 02:30–02:39): apply skills to all content received; skills are drafts only and go through Grok Bot to the owner for approval; propose (never create) new bots; task budget 4% of weekly usage with a resume-point progress file. Stopped 10:05 at 87.5% weekly usage (budget …
+- Recent ([[2026-11-20]]): (Content Insights, 02:46) Video 10-1 (off-market part 1) transcribed and summarised. Key point: build the Indy team base first (agent for comps/rents, contractor for quick rehab estimates, attorney, inspector, title) …
+- Recent ([[2026-11-20]]): (Content Insights, 10:05) Stopped at 87.5% weekly usage (the 4% budget; started 84.8%). Video 10-2 recording captured only ~11.5 min and the transcript is unusable; no notes. Resume: re-record 10-2 from 00:00, then 10-3 …
+- Last activity seen in vault: 2026-11-20
 ### Deal Inbox — [[Deal Inbox]]
 - Role: Email deal intake.
 - Job: Reads the Gmail inbox where wholesalers send off-market deals, extracts every deal, enters it on the DealFlow site as a Grok deal, hands it to the Deal Analysis bot, and prepares replies to wholesalers (answers, requests for missing info, counteroffers). It NEVER sends email itself: every reply is …
@@ -72,7 +74,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 ### מזכירה — [[מזכירה]]
 - Role: Personal secretary.
 - Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
-- Last activity seen in vault: 2026-11-17
+- Latest log (2026-11-20 — מזכירה (from sync 13:20)): Morning to-do reminder sent to Grok Bot: watch BiggerPockets podcasts. A clarifying question to the owner is still unanswered.
+- Recent ([[2026-11-20]]): (מזכירה, morning) To-do reminder: watch BiggerPockets podcasts; a clarifying question to the owner is still unanswered.
+- Last activity seen in vault: 2026-11-20
 
 ## Owner rules & active criteria (from [[00 Profile]] + project decisions)
 - Primary strategy is BRRRR; flip is a secondary alternative. The pass/fail call and the max offer follow the BRRRR target (owner, 2026-11-12).
@@ -155,6 +159,13 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
 
 ## Open decisions / items (last 7 days + projects; unchecked only)
+- Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). — [[2026-11-20]]
+- Owner: analyse the two Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln) or leave them? Recommendation: leave. — [[2026-11-20]]
+- Next merge batch (one batch): PR 370 + PR 376, plus proposed fixes: read-only `deal_queue` peek (GET must not consume), screened-listing count in the funnel health response, "ready for full … — [[2026-11-20]]
+- Zip Intel note for 46140 (Greenfield) is still missing. — [[2026-11-20]]
+- Content Insights: re-record video 10-2, then 10-3 — only within a new owner-approved budget (4% used up). — [[2026-11-20]]
+- Indy contacts drip day 3 today ~18:15 (attorney/title, insurance, local bank, investor groups), then delete the routine. — [[2026-11-20]]
+- Trial-vs-old criteria comparison Nov 25 10:00. — [[2026-11-20]]
 - Data sources still missing for some fixes (county class, flood zone and the Abandoned list on sold comps; city, township and school on sold caches). The code is wired and idle until those fields … — [[2026-11-19]]
 - Indy contacts drip: Nov 19 and 20 at ~18:15. — [[2026-11-19]]
 - Next merge batch: PR 370 (motivated-seller tag, loose) + PR 376 (Marion County assessor lookup) — merge and deploy together, per the one-batch rule. — [[2026-11-19]]
@@ -197,6 +208,8 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Engine tax-change proposal still awaiting a yes from the owner — [[Deal Pipeline]]
 - Older open item: contractor size research, paused — [[Deal Pipeline]]
 - Deep recheck of old contacts (see [[Indy Trip Nov 2026]]) — [[Deal Pipeline]]
+- Next single batch: PR 370 + PR 376, plus (proposed 2026-11-20) a read-only `deal_queue` peek so GET does not mark unpulled items 'sent', a screened-listing count in the funnel health response, and … — [[Deal Pipeline]]
+- Owner: analyse the two sent-but-unanalysed Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln)? Recommendation: no — [[Deal Pipeline]]
 - PR 370 motivated-seller flag: owner decided 2026-11-19 to keep it loose (any motivation phrase flags); merge in the next batch with PR 376 — [[Deals Site]]
 - Owner may still want a signed-in browser check of the 22 / 2 split — [[Deals Site]]
 - Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it — [[Deals Site]]
@@ -213,6 +226,24 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Confirm the twice-daily harvest routine is actually scheduled after this backfill — [[Obsidian Vault]]
 
 ## Key recent outcomes (last 7 days, newest first; D=decision, Owner=owner info, C=conclusion, H=happened, A=agent work)
+### [[2026-11-20]]
+- D: (Grok Bot chat, ~02:30, owner) Content → skills: [[Content Insights]] turns course content into reusable skills. If a new skill would be best run by a new dedicated bot, Grok Bot proposes that bot to …
+- D: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
+- D: (Grok Bot chat, 02:39, owner) No skill is saved without approval. Content Insights drafts each skill to `/home/box/shared/skills-proposed/<slug>.md` and sends it to Grok Bot; Grok Bot brings it to …
+- D: (Grok Bot chat, ~02:50) 7 skill drafts were put to the owner (multi-select). Grok Bot's recommendation: approve the skills into existing bots first, and consider a new bot only when the work becomes …
+- D: (Deal Analysis / owner, 07:12) Owner approved analysing the 4244 Canby Ln wholesale lead.
+- Owner: (Grok Bot chat, 02:38–02:39) The owner set the 4% budget and approval flow above in his own words; he wants Content Insights to remember where it stopped and continue from that point.
+- C: (Deal Analysis, 07:22) [[4244 Canby Ln]] (Decatur GA 30035; New Western $139k, also MLS $145k): REJECT. ARV $254k, rehab $56.7k, rent $1,800 → cash flow $30/mo at 65% LTV; trial MAO $105.4k (27.3% …
+- C: (Grok Bot, 08:07) Daily search: zips 46140 and 46142 pulled one after the other, no failures; 46140 queued 1, 46142 queued 0. Next due zip 46143. Usage ~0% for the run (86.7% weekly; resets Sat Nov …
+- C: (Deal Analysis, 08:19) [[1019 N Broadway St]] (Greenfield 46140, ask $149.9k): REJECT. ARV $189.2k (screen $205.7k), rehab $75.8k (screen $39.1k), rent $1,500. Trial MAO $70.8k (52.8% below ask); old …
+- C: (Deal Analysis, 08:19) Queue bug: `GET deal-analysis-ingest?limit=5` marks items 'sent' even if not analysed. Two Nov 19 items from 46123 (7228 Lockford Walk N, Avon $405k; 1881 Wynnewood Ln, Avon …
+- C: (Content Insights, 02:46) Video 10-1 (off-market part 1) transcribed and summarised. Key point: build the Indy team base first (agent for comps/rents, contractor for quick rehab estimates, attorney …
+- C: (Content Insights, 10:05) Stopped at 87.5% weekly usage (the 4% budget; started 84.8%). Video 10-2 recording captured only ~11.5 min and the transcript is unusable; no notes. Resume: re-record 10-2 …
+- A: (Content Insights, 02:46) 7 skill proposals (drafts, not installed), in `Learning/Skill proposals/` and `/home/box/shared/skills-proposed/`: [[offer-mao-calculation]] (Deal Analysis) …
+- A: (Grok Bot) Relayed the owner's skills rules to Content Insights; sent the 46140 item to Deal Analysis with trial + old BRRRR criteria; reported the result to the owner in Hebrew (08:20) with two …
+- A: (Grok Bot, ~10:24) Looked up PropStream plan pricing (ties to video 10-3 / off-market skill). No conclusion recorded.
+- A: (מזכירה, morning) To-do reminder: watch BiggerPockets podcasts; a clarifying question to the owner is still unanswered.
+- A: (Drive sync, 13:2x) Filed both deal analyses as Google Docs in עסקאות and a raw zip in the archive. See [[Drive Library]].
 ### [[2026-11-19]]
 - D: (Grok Bot, call ~09:30, owner) New-construction homes are skipped entirely before the analysis queue, because a new home listed at market price leaves no room to add value or negotiate. They never go …
 - D: (Grok Bot, call ~09:30, owner) The pending/contingent/under-contract/sold/off-market check runs before queue entry, using the stored status field with no API calls. Coming-soon listings stay in.
@@ -343,21 +374,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 ### [[2026-11-14]]
 - H: Shared box files (Zip Intel notes, agent rules, some deal-outcome copies) show this day's timestamps, likely from a sync or write wave. No separate owner decisions were recovered for this date from …
 - H: Content from adjacent days (13 and 15) is recorded on those daily notes.
-### [[2026-11-13]]
-- D: Buy box: 30032 and 30058 approved. Full Atlanta and Indianapolis zip lists frozen in Deal Inbox rules (see [[00 Profile]]).
-- D: We will never buy in East Point; skip those addresses even when [[30344]] is on the list. Existing East Point deals from the earlier batch were closed.
-- D: 5-bedroom homes are acceptable (beds 2–5).
-- D: On-market deals in the buy box may be analyzed; skip already-renovated / turnkey homes.
-- D: If a buy-box deal could work with negotiation, do not close the door in the wholesaler reply.
-- D: In wholesaler emails, round numbers to the nearest thousand.
-- D: After the daily inbox scan, mark only emails that were actually read as read.
-- D: BRRRR auto-adjust: if cash flow is under $250/mo, raise money in the deal up to $60k to reach $250; if that still falls short, drop management to $0 and show it at the top of the deal page. Reserves …
-- D: "Schools sum (0–30)" and "Inventory (mo)" should be auto-filled on the deal page. Deal Analysis must return months of supply.
-- D: Tell the owner when analysis data is uncertain or hard to obtain.
-- H: Deal Inbox entered 52 on-market Grok deals in 30032 (51) and 30058 (1) after skipping renovated / turnkey / iBuyer / inactive / >$300k.
-- H: Better flip-conditional names: [[3490 Primrose Pl]] (grade B, flip only), [[4436 Malibu Dr]] (off-market / later the lone off-market Relevant deal).
-- H: Funnel pulls of 30034, 30296, 46221, 46222 (10 RapidAPI calls) found no new deal within 25% off. Finding: the screen's max offer is much looser than Deal Analysis's flip formula, so the queue fills …
-- H: Zip Intel notes expanded (including 30032, 30058, and a Fulton / South Fulton section for 30296 / Bethsaida).
 
 ## Where to look (folder map)
 [[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.

@@ -22,3 +22,8 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 - [[2026-11-19 Indy ARV diagnostic (4 listings)]] and [[2026-11-19 Atlanta held deals (4)]]: all REJECT.
 - New rule (owner, 11:33 in its own chat), commit 5a38484 in `agent-rules/comp-adjustments.md`: Indy above-grade GLA only; finished basement as a separate line at 50% × above-grade $/sf; unfinished basement $0; every analysis states the basis of each sqft figure.
 - From Nov 19 the site prescreen passes flagged outlier comps (with % deviation and `upside_arv`), so weigh them in context.
+
+### 2026-11-20 — Deal Analysis (from sync 13:20)
+- [[4244 Canby Ln]] (New Western, Atlanta 30035): REJECT, trial MAO $105.4k vs $145k MLS / $108.4k vs $139k wholesale; payload not posted.
+- [[1019 N Broadway St]] (daily funnel 46140): REJECT, trial MAO $70.8k vs $149.9k; posted as deal 35161f1b. Proposed screen lesson: "ready for full renovation" text forces the heavy rehab tier.
+- Found that `GET deal-analysis-ingest` marks unpulled items 'sent'; two Avon items (Nov 19, 46123) are sent-but-unanalysed pending the owner's answer.
