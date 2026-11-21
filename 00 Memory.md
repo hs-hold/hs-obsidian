@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-20 23:25 Asia/Jerusalem from commit e1e22b0 2026-11-20 20:57 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-21 13:15 Asia/Jerusalem from commit f4e775d 2026-11-20 23:25 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (9)
@@ -13,13 +13,13 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
 - Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
-- Latest log (2026-11-20 evening — Grok Bot (from sync 23:25)): Indy contacts drip day 3 (18:21): 10 new insurance/bank/title/investor-group contacts → [[Indy Insurance, Banks & Title]]. Drip finished; delete the routine. Evening brain sync ran without transcript tools; artifacts-only harvest. Next sync: backfill owner messages after 13:21.
+- Latest log (2026-11-21 — Grok Bot (from sync 13:15)): Daily deal search 08:00 failed: RapidAPI pull timed out on 46143 and retry 46168 (status retry_later, 0 properties); nothing analyzed. Found that funnel-run-next-zip advances nextZip on a timeout, so failed zips get skipped. Fix queued for the next merge batch. See [[2026-11-21]]. RapidAPI watch …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
 - Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
-- Recent ([[2026-11-20]]): (Grok Bot chat, ~02:50) 7 skill drafts were put to the owner (multi-select). Grok Bot's recommendation: approve the skills into existing bots first, and consider a new bot only when the work becomes regular (e.g. seller …
-- Recent ([[2026-11-20]]): (Grok Bot chat, ~10:30–13:00, owner) Tal does not need a call script. Skill proposal #3 [[seller-and-wholesaler-call-scripts]] is dropped as far as Tal's trip is concerned. The owner chose to discuss the off-market …
-- Last activity seen in vault: 2026-11-20
+- Recent ([[2026-11-21]]): (Grok Bot daily deal search, 07:54 / 08:06) Daily deal search failed: RapidAPI pull timed out ("Signal timed out.") on zip 46143 (07:54) and on retry zip 46168 (08:06); both returned HTTP 200 status `retry_later`, 0 …
+- Recent ([[2026-11-21]]): (Grok Bot, 08:08) Bug found in funnel-run-next-zip: on a timeout the function marks the zip as handled and advances `nextZip` (46143 → 46168 → 46214), so a retry burns a new zip and 46143/46168 were skipped without a …
+- Last activity seen in vault: 2026-11-21
 ### Deal Analysis — [[Deal Analysis]]
 - Role: Deal analysis bot.
 - Job: Staged flow for each property: (1) ARV from closed comps, last 6 months, within half a mile, same type, filtered by condition, MEDIAN of adjusted prices, with adjustments for corner or noisy lots, busy roads (small, noted), lot size, exterior condition, garage vs street parking, school and park …
@@ -77,7 +77,8 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
 - Latest log (2026-11-20 — מזכירה (from sync 13:20)): Morning to-do reminder sent to Grok Bot: watch BiggerPockets podcasts. A clarifying question to the owner is still unanswered.
 - Recent ([[2026-11-20]]): (מזכירה, morning) To-do reminder: watch BiggerPockets podcasts; a clarifying question to the owner is still unanswered.
-- Last activity seen in vault: 2026-11-20
+- Recent ([[2026-11-21]]): (מזכירה, Nov 20 evening + Nov 21 morning) To-do reminder: watch BiggerPockets podcasts; מזכירה is still holding on an unanswered clarifying question to the owner.
+- Last activity seen in vault: 2026-11-21
 
 ## Owner rules & active criteria (from [[00 Profile]] + project decisions)
 - Primary strategy is BRRRR; flip is a secondary alternative. The pass/fail call and the max offer follow the BRRRR target (owner, 2026-11-12).
@@ -160,6 +161,11 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
 
 ## Open decisions / items (last 7 days + projects; unchecked only)
+- Fix funnel-run-next-zip: on timeout keep the same zip (don't advance nextZip); re-pull 46143 and 46168. Include in the next single merge/deploy batch (owner rule: all merges together). — [[2026-11-21]]
+- After 14:29 usage reset: check funnel_runs/function logs and RapidAPI key/quota/availability (offered to owner, not yet confirmed). — [[2026-11-21]]
+- Reminder Sun Nov 22 10:00: off-market outreach methods. — [[2026-11-21]]
+- Weekly metrics Sun Nov 22 09:30 (ask owner for offers submitted). — [[2026-11-21]]
+- Criteria trial review Wed Nov 25 10:00. — [[2026-11-21]]
 - Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). Update ~10:30–13:00: #3 call scripts dropped for Tal; off-market leads under … — [[2026-11-20]]
 - Owner: analyse the two Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln) or leave them? Recommendation: leave. — [[2026-11-20]]
 - Next merge batch (one batch): PR 370 + PR 376, plus proposed fixes: read-only `deal_queue` peek (GET must not consume), screened-listing count in the funnel health response, "ready for full … — [[2026-11-20]]
@@ -171,7 +177,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Reminder Sun Nov 22 10:00 Israel time: off-market outreach methods. — [[2026-11-20]]
 - Legal review before any call/text/email outreach at volume. — [[2026-11-20]]
 - Consider for Tal's trip: driving for dollars + meeting estate/eviction attorneys, estate-sale companies, PMs (see [[Indy Trip Nov 2026]]). — [[2026-11-20]]
-- Delete the Indy contacts drip routine now that day 3 ran (not confirmed from artifacts). — [[2026-11-20]]
 - Backfill owner chat / voice messages after 13:21 from transcripts on the next sync (tool unavailable this run), incl. any answers on the 7 skill proposals, the Avon queue items and the off-market … — [[2026-11-20]]
 - Wholesaler Adam's other 4 properties: out of buy box — no reply drafted (check whether the owner wants one). — [[2026-11-20]]
 - Data sources still missing for some fixes (county class, flood zone and the Abandoned list on sold comps; city, township and school on sold caches). The code is wired and idle until those fields … — [[2026-11-19]]
@@ -208,6 +213,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Known gap: The screen flip has no financing cost and a 25% band, so its MAO is about $12–20k above Deal Analysis on a $150–250k basis. — [[Deal Pipeline - How It Works]]
 - Known gap: The queue does not exclude `is_pending` or `is_contingent`, and junk got through (sqft 2, sqft 25,850, a $1,275 "price"). — [[Deal Pipeline - How It Works]]
 - Known gap: There is no read-only queue peek, and 28 of 52 queue rows expired without analysis. — [[Deal Pipeline - How It Works]]
+- Fix funnel-run-next-zip: on a RapidAPI timeout (retry_later) keep the same zip instead of advancing nextZip; re-pull 46143 and 46168 (skipped Nov 21). Land in the next single merge batch. — [[Deal Pipeline]]
 - After Indy ARV fixes (PR 329 landed): audit the share of deals with no auto ARV / needs_comps, and deals dropped for missing API data (owner asked 2026-11-10; do not start before the fix, then do it) — [[Deal Pipeline]]
 - Daily routine that calls `funnel-run-next-zip` once and hands `deal_queue` (max 5) to Deal Analysis — was pending owner approval — [[Deal Pipeline]]
 - Optional: investigate why the 2026-11-17 daily pull of zip 30273 returned 55 properties and none passed screening (possible screen skip after a timeout retry) — [[Deal Pipeline]]
@@ -236,6 +242,16 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Confirm the twice-daily harvest routine is actually scheduled after this backfill — [[Obsidian Vault]]
 
 ## Key recent outcomes (last 7 days, newest first; D=decision, Owner=owner info, C=conclusion, H=happened, A=agent work)
+### [[2026-11-21]]
+- D: (Owner, voice call ~12:56) Asked for a written summary of the whole system: what Grok Bot does, what each agent does, and how everything connects — delivered as a Hebrew Word file in chat.
+- Owner: (Voice call, 12:56) "תרשום לי כאן סיכום של כל המערכת שבנינו… מה אתה עושה, מה כל סוכן עושה, ואיך כל המערכת עובדת ומתחברת" — as a file to the chat.
+- C: (Grok Bot daily deal search, 07:54 / 08:06) Daily deal search failed: RapidAPI pull timed out ("Signal timed out.") on zip 46143 (07:54) and on retry zip 46168 (08:06); both returned HTTP 200 status …
+- C: (Grok Bot, 08:08) Bug found in funnel-run-next-zip: on a timeout the function marks the zip as handled and advances `nextZip` (46143 → 46168 → 46214), so a retry burns a new zip and 46143/46168 were …
+- C: (RapidAPI usage watch, 09:02) RapidAPI: 1,953 / 6,000 used, 4,047 left (67.5%), resets Nov 27 17:52 Israel time; 10 calls last 24h, pace ~8/day, 0 failures (429/5xx). No alert.
+- A: (Grok Bot, 08:08) Told the owner about the failed search and the zip-skip bug; offered to check logs and RapidAPI status (key/quota/availability) after the weekly Grok usage reset (Sat Nov 21 14:29 …
+- A: (Grok Bot, 13:11) Delivered the Hebrew system overview (~6 pages: Grok Bot role, each teammate bot, shared infrastructure, current criteria, who-sends-what diagram, open issues). Files …
+- A: (מזכירה, Nov 20 evening + Nov 21 morning) To-do reminder: watch BiggerPockets podcasts; מזכירה is still holding on an unanswered clarifying question to the owner.
+- A: (Brain sync) Backfill check of Nov 20 13:21–23:25 chat: confirmed the Indy contacts drip routine was deleted after day 3 (18:22 message) — open item closed. No other owner messages in that window.
 ### [[2026-11-20]]
 - D: (Grok Bot chat, ~02:30, owner) Content → skills: [[Content Insights]] turns course content into reusable skills. If a new skill would be best run by a new dedicated bot, Grok Bot proposes that bot to …
 - D: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
@@ -398,9 +414,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - H: Three wholesaler deals analyzed and rejected at ask: [[5301 Essex Farms Pl]] ($205k stated; already pending on MLS at $290k), [[5811 Shadow Rock Dr]] ($130k), [[4799 Oak Ct]] ($110k). Files in …
 - H: Updates: Primrose stayed a weak flip-only conditional; Riverdale / Bethsaida only works at a deep discount; [[2195 Trailwood Dr SE]] rejected at $259.9k (walk-away ~$180–200k, unfinished basement).
 - H: Owner approved fixing deal-analysis-ingest so it accepts email/Grok deal ids (138 deals from 13 and 15 Nov). Cloud agent started with merge/deploy approval.
-### [[2026-11-14]]
-- H: Shared box files (Zip Intel notes, agent rules, some deal-outcome copies) show this day's timestamps, likely from a sync or write wave. No separate owner decisions were recovered for this date from …
-- H: Content from adjacent days (13 and 15) is recorded on those daily notes.
 
 ## Where to look (folder map)
 [[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.

@@ -25,7 +25,7 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Ran a 0-RapidAPI dry-run re-screen of the stuck Indy listings. Deduped against all sources (the no-double-send rule held: 24 S Hawthorne was not re-sent). Sent 13 listings to [[Deal Analysis]], and all were rejected.
 - Launched the coding agent for **PR 371** (funnel pre-screen ladder). It is open and awaits the owner's decision; Grok Bot recommends adding bot-style MAO and ARV tightening before merging.
 - Built `00 Memory.md` and `build_memory_file.py`. Logged the funnel failures in [[כשלים 18.11 — סינון עסקאות]].
-- Routines: daily deal search 08:00, RapidAPI watch 09:00, brain sync 13:00/23:00, Indy contacts drip (Nov 18–20, ~18:15), weekly usage (Sun 09:00), weekly metrics (Sun 09:30), criteria trial review (Nov 25, 10:00).
+- Routines: daily deal search 08:00, RapidAPI watch 09:00, brain sync 13:00/23:00, Indy contacts drip (Nov 18–20, ~18:15; deleted after day 3 on Nov 20), weekly usage (Sun 09:00), weekly metrics (Sun 09:30), criteria trial review (Nov 25, 10:00).
 
 ### 2026-11-19 — Grok Bot (from sync 13:15)
 - Voice calls with the owner. Ran coding agents for PRs 372–375 and steered PR 371. Landed all five in **one batch** (owner rule: merges and deploys always together, never piecemeal), with 4 migrations, 9 functions and a cache-only re-screen of 732 rows that queued 0. Sent the 4-listing ARV diagnostic to [[Deal Analysis]].
@@ -46,3 +46,11 @@ Durable facts from this period were written into the shared vault (daily notes, 
 ### 2026-11-20 evening — Grok Bot (from sync 23:25)
 - Indy contacts drip day 3 (18:21): 10 new insurance/bank/title/investor-group contacts → [[Indy Insurance, Banks & Title]]. Drip finished; delete the routine.
 - Evening brain sync ran without transcript tools; artifacts-only harvest. Next sync: backfill owner messages after 13:21.
+
+### 2026-11-21 — Grok Bot (from sync 13:15)
+- Daily deal search 08:00 failed: RapidAPI pull timed out on 46143 and retry 46168 (status retry_later, 0 properties); nothing analyzed. Found that funnel-run-next-zip advances nextZip on a timeout, so failed zips get skipped. Fix queued for the next merge batch. See [[2026-11-21]].
+- RapidAPI watch: 1,953/6,000 used, resets Nov 27 17:52; no alert.
+- Owner (voice, 12:56) asked for a full system summary; delivered a Hebrew Word overview (~6 pages) at 13:11, copy in Drive דוחות ומחקר. See [[Drive Library]].
+- Indy contacts drip routine confirmed deleted (Nov 20 18:22). Active routines: daily deal search 08:00, RapidAPI watch 09:00, brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, off-market reminder Sun Nov 22 10:00, criteria trial review Nov 25 10:00, Dana CPA reminder Jan 3.
+- Open: owner OK to check funnel logs + RapidAPI status after the 14:29 usage reset.
+

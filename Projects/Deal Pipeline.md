@@ -39,6 +39,7 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-17: listing-status check (no RapidAPI) of on-market "Relevant" deals; under-contract deals moved to the Unavailable tab (PR 367). Auction listings stay in Relevant with an Auction badge.
 
 ## Open tasks
+- [ ] Fix funnel-run-next-zip: on a RapidAPI timeout (retry_later) keep the same zip instead of advancing nextZip; re-pull 46143 and 46168 (skipped Nov 21). Land in the next single merge batch.
 - [ ] After Indy ARV fixes (PR 329 landed): audit the share of deals with no auto ARV / needs_comps, and deals dropped for missing API data (owner asked 2026-11-10; do not start before the fix, then do it)
 - [ ] Daily routine that calls `funnel-run-next-zip` once and hands `deal_queue` (max 5) to Deal Analysis — was pending owner approval
 - [ ] Optional: investigate why the 2026-11-17 daily pull of zip 30273 returned 55 properties and none passed screening (possible screen skip after a timeout retry)
@@ -67,3 +68,4 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-19 (evening): owner approved the Marion County backfill; PR 376 filled 133/197 holds from the live county property card and re-screened them: 0 queued (main blockers: too few comps, high asks). 64 still held (49 in 46112, outside Marion). PR 370 motivated-seller tag kept loose by the owner. PRs 370 + 376 wait for the next single batch.
 - 2026-11-20: daily zips 46140/46142 → 1 queued → [[1019 N Broadway St]] REJECT (rehab tier was the screen's big miss: $75.8k vs $39.1k). Deal Analysis found the ingest GET marks unpulled items 'sent'. Next due zip 46143. Wholesale lead [[4244 Canby Ln]] also REJECT. See [[2026-11-20]].
 - 2026-11-20 evening: WhatsApp wholesale lead from [[Adam (Atlanta wholesaler)]] → [[714 Cather Ct]] (30088, $143k, hoarder) REJECT, trial MAO $86.1k; posted to the site on owner instruction (deal b74f7b63).
+- 2026-11-21: daily search failed — RapidAPI timeouts on 46143 (07:54) and 46168 (08:06), 0 properties, nothing analyzed; found the timeout zip-skip bug. RapidAPI 1,953/6,000 used. See [[2026-11-21]].
