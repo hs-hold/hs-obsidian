@@ -18,3 +18,6 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 ## 2026-11-21 20:10 — מיילים למתווכים למשקיעים
 - נשלחו 17 מיילים לבקשת פגישה ב-1–2 בדצמבר 2026 מ-deals@hs-hold.com (חתום טל) ל-18 כתובות של מתווכים חדשים, באישור ערן. הרשימה ב-/home/box/shared/indy-trip/investor-agents.md.
 - כל מעקב התשובות (מטווחים, מתווכים חדשים, וסבב "Coming to Indy, and we're buying") רץ כל יום ב-10:00 שעון ישראל, עד 2 בדצמבר.
+
+## 2026-11-21 ~18:00 — טיוטת מייל לטל
+- העביר ל-Grok Bot טיוטת מייל בעברית לטל (/home/box/shared/indy-trip/email-draft-tal-he.md); ממנה נבנה מייל ההיכרות באנגלית ששלחנו ל-30 נמענים. ראו [[Indy Trip Nov 2026]].

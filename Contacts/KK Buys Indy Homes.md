@@ -10,7 +10,7 @@ website: ""
 areas: "46222, 46224, 46241, 46221, 46203, 46225, 46107, 46201, 46219, 46226, 46208, 46205, 46227, 46229, 46254, 46268, 46214, 46231, 46235, 46237, 46217, 46113, 46239, 46234, 46228, 46220, 46236"
 status: researched
 created: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-21
 tags: [contact]
 ---
 # KK Buys Indy Homes
@@ -41,4 +41,7 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 - Notes: Retail-facing cash buyer; ask if they wholesale/assign.
 
 
-Research only — nobody was contacted by us. See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
+Contacted 2026-11-21 (intro email, bounced). See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
+
+## Outreach
+- 2026-11-21: our intro email to info@kkbuysindyhomes.com bounced — address does not exist. Their site lists Kent's phone (317) 349-5035. Recommended: Tal calls.

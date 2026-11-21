@@ -31,7 +31,7 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - 2026-11-16: Territory first, then contact lists. Only contiguous zips that local contacts typically cover.
 - 2026-11-16: "Add all 33 zips" applies to this trip research, not the deal funnel.
 - 2026-11-16–17: Brokers only in the later HTML card lists; phone required; any warning sign means skip entirely; zips only if a source states them; exclude anyone already on a previous list; owner asked to remove Chris Price from the 2026-11-17 batch (team-review noise).
-- Research only — nobody on this trip list has been contacted by us.
+- 2026-11-21: Outreach started — owner approved sending the intro email "Coming to Indy, and we're buying" (v10, signed Tal Hait, (201) 681-1218, meeting around Nov 30 – Dec 1) to 27 brokers + 3 wholesalers from deals@hs-hold.com; 28 delivered, 2 bounced (KK Buys Indy Homes, Stacy Patlan). Before that, research only.
 
 ## Open tasks
 - [ ] Add Tal's exact flight dates once the owner confirms them
@@ -40,6 +40,10 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - [ ] Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2
 - [ ] Contractor size / quality research was paused; retry only if the owner asks, in small batches
 - [ ] Idea (2026-11-20, pending owner decision): driving for dollars during the trip and meeting estate/eviction attorneys, estate-sale companies and PMs for referrals — see [[off-market-lead-generation]]
+
+- [ ] Call with [[Nolan Lamkin]] — Sun Nov 22 ~11 am Indy time or Monday, awaiting his confirmation
+- [ ] Tal to phone KK Buys Indy Homes (Kent) and Stacy Patlan (emails bounced)
+- [ ] Owner: add Beech Grove / Speedway / Greenfield to outreach wording?
 
 ## Links
 - Profile: [[00 Profile]]
@@ -54,3 +58,5 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - 2026-11-18: Contacts drip day 1 (`indy-contacts-drip-2026-11-18.html`).
 - 2026-11-19: 10 new brokers on owner request (`brokers-new-2026-11-19.html`, top: Gretchen Szostak 8.2, Bryan Arnold 8.0). Contacts drip day 2: lender Sam Barrow, contractor Gary Brackett. Day 3 (title/attorney, insurance, local bank, investor groups) on Nov 20.
 - 2026-11-20: Contacts drip day 3 (last): 10 new — insurance 3, banks 4, title/attorney 2, investor group 1 (top Killion & Hall 8/10) → [[Indy Insurance, Banks & Title]]. Drip routine should now be deleted. Indiana Apartment Association events Dec 1–3 may fit the trip.
+- 2026-11-21: Intro email written with the owner over several voice calls (v3→v10, files in /home/box/shared/indy-trip/). Owner approved at 19:14; Grok Bot sent 30 individual emails from deals@hs-hold.com. 2 bounced. Separate round (logged 20:10): 17 meeting-request emails to 18 new investor-agent addresses ([[Indianapolis Market Research]] list investor-agents.md). Reply watch routine 09/15/21 until Dec 6.
+- 2026-11-21 20:50: first reply — [[Nolan Lamkin]] (Century 21 Scheetz); Tal replied 21:42 offering Sun ~11 am or Monday.

@@ -4,21 +4,21 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-21 13:15 Asia/Jerusalem from commit f4e775d 2026-11-20 23:25 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-21 23:23 Asia/Jerusalem from commit 6eb9d30 2026-11-21 21:52 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
-## Bots (9)
+## Bots (10)
 ### Grok Bot — [[Grok Bot]]
 - Role: main coordinator; coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
 - Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
-- Latest log (2026-11-21 — Grok Bot (from sync 13:15)): Daily deal search 08:00 failed: RapidAPI pull timed out on 46143 and retry 46168 (status retry_later, 0 properties); nothing analyzed. Found that funnel-run-next-zip advances nextZip on a timeout, so failed zips get skipped. Fix queued for the next merge batch. See [[2026-11-21]]. RapidAPI watch …
+- Latest log (2026-11-21 evening — Grok Bot (from sync 23:20)): Wrote the English Claude handoff brief (owner wants Claude to review our code; PRs only). See [[Deal Pipeline]]. Built the Indy intro email with the owner over voice (v3→v10) and, on his "תשלח לכולם", sent 30 individual emails from deals@hs-hold.com (27 brokers + 3 wholesalers); 2 bounced. See …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
 - Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
-- Recent ([[2026-11-21]]): (Grok Bot daily deal search, 07:54 / 08:06) Daily deal search failed: RapidAPI pull timed out ("Signal timed out.") on zip 46143 (07:54) and on retry zip 46168 (08:06); both returned HTTP 200 status `retry_later`, 0 …
-- Recent ([[2026-11-21]]): (Grok Bot, 08:08) Bug found in funnel-run-next-zip: on a timeout the function marks the zip as handled and advances `nextZip` (46143 → 46168 → 46214), so a retry burns a new zip and 46143/46168 were skipped without a …
+- Recent ([[2026-11-21]]): (Grok Bot, 18:07) Neighborhoods in the email all come from the decided research: inner ring Fountain Square & Garfield Park (46203), Irvington (46219), West/Southwest (46222, 46221, 46241); suburbs for flips Greenwood …
+- Recent ([[2026-11-21]]): (Grok Bot proactive check, 19:56) 2 of 30 emails bounced → 28 delivered. KK Buys Indy Homes: info@kkbuysindyhomes.com does not exist (site phone for Kent (317) 349-5035). Stacy Patlan: domain indypropertiesrus.com does …
 - Last activity seen in vault: 2026-11-21
 ### Deal Analysis — [[Deal Analysis]]
 - Role: Deal analysis bot.
@@ -29,9 +29,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Grok Deals shows only deals Deal Analysis has reviewed, at high quality: comps with notes, rehab breakdown, verdict, each comp's real time-to-sell, and whether it crosses a highway (owner, 2026-11-11).
 - Schedule: Indy-only check-in Nov 24 10:00 (Deal Analysis).
 - Latest log (2026-11-20 evening — Deal Analysis (from sync 23:25)): - [[714 Cather Ct]] (wholesaler Adam via Deal Inbox, Atlanta 30088): REJECT, trial MAO $86.1k vs $143k ask; payload posted on owner instruction (deal b74f7b63).
-- Recent ([[2026-11-20]]): (Deal Analysis / owner, 07:12) Owner approved analysing the 4244 Canby Ln wholesale lead.
-- Recent ([[2026-11-20]]): (Deal Analysis / owner via Deal Inbox, by ~23:21) Owner asked to post the 714 Cather Ct payload to the site; it was posted (deal `b74f7b63`).
-- Last activity seen in vault: 2026-11-20
+- Recent ([[2026-11-21]]): (Deal Analysis, 16:01) Hebrew PDF explaining the Deal Analysis method → [[Deal Analysis - שיטת ניתוח]].
+- Recent ([[2026-11-21]]): (Deal Analysis, 21:52) [[1375 Kipling St SE]] (Atlanta 30315, off-market wholesaler via Deal Inbox) — REJECT at $99k ask; trial MAO $90.9k (8.2% off); flip passes at ask.
+- Last activity seen in vault: 2026-11-21
 ### Atlanta Market Research — [[Atlanta Market Research]]
 - Role: Market research analyst.
 - Job: Studies the metro Atlanta, Georgia housing market by zip code and identifies the zip codes most likely to produce deals that meet the owner's criteria: monthly rent at least 1% of total investment (purchase plus rehab), flip profit at least $30,000 after selling costs, and ROI at least 15% on total …
@@ -39,8 +39,10 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 ### Indianapolis Market Research — [[Indianapolis Market Research]]
 - Role: Market research analyst.
 - Job: Studies the Indianapolis, Indiana housing market by zip code and identifies the zip codes most likely to produce deals that meet the owner's criteria: monthly rent at least 1% of total investment (purchase plus rehab), flip profit at least $30,000 after selling costs, and ROI at least 15% on total …
-- Rules/data: `/home/box/shared/indy-arv-adjustments.md`
-- Last activity seen in vault: 2026-11-17
+- Rules/data: `/home/box/shared/indy-arv-adjustments.md`, `/home/box/shared/indy-trip/investor-agents.md`, `/home/box/shared/indy-trip/email-draft-tal-he.md`
+- Latest log (2026-11-21 ~18:00 — טיוטת מייל לטל): העביר ל-Grok Bot טיוטת מייל בעברית לטל (/home/box/shared/indy-trip/email-draft-tal-he.md); ממנה נבנה מייל ההיכרות באנגלית ששלחנו ל-30 נמענים. ראו [[Indy Trip Nov 2026]].
+- Recent ([[2026-11-21]]): (Indianapolis Market Research, ~18:00) Handed a Hebrew email draft for Tal (/home/box/shared/indy-trip/email-draft-tal-he.md); Grok Bot turned it into the English outreach email (versions v3→v10 in …
+- Last activity seen in vault: 2026-11-21
 ### Contract Desk — [[Contract Desk]]
 - Role: Contract review assistant.
 - Job: accept a real estate contract (PDF, image or pasted text) such as a purchase and sale agreement, wholesale assignment contract, addendum, lease, contractor agreement or lender document, review it, and flag anything that needs attention. Read PDFs with poppler-utils.
@@ -76,9 +78,14 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Role: Personal secretary.
 - Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
 - Latest log (2026-11-20 — מזכירה (from sync 13:20)): Morning to-do reminder sent to Grok Bot: watch BiggerPockets podcasts. A clarifying question to the owner is still unanswered.
-- Recent ([[2026-11-20]]): (מזכירה, morning) To-do reminder: watch BiggerPockets podcasts; a clarifying question to the owner is still unanswered.
 - Recent ([[2026-11-21]]): (מזכירה, Nov 20 evening + Nov 21 morning) To-do reminder: watch BiggerPockets podcasts; מזכירה is still holding on an unanswered clarifying question to the owner.
+- Recent ([[2026-11-21]]): (מזכירה, evening) To-do reminder: watch BiggerPockets podcasts; still holding on an unanswered clarifying question.
 - Last activity seen in vault: 2026-11-21
+### Deal Analysis - שיטת ניתוח — [[Deal Analysis - שיטת ניתוח]]
+- Role: coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
+- Rules/data: `/home/box/shared/agent-rules`
+- Latest log (נקודות פתוחות (פרק 8 במסמך)): אחוז הרזרבות (12% בפועל לעומת 18% בקובץ), דמי ניהול, חלון הקומפס, חציון משוקלל או רגיל, הגדרה ל-Plans A/B/C, ו-deal-search.md שלא עודכן. ראה גם: [[Deal Analysis]]
+- Last activity seen in vault: unknown
 
 ## Owner rules & active criteria (from [[00 Profile]] + project decisions)
 - Primary strategy is BRRRR; flip is a secondary alternative. The pass/fail call and the max offer follow the BRRRR target (owner, 2026-11-12).
@@ -155,7 +162,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-16: Territory first, then contact lists. Only contiguous zips that local contacts typically cover. ([[Indy Trip Nov 2026]])
 - 2026-11-16: "Add all 33 zips" applies to this trip research, not the deal funnel. ([[Indy Trip Nov 2026]])
 - 2026-11-16–17: Brokers only in the later HTML card lists; phone required; any warning sign means skip entirely; zips only if a source states them; exclude anyone already on a previous list; owner asked to remove Chris … ([[Indy Trip Nov 2026]])
-- Research only — nobody on this trip list has been contacted by us. ([[Indy Trip Nov 2026]])
+- 2026-11-21: Outreach started — owner approved sending the intro email "Coming to Indy, and we're buying" (v10, signed Tal Hait, (201) 681-1218, meeting around Nov 30 – Dec 1) to 27 brokers + 3 wholesalers from … ([[Indy Trip Nov 2026]])
 - 2026-11-16: Owner wants every bot to save information in Obsidian, synced via GitHub. After the vault and toolkit were built he said "רגע עצור" ("wait, stop") — registering the five skills and wiring the other bots was … ([[Obsidian Vault]])
 - 2026-11-17: Owner wants a central harvest, not each bot remembering to save. Harvest twice a day at 13:00 and 23:30 Asia/Jerusalem, plus an immediate write when something is decided or he says to remember it. A one-time … ([[Obsidian Vault]])
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
@@ -166,6 +173,11 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Reminder Sun Nov 22 10:00: off-market outreach methods. — [[2026-11-21]]
 - Weekly metrics Sun Nov 22 09:30 (ask owner for offers submitted). — [[2026-11-21]]
 - Criteria trial review Wed Nov 25 10:00. — [[2026-11-21]]
+- Nolan Lamkin call: Sun Nov 22 ~11 am Indy time or Monday — waiting for his confirmation (reply watch is on). — [[2026-11-21]]
+- KK Buys Indy Homes (Kent (317) 349-5035) and Stacy Patlan ((765) 969-6066): Tal to call, or find fresh emails on owner's yes. — [[2026-11-21]]
+- Owner decision: add Beech Grove / Speedway / Greenfield to future outreach wording? — [[2026-11-21]]
+- Claude code review: owner to give Claude repo access and the handoff brief; any changes come back as PRs for the single merge batch. — [[2026-11-21]]
+- Still open from midday: fix funnel-run-next-zip timeout zip-skip; check funnel logs + RapidAPI status (no record yet of it being done). — [[2026-11-21]]
 - Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). Update ~10:30–13:00: #3 call scripts dropped for Tal; off-market leads under … — [[2026-11-20]]
 - Owner: analyse the two Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln) or leave them? Recommendation: leave. — [[2026-11-20]]
 - Next merge batch (one batch): PR 370 + PR 376, plus proposed fixes: read-only `deal_queue` peek (GET must not consume), screened-listing count in the funnel health response, "ready for full … — [[2026-11-20]]
@@ -236,6 +248,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2 — [[Indy Trip Nov 2026]]
 - Contractor size / quality research was paused; retry only if the owner asks, in small batches — [[Indy Trip Nov 2026]]
 - Idea (2026-11-20, pending owner decision): driving for dollars during the trip and meeting estate/eviction attorneys, estate-sale companies and PMs for referrals — see [[off-market-lead-generation]] — [[Indy Trip Nov 2026]]
+- Call with [[Nolan Lamkin]] — Sun Nov 22 ~11 am Indy time or Monday, awaiting his confirmation — [[Indy Trip Nov 2026]]
+- Tal to phone KK Buys Indy Homes (Kent) and Stacy Patlan (emails bounced) — [[Indy Trip Nov 2026]]
+- Owner: add Beech Grove / Speedway / Greenfield to outreach wording? — [[Indy Trip Nov 2026]]
 - Register the 5 grok-trestle skills and tell all bots to use the vault — only when the owner says to continue — [[Obsidian Vault]]
 - Owner: connect Obsidian desktop/mobile via the Obsidian Git plugin (guide section 4) — [[Obsidian Vault]]
 - Optional: mention grok-trestle in the vault root README — [[Obsidian Vault]]
@@ -244,14 +259,35 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 ## Key recent outcomes (last 7 days, newest first; D=decision, Owner=owner info, C=conclusion, H=happened, A=agent work)
 ### [[2026-11-21]]
 - D: (Owner, voice call ~12:56) Asked for a written summary of the whole system: what Grok Bot does, what each agent does, and how everything connects — delivered as a Hebrew Word file in chat.
+- D: (Owner, voice 15:21) Wants to combine our system with Claude: give Claude access to the GitHub repo hs-hold/hsdeals-claude-code so it reviews our code against its old code and suggests optimizations. …
+- D: (Owner, voice + chat 18:01–18:50) Final Indy intro email "Coming to Indy, and we're buying" (v10), signed by Tal Hait (NYC real estate salesperson), phone (201) 681-1218; says "My partners and I (an …
+- D: (Owner, chat 19:14 "תשלח לכולם") Approved sending v10 from deals@hs-hold.com (sender name shows "H.S deals") to 30 recipients, one email each: 27 Indy brokers + 3 wholesalers.
+- D: (Owner, chat 19:59) Asked Grok Bot to watch for replies and report them; never reply on its own.
+- D: (Owner, voice 18:07) Confirmed the email areas must match the zips decided in the Indy research (inner ring + suburbs for flips).
 - Owner: (Voice call, 12:56) "תרשום לי כאן סיכום של כל המערכת שבנינו… מה אתה עושה, מה כל סוכן עושה, ואיך כל המערכת עובדת ומתחברת" — as a file to the chat.
+- Owner: (Voice 15:21) "אני חושב לשלב בין המערכת שלך למערכת של קלוד… שקלוד יסתכל על הקוד שלנו… ויגיד מה הוא יכול לייעל."
+- Owner: (Voice 18:21–18:36) Email ending must read: "I'd love to have a chance to meet in person while I'm in the city. Do you think you'd have any time around November 30th and December 1st? I'd love to hop …
+- Owner: (Chat 21:39) Tal is available Sunday Nov 22 around 11 am (Indy time) or any time Monday Nov 23 for a call with Nolan Lamkin.
 - C: (Grok Bot daily deal search, 07:54 / 08:06) Daily deal search failed: RapidAPI pull timed out ("Signal timed out.") on zip 46143 (07:54) and on retry zip 46168 (08:06); both returned HTTP 200 status …
 - C: (Grok Bot, 08:08) Bug found in funnel-run-next-zip: on a timeout the function marks the zip as handled and advances `nextZip` (46143 → 46168 → 46214), so a retry burns a new zip and 46143/46168 were …
 - C: (RapidAPI usage watch, 09:02) RapidAPI: 1,953 / 6,000 used, 4,047 left (67.5%), resets Nov 27 17:52 Israel time; 10 calls last 24h, pace ~8/day, 0 failures (429/5xx). No alert.
+- C: (Grok Bot, 18:07) Neighborhoods in the email all come from the decided research: inner ring Fountain Square & Garfield Park (46203), Irvington (46219), West/Southwest (46222, 46221, 46241); suburbs …
+- C: (Grok Bot proactive check, 19:56) 2 of 30 emails bounced → 28 delivered. KK Buys Indy Homes: info@kkbuysindyhomes.com does not exist (site phone for Kent (317) 349-5035). Stacy Patlan: domain …
+- C: (Deal Analysis, 21:52) [[1375 Kipling St SE]] (Atlanta 30315, off-market wholesaler via Deal Inbox) — REJECT at $99k ask; trial MAO $90.9k (8.2% off); flip passes at ask.
 - A: (Grok Bot, 08:08) Told the owner about the failed search and the zip-skip bug; offered to check logs and RapidAPI status (key/quota/availability) after the weekly Grok usage reset (Sat Nov 21 14:29 …
 - A: (Grok Bot, 13:11) Delivered the Hebrew system overview (~6 pages: Grok Bot role, each teammate bot, shared infrastructure, current criteria, who-sends-what diagram, open issues). Files …
 - A: (מזכירה, Nov 20 evening + Nov 21 morning) To-do reminder: watch BiggerPockets podcasts; מזכירה is still holding on an unanswered clarifying question to the owner.
 - A: (Brain sync) Backfill check of Nov 20 13:21–23:25 chat: confirmed the Indy contacts drip routine was deleted after day 3 (18:22 message) — open item closed. No other owner messages in that window.
+- A: (Grok Bot, 15:28) English handoff brief for Claude: flow from zips to bots, key code files, what lives outside the code (bots, criteria, Obsidian, RapidAPI budget), known bugs; no secrets. Files …
+- A: (Deal Analysis, 16:01) Hebrew PDF explaining the Deal Analysis method → [[Deal Analysis - שיטת ניתוח]].
+- A: (Indianapolis Market Research, ~18:00) Handed a Hebrew email draft for Tal (/home/box/shared/indy-trip/email-draft-tal-he.md); Grok Bot turned it into the English outreach email (versions v3→v10 in …
+- A: (Grok Bot, 18:15) Listed 27 Indy brokers with email from the contact files (top: Peter Stewart 9.5, Tyler Lingle 9.0, Paul Linn / Austin Coon / Gretchen Szostak 8.2). Recipient list …
+- A: (Grok Bot, 19:14–19:20) Sent all 30 emails individually from deals@hs-hold.com, 0 send failures (2 bounced later).
+- A: (Indy research, logged 20:10) 17 more meeting-request emails for Dec 1–2 sent from deals@hs-hold.com (signed Tal) to 18 new investor-friendly agent addresses, approved by Eran; list in …
+- A: (Grok Bot, ~20:00) Created routine "Indy broker reply watch" (09:00/15:00/21:00, ends Dec 6): reports replies from the 28 delivered recipients, never replies itself.
+- A: (Reply watch 20:59 → Grok Bot) First reply: [[Nolan Lamkin]] (Century 21 Scheetz) at 20:50 — works with investors, asked when Tal can talk.
+- A: (Grok Bot, 21:42) Owner sent (via draft card, from deals@hs-hold.com, in Nolan's thread) Tal's reply: Sunday ~11 am, else any time Monday.
+- A: (מזכירה, evening) To-do reminder: watch BiggerPockets podcasts; still holding on an unanswered clarifying question.
 ### [[2026-11-20]]
 - D: (Grok Bot chat, ~02:30, owner) Content → skills: [[Content Insights]] turns course content into reusable skills. If a new skill would be best run by a new dedicated bot, Grok Bot proposes that bot to …
 - D: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
@@ -417,3 +453,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 
 ## Where to look (folder map)
 [[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.
+
+## Gaps in sources
+- bot 'Deal Analysis - שיטת ניתוח' has no readable profile.json

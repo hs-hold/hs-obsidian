@@ -10,7 +10,7 @@ website: ""
 areas: "Indianapolis"
 status: researched
 created: 2026-11-17
-updated: 2026-11-17
+updated: 2026-11-21
 tags: [contact]
 ---
 # Stacy Patlan
@@ -47,4 +47,7 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]]
 - Past deals / volume: Not published.
 - **הערות נוספות / caveats:** Phone comes from a single 2024 source. No reviews found.
 
-Research only — nobody was contacted by us. See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
+Contacted 2026-11-21 (intro email, bounced). See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
+
+## Outreach
+- 2026-11-21: our intro email to Stacy@indypropertiesrus.com bounced — the domain indypropertiesrus.com does not exist. Only phone: (765) 969-6066 (single 2024 source). Recommended: Tal calls.

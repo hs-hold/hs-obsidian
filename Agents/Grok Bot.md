@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Grok Bot"
 created: 2026-11-16
-updated: 2026-11-20
+updated: 2026-11-21
 tags: [agent]
 ---
 # Grok Bot — work log
@@ -54,3 +54,9 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Indy contacts drip routine confirmed deleted (Nov 20 18:22). Active routines: daily deal search 08:00, RapidAPI watch 09:00, brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, off-market reminder Sun Nov 22 10:00, criteria trial review Nov 25 10:00, Dana CPA reminder Jan 3.
 - Open: owner OK to check funnel logs + RapidAPI status after the 14:29 usage reset.
 
+
+### 2026-11-21 evening — Grok Bot (from sync 23:20)
+- Wrote the English Claude handoff brief (owner wants Claude to review our code; PRs only). See [[Deal Pipeline]].
+- Built the Indy intro email with the owner over voice (v3→v10) and, on his "תשלח לכולם", sent 30 individual emails from deals@hs-hold.com (27 brokers + 3 wholesalers); 2 bounced. See [[Indy Trip Nov 2026]].
+- New routine: Indy broker reply watch (09:00/15:00/21:00 Israel time, until Dec 6) — reports replies only, never answers. First reply: [[Nolan Lamkin]]; owner sent Tal's reply via a draft card.
+- Active routines: daily deal search 08:00, RapidAPI watch 09:00, Indy broker reply watch 09/15/21, brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, off-market reminder Sun Nov 22 10:00, criteria trial review Nov 25 10:00, Dana CPA reminder Jan 3.
