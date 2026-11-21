@@ -14,3 +14,7 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 
 First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-arv-adjustments.md`. Input to [[Indy Trip Nov 2026]] and [[Indianapolis]].
+
+## 2026-11-21 20:10 — מיילים למתווכים למשקיעים
+- נשלחו 17 מיילים לבקשת פגישה ב-1–2 בדצמבר 2026 מ-deals@hs-hold.com (חתום טל) ל-18 כתובות של מתווכים חדשים, באישור ערן. הרשימה ב-/home/box/shared/indy-trip/investor-agents.md.
+- כל מעקב התשובות (מטווחים, מתווכים חדשים, וסבב "Coming to Indy, and we're buying") רץ כל יום ב-10:00 שעון ישראל, עד 2 בדצמבר.
