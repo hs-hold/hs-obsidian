@@ -41,7 +41,7 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - [ ] Contractor size / quality research was paused; retry only if the owner asks, in small batches
 - [ ] Idea (2026-11-20, pending owner decision): driving for dollars during the trip and meeting estate/eviction attorneys, estate-sale companies and PMs for referrals — see [[off-market-lead-generation]]
 
-- [ ] Call with [[Nolan Lamkin]] — Sun Nov 22 ~11 am Indy time or Monday, awaiting his confirmation
+- [ ] Call with [[Nolan Lamkin]] — confirmed Mon Nov 23 11:00 ET / 18:00 Israel (invite sent from deals@ calendar)
 - [ ] Tal to phone KK Buys Indy Homes (Kent) and Stacy Patlan (emails bounced)
 - [ ] Owner: add Beech Grove / Speedway / Greenfield to outreach wording?
 
@@ -60,3 +60,4 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - 2026-11-20: Contacts drip day 3 (last): 10 new — insurance 3, banks 4, title/attorney 2, investor group 1 (top Killion & Hall 8/10) → [[Indy Insurance, Banks & Title]]. Drip routine should now be deleted. Indiana Apartment Association events Dec 1–3 may fit the trip.
 - 2026-11-21: Intro email written with the owner over several voice calls (v3→v10, files in /home/box/shared/indy-trip/). Owner approved at 19:14; Grok Bot sent 30 individual emails from deals@hs-hold.com. 2 bounced. Separate round (logged 20:10): 17 meeting-request emails to 18 new investor-agent addresses ([[Indianapolis Market Research]] list investor-agents.md). Reply watch routine 09/15/21 until Dec 6.
 - 2026-11-21 20:50: first reply — [[Nolan Lamkin]] (Century 21 Scheetz); Tal replied 21:42 offering Sun ~11 am or Monday.
+- 2026-11-22: Nolan proposed Mon 11:00 ET; confirmed 19:29 with email + calendar invite from deals@hs-hold.com.

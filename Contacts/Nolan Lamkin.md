@@ -10,7 +10,7 @@ website: ""
 areas: "Indianapolis"
 status: in-conversation
 created: 2026-11-21
-updated: 2026-11-21
+updated: 2026-11-22
 tags: [contact]
 ---
 # Nolan Lamkin
@@ -28,5 +28,8 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 - 2026-11-21 20:50 Israel time: replied — "Thanks for reaching out! I do work with investors. When works for you with the call?"
 - 2026-11-21 21:42: owner sent Tal's reply in the thread: Sunday Nov 22 morning ~11 am, or any time Monday.
 
+- 2026-11-22 16:12 Israel time: replied proposing a call Monday 11:00 Eastern.
+- 2026-11-22 19:29: confirmation sent from deals@hs-hold.com (signed Tal) + calendar invite from the deals@hs-hold.com calendar: "Call: Tal Hait / Nolan Lamkin", Mon Nov 23 11:00–11:30 ET (18:00–18:30 Israel). See [[2026-11-22]].
+
 ## Open
-- [ ] Confirm call time; Tal meets in person around Nov 30 – Dec 1 if it fits.
+- [ ] Call Mon Nov 23 18:00 Israel — Tal calls him at (317) 696-9545. Then: in-person meeting around Nov 30 – Dec 1 if it fits.
