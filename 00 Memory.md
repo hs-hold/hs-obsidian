@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-21 23:23 Asia/Jerusalem from commit 6eb9d30 2026-11-21 21:52 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-22 13:17 Asia/Jerusalem from commit 5a3e3df 2026-11-22 09:34 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
@@ -13,13 +13,13 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
 - Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
-- Latest log (2026-11-21 evening — Grok Bot (from sync 23:20)): Wrote the English Claude handoff brief (owner wants Claude to review our code; PRs only). See [[Deal Pipeline]]. Built the Indy intro email with the owner over voice (v3→v10) and, on his "תשלח לכולם", sent 30 individual emails from deals@hs-hold.com (27 brokers + 3 wholesalers); 2 bounced. See …
+- Latest log (2026-11-22 — Grok Bot (from sync 13:20)): Daily search 46214 + 46220: 190 checked, 0 passed pre-screen (several runs in a row). RapidAPI alert: 155 calls/24h (zillow-search for-sale), 3,883/6,000 left. Weekly metrics sent (asked owner for offers count). See [[2026-11-22]]. Off-market reminder delivered 10:05 and its routine deleted. Active …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
 - Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
-- Recent ([[2026-11-21]]): (Grok Bot, 18:07) Neighborhoods in the email all come from the decided research: inner ring Fountain Square & Garfield Park (46203), Irvington (46219), West/Southwest (46222, 46221, 46241); suburbs for flips Greenwood …
-- Recent ([[2026-11-21]]): (Grok Bot proactive check, 19:56) 2 of 30 emails bounced → 28 delivered. KK Buys Indy Homes: info@kkbuysindyhomes.com does not exist (site phone for Kent (317) 349-5035). Stacy Patlan: domain indypropertiesrus.com does …
-- Last activity seen in vault: 2026-11-21
+- Recent ([[2026-11-22]]): (Grok Bot, 10:05) Delivered the off-market outreach reminder (free Indy city lists + assessor owner address, Driving for Dollars on Tal's trip, QR-consent mail; calls/SMS only with documented consent; tool prices …
+- Recent ([[2026-11-22]]): (Grok Bot daily deal search, 08:01) Zips 46214 and 46220 pulled OK (runs af7988b8, 6dc57b61): 190 listings checked (42 + 148), 0 passed the pre-screen, nothing sent to Deal Analysis. Health OK. Pre-screen has passed …
+- Last activity seen in vault: 2026-11-22
 ### Deal Analysis — [[Deal Analysis]]
 - Role: Deal analysis bot.
 - Job: Staged flow for each property: (1) ARV from closed comps, last 6 months, within half a mile, same type, filtered by condition, MEDIAN of adjusted prices, with adjustments for corner or noisy lots, busy roads (small, noted), lot size, exterior condition, garage vs street parking, school and park …
@@ -78,9 +78,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Role: Personal secretary.
 - Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
 - Latest log (2026-11-20 — מזכירה (from sync 13:20)): Morning to-do reminder sent to Grok Bot: watch BiggerPockets podcasts. A clarifying question to the owner is still unanswered.
-- Recent ([[2026-11-21]]): (מזכירה, Nov 20 evening + Nov 21 morning) To-do reminder: watch BiggerPockets podcasts; מזכירה is still holding on an unanswered clarifying question to the owner.
 - Recent ([[2026-11-21]]): (מזכירה, evening) To-do reminder: watch BiggerPockets podcasts; still holding on an unanswered clarifying question.
-- Last activity seen in vault: 2026-11-21
+- Recent ([[2026-11-22]]): (מזכירה, 08:xx) Morning to-do: watch BiggerPockets podcasts; still holding on an unanswered clarifying question to the owner.
+- Last activity seen in vault: 2026-11-22
 ### Deal Analysis - שיטת ניתוח — [[Deal Analysis - שיטת ניתוח]]
 - Role: coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
 - Rules/data: `/home/box/shared/agent-rules`
@@ -168,11 +168,17 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
 
 ## Open decisions / items (last 7 days + projects; unchecked only)
+- Owner: number of offers submitted Nov 15–21 → add to [[Metrics]]. — [[2026-11-22]]
+- Investigate the RapidAPI spike (155 calls/24h, zillow-search for-sale) and stop unscheduled pulls. — [[2026-11-22]]
+- Check whether the pre-screen is too strict vs trial criteria (0 passed several runs in a row). — [[2026-11-22]]
+- Fix funnel-run-next-zip timeout zip-skip; re-pull 46143 + 46168 (next single merge batch). — [[2026-11-22]]
+- Owner decision on off-market lead source (scope / runner / budget). — [[2026-11-22]]
+- Call with [[Nolan Lamkin]] — Sun Nov 22 ~11 am Indy time or Monday, awaiting confirmation. — [[2026-11-22]]
+- Criteria trial review Wed Nov 25 10:00. — [[2026-11-22]]
 - Fix funnel-run-next-zip: on timeout keep the same zip (don't advance nextZip); re-pull 46143 and 46168. Include in the next single merge/deploy batch (owner rule: all merges together). — [[2026-11-21]]
 - After 14:29 usage reset: check funnel_runs/function logs and RapidAPI key/quota/availability (offered to owner, not yet confirmed). — [[2026-11-21]]
 - Reminder Sun Nov 22 10:00: off-market outreach methods. — [[2026-11-21]]
 - Weekly metrics Sun Nov 22 09:30 (ask owner for offers submitted). — [[2026-11-21]]
-- Criteria trial review Wed Nov 25 10:00. — [[2026-11-21]]
 - Nolan Lamkin call: Sun Nov 22 ~11 am Indy time or Monday — waiting for his confirmation (reply watch is on). — [[2026-11-21]]
 - KK Buys Indy Homes (Kent (317) 349-5035) and Stacy Patlan ((765) 969-6066): Tal to call, or find fresh emails on owner's yes. — [[2026-11-21]]
 - Owner decision: add Beech Grove / Speedway / Greenfield to future outreach wording? — [[2026-11-21]]
@@ -236,7 +242,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Deep recheck of old contacts (see [[Indy Trip Nov 2026]]) — [[Deal Pipeline]]
 - Next single batch: PR 370 + PR 376, plus (proposed 2026-11-20) a read-only `deal_queue` peek so GET does not mark unpulled items 'sent', a screened-listing count in the funnel health response, and … — [[Deal Pipeline]]
 - Owner: analyse the two sent-but-unanalysed Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln)? Recommendation: no — [[Deal Pipeline]]
-- Off-market lead source (2026-11-20): owner to decide scope / runner / budget of [[off-market-lead-generation]]; recommended start = free Indy lists + direct mail with QR consent; reminder Sun Nov 22 … — [[Deal Pipeline]]
+- Off-market lead source (2026-11-20): owner to decide scope / runner / budget of [[off-market-lead-generation]]; recommended start = free Indy lists + direct mail with QR consent; reminder delivered … — [[Deal Pipeline]]
+- Investigate RapidAPI spike 2026-11-22 (155 calls/24h, mostly zillow-search for-sale) and stop unscheduled pulls — [[Deal Pipeline]]
+- Pre-screen passed 0 for several daily runs in a row (e.g. 46214/46220 on Nov 22) — check if stricter than trial criteria — [[Deal Pipeline]]
 - PR 370 motivated-seller flag: owner decided 2026-11-19 to keep it loose (any motivation phrase flags); merge in the next batch with PR 376 — [[Deals Site]]
 - Owner may still want a signed-in browser check of the 22 / 2 split — [[Deals Site]]
 - Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it — [[Deals Site]]
@@ -257,6 +265,15 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Confirm the twice-daily harvest routine is actually scheduled after this backfill — [[Obsidian Vault]]
 
 ## Key recent outcomes (last 7 days, newest first; D=decision, Owner=owner info, C=conclusion, H=happened, A=agent work)
+### [[2026-11-22]]
+- C: (Grok Bot daily deal search, 08:01) Zips 46214 and 46220 pulled OK (runs af7988b8, 6dc57b61): 190 listings checked (42 + 148), 0 passed the pre-screen, nothing sent to Deal Analysis. Health OK. …
+- C: (RapidAPI usage watch, 08:56) Alert: 2,117 / 6,000 used, 3,883 left (64.7%), resets Nov 27 17:52 Israel time; pace 57.3/day; 155 calls in the last 24h (threshold 75), mostly zillow-search / for-sale …
+- C: (Weekly usage check, 08:57) Grok weekly limit 6.6% used (resets Sat Nov 28 14:29). Shares vs baseline: coordinator 49% (47), deal analysis 31% (32), other 8% (<1), market research 6% (5) …
+- C: (Weekly business metrics, 09:34) Week Nov 15–21: 14 zips pulled, ~1,800 listings scanned (vs 4 zips / 403 the week before); 34 full analyses, none passed trial or old BRRRR target at ask; only [[1375 …
+- A: (Grok Bot, 08:01–09:34) Relayed the daily search result, RapidAPI alert and weekly metrics to the owner in Hebrew.
+- A: (Grok Bot, 10:05) Delivered the off-market outreach reminder (free Indy city lists + assessor owner address, Driving for Dollars on Tal's trip, QR-consent mail; calls/SMS only with documented …
+- A: (מזכירה, 08:xx) Morning to-do: watch BiggerPockets podcasts; still holding on an unanswered clarifying question to the owner.
+- A: (Indy broker reply watch, 08:58) No new replies.
 ### [[2026-11-21]]
 - D: (Owner, voice call ~12:56) Asked for a written summary of the whole system: what Grok Bot does, what each agent does, and how everything connects — delivered as a Hebrew Word file in chat.
 - D: (Owner, voice 15:21) Wants to combine our system with Claude: give Claude access to the GitHub repo hs-hold/hsdeals-claude-code so it reviews our code against its old code and suggests optimizations. …
@@ -439,17 +456,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - H: Grok Trestle toolkit written into the vault (skills, scripts, Hebrew and English guides).
 - H: First broker HTML, then a brokers-only v2, then a "new only" file after dropping names already on the previous list (9 remained; 4 of them at Roots Realty: Alisha Hernandez, Max Moore, Andres Martin …
 - H: Events for the trip week were checked (Property Deal Network 24 Nov confirmed; Simple Quarters 25 Nov not confirmed; Thanksgiving closures). Flight dates still unknown.
-### [[2026-11-15]]
-- D: Unanalyzed deals are not potential deals and must not appear under Relevant or Rejected, including the Email tab.
-- D: Site lists: Market and Email tabs at the top, Market open by default.
-- D: Rank every list by how far below asking a deal must go to pass BRRRR; ties go to higher rent-to-price.
-- D: In BRRRR search, weight higher rent favorably and flag "works with discount" deals; rate the top deal 1–10. Owner rated [[1733 Olive St]] 8/10.
-- D: Deal journal is activated only when the owner explicitly says he bought a property.
-- D: Do not draft a wholesaler reply while a deal is with Deal Analysis; wait and send one reply that reflects the analysis.
-- D: Stop Zillow email intake (saved searches and alert emails off; mark stragglers read). The site funnel is unchanged.
-- H: Three wholesaler deals analyzed and rejected at ask: [[5301 Essex Farms Pl]] ($205k stated; already pending on MLS at $290k), [[5811 Shadow Rock Dr]] ($130k), [[4799 Oak Ct]] ($110k). Files in …
-- H: Updates: Primrose stayed a weak flip-only conditional; Riverdale / Bethsaida only works at a deep discount; [[2195 Trailwood Dr SE]] rejected at $259.9k (walk-away ~$180–200k, unfinished basement).
-- H: Owner approved fixing deal-analysis-ingest so it accepts email/Grok deal ids (138 deals from 13 and 15 Nov). Cloud agent started with merge/deploy approval.
 
 ## Where to look (folder map)
 [[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.

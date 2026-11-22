@@ -60,3 +60,8 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Built the Indy intro email with the owner over voice (v3→v10) and, on his "תשלח לכולם", sent 30 individual emails from deals@hs-hold.com (27 brokers + 3 wholesalers); 2 bounced. See [[Indy Trip Nov 2026]].
 - New routine: Indy broker reply watch (09:00/15:00/21:00 Israel time, until Dec 6) — reports replies only, never answers. First reply: [[Nolan Lamkin]]; owner sent Tal's reply via a draft card.
 - Active routines: daily deal search 08:00, RapidAPI watch 09:00, Indy broker reply watch 09/15/21, brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, off-market reminder Sun Nov 22 10:00, criteria trial review Nov 25 10:00, Dana CPA reminder Jan 3.
+
+### 2026-11-22 — Grok Bot (from sync 13:20)
+- Daily search 46214 + 46220: 190 checked, 0 passed pre-screen (several runs in a row). RapidAPI alert: 155 calls/24h (zillow-search for-sale), 3,883/6,000 left. Weekly metrics sent (asked owner for offers count). See [[2026-11-22]].
+- Off-market reminder delivered 10:05 and its routine deleted.
+- Active routines: daily deal search 08:00, RapidAPI watch 09:00, Indy broker reply watch 09/15/21 (until Dec 6), brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, criteria trial review Nov 25 10:00, Dana CPA reminder Jan 3.

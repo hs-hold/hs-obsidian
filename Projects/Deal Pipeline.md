@@ -51,7 +51,9 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - [ ] Deep recheck of old contacts (see [[Indy Trip Nov 2026]])
 - [ ] Next single batch: PR 370 + PR 376, plus (proposed 2026-11-20) a read-only `deal_queue` peek so GET does not mark unpulled items 'sent', a screened-listing count in the funnel health response, and "ready for full renovation"/"blank canvas" listing text → heavy rehab tier
 - [ ] Owner: analyse the two sent-but-unanalysed Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln)? Recommendation: no
-- [ ] Off-market lead source (2026-11-20): owner to decide scope / runner / budget of [[off-market-lead-generation]]; recommended start = free Indy lists + direct mail with QR consent; reminder Sun Nov 22 10:00
+- [ ] Off-market lead source (2026-11-20): owner to decide scope / runner / budget of [[off-market-lead-generation]]; recommended start = free Indy lists + direct mail with QR consent; reminder delivered Sun Nov 22 10:00, awaiting owner
+- [ ] Investigate RapidAPI spike 2026-11-22 (155 calls/24h, mostly zillow-search for-sale) and stop unscheduled pulls
+- [ ] Pre-screen passed 0 for several daily runs in a row (e.g. 46214/46220 on Nov 22) — check if stricter than trial criteria
 
 ## Links
 - Profile: [[00 Profile]]
@@ -70,3 +72,4 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-20 evening: WhatsApp wholesale lead from [[Adam (Atlanta wholesaler)]] → [[714 Cather Ct]] (30088, $143k, hoarder) REJECT, trial MAO $86.1k; posted to the site on owner instruction (deal b74f7b63).
 - 2026-11-21: daily search failed — RapidAPI timeouts on 46143 (07:54) and 46168 (08:06), 0 properties, nothing analyzed; found the timeout zip-skip bug. RapidAPI 1,953/6,000 used. See [[2026-11-21]].
 - 2026-11-21: Owner wants Claude to review the hsdeals-claude-code repo and suggest optimizations. Grok Bot wrote an English handoff brief (flow, key files, what lives outside code, known bugs; no secrets): /home/box/shared/claude-handoff/claude-handoff-brief-2026-11-21.md, Drive דוחות ומחקר. Claude may propose PRs only — no merge/deploy; changes go into the single merge batch.
+- 2026-11-22: daily zips 46214/46220 OK, 190 checked, 0 passed pre-screen; 46143/46168 still not re-pulled. RapidAPI 2,117/6,000 used, 155 calls in 24h (alert). See [[2026-11-22]].
