@@ -9,3 +9,12 @@ Builds ONE compressed, always-fresh memory file at the vault root (`00 Memory.md
 - Safety: output passes through a secret-pattern redaction; secrets never belong in the vault anyway.
 - Trigger: run at the end of the twice-daily vault sync (13:00 / 23:00 Asia/Jerusalem), then commit with `_system/grok-trestle/scripts/safe-push.sh`.
 - Agents: read `00 Memory.md` first; if a topic is missing, search the vault for it before answering.
+
+## Sync merge rules (2026-11-23)
+
+- Always `git pull --rebase --autostash` before writing a sync commit (`safe-push.sh` already does this).
+- Append new owner decisions to `Projects/Decisions Log.md` and the daily note **before** running `build_memory_file.py`. Never hand-edit `00 Memory.md`.
+- Do not rewrite older Decisions Log entries. Do not close Open Items without a verification line.
+- If a rebase conflict appears, keep the newer dated decision and do not drop Open Items or Decisions Log lines.
+- Running harvest times are 13:00 and 23:00 Asia/Jerusalem. `00 Profile` still records the original 13:00 / 23:30 request. That contradiction is Open Items OI-M10 — do not change either side until the owner decides.
+- After 23 Nov 2026, specialist (teammate) transcripts are readable with SearchTranscripts `in=<agent-id>`. Sync prompts should include relevant facts from those chats, not only the main Grok Bot chat. Helper executors still cannot read the main Grok Bot transcript.

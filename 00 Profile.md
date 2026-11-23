@@ -99,7 +99,8 @@ updated: 2026-11-17
 - The social media / Meta ads marketing pipeline idea was cancelled on 2026-11-09; never build it or bring it up again.
 - Send Offers site data is saved on the owner's own computer. See [[2026-11-16 Send Offers]].
 - Indianapolis broker / contact searches use the saved prompt in [[broker-search-prompt]].
-- Shared Obsidian vault (this repo, `hs-hold/hs-obsidian`, clone at `/home/box/shared/obsidian-vault`) is the team "brain". Twice-daily harvest at 13:00 and 23:30 Asia/Jerusalem. Also write immediately when something is decided or the owner says "remember this" (owner, 2026-11-17).
+- Shared Obsidian vault (this repo, `hs-hold/hs-obsidian`, clone at `/home/box/shared/obsidian-vault`) is the team "brain". Twice-daily harvest at 13:00 and 23:30 Asia/Jerusalem. Also write immediately when something is decided or the owner says "remember this" (owner, 2026-11-17). The running routines currently fire at 13:00 and 23:00; that difference is an open item for the owner ([[Open Items]] OI-M10) and must not be "fixed" until he decides.
+- Open tasks and pending owner decisions: [[Open Items]]. Canonical sources: [[Canonical Sources]]. Append-only decisions: [[Decisions Log]]. Memory tags and stale-marking: [[conventions]].
 - Contractor talk → remind the contract checklist: milestone payments (never upfront), changes in writing, lien waiver with each payment, one-year warranty, no work before closing (owner, 2026-11-17).
 - Important docs and outputs go to the Google Drive library; bots stay strictly inside it (see [[Drive Library]]) (owner, 2026-11-17).
 - Business decisions told to any bot go to shared memory and the vault immediately (owner, 2026-11-17).

@@ -39,6 +39,8 @@ Primary strategy is BRRRR; flip is secondary (owner, 2026-11-12). Full rules: [[
 - 2026-11-17: listing-status check (no RapidAPI) of on-market "Relevant" deals; under-contract deals moved to the Unavailable tab (PR 367). Auction listings stay in Relevant with an Auction badge.
 
 ## Open tasks
+Canonical live list: [[Open Items]]. Items below are kept as history and should be reconciled there, not duplicated as a second source of truth.
+
 - [ ] Fix funnel-run-next-zip: on a RapidAPI timeout (retry_later) keep the same zip instead of advancing nextZip; re-pull 46143 and 46168 (skipped Nov 21). Land in the next single merge batch.
 - [ ] After Indy ARV fixes (PR 329 landed): audit the share of deals with no auto ARV / needs_comps, and deals dropped for missing API data (owner asked 2026-11-10; do not start before the fix, then do it)
 - [ ] Daily routine that calls `funnel-run-next-zip` once and hands `deal_queue` (max 5) to Deal Analysis — was pending owner approval

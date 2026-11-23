@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-23 13:16 Asia/Jerusalem from commit 4c1814b 2026-11-22 23:19 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-23 14:10 Asia/Jerusalem from commit ee15cae 2026-11-23 13:17 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
@@ -13,11 +13,11 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot 22:37) Weekly business metrics every Sunday 9:30; Indy trip contacts drip: a small batch each evening by 19:00 on Nov 18–20, up to ~1% usage per day, using [[broker-search-prompt]] …
 - Schedule: (Grok Bot 23:11) Daily search pulls two zips per day, one after the other, and sends up to 5 deals from both to analysis; motivated-seller properties get priority. Same daily processing budget; only …
-- Latest log (2026-11-23 — Grok Bot (from sync 13:20)): Daily search 46227+46228: 219 checked, 0 passed. Owner-requested extra search (≤10% weekly): 46229/46235/46236/46239, 552 checked, 5 manual near-misses → all REJECT ([[2026-11-23 Indy extra search near-misses (5)]]). RapidAPI alert 87/day. New owner rule: US send hours (Atlanta/Indy Eastern) — see …
+- Latest log (2026-11-23 afternoon — upgrade execution): Owner approved the upgrade plan with five clarifications ([[Decisions Log]] D-2026-11-23-01). Backups + restore point: tag `pre-upgrade-2026-11-23` (commit ee15cae). Central tracker [[Open Items]], [[Canonical Sources]], [[Decisions Log]], [[Criteria Map]]. Broker log backfilled (Steele + all known …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
 - Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
-- Recent ([[2026-11-23]]): (Grok Bot, 12:45–13:10) Read-only audit done; plain-text copy sent to owner.
+- Recent ([[2026-11-23]]): (Grok Bot helper, 14:00–) P0 backups under `/home/box/shared/backups/2026-11-23/` (chmod 700/600, not in Drive, no secrets included). Vault tag `pre-upgrade-2026-11-23` on `ee15cae`, pushed to origin. Restore test …
 - Recent ([[2026-11-23]]): (Grok Bot, 12:16) [[Steele Kruzel]] reply (deals@ inbox, 01:36 Israel) was missed by the Indy broker reply watch because it only checks the group round "Coming to Indy, and we're buying"; his outreach was a separate …
 - Last activity seen in vault: 2026-11-23
 ### Deal Analysis — [[Deal Analysis]]
@@ -146,6 +146,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Send Offers site data is saved on the owner's own computer. See [[2026-11-16 Send Offers]].
 - Indianapolis broker / contact searches use the saved prompt in [[broker-search-prompt]].
 - Shared Obsidian vault (this repo, `hs-hold/hs-obsidian`, clone at `/home/box/shared/obsidian-vault`) is the team "brain". Twice-daily harvest at 13:00 and 23:30 Asia/Jerusalem. Also write immediately when something is decided or the owner says "remember this" …
+- Open tasks and pending owner decisions: [[Open Items]]. Canonical sources: [[Canonical Sources]]. Append-only decisions: [[Decisions Log]]. Memory tags and stale-marking: [[conventions]].
 - Contractor talk → remind the contract checklist: milestone payments (never upfront), changes in writing, lien waiver with each payment, one-year warranty, no work before closing (owner, 2026-11-17).
 - Important docs and outputs go to the Google Drive library; bots stay strictly inside it (see [[Drive Library]]) (owner, 2026-11-17).
 - Business decisions told to any bot go to shared memory and the vault immediately (owner, 2026-11-17).
@@ -176,6 +177,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Owner: number of offers submitted Nov 15–21 → [[Metrics]]. — [[2026-11-23]]
 - Investigate RapidAPI pace (87/day); fix pre-screen strictness + propertyCount=0; zip-skip timeout, re-pull 46143 + 46168. — [[2026-11-23]]
 - Criteria trial review Wed Nov 25 10:00. — [[2026-11-23]]
+- See [[Open Items]] (this list below is no longer the only copy). — [[2026-11-23]]
+- OI-M10: owner decides 23:00 vs 23:30. — [[2026-11-23]]
+- Widened reply watch to be applied and verified on all threads before C-4 messages. — [[2026-11-23]]
 - Owner: number of offers submitted Nov 15–21 → add to [[Metrics]]. — [[2026-11-22]]
 - Investigate the RapidAPI spike (155 calls/24h, zillow-search for-sale) and stop unscheduled pulls. — [[2026-11-22]]
 - Check whether the pre-screen is too strict vs trial criteria (0 passed several runs in a row). — [[2026-11-22]]
@@ -195,7 +199,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). Update ~10:30–13:00: #3 call scripts dropped for Tal; off-market leads under … — [[2026-11-20]]
 - Owner: analyse the two Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln) or leave them? Recommendation: leave. — [[2026-11-20]]
 - Next merge batch (one batch): PR 370 + PR 376, plus proposed fixes: read-only `deal_queue` peek (GET must not consume), screened-listing count in the funnel health response, "ready for full … — [[2026-11-20]]
-- Zip Intel note for 46140 (Greenfield) is still missing. — [[2026-11-20]]
 - Content Insights: re-record video 10-2, then 10-3 — only within a new owner-approved budget (4% used up). — [[2026-11-20]]
 - Indy contacts drip day 3 today ~18:15 (attorney/title, insurance, local bank, investor groups), then delete the routine. — [[2026-11-20]]
 - Trial-vs-old criteria comparison Nov 25 10:00. — [[2026-11-20]]
@@ -279,6 +282,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - D: (Owner → Grok Bot, 12:17) New standing rule: always track local time in Atlanta and Indianapolis (both US Eastern, now UTC−5 = Israel −7h). Emails to US contacts go out only at reasonable local …
 - D: (Owner, 12:17–12:21) Email [[Steele Kruzel]] only to set up a phone call (short version); owner approved scheduling it for 09:00 Indy time Mon Nov 23 = 16:00 Israel (one-off routine …
 - D: (Owner, 09:06) Extra deal search across several zips with a budget of up to 10% of the weekly Grok limit.
+- D: (Owner, 14:00) Approved the full upgrade plan with five clarifications (M-10 sync time left open; watch must cover all deals@ outreach before anyone else stops reporting; secure backups + real …
 - Owner: (12:16) Relayed (from another bot) that Steele Kruzel of Indiana Ford Realty answered Tal about the Dec 1–2 visit: proposes Tue Dec 1, ~10:00–12:00 Indy time (17:00–19:00 Israel). Phone (317) …
 - Owner: (12:37) Asked for a written explanation + reusable prompt of our agent work-order (shared brain, syncs, memory) to use in another Grok account → delivered as …
 - Owner: (12:45) Asked for a read-only diagnosis/optimization of the agent system with strict "preserve what exists" rules (no deleting memories, changing agents, prompts, routines or structure without …
@@ -292,6 +296,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - A: (Deal Analysis, ~09:50–10:00) Analyzed 5 near-misses (files /home/box/shared/deal-outcomes/analyses/2026-11-23/, not posted to the site).
 - A: (Grok Bot, 12:18–12:21) Drafted short call-request email to Steele, scheduled 09:00 Indy.
 - A: (Grok Bot, 12:45–13:10) Read-only audit done; plain-text copy sent to owner.
+- A: (Grok Bot helper, 14:00–) P0 backups under `/home/box/shared/backups/2026-11-23/` (chmod 700/600, not in Drive, no secrets included). Vault tag `pre-upgrade-2026-11-23` on `ee15cae`, pushed to …
 ### [[2026-11-22]]
 - D: (Owner → Grok Bot, 19:24–19:29) Nolan's proposed call time (Mon Nov 23, 11:00 Eastern = 18:00 Israel) works for Tal. Owner approved sending the confirmation email and a calendar invite from …
 - Owner: (19:24) Nolan replied asking to schedule a call; the time suits Tal.
@@ -479,7 +484,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - A: (Deal Analysis 21:56) About 210 deals passed through Deal Analysis since Nov 9 (138 Zillow-alert screens, only Primrose Pl and Eleanor St came out CONDITIONAL; ~74 full analysis files).
 
 ## Where to look (folder map)
-[[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.
+[[00 Profile]] rules/criteria · [[Open Items]] tracker · [[Canonical Sources]] · [[Decisions Log]] · [[conventions]] · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]], criteria differences: [[Criteria Map]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`. Outreach replies: `/home/box/shared/indy-trip/broker-replies-log.md`.
 
 ## Gaps in sources
 - bot 'Deal Analysis - שיטת ניתוח' has no readable profile.json

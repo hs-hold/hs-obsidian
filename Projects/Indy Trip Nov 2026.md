@@ -34,6 +34,8 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - 2026-11-21: Outreach started — owner approved sending the intro email "Coming to Indy, and we're buying" (v10, signed Tal Hait, (201) 681-1218, meeting around Nov 30 – Dec 1) to 27 brokers + 3 wholesalers from deals@hs-hold.com; 28 delivered, 2 bounced (KK Buys Indy Homes, Stacy Patlan). Before that, research only.
 
 ## Open tasks
+Canonical live list: [[Open Items]]. Items below are kept as history.
+
 - [ ] Add Tal's exact flight dates once the owner confirms them
 - [ ] Confirm whether Simple Quarters MeetUp runs on Wed 25 Nov (Thanksgiving eve)
 - [ ] If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals"

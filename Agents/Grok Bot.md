@@ -73,3 +73,9 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - [[Steele Kruzel]] reply found (missed by reply watch); call-request email scheduled 09:00 Indy (one-off routine).
 - Wrote agent work-order explanation + reusable prompt for owner's other Grok account; ran a read-only agent-system audit (no changes; plan awaits approval). Reports in _system/reports/.
 - Active routines: daily deal search 08:00, RapidAPI watch 09:00, Indy broker reply watch 09/15/21 (until Dec 6), brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, criteria trial review Nov 25 10:00, Steele email Nov 23 09:00 Indy (one-off), Dana CPA reminder Jan 3.
+
+### 2026-11-23 afternoon — upgrade execution
+- Owner approved the upgrade plan with five clarifications ([[Decisions Log]] D-2026-11-23-01).
+- Backups + restore point: tag `pre-upgrade-2026-11-23` (commit ee15cae). Central tracker [[Open Items]], [[Canonical Sources]], [[Decisions Log]], [[Criteria Map]].
+- Broker log backfilled (Steele + all known deals@ outreach families). 46140 zip intel marked found. M-10 left open (no schedule or doc alignment of 23:00 vs 23:30).
+- Prepared, not applied here: widened reply-watch prompt, sync-prompt additions, specialist messages, timeout PR brief. Did not change routines, did not message specialists, did not merge or deploy, did not touch the Steele 16:00 send or the Nolan 18:00 call.

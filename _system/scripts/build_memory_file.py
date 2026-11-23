@@ -372,10 +372,13 @@ def build(days: int) -> tuple[str, list[str]]:
     L.append("")
 
     L.append("## Where to look (folder map)")
-    L.append("[[00 Profile]] rules/criteria · Agents/ bot logs · Projects/ project notes "
-             "(pipeline: [[Deal Pipeline - How It Works]]) · Notes/Daily/ daily notes · Deals/ one note per property · "
+    L.append("[[00 Profile]] rules/criteria · [[Open Items]] tracker · [[Canonical Sources]] · "
+             "[[Decisions Log]] · [[conventions]] · Agents/ bot logs · Projects/ project notes "
+             "(pipeline: [[Deal Pipeline - How It Works]], criteria differences: [[Criteria Map]]) · "
+             "Notes/Daily/ daily notes · Deals/ one note per property · "
              "Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · "
-             "00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`.")
+             "00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`. "
+             "Outreach replies: `/home/box/shared/indy-trip/broker-replies-log.md`.")
     if gaps:
         L.append("")
         L.append("## Gaps in sources")
