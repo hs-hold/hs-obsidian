@@ -176,10 +176,10 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 
 ### OI-BIGGERPOCKETS — Secretary holds BiggerPockets reminder
 - Owner agent: מזכירה
-- Status: open
+- Status: quiet standing reminder (owner decision 2026-11-23 16:26)
 - Updated: 2026-11-23
-- Next action: keep holding until the clarifying question is answered
-- Needs owner approval: yes (the unanswered question)
+- Next action: keep stored silently; do NOT surface proactively, in open-item lists, digests or notifications; mention only if the owner raises it
+- Needs owner approval: no
 - Source: [[2026-11-23]]
 
 ### OI-ZIPINTEL-GAPS — Zip intel files still missing
