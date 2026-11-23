@@ -2,7 +2,7 @@
 type: contact-index
 category: avoid
 market: Indianapolis
-updated: 2026-11-17
+updated: 2026-11-23
 tags: [contact, avoid]
 ---
 # Avoid
@@ -34,3 +34,17 @@ See individual notes and [[Indy Contractors]]:
 - **Hoosier Houseworks** — a Birdeye 3.4 result may belong to a different firm, "Hoosier HomeWorks" in Alexandria.
 
 Related: [[Indy Brokers]], [[Indy Contractors]], [[Indy Property Managers]], [[Indy Trip Nov 2026]].
+
+## Excluded from the 50-broker search (2026-11-23)
+See [[Indy Brokers 50 for Dec meetings]].
+- **Corina Jones** — Trustindex 4.7/38 includes 2 complaints ("worst experience", inaccurate advice). Excluded under strict rule.
+- **Emily Dyer Humphrey** — Brokerage Carpenter Realtors: multiple lawsuits (Watkin breach-of-contract judgment 2016; Yount fraud/deception suit 2023; Styer civil-rights suit 2023).
+- **Jace Ferris** — Brokerage JMG (Jason Mitchell Group) and its CEO were sued by CFPB Dec 2024 (RESPA kickbacks); dismissed Feb 2025 but still a negative signal.
+- **Michelle Butts** — IREC: Complaint 2012 + Findings of Fact and Order 2013 (license AB20600940).
+- **Kristie Smith - Indy Homes Team** — IREC: Complaint 11/05/2020 + Findings of Fact and Order 03/16/2021 (RB14028993).
+- **ROB Campbell Team, REALTORS** — IREC: Robert M Campbell complaint 1998 + orders 1999 (possible same person; excluded out of caution).
+- **Amy McIntyre** — IREC: Amy McIntyre RB14042428 complaints 2020-21 + multiple Findings of Fact and Orders.
+- **Shea Ellington** — Named in a negative public review (unpleasant attitude) on Highgarden listing; excluded under strict rule.
+- **Gary Swift** — A 2019 seller review alleges false promises / steering to a low offer. Excluded under strict rule.
+- **Mike & Melanie** — Experience 4.78/161 incl. a complaint about poor communication; excluded under strict rule (also brokerage owner family).
+- **Barbara Whiteside** — Strong investor fit (BRRRR deal at 1131 E Murry St), but a public complaint says she did not treat veterans/first responders fairly (dependablerealtors.com). Excluded under strict rule.

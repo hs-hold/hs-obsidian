@@ -2,7 +2,7 @@
 type: contact-index
 category: broker
 market: Indianapolis
-updated: 2026-11-19
+updated: 2026-11-23
 tags: [contact, broker]
 ---
 # Indy Brokers
@@ -74,3 +74,61 @@ No broker published a zip list. Coverage counts are derived from city and county
 - `/home/box/shared/indy-trip/brokers-new-2026-11-19.html` (10 new, 2026-11-19)
 
 Related: [[Indy Wholesalers]], [[Indy Contractors]], [[Indy Property Managers]], [[Avoid]].
+
+## 50 for Dec 1–2 meetings (2026-11-23) — owner will email them himself
+Full list, sources and vetting: [[Indy Brokers 50 for Dec meetings]]. Not contacted. Email verified for all; IREC discipline + web + brokerage checks passed.
+
+| Rank | Name | Company | Email | Phone | Score |
+|---|---|---|---|---|---|
+| 1 | Kristen Yazel | Century 21 Scheetz | kyazel@c21scheetz.com | (317) 721-2745 | 9 |
+| 2 | Summer Hudson | Find A Lot To Love (eXp Realty) | findalottolove@gmail.com | (317) 491-5930 | 9 |
+| 3 | Matthew Kresse | Red Oak Real Estate Group | matthewsold@gmail.com | (317) 318-3420 | 9 |
+| 4 | Barbara Bade | Keller Williams Indy Metro NE Broker | barb.bade@kw.com | (317) 258-5307 | 8.5 |
+| 5 | Devan Lunceford | Totalis Real Estate Solutions | devan@devanlunceford.com | (812) 230-6651 | 8.5 |
+| 6 | Marcy Fox | Exp Realty, Llc - IN - Broker | thefoxandcompany@gmail.com | (317) 588-0122 | 8.0 |
+| 7 | Rachel Bradbury | Highgarden Real Estate | rbradbury@highgarden.com | (317) 701-5552 | 8.0 |
+| 8 | Doug Fredbeck | Keller Williams Indy Metro North Broker | doug.fredbeck@kw.com | (317) 522-8785 | 8 |
+| 9 | Rhonda Krebs | Century 21 Scheetz | rkrebs@c21scheetz.com | (317) 403-2450 | 8 |
+| 10 | Clay Burris | Burris Realty Group (Highgarden Real Estate) | clay@burrisrealtygroup.com | (317) 508-9823 | 7.5 |
+| 11 | Tony Janko (Janko Realty Group) | Janko Realty Group (Tony Janko) | tony@jankorealtygroup.com | (317) 430-1608 | 7.5 |
+| 12 | Eric Rasmussen | Century 21 Scheetz | eric@yourindyteam.com | (317) 900-9108 | 7.5 |
+| 13 | Michelle Nichols | Highgarden Real Estate | mnichols@highgarden.com | 317-796-9072 | 7.5 |
+| 14 | Kyle Williams | Compass | kyle.williams@compass.com | (317) 445-0701 | 7.5 |
+| 15 | Heather Ludlow | Greene Realty | heather@heatherludlow.com | (317) 698-2311 | 7.5 |
+| 16 | Brittany A. Faulkner | Century 21 Scheetz | bfaulkner@c21scheetz.com | 317-529-1048 | 7.5 |
+| 17 | Jenny Laughner | Century 21 Scheetz | jenny@c21scheetz.com | (317) 339-6972 | 7.0 |
+| 18 | Jennie Deckert | Century 21 Scheetz | jdeckert@c21scheetz.com | (317) 720-9587 | 7.0 |
+| 19 | Jared Nelson | Keller Williams Indy Metro North Broker | jnelson@jnandarealty.com | (317) 617-6213 | 7.0 |
+| 20 | Patricia Moura | Century 21 Scheetz | pmoura@c21scheetz.com | 317-645-6991 | 7.0 |
+| 21 | Zach Purdy | Berkshire Hathaway HomeServices Indiana Realty | zach@zachpurdy.com | 317-361-2711 | 7.0 |
+| 22 | Adam Catron | F. C. Tucker Company - Broker | info@catronpropertygroup.com | (317) 366-9405 | 7 |
+| 23 | Nicole Peters | Century 21 Scheetz | npeters@c21scheetz.com | (317) 339-1900 | 7.0 |
+| 24 | Arjun (AJ) Dhital | Serving You Realty | ajdhital@gmail.com | 317-363-4028 | 7 |
+| 25 | Nicole Lloyd | Homes Unlimited Real Estate Services | nicole@indyspropertyshop.com | (317) 652-7752 | 7.0 |
+| 26 | Avery Garrett | Streamlined Realty | soldbyavery@gmail.com | (317) 721-2274 | 7.0 |
+| 27 | Cheryl Strode-Gregory | Cc & R Realty, Llc -  Broker | cgregory7440@gmail.com | 317-418-4489 | 7 |
+| 28 | Denise Fiore | Century 21 Scheetz | dfiore@c21scheetz.com | (317) 428-7128 | 6.5 |
+| 29 | Stephanie Evelo | Keller Williams Indy Metro NE Broker | info@eveloteam.com | (317) 564-7100 | 6.5 |
+| 30 | Alicia Buckley | Century 21 Scheetz | abuckley@c21scheetz.com | (317) 414-5170 | 6.5 |
+| 31 | Rob Sorrell | Keller Williams Indy Metro NE Broker | robsorrell@kw.com | (317) 509-7943 | 6.5 |
+| 32 | Elisabeth Lugar | Century 21 Scheetz | elugar@c21scheetz.com | (317) 995-1128 | 6.5 |
+| 33 | Shelli S. Anderson | Duke Collective, Inc. - Broker | shellianderson@dukecollective.com | (317) 410-2339 | 6.5 |
+| 34 | Martine Locke | Atproperties | martine.locke@gmail.com | (317) 515-1420 | 6.5 |
+| 35 | Jamie Brown | Century 21 Scheetz | jamieb@c21scheetz.com | (317) 881-2100 | 6.5 |
+| 36 | Jessica Darnell | Century 21 Scheetz | jdarnell@c21scheetz.com | (317) 250-5484 | 6.5 |
+| 37 | Keri Schuster | United Real Estate Indianapolis | kerisellshomes@yahoo.com | (317) 695-2053 | 6.5 |
+| 38 | Kristin Skiles | Century 21 Scheetz | kskiles@c21scheetz.com | (219) 308-8076 | 6.5 |
+| 39 | Kim Pickett | Century 21 Scheetz | kpickett@c21scheetz.com | (313) 570-3217 | 6.0 |
+| 40 | Stacy Hall | Real Broker, LLC | callitsoldwithstacy@gmail.com | (317) 432-6484 | 6.0 |
+| 41 | Shelly Walters-Cifelli | F. C. Tucker Company - Broker | shelly@shellywalters.com | (317) 201-2601 | 6.0 |
+| 42 | Keith Albrecht | RE/MAX Real Estate Groups Broker | keith@keithshomes.com | (317) 590-7878 | 6.0 |
+| 43 | Christopher Porter | Century 21 Scheetz | cporter@c21scheetz.com | (317) 750-9173 | 5.5 |
+| 44 | Katie Kiel | Century 21 Scheetz | kkiel@c21scheetz.com | 317-412-5414 | 5.5 |
+| 45 | Curt Mikulla | Hot House Realty | homes@curtmikulla.com | (317) 201-7676 | 5.5 |
+| 46 | Todd Denkmann | Keller Williams Indy Metro North Broker | calltodd@kw.com | 317-507-8633 | 5.5 |
+| 47 | Jen Short | Century 21 Scheetz | jshort@c21scheetz.com | 317-640-6709 | 5.5 |
+| 48 | Eve Keller | Compass Indiana, Gallery of Homes | eve@indyeve.com | 317-471-9087 | 5.5 |
+| 49 | Rachel Burke | Century 21 Scheetz | rburke@c21scheetz.com | (317) 627-1893 | 5.5 |
+| 50 | Doug Dilling | United Real Estate Indpls -  Broker | doug@dillinggrouprealestate.com | 317-965-1001 | 5.5 |
+
+Reserve (passed vetting, lower score): Amber Byrd, Ashley Wright, Sandy Ginn, Deborah King, John Stewart.

@@ -24,3 +24,7 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 
 ### 2026-11-23 — Indianapolis Market Research (from sync 13:20)
 - Received (non-urgent) the owner's new US send-hours rule (Atlanta/Indy Eastern business hours only; state local time when proposing a send). See [[00 Profile]].
+
+## 2026-11-23 ~21:45 — 50 מתווכים עם מייל לפגישות 1–2 בדצמבר
+- לבקשת ערן: 50 מתווכים חדשים עם מייל מאומת ודירוג טוב, אחרי סינון שלילי קשוח (IREC, רשת, משרד). ערן ישלח בעצמו; לא נוצר קשר. ראו [[Indy Brokers 50 for Dec meetings]] ו-[[Indy Brokers]]; נפסלים ב-[[Avoid]].
+- קבצים: /home/box/shared/indy-trip/brokers-50.md, .csv, .html.
