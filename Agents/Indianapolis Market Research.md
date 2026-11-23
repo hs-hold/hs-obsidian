@@ -21,3 +21,6 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 
 ## 2026-11-21 ~18:00 — טיוטת מייל לטל
 - העביר ל-Grok Bot טיוטת מייל בעברית לטל (/home/box/shared/indy-trip/email-draft-tal-he.md); ממנה נבנה מייל ההיכרות באנגלית ששלחנו ל-30 נמענים. ראו [[Indy Trip Nov 2026]].
+
+### 2026-11-23 — Indianapolis Market Research (from sync 13:20)
+- Received (non-urgent) the owner's new US send-hours rule (Atlanta/Indy Eastern business hours only; state local time when proposing a send). See [[00 Profile]].

@@ -22,3 +22,6 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 ### 2026-11-20 — Deal Inbox (from sync 23:25)
 - 06:50 inbox scan: [[4244 Canby Ln]] handed off (REJECT).
 - 20:43: owner forwarded wholesaler Adam's WhatsApp blast (19:27); handed [[714 Cather Ct]] (only buy-box item of 5) to Deal Analysis → REJECT; relayed the owner's "post it" instruction. New contact [[Adam (Atlanta wholesaler)]].
+
+### 2026-11-23 — Deal Inbox (from sync 13:20)
+- Received (non-urgent) the owner's new US send-hours rule (Atlanta/Indy Eastern business hours only; state local time when proposing a send). See [[00 Profile]].

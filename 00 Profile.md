@@ -104,6 +104,7 @@ updated: 2026-11-17
 - Important docs and outputs go to the Google Drive library; bots stay strictly inside it (see [[Drive Library]]) (owner, 2026-11-17).
 - Business decisions told to any bot go to shared memory and the vault immediately (owner, 2026-11-17).
 - Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
+- **US send hours (owner, 2026-11-23):** always track local time in Atlanta and Indianapolis (US Eastern, Israel −7h in winter). Emails to US contacts go out only at reasonable local business hours (≈09:00–18:00 Eastern weekdays = 16:00–01:00 Israel). When proposing a send, state the local time there; if off-hours, schedule for 09:00 their time.
 
 ## Bots (each keeps `Agents/<bot>.md`)
 - [[Grok Bot]] (main coordinator)

@@ -66,3 +66,10 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Daily search 46214 + 46220: 190 checked, 0 passed pre-screen (several runs in a row). RapidAPI alert: 155 calls/24h (zillow-search for-sale), 3,883/6,000 left. Weekly metrics sent (asked owner for offers count). See [[2026-11-22]].
 - Off-market reminder delivered 10:05 and its routine deleted.
 - Active routines: daily deal search 08:00, RapidAPI watch 09:00, Indy broker reply watch 09/15/21 (until Dec 6), brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, criteria trial review Nov 25 10:00, Dana CPA reminder Jan 3.
+
+### 2026-11-23 — Grok Bot (from sync 13:20)
+- Daily search 46227+46228: 219 checked, 0 passed. Owner-requested extra search (≤10% weekly): 46229/46235/46236/46239, 552 checked, 5 manual near-misses → all REJECT ([[2026-11-23 Indy extra search near-misses (5)]]). RapidAPI alert 87/day.
+- New owner rule: US send hours (Atlanta/Indy Eastern) — see [[00 Profile]]; relayed to מזכירה, Deal Inbox, Indy Research.
+- [[Steele Kruzel]] reply found (missed by reply watch); call-request email scheduled 09:00 Indy (one-off routine).
+- Wrote agent work-order explanation + reusable prompt for owner's other Grok account; ran a read-only agent-system audit (no changes; plan awaits approval). Reports in _system/reports/.
+- Active routines: daily deal search 08:00, RapidAPI watch 09:00, Indy broker reply watch 09/15/21 (until Dec 6), brain sync 13:00/23:00, weekly usage Sun 09:00, weekly metrics Sun 09:30, criteria trial review Nov 25 10:00, Steele email Nov 23 09:00 Indy (one-off), Dana CPA reminder Jan 3.

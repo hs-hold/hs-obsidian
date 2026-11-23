@@ -30,3 +30,6 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 
 ### 2026-11-20 evening — Deal Analysis (from sync 23:25)
 - [[714 Cather Ct]] (wholesaler Adam via Deal Inbox, Atlanta 30088): REJECT, trial MAO $86.1k vs $143k ask; payload posted on owner instruction (deal b74f7b63).
+
+### 2026-11-23 — Deal Analysis (from sync 13:20)
+- [[2026-11-23 Indy extra search near-misses (5)]]: all REJECT at ask; top 2426 E 57th St 4/10 (trial MAO $137.9k). Not posted; files in deal-outcomes/analyses/2026-11-23/.

@@ -33,3 +33,6 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 
 ## Open
 - [ ] Call Mon Nov 23 18:00 Israel — Tal calls him at (317) 696-9545. Then: in-person meeting around Nov 30 – Dec 1 if it fits.
+
+## Update 2026-11-23
+- 07:09: invite not yet accepted, no new email. Per his Zillow service areas he covers 27 of our 33 zips (missing 46107, 46113, 46112, 46168, 46123, 46140); 5 sales last year (avg $125k). Suggested questions for Tal: off-market deals or $200–300k listings now; meet in person during the trip. Call today 18:00 Israel. See [[2026-11-23]].

@@ -44,6 +44,8 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - [ ] Call with [[Nolan Lamkin]] — confirmed Mon Nov 23 11:00 ET / 18:00 Israel (invite sent from deals@ calendar)
 - [ ] Tal to phone KK Buys Indy Homes (Kent) and Stacy Patlan (emails bounced)
 - [ ] Owner: add Beech Grove / Speedway / Greenfield to outreach wording?
+- [ ] [[Steele Kruzel]] (Indiana Ford Realty): call-request email 16:00 Israel Nov 23; he offered meeting Tue Dec 1 10–12 Indy
+- [ ] Reply watch misses separate threads ('Investor visiting Indy Dec 1–2') — add them (pending owner)
 
 ## Links
 - Profile: [[00 Profile]]
@@ -61,3 +63,4 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 - 2026-11-21: Intro email written with the owner over several voice calls (v3→v10, files in /home/box/shared/indy-trip/). Owner approved at 19:14; Grok Bot sent 30 individual emails from deals@hs-hold.com. 2 bounced. Separate round (logged 20:10): 17 meeting-request emails to 18 new investor-agent addresses ([[Indianapolis Market Research]] list investor-agents.md). Reply watch routine 09/15/21 until Dec 6.
 - 2026-11-21 20:50: first reply — [[Nolan Lamkin]] (Century 21 Scheetz); Tal replied 21:42 offering Sun ~11 am or Monday.
 - 2026-11-22: Nolan proposed Mon 11:00 ET; confirmed 19:29 with email + calendar invite from deals@hs-hold.com.
+- 2026-11-23: [[Steele Kruzel]] replied (01:36 Israel) offering Tue Dec 1 10–12; short call-request email scheduled 09:00 Indy. Nolan call today 18:00 Israel.
