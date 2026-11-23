@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Indianapolis Market Research"
 created: 2026-11-09
-updated: 2026-11-17
+updated: 2026-11-23
 tags: [agent]
 ---
 # Indianapolis Market Research — work log
@@ -28,3 +28,7 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 ## 2026-11-23 ~21:45 — 50 מתווכים עם מייל לפגישות 1–2 בדצמבר
 - לבקשת ערן: 50 מתווכים חדשים עם מייל מאומת ודירוג טוב, אחרי סינון שלילי קשוח (IREC, רשת, משרד). ערן ישלח בעצמו; לא נוצר קשר. ראו [[Indy Brokers 50 for Dec meetings]] ו-[[Indy Brokers]]; נפסלים ב-[[Avoid]].
 - קבצים: /home/box/shared/indy-trip/brokers-50.md, .csv, .html.
+
+## 2026-11-23 ~22:23 — מייל פתיחה ל-32 מתווכים מ-brokers-50
+- באישור ערן נשלחו 32 מיילי פתיחה ("Coming to Indy, and we're buying") מ-deals@hs-hold.com, חתום טל, עם בקשה לפגישה ב-30 בנובמבר וב-1 בדצמבר, ל-32 השורות ב-[[Indy Brokers 50 for Dec meetings]] שכתובתן אינה c21scheetz.com. אף כתובת @c21scheetz.com לא קיבלה מייל בסבב הזה (6 הטובים מ-Scheetz יפוזרו בימים הקרובים). לוג: `/home/box/shared/indy-trip/broker-replies-log.md`.
+- החזרות מיידיות (כתובת לא קיימת, 550 5.1.1): Jared Nelson (jnelson@jnandarealty.com) ו-Nicole Lloyd (nicole@indyspropertyshop.com). 30 מתוך 32 נמסרו לפי שעה.
