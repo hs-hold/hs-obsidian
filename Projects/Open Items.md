@@ -24,10 +24,10 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 
 ### OI-C-WATCH — Widen and verify the Indy broker reply watch
 - Owner agent: Grok Bot
-- Status: prepared
-- Updated: 2026-11-23
-- Next action: coordinator applies the new routine prompt, then runs the verification checklist on all deals@ outreach threads (inventories A, B, and C in the central log), including new incoming replies — not only Nolan and Steele. Only after that verification, send the stop-reporting messages to Deal Inbox and Indianapolis Market Research. Do not retire their reporting first. Do not disturb the Steele one-off send at 16:00 Israel or the Nolan call at 18:00.
-- Needs owner approval: no for applying the already-approved prompt; yes is not required mid-step
+- Status: waiting-verification
+- Updated: 2026-11-23 14:20
+- Next action: coordinator already applied the widened watch prompt (old prompt + schedule snapshotted under `/home/box/shared/backups/2026-11-23/routine-snapshots/`; schedule unchanged 09/15/21). Eight "send now" specialist messages were sent (priority false); Deal Inbox and Indy Research were told to keep reporting until verification. A read-only dry run of checklist items 1–9 on 23 Nov 14:15 Israel **passed** (report: `artifacts/e-watch-verification-dry-run-2026-11-23.md`). No A/B/C subject gap. C-4 stop-reporting messages are still **not** sent — coordinator sends them after accepting this dry run, then watches one cycle for duplicate reports. Do not disturb the Steele 16:00 send or the Nolan 18:00 call.
+- Needs owner approval: no
 - Source: `/home/box/shared/indy-trip/broker-replies-log.md`; artifacts in `/home/box/shared/backups/2026-11-23/artifacts/`
 
 ### OI-STEEL-EMAIL — Steele call-request email
@@ -74,7 +74,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Owner agent: Grok Bot (cloud agent may open a PR)
 - Status: prepared
 - Updated: 2026-11-23
-- Next action: coordinator may launch a fresh cloud agent with the prepared brief to open a PR with mock tests and zero RapidAPI calls. Do not merge, deploy, or describe the production bug as fixed until a separate approval and a live test. Re-pull 46143, 46168, and 46236 only after deploy.
+- Next action: coordinator launched a cloud agent to open the timeout PR (no merge). The production bug is **not** fixed: the 23 Nov extra search recorded `retry_later` / "Signal timed out." on 46236 at 07:13 UTC, then pulled 46239 (which also timed out once, then succeeded). Re-pull 46143, 46168, and 46236 only after a later approved deploy and live test.
 - Needs owner approval: yes for merge/deploy/live test; PR preparation is in the approved plan
 - Source: `supabase/functions/funnel-run-next-zip/index.ts` (retry_later sets pull_retry_after and returns nextZip); [[Deal Pipeline]]
 
@@ -82,7 +82,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Owner agent: Grok Bot
 - Status: open
 - Updated: 2026-11-23
-- Next action: read-only breakdown so far is in `_system/reports/2026-11-23-rapidapi-and-timeout.md`. A live query of `rapidapi_usage` / `funnel_runs` is still needed (no new RapidAPI calls). Do not start unscheduled pulls.
+- Next action: live `rapidapi_usage` for the Nov 22 155-call window is still not queryable from this helper (no Supabase connector; secrets were not used). A pre-existing dump `/workspace/deal-search-2026-11-23-extra/rapidapi_today.json` (no new RapidAPI calls) covers 23 Nov 01:24–07:25 UTC only: 113 calls, 86 of them Atlanta zips under trigger `zillow_search` (burst 06:50–07:03 UTC / 08:50–09:03 Israel), and 27 Indy under trigger `funnel`. That Atlanta burst is the likely driver of the 09:03 alert (96 calls / 24h, 90 zillow-search for-sale). Do not start further unscheduled pulls. See the RapidAPI note in progress.md.
 - Needs owner approval: no for further read-only investigation; yes to change schedules or deploy
 - Source: RapidAPI watch 22–23 Nov; that report
 
@@ -201,10 +201,10 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-LOG-SYNTAX — 22 Nov "log write syntax error"
 - Owner agent: Grok Bot
 - Status: open
-- Updated: 2026-11-23
-- Next action: still unverified; not found in vault or shared files from this helper. Main Grok Bot chat is not readable from the executor. Coordinator should search the main transcript.
+- Updated: 2026-11-23 14:20
+- Next action: [verified] not found in vault, shared files, the audit text, Deal Inbox transcript, or this helper's session. The main Grok Bot transcript is still not searchable from the executor. Coordinator can close this if a search of the main chat also finds nothing; otherwise leave open only if the main chat has a hit.
 - Needs owner approval: no
-- Source: agent audit 23 Nov
+- Source: agent audit 23 Nov; rechecked 23 Nov 14:15
 
 ## History (closed, keep)
 
