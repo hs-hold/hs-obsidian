@@ -27,3 +27,5 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 
 ## Open
 - [ ] Set a phone call; then possibly meet Tue Dec 1 10–12 Indy time.
+
+- 2026-11-23 16:05 Israel: call-request email sent from deals@ (in thread). 20:05 reply after phone call with Tal: will add Tal to local wholesaler lists and forward deals; proposes meeting Tue 1 Dec 10:00 ET (no place). Owner 21:05: no reply for now.

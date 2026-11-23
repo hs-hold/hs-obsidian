@@ -79,3 +79,9 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Backups + restore point: tag `pre-upgrade-2026-11-23` (commit ee15cae). Central tracker [[Open Items]], [[Canonical Sources]], [[Decisions Log]], [[Criteria Map]].
 - Broker log backfilled (Steele + all known deals@ outreach families). 46140 zip intel marked found. M-10 left open (no schedule or doc alignment of 23:00 vs 23:30).
 - Prepared, not applied here: widened reply-watch prompt, sync-prompt additions, specialist messages, timeout PR brief. Did not change routines, did not message specialists, did not merge or deploy, did not touch the Steele 16:00 send or the Nolan 18:00 call.
+
+### 2026-11-23 evening (sync 23:20)
+- Reply-routing rule (19:19): Tal-intro replies → owner here; other deals@ replies → relevant bot (Deal Inbox). Report every reply to Grok Bot's own deals@ sends (16:25).
+- Ran the ARV-logic check, 5-property blind check and the Indy 20-property filter audit with Deal Analysis; conclusions: rejects correct, hold rules hide deals ([[Open Items]] OI-HOLD-RULES).
+- Upload rule relayed to Deal Analysis: pass at ask or ≤15% off → site (20:46/20:50).
+- Reviewed hoangtng/real-estate-agents (no new bot; template ideas). Indy Tuesday replies on hold per owner (21:05).

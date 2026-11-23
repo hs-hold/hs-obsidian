@@ -25,3 +25,6 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 
 ### 2026-11-23 — Deal Inbox (from sync 13:20)
 - Received (non-urgent) the owner's new US send-hours rule (Atlanta/Indy Eastern business hours only; state local time when proposing a send). See [[00 Profile]].
+
+### 2026-11-23 evening (from sync 23:20)
+- Receives non-Tal deals@ replies forwarded by Grok Bot (owner rule 19:19). Got Edwin's 1621 E 46th St reply; draft awaiting owner approval in its chat (OI-EDWIN-1621).

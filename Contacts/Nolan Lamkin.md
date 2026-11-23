@@ -36,3 +36,5 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 
 ## Update 2026-11-23
 - 07:09: invite not yet accepted, no new email. Per his Zillow service areas he covers 27 of our 33 zips (missing 46107, 46113, 46112, 46168, 46123, 46140); 5 sales last year (avg $125k). Suggested questions for Tal: off-market deals or $200–300k listings now; meet in person during the trip. Call today 18:00 Israel. See [[2026-11-23]].
+
+- 2026-11-23: accepted "Call: Tal Hait / Nolan Lamkin" invite (16:09 Israel). 18:49: thanks for the ZIP list; asks Tal for an example recent deal to replicate (price, rehab scope/cost, sale/refi). Owner 21:05: no reply for now.

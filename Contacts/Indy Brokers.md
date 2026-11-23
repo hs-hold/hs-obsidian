@@ -132,3 +132,5 @@ Full list, sources and vetting: [[Indy Brokers 50 for Dec meetings]]. Not contac
 | 50 | Doug Dilling | United Real Estate Indpls -  Broker | doug@dillinggrouprealestate.com | 317-965-1001 | 5.5 |
 
 Reserve (passed vetting, lower score): Amber Byrd, Ashley Wright, Sandy Ginn, Deborah King, John Stewart.
+
+- 2026-11-23 15:21 Israel: Zac Canull (zac@canull-group.com) replied: Cole moved to LIV Indy (colecooper@livindyrealty.com); offers coffee Tue 1 Dec 9:00 or 9:30 ET. On hold per owner (21:05).

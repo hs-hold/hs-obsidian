@@ -33,3 +33,8 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 
 ### 2026-11-23 — Deal Analysis (from sync 13:20)
 - [[2026-11-23 Indy extra search near-misses (5)]]: all REJECT at ask; top 2426 E 57th St 4/10 (trial MAO $137.9k). Not posted; files in deal-outcomes/analyses/2026-11-23/.
+
+### 2026-11-23 evening (from sync 23:20; its transcript not readable this run — from Grok Bot chat + files)
+- Blind analyses for the 5-property check and Indy 20-property audit. Rule (owner 20:50): properties passing at ask or ≤15% off are always uploaded, including audit/test runs; written to its rules file (reported 20:56).
+- Posted 1318 Bacon St (passed), 3667 Cedar Pine Pl, 10160 Park Stream Dr (deal ids d8566553…, 78c86ae2…, 8ab78e22…).
+- v3 engine research re-run ~21:44–23:10 contradicts Bacon/Park Stream (OI-V3-RECHECK).
