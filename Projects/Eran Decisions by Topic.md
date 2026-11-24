@@ -69,7 +69,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ### Update 24.11 evening (status, recorded by Grok Bot)
 - 13:50 Eran approved: fix conflicts, merge and deploy in order. DONE 14:08: PRs #379–#385 merged (main f77d954), migrations 120000/120100/120200 applied, agent-rules 13cbf90 and deal-engine 99cc589 live. (Supersedes "No code, PRs or deploys today" above.)
-- OPEN (awaiting Eran): kitchen tier 30 vs 35.9; monthly insurance figure; super comp "near-same size" definition; does a single super comp raise confidence; needs-verification blocking scope (all vs critical fields); create GitHub repo hs-hold/deal-engine; ARV gap recs 1 (comp pull pipeline RentCast/HomeHarvest), 3 (low confidence → conservative ARV in analysis), 4 (photo condition as weight; D3 10-comp Indy check on Eran's go).
+- OPEN (awaiting Eran): kitchen tier 30 vs 35.9; monthly insurance figure; does a single super comp raise confidence; needs-verification blocking scope (all vs critical fields); create GitHub repo hs-hold/deal-engine; ARV gap recs 1 (comp pull pipeline RentCast/HomeHarvest), 3 (low confidence → conservative ARV in analysis), 4 (photo condition as weight; D3 10-comp Indy check on Eran's go).
 - 20:03 Eran approved ARV gap recs 2 (ARV −5%/−10% stress test, "thin deal" flag only, no gating) and 5 (card shows worst rehab, MAO at worst, 12-month hold). Building on engine branch + site PR; NOT live until Eran approves.
 
 ### Call 24.11 ~20:05–20:11 (voice call 0572ff8c) — rehab method, DECISIONS ONLY (nothing built)
@@ -80,3 +80,4 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S33 Scaling: cosmetic, roof and windows scale automatically by square footage; electrical, plumbing and foundation are adjustable by house-size range from the research.
 - S34 Goal: the system gives estimates that are not far from reality.
 - S35 (2026-11-24 ~20:16, voice) ARV stress test (ARV -5%/-10%, thin-deal flag) and the worst-case card (worst rehab + MAO at worst, 12-month flip profit/ROI/MAO, conservative ARV) are DISPLAY ONLY: never used to decide pass/fail and never affect uploading a deal to the site. Eran wants them visible on the website.
+- S36 (2026-11-24 ~20:18, voice; UPDATES S5/S13/S28) Super comp criteria: build year within 5 years; less than 1/3 mile; same school zone; square footage within 10%; same bedrooms and same full bathrooms. Recency: sold within the last 3 months = full super comp, may serve as a single comp. Sold 3–6 months ago = very high weight in the ARV calculation but can NOT be a single comp. Settles the open question on the definition of near-same size.
