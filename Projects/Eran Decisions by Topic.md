@@ -3,7 +3,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
-- O7 Fixes for trialMao.ts:90 (holding cost in BRRRR), queueGate.ts:49 (low-confidence hold forever), queueGate.ts:101 (ARV>2x ask treated as error)
+- O7 PARTIAL (holding cost settled S21). Still open: queueGate.ts:49 low-confidence held forever (proposal: apply unused 1.35 multiplier with tag, let pass); queueGate.ts:101 ARV>2x ask held as data error (proposal: flag instead of hold).
 - O8 Override limit for bot discretion, and who approves beyond it
 - O9 Move deal-engine into git?
 - O10 Lot size: today NOT a price adjustment, only a comp-selection filter. Add a lot adjustment? Not decided yet (12:37).
@@ -36,6 +36,8 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S18 (12:44, closes O5) Calibration runs SEPARATELY per region: one calibration for Indianapolis and one for Atlanta, each with its own 20 renovated sales and its own coefficients. Never merged. (Supersedes a same-minute statement that it is combined.)
 - S19 (12:45, addition to S18) Whenever verified data becomes available (Eran's own closed deals or authenticated market data), it is entered into the relevant region's calibration. Implemented in code, without AI, and recorded in the code going forward (ongoing per-region calibration).
 - S20 (12:46, closes O6) Atlanta rehab: research Atlanta cosmetic rehab costs, decompose into components like Indy, and build an Atlanta range and tiers similar to Indy's ($25-35/sf with tiers). DECISION ONLY (12:46 correction): no research run, no code, no implementation or deploy until ALL decisions are collected (S11).
+- S21 (12:47, O7 part) APPROVED: replace fixed $550/month holding cost in BRRRR cash flow (trialMao.ts:90) with the property's actual tax and insurance.
+- S22 (12:47, new requirement) Since deals reaching the site pass through the Deal Analysis bot, the bot must know all the data parameters the site needs completed, and record all relevant deal-analysis parameters for the site far more realistically and accurately. Addition to the bot's deal-analysis behavior. Decision only, nothing built yet.
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36

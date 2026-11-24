@@ -42,3 +42,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:45 [decision] Calibration addition: any verified data (own closed deals or authenticated market data) is fed into that region's calibration, in code without AI, recorded in code going forward.
 - 2026-11-24 12:46 [decision] Atlanta rehab: research cosmetic costs, decompose into components like Indy, build Atlanta range + tiers similar to Indy.
 - 2026-11-24 12:46 [decision] Correction: Atlanta rehab item is recorded as a decision only; nothing starts (no research, code or deploy) until all decisions are collected.
+- 2026-11-24 12:47 [decision] BRRRR holding cost: actual tax + insurance replaces fixed $550/mo. New requirement: Deal Analysis bot must know every site data parameter and record all deal-analysis parameters for the site realistically and accurately.
