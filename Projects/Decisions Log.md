@@ -56,3 +56,5 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 13:05: school data from the existing API/site first, else ratings of the 3 nearby schools from Zillow/Realtor; compare subject vs comp (owner, voice).
 - 2026-11-24 13:08: tests-first PR for screen/rehab/queueGate/ingest + CI on every PR approved (owner, voice).
 - 2026-11-24 13:09: owner approved starting the full build once the Indy rehab research returns (owner, voice).
+
+- 2026-11-24 13:50 [decision] Eran approved fixing conflicts then merge+deploy in order. 14:05: site PRs #379 #382 #383 #380 #381 merged+deployed (main 6accf9e; migrations 20261124120000, 20261124120100; functions deal-analysis-ingest v13, funnel-screen v22, zillow-search v39). Bot rules (agent-rules 13cbf90) and deal-engine (99cc589) live. #384 then #385 merge+deploy in progress.
