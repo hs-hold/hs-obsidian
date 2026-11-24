@@ -54,3 +54,8 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S8 Stage 13 reserve: fractional buffer per unverified system (1/3–1/2 by age; full gut separate from cosmetic). Eran liked it (11:00–11:03 call). Not approved to build.
 - S9 Comp order: best-matching comps first, then less-matching, then adjustments. "Sounds good" (11:08).
 - S7 ARV design rules: comp photos mandatory (2–5 best comps); AI judgment gate; output = one number + range; relaxed search 1mi/1y with lowered confidence; clear thresholds; comp order best-first then adjustments. (morning 24.11)
+
+### Update 24.11 13:02 (calls 623c586a, d4413247)
+- Owner instruction: keep documenting everything said from now on, across all calls, nothing omitted.
+- D2 count discrepancy: 12:56 said 20 Indy + 20 Atlanta; 13:02 transcript says 10 + 10 (possibly a transcription error). Recorded as 20+20 pending confirmation.
+- D3 purpose (owner, 13:02): interior photos of sold comps show what renovation is needed to reach the renovated comp's ARV, and the renovation level wanted. OPEN question: how to handle a comp without photos.
