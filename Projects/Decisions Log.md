@@ -52,3 +52,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:54 [decision] Super comp refinement: sold within 3 months, near-same build year and same building type; may override the single-comp block and serve as a single comp only if it truly meets the criteria. Near-miss does not override. No decisions remain open.
 
 - 2026-11-24 13:03: D2 calibration list 20 Indy + 20 Atlanta, filled from each bot analysis rather than a separate search (owner, voice).
+- 2026-11-24 13:04: photo-less comps: infer renovation from description and price position; repeated failures to find photos are escalated to Eran (owner, voice).
