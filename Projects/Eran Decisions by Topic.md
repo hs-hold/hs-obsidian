@@ -6,8 +6,8 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - (none: all decisions collected 2026-11-24 12:53; data items below still missing)
 
 ## DATA / CHECKS STILL MISSING (not decisions)
-- D1 Golden labeled set of real houses (good/bad) for Eran to approve
-- D2 20 renovated sales for calibration
+- D1 Golden labeled set of real houses (good/bad) for Eran to approve. STATUS 12:55: acknowledged; pending Eran's review time (he needs to go through several deals). Not approved yet.
+- D2 20 renovated sales for calibration (per S18: 20 per region, Indy and Atlanta separately)
 - D3 Interior photos for sold comps: 25–37% of Atlanta sold comps have ≤1 photo; interiors and Indy not checked
 - D4 School-district source (HomeHarvest nearby_schools was empty; site columns school_district/school_avg source unknown)
 - D5 Indy rehab cost table by component
