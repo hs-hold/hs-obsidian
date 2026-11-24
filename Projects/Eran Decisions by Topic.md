@@ -3,8 +3,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
-- O2 Safety auto-upload blocks stay hard? PARTIAL: auction part answered (S12). Still open: single-comp ARV block, missing-data block.
-- O3 Can one super comp override the single-comp ARV block?
+- O2 Safety auto-upload blocks stay hard? PARTIAL: auctions (S12) and single comp (S13) answered. Still open: missing-data block.
 - O4 Ingest plausibility ranges (ARV, rehab, rent)
 - O5 Calibration on Indy sales only?
 - O6 Atlanta rehab ranges
@@ -32,6 +31,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 ### Build plan (2026-11-24 12:33)
 - S10 APPROVED (was O1): merge 11 PRs into 6, in order: safety first (2 PRs, site + engine) → site screening + zillow-search → ARV engine (calibration, tiered ARV, calibration again).
 - S12 (O2 partial, 12:34) Auctions: we don't work much with auctions now; an auction is filtered early on the deal-pulling side and never reaches the bot.
+- S13 (O2 partial + O3, 12:35) The single-comp ARV block may be overridden when that comp is a super comp (per S5). A "potential super comp" is reported to Eran and does not override automatically (inferred from S5, not yet confirmed).
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36

@@ -33,3 +33,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 11:45 [decision] Super comp is slightly flexible: a near-miss is flagged as "potential super comp" and reported to Eran (which parameter is off and by how much); the bot does not decide silently. Log only.
 - 2026-11-24 12:33 [decision] Build plan approved: 6 PRs (safety site+engine → screening+zillow-search → ARV engine with calibration before and after). Nothing implemented or deployed until ALL open decisions are collected.
 - 2026-11-24 12:34 [decision] Auctions: not a focus now; filter auctions early at deal pulling so they never reach the Deal Analysis bot. Single-comp and missing-data blocks still open.
+- 2026-11-24 12:35 [decision] Single-comp ARV block can be overridden when the comp is a super comp (per the definition approved today). Missing-data block still open.
