@@ -53,3 +53,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 
 - 2026-11-24 13:03: D2 calibration list 20 Indy + 20 Atlanta, filled from each bot analysis rather than a separate search (owner, voice).
 - 2026-11-24 13:04: photo-less comps: infer renovation from description and price position; repeated failures to find photos are escalated to Eran (owner, voice).
+- 2026-11-24 13:05: school data from the existing API/site first, else ratings of the 3 nearby schools from Zillow/Realtor; compare subject vs comp (owner, voice).
