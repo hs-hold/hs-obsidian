@@ -48,3 +48,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:50 [decision] Low-confidence addition: when unsure, bot pulls additional comps and makes additional comp adjustments to raise confidence.
 - 2026-11-24 12:51 [decision] Bot override limit 70% vs its own engine number; under 70% stands with reason+evidence; over 70% high confidence = bot approves, low confidence = notify Eran.
 - 2026-11-24 12:52 [decision] Deal engine moves to GitHub as source of truth for all work; local backup kept. Not moved yet.
+- 2026-11-24 12:53 [decision] Lot size: calibration + bot judgment; extreme lot difference excludes the comp; similar house with lot 1.5-2x larger can still be suitable. ALL open decisions now collected; building still requires Eran's go-ahead.
