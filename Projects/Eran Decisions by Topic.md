@@ -3,7 +3,6 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
-- O1 Wave order; merge 11 PRs into 6?
 - O2 Safety auto-upload blocks stay hard? (assumed yes, not confirmed)
 - O3 Can one super comp override the single-comp ARV block?
 - O4 Ingest plausibility ranges (ARV, rehab, rent)
@@ -30,6 +29,9 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - No code, PRs or deploys today; building awaits the open decisions
 
 ## SETTLED
+### Build plan (2026-11-24 12:33)
+- S10 APPROVED (was O1): merge 11 PRs into 6, in order: safety first (2 PRs, site + engine) → site screening + zillow-search → ARV engine (calibration, tiered ARV, calibration again).
+- S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36
 - S2 Indy full cosmetic rehab $25–35/sf, replacing the $55 default. 11:40
