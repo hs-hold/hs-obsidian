@@ -79,3 +79,4 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S32 Three rough rehab tiers for estimation: cosmetic only ~$42k; cosmetic + Big 5 ~$78k; more broken/older house ~$130k (1,200 sf reference).
 - S33 Scaling: cosmetic, roof and windows scale automatically by square footage; electrical, plumbing and foundation are adjustable by house-size range from the research.
 - S34 Goal: the system gives estimates that are not far from reality.
+- S35 (2026-11-24 ~20:16, voice) ARV stress test (ARV -5%/-10%, thin-deal flag) and the worst-case card (worst rehab + MAO at worst, 12-month flip profit/ROI/MAO, conservative ARV) are DISPLAY ONLY: never used to decide pass/fail and never affect uploading a deal to the site. Eran wants them visible on the website.

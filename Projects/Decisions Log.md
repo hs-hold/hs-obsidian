@@ -61,3 +61,5 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 14:08 [verified] #384 (5a7d326) and #385 (f77d954) merged+deployed; migration 20261124120200 applied; deal-analysis-ingest v14, funnel-run-next-zip v11, funnel-screen v23, zillow-search v40; 818 tests pass. Full build wave live.
 
 - 2026-11-24 ~20:10 (Eran, voice call): Indy full cosmetic = $35/sf (1,200 sf = $42k); Big 5 per-item defaults roof 10k / HVAC 11k / electrical 16k / plumbing 7.5k / foundation 8k, water heater 2k, sewer 8k, windows ~$650 each ($9k for 12–15); rough tiers 42k / 78k / 130k; cosmetic+roof+windows scale by sf, electrical/plumbing/foundation by size range. Decision only — see Eran Decisions by Topic S29–S34.
+
+- 2026-11-24 ~20:16 [decision] (Eran, voice call): ARV stress test and worst-case scenario card are display-only; never used for pass/fail and never affect site upload; Eran wants them shown on the website. See Eran Decisions by Topic S35.
