@@ -8,9 +8,9 @@ phone: "(317) 406-4310"
 email: "sales@investwithben.com"
 website: ""
 areas: "46222, 46224, 46241, 46221, 46203, 46225, 46107, 46201, 46219, 46226, 46208, 46205, 46227, 46229, 46254, 46268, 46214, 46231, 46235, 46237, 46217, 46113, 46239, 46234, 46228, 46220, 46236"
-status: researched
+status: in-conversation
 created: 2026-11-16
-updated: 2026-11-16
+updated: 2026-11-24
 tags: [contact]
 ---
 # Invest With Ben
@@ -38,4 +38,10 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 - Notes: Available-properties list; join email list. Ben Grise = likely same family/operator as Grise Home and Property Group LLC (199 deed transactions, SFR Analytics) – one of the most active Indy buyers. Unconfirmed link (name match).
 
 
-Research only — nobody was contacted by us. See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
+## History
+- 2026-11-21: received the group intro from deals@hs-hold.com, subject "Coming to Indy, and we're buying" (inventory A).
+- 2026-11-23 23:18 Israel: Steele Kruzel told Tal he had forwarded the intro to local wholesalers and recommended this list: https://investwithben.com/available-properties-opts-in/
+- 2026-11-24 01:00 Israel: Shannon & Claire emailed 12428 Van Spronsen Way, Indianapolis, IN 46236 (3/2, 1,440 sf, slab, 2-car, 1991, lot 10,846, vacant). No deal note yet.
+- 2026-11-24 01:14 Israel: emailed 303 N Franklin Rd, Indianapolis, IN 46219. Already analyzed the same day: REJECT under trial criteria. See [[303 N Franklin Rd]].
+
+See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].

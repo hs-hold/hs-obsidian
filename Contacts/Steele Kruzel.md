@@ -10,7 +10,7 @@ website: ""
 areas: "Indianapolis"
 status: in-conversation
 created: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-24
 tags: [contact]
 ---
 # Steele Kruzel
@@ -29,3 +29,4 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 - [ ] Set a phone call; then possibly meet Tue Dec 1 10–12 Indy time.
 
 - 2026-11-23 16:05 Israel: call-request email sent from deals@ (in thread). 20:05 reply after phone call with Tal: will add Tal to local wholesaler lists and forward deals; proposes meeting Tue 1 Dec 10:00 ET (no place). Owner 21:05: no reply for now.
+- 2026-11-23 23:18 Israel: emailed that he forwarded Tal's intro to a few local wholesalers and that their emails may arrive soon; recommended https://investwithben.com/available-properties-opts-in/ . No reply, per owner hold.

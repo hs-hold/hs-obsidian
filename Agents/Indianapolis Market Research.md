@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Indianapolis Market Research"
 created: 2026-11-09
-updated: 2026-11-23
+updated: 2026-11-24
 tags: [agent]
 ---
 # Indianapolis Market Research — work log
@@ -32,3 +32,11 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 ## 2026-11-23 ~22:23 — מייל פתיחה ל-32 מתווכים מ-brokers-50
 - באישור ערן נשלחו 32 מיילי פתיחה ("Coming to Indy, and we're buying") מ-deals@hs-hold.com, חתום טל, עם בקשה לפגישה ב-30 בנובמבר וב-1 בדצמבר, ל-32 השורות ב-[[Indy Brokers 50 for Dec meetings]] שכתובתן אינה c21scheetz.com. אף כתובת @c21scheetz.com לא קיבלה מייל בסבב הזה (6 הטובים מ-Scheetz יפוזרו בימים הקרובים). לוג: `/home/box/shared/indy-trip/broker-replies-log.md`.
 - החזרות מיידיות (כתובת לא קיימת, 550 5.1.1): Jared Nelson (jnelson@jnandarealty.com) ו-Nicole Lloyd (nicole@indyspropertyshop.com). 30 מתוך 32 נמסרו לפי שעה.
+
+## 2026-11-24 ~09:49 — מעקב תשובות יומי (10:00 שעון ישראל)
+- דיווח לערן רק על מה שחדש מאמש, בלי לחזור על סטיל / זאק / נולן שכבר הושהו ב-21:05 ("אל תענה לאף אחד כרגע").
+- סטיל (23:18 שעון ישראל, 23 בנוב׳): העביר את המייל של טל לסיטונאים מקומיים; המליץ על רשימת Invest With Ben. כבר ביומן המרכזי מ-08:58.
+- שני מיילי שיווק מ-sales@investwithben.com (שנון וקלייר), לא הצעת פגישה: 12428 Van Spronsen Way (46236) ו-303 N Franklin Rd (46219). פרנקלין כבר נותח וסומן REJECT ([[303 N Franklin Rd]]). לא היו ביומן המרכזי נכון ל-08:58.
+- הודעת עיכוב שנייה ל-salesteam@indytradingpost.com ב-00:31 שעון ישראל (msg 1a20a88d925d75f1); עדיין לא בואונס סופי.
+- אל Cole Cooper ב-colecooper@livindyrealty.com כבר יצא מייל מ-deals@ ב-00:21 שעון ישראל (רשום ביומן). לא נשלחה ולא הוכנה טיוטת תשובה.
+
