@@ -35,6 +35,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S16 (12:40, closes O2 entirely) Missing data: if the bot cannot close a field it must make an effort to close it; if it still cannot, it gives an estimate and marks the field as uncertain. On the site, wherever that field is shown, it must be visible to Eran that the data needs verification.
 - S17 (12:42, closes O4) No fixed numeric plausibility ranges (proposed ARV $40k-1.5M / 0.5-3x ask, rehab ≤$250k / ≤$120/sf, rent $500-6,000 are REMOVED). Instead the bot itself judges whether the numbers look reasonable; if clearly unreasonable it researches the real numbers; if still unresolved it notifies Eran in chat.
 - S18 (12:44, closes O5) Calibration runs SEPARATELY per region: one calibration for Indianapolis and one for Atlanta, each with its own 20 renovated sales and its own coefficients. Never merged. (Supersedes a same-minute statement that it is combined.)
+- S19 (12:45, addition to S18) Whenever verified data becomes available (Eran's own closed deals or authenticated market data), it is entered into the relevant region's calibration. Implemented in code, without AI, and recorded in the code going forward (ongoing per-region calibration).
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36
