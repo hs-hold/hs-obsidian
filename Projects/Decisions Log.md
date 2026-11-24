@@ -47,3 +47,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:49 [decision] Low confidence: bot works to raise it; suspected-bad deals move on; likely-good but low-confidence deals get more data pulled; if still unconfirmed, tell Eran to verify (strong preference: bot gets the data itself). Closes the 3 site-gate fixes.
 - 2026-11-24 12:50 [decision] Low-confidence addition: when unsure, bot pulls additional comps and makes additional comp adjustments to raise confidence.
 - 2026-11-24 12:51 [decision] Bot override limit 70% vs its own engine number; under 70% stands with reason+evidence; over 70% high confidence = bot approves, low confidence = notify Eran.
+- 2026-11-24 12:52 [decision] Deal engine moves to GitHub as source of truth for all work; local backup kept. Not moved yet.

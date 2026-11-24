@@ -3,7 +3,6 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
-- O9 Move deal-engine into git?
 - O10 Lot size: today NOT a price adjustment, only a comp-selection filter. Add a lot adjustment? Not decided yet (12:37).
 
 ## DATA / CHECKS STILL MISSING (not decisions)
@@ -39,6 +38,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S23 (12:48, O7 part) ARV > 2x ask (queueGate.ts:101): mark instead of stop. If more than one comp supports the high ARV it may be real and the deal must not be missed; the bot checks for supporting comps before flagging.
 - S24 (12:49, closes O7) Low confidence: the bot tries to raise confidence. If it suspects a deal is bad, it moves on. If it has low confidence that a deal is good, it pulls more information to decide. If all findings say good but info is still missing to confirm, it tells Eran so he can verify. Eran strongly prefers the bot obtains the missing info itself. Addition 12:50: when unsure, the bot actively pulls additional comps and performs additional comp adjustments to raise confidence.
 - S25 (12:51, closes O8) Bot override limit = 70% deviation from the bot's own deal-engine number (not 30%). Under 70%: the bot's number stands, recorded with reason and evidence. Over 70%: if confidence is high the bot approves it itself; if confidence is low it notifies Eran.
+- S26 (12:52, closes O9) The deal engine moves to GitHub as the primary place for all work: every change, build and history happens there; GitHub is the source of truth, accessible from anywhere without depending on a machine. A backup copy stays on the computer. (Verified: the engine currently sits at /home/box/shared/deal-engine on the bots' shared computer, not Eran's Mac.) Decision only; nothing moved yet (S11).
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36
