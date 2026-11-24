@@ -3,7 +3,6 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
-- O5 Calibration on Indy sales only?
 - O6 Atlanta rehab ranges
 - O7 Fixes for trialMao.ts:90 (holding cost in BRRRR), queueGate.ts:49 (low-confidence hold forever), queueGate.ts:101 (ARV>2x ask treated as error)
 - O8 Override limit for bot discretion, and who approves beyond it
@@ -35,6 +34,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S15 (12:37) Bathroom adjustment values stay exactly as in today's engine code, no changes: Indy 1→2 full bath $9,000 (comp median <$250k) / $12,000 (≥$250k); 3rd+ full bath $4,000/$6,000; half bath $4,000/$6,000 with 1 full, $3,000/$4,500 with more; missing bath count assumed 1. Atlanta: full bath = 5% of comp price, min $8,000 max $30,000; half bath = half of that.
 - S16 (12:40, closes O2 entirely) Missing data: if the bot cannot close a field it must make an effort to close it; if it still cannot, it gives an estimate and marks the field as uncertain. On the site, wherever that field is shown, it must be visible to Eran that the data needs verification.
 - S17 (12:42, closes O4) No fixed numeric plausibility ranges (proposed ARV $40k-1.5M / 0.5-3x ask, rehab ≤$250k / ≤$120/sf, rent $500-6,000 are REMOVED). Instead the bot itself judges whether the numbers look reasonable; if clearly unreasonable it researches the real numbers; if still unresolved it notifies Eran in chat.
+- S18 (12:44, closes O5) Calibration runs SEPARATELY per region: one calibration for Indianapolis and one for Atlanta, each with its own 20 renovated sales and its own coefficients. Never merged. (Supersedes a same-minute statement that it is combined.)
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36
