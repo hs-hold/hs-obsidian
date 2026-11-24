@@ -43,3 +43,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:46 [decision] Atlanta rehab: research cosmetic costs, decompose into components like Indy, build Atlanta range + tiers similar to Indy.
 - 2026-11-24 12:46 [decision] Correction: Atlanta rehab item is recorded as a decision only; nothing starts (no research, code or deploy) until all decisions are collected.
 - 2026-11-24 12:47 [decision] BRRRR holding cost: actual tax + insurance replaces fixed $550/mo. New requirement: Deal Analysis bot must know every site data parameter and record all deal-analysis parameters for the site realistically and accurately.
+- 2026-11-24 12:48 [decision] ARV > 2x ask: mark, don't stop; bot verifies with comps; more than one supporting comp means it may be real and the deal must not be missed.
