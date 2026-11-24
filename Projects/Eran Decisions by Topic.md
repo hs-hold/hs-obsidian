@@ -69,7 +69,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ### Update 24.11 evening (status, recorded by Grok Bot)
 - 13:50 Eran approved: fix conflicts, merge and deploy in order. DONE 14:08: PRs #379–#385 merged (main f77d954), migrations 120000/120100/120200 applied, agent-rules 13cbf90 and deal-engine 99cc589 live. (Supersedes "No code, PRs or deploys today" above.)
-- OPEN (awaiting Eran): kitchen tier 30 vs 35.9; monthly insurance figure; needs-verification blocking scope (all vs critical fields); create GitHub repo hs-hold/deal-engine; ARV gap recs 1 (comp pull pipeline RentCast/HomeHarvest), 3 (low confidence → conservative ARV in analysis), 4 (photo condition as weight; D3 10-comp Indy check on Eran's go).
+- OPEN (awaiting Eran): monthly insurance figure; needs-verification blocking scope (all vs critical fields); create GitHub repo hs-hold/deal-engine; ARV gap recs 1 (comp pull pipeline RentCast/HomeHarvest), 3 (low confidence → conservative ARV in analysis), 4 (photo condition as weight; D3 10-comp Indy check on Eran's go).
 - 20:03 Eran approved ARV gap recs 2 (ARV −5%/−10% stress test, "thin deal" flag only, no gating) and 5 (card shows worst rehab, MAO at worst, 12-month hold). Building on engine branch + site PR; NOT live until Eran approves.
 
 ### Call 24.11 ~20:05–20:11 (voice call 0572ff8c) — rehab method, DECISIONS ONLY (nothing built)
