@@ -25,3 +25,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-23 21:05 [decision] (Eran, Grok Bot chat): Indy Tuesday meeting replies (Steele, Zac, Nolan) — "דואגים להכל, אל תענה לאף אחד כרגע": no replies or drafts for now.
 
 - 2026-11-24 11:40 [decision] Indianapolis full cosmetic rehab range for screening = $25–35/sqft (Eran chose $35 cap instead of the $45 found in research); replaces the $55/sqft default (rehab.ts:105-114) when the rehab-estimate PR is built. Not live yet.
+- 2026-11-24 11:41 [decision] Indy cosmetic sub-tiers (calibration direction): light refresh/paint only <$25/sf; $25/sf = popcorn ceiling, maybe doors, sometimes kitchen; $30/sf with credit = includes kitchen. Overall range stays $25-35. Eran: the filter must separate tiers precisely. Log only.
