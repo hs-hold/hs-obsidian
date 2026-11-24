@@ -25,7 +25,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 ### Build plan (2026-11-24 12:33)
 - S10 APPROVED (was O1): merge 11 PRs into 6, in order: safety first (2 PRs, site + engine) → site screening + zillow-search → ARV engine (calibration, tiered ARV, calibration again).
 - S12 (O2 partial, 12:34) Auctions: we don't work much with auctions now; an auction is filtered early on the deal-pulling side and never reaches the bot.
-- S13 (O2 partial + O3, 12:35) The single-comp ARV block may be overridden when that comp is a super comp (per S5). A "potential super comp" is reported to Eran and does not override automatically (inferred from S5, not yet confirmed).
+- S13 (O2 partial + O3, 12:35) The single-comp ARV block may be overridden when that comp is a super comp (per S5). A "potential super comp" is reported to Eran and does not override automatically (confirmed by S28).
 - S14 (12:35, addition to S13) Even a non-super single comp with HIGH confidence can serve as a very good indication. When suitable comps are lacking, always pull 1–2 additional comps even if they differ in size and lot area.
 - S15 (12:37) Bathroom adjustment values stay exactly as in today's engine code, no changes: Indy 1→2 full bath $9,000 (comp median <$250k) / $12,000 (≥$250k); 3rd+ full bath $4,000/$6,000; half bath $4,000/$6,000 with 1 full, $3,000/$4,500 with more; missing bath count assumed 1. Atlanta: full bath = 5% of comp price, min $8,000 max $30,000; half bath = half of that.
 - S16 (12:40, closes O2 entirely) Missing data: if the bot cannot close a field it must make an effort to close it; if it still cannot, it gives an estimate and marks the field as uncertain. On the site, wherever that field is shown, it must be visible to Eran that the data needs verification.
@@ -40,6 +40,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S25 (12:51, closes O8) Bot override limit = 70% deviation from the bot's own deal-engine number (not 30%). Under 70%: the bot's number stands, recorded with reason and evidence. Over 70%: if confidence is high the bot approves it itself; if confidence is low it notifies Eran.
 - S26 (12:52, closes O9) The deal engine moves to GitHub as the primary place for all work: every change, build and history happens there; GitHub is the source of truth, accessible from anywhere without depending on a machine. A backup copy stays on the computer. (Verified: the engine currently sits at /home/box/shared/deal-engine on the bots' shared computer, not Eran's Mac.) Decision only; nothing moved yet (S11).
 - S27 (12:53, closes O10, last open decision) Lot size: the bot uses calibration and judgment. An extremely different lot = don't take the comp at all. A similar house with a lot only 1.5-2x larger can still be suitable. Bot discretion.
+- S28 (12:54, refines S5/S13) A super comp sold in the last 3 months, with nearly the same build year and the same building type, can override the single-comp block and be used as a single comp, but only if it truly meets these criteria. Hence a potential super comp (near-miss) does NOT override (confirms the inference in S13).
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36
