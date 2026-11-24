@@ -40,3 +40,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:42 [decision] Ingest plausibility (closes decision 4 of list): no fixed numeric ranges; bot judges reasonableness, researches real numbers if clearly off, and notifies Eran in chat if still unresolved.
 - 2026-11-24 12:44 [decision] Calibration scope: separate per region (Indy and Atlanta), each its own 20 sales and own coefficients, not merged. Corrects an earlier same-minute 'combined' statement.
 - 2026-11-24 12:45 [decision] Calibration addition: any verified data (own closed deals or authenticated market data) is fed into that region's calibration, in code without AI, recorded in code going forward.
+- 2026-11-24 12:46 [decision] Atlanta rehab: research cosmetic costs, decompose into components like Indy, build Atlanta range + tiers similar to Indy.
