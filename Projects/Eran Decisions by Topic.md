@@ -10,6 +10,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - O7 Fixes for trialMao.ts:90 (holding cost in BRRRR), queueGate.ts:49 (low-confidence hold forever), queueGate.ts:101 (ARV>2x ask treated as error)
 - O8 Override limit for bot discretion, and who approves beyond it
 - O9 Move deal-engine into git?
+- O10 Lot size: today NOT a price adjustment, only a comp-selection filter. Add a lot adjustment? Not decided yet (12:37).
 
 ## DATA / CHECKS STILL MISSING (not decisions)
 - D1 Golden labeled set of real houses (good/bad) for Eran to approve
@@ -33,6 +34,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S12 (O2 partial, 12:34) Auctions: we don't work much with auctions now; an auction is filtered early on the deal-pulling side and never reaches the bot.
 - S13 (O2 partial + O3, 12:35) The single-comp ARV block may be overridden when that comp is a super comp (per S5). A "potential super comp" is reported to Eran and does not override automatically (inferred from S5, not yet confirmed).
 - S14 (12:35, addition to S13) Even a non-super single comp with HIGH confidence can serve as a very good indication. When suitable comps are lacking, always pull 1–2 additional comps even if they differ in size and lot area.
+- S15 (12:37) Bathroom adjustment values stay exactly as in today's engine code, no changes: Indy 1→2 full bath $9,000 (comp median <$250k) / $12,000 (≥$250k); 3rd+ full bath $4,000/$6,000; half bath $4,000/$6,000 with 1 full, $3,000/$4,500 with more; missing bath count assumed 1. Atlanta: full bath = 5% of comp price, min $8,000 max $30,000; half bath = half of that.
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36
