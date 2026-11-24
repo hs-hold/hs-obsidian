@@ -3,7 +3,6 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
-- O7 PARTIAL (holding cost settled S21). Still open: queueGate.ts:49 low-confidence held forever (proposal: apply unused 1.35 multiplier with tag, let pass).
 - O8 Override limit for bot discretion, and who approves beyond it
 - O9 Move deal-engine into git?
 - O10 Lot size: today NOT a price adjustment, only a comp-selection filter. Add a lot adjustment? Not decided yet (12:37).
@@ -39,6 +38,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - S21 (12:47, O7 part) APPROVED: replace fixed $550/month holding cost in BRRRR cash flow (trialMao.ts:90) with the property's actual tax and insurance.
 - S22 (12:47, new requirement) Since deals reaching the site pass through the Deal Analysis bot, the bot must know all the data parameters the site needs completed, and record all relevant deal-analysis parameters for the site far more realistically and accurately. Addition to the bot's deal-analysis behavior. Decision only, nothing built yet.
 - S23 (12:48, O7 part) ARV > 2x ask (queueGate.ts:101): mark instead of stop. If more than one comp supports the high ARV it may be real and the deal must not be missed; the bot checks for supporting comps before flagging.
+- S24 (12:49, closes O7) Low confidence: the bot tries to raise confidence. If it suspects a deal is bad, it moves on. If it has low confidence that a deal is good, it pulls more information to decide. If all findings say good but info is still missing to confirm, it tells Eran so he can verify. Eran strongly prefers the bot obtains the missing info itself.
 - S11 CONSTRAINT: implement or deploy NOTHING until ALL open decisions are collected.
 ### Screening / ARV (2026-11-24)
 - S1 No % pass target; criterion = quality (good deals pass, bad blocked). 11:36

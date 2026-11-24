@@ -44,3 +44,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:46 [decision] Correction: Atlanta rehab item is recorded as a decision only; nothing starts (no research, code or deploy) until all decisions are collected.
 - 2026-11-24 12:47 [decision] BRRRR holding cost: actual tax + insurance replaces fixed $550/mo. New requirement: Deal Analysis bot must know every site data parameter and record all deal-analysis parameters for the site realistically and accurately.
 - 2026-11-24 12:48 [decision] ARV > 2x ask: mark, don't stop; bot verifies with comps; more than one supporting comp means it may be real and the deal must not be missed.
+- 2026-11-24 12:49 [decision] Low confidence: bot works to raise it; suspected-bad deals move on; likely-good but low-confidence deals get more data pulled; if still unconfirmed, tell Eran to verify (strong preference: bot gets the data itself). Closes the 3 site-gate fixes.
