@@ -50,3 +50,5 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 12:52 [decision] Deal engine moves to GitHub as source of truth for all work; local backup kept. Not moved yet.
 - 2026-11-24 12:53 [decision] Lot size: calibration + bot judgment; extreme lot difference excludes the comp; similar house with lot 1.5-2x larger can still be suitable. ALL open decisions now collected; building still requires Eran's go-ahead.
 - 2026-11-24 12:54 [decision] Super comp refinement: sold within 3 months, near-same build year and same building type; may override the single-comp block and serve as a single comp only if it truly meets the criteria. Near-miss does not override. No decisions remain open.
+
+- 2026-11-24 13:03: D2 calibration list 20 Indy + 20 Atlanta, filled from each bot analysis rather than a separate search (owner, voice).

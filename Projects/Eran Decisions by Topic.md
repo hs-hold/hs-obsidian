@@ -59,3 +59,4 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - Owner instruction: keep documenting everything said from now on, across all calls, nothing omitted.
 - D2 count discrepancy: 12:56 said 20 Indy + 20 Atlanta; 13:02 transcript says 10 + 10 (possibly a transcription error). Recorded as 20+20 pending confirmation.
 - D3 purpose (owner, 13:02): interior photos of sold comps show what renovation is needed to reach the renovated comp's ARV, and the renovation level wanted. OPEN question: how to handle a comp without photos.
+- 13:03 D2 CONFIRMED: 20 Indy + 20 Atlanta (not 10+10). Method decided: do NOT search for them separately; each time the bot analyzes a property, its results (renovated sold comps) are added to the region's calibration list, pending Eran's confirmation they are renovated. Decision only, nothing built.
