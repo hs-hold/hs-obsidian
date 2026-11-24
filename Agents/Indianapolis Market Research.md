@@ -40,3 +40,4 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 - הודעת עיכוב שנייה ל-salesteam@indytradingpost.com ב-00:31 שעון ישראל (msg 1a20a88d925d75f1); עדיין לא בואונס סופי.
 - אל Cole Cooper ב-colecooper@livindyrealty.com כבר יצא מייל מ-deals@ ב-00:21 שעון ישראל (רשום ביומן). לא נשלחה ולא הוכנה טיוטת תשובה.
 
+- 2026-11-24 13:20 (שעון ישראל): מחקר עלויות שיפוץ לפי רכיב באינדי לבקשת ערן (דרך Grok Bot). [[Indy Rehab Costs]], קבצים: /home/box/shared/indy-rehab-costs/. בבית לדוגמה של 1,200 רגל: דרגות ‎<$25 ו-$25 נתמכות (‎$18.5 ו-$25.9 לרגל), ועם מטבח מגיעים לכ-$36–38 לרגל, מעל דרגת $30. חלון ויניל: ‎$475–850 (אמצע ‎$650).
