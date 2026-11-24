@@ -71,3 +71,11 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - 13:50 Eran approved: fix conflicts, merge and deploy in order. DONE 14:08: PRs #379–#385 merged (main f77d954), migrations 120000/120100/120200 applied, agent-rules 13cbf90 and deal-engine 99cc589 live. (Supersedes "No code, PRs or deploys today" above.)
 - OPEN (awaiting Eran): kitchen tier 30 vs 35.9; monthly insurance figure; super comp "near-same size" definition; does a single super comp raise confidence; needs-verification blocking scope (all vs critical fields); create GitHub repo hs-hold/deal-engine; ARV gap recs 1 (comp pull pipeline RentCast/HomeHarvest), 3 (low confidence → conservative ARV in analysis), 4 (photo condition as weight; D3 10-comp Indy check on Eran's go).
 - 20:03 Eran approved ARV gap recs 2 (ARV −5%/−10% stress test, "thin deal" flag only, no gating) and 5 (card shows worst rehab, MAO at worst, 12-month hold). Building on engine branch + site PR; NOT live until Eran approves.
+
+### Call 24.11 ~20:05–20:11 (voice call 0572ff8c) — rehab method, DECISIONS ONLY (nothing built)
+- S29 (closes kitchen-tier question) Indy full cosmetic base rate = exactly $35/sf (not $35.9, not $30): paint, doors, ceilings, new kitchen, new bathrooms. Flexible for very small or very large homes and depends on number of bathrooms.
+- S30 Example: 1,200 sf house, full cosmetic = $42,000.
+- S31 Big 5 per-item defaults when nothing is known about the house (from the Indy research mids): roof $10k, HVAC furnace+AC $11k, electrical rewire+200A panel $16k, plumbing PEX repipe $7.5k, foundation allowance $8k; +1: water heater $2k, sewer line $8k; windows ~$650 each / $9k default for 12–15 windows.
+- S32 Three rough rehab tiers for estimation: cosmetic only ~$42k; cosmetic + Big 5 ~$78k; more broken/older house ~$130k (1,200 sf reference).
+- S33 Scaling: cosmetic, roof and windows scale automatically by square footage; electrical, plumbing and foundation are adjustable by house-size range from the research.
+- S34 Goal: the system gives estimates that are not far from reality.

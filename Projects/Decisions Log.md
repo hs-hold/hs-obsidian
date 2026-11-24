@@ -59,3 +59,5 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 
 - 2026-11-24 13:50 [decision] Eran approved fixing conflicts then merge+deploy in order. 14:05: site PRs #379 #382 #383 #380 #381 merged+deployed (main 6accf9e; migrations 20261124120000, 20261124120100; functions deal-analysis-ingest v13, funnel-screen v22, zillow-search v39). Bot rules (agent-rules 13cbf90) and deal-engine (99cc589) live. #384 then #385 merge+deploy in progress.
 - 2026-11-24 14:08 [verified] #384 (5a7d326) and #385 (f77d954) merged+deployed; migration 20261124120200 applied; deal-analysis-ingest v14, funnel-run-next-zip v11, funnel-screen v23, zillow-search v40; 818 tests pass. Full build wave live.
+
+- 2026-11-24 ~20:10 (Eran, voice call): Indy full cosmetic = $35/sf (1,200 sf = $42k); Big 5 per-item defaults roof 10k / HVAC 11k / electrical 16k / plumbing 7.5k / foundation 8k, water heater 2k, sewer 8k, windows ~$650 each ($9k for 12–15); rough tiers 42k / 78k / 130k; cosmetic+roof+windows scale by sf, electrical/plumbing/foundation by size range. Decision only — see Eran Decisions by Topic S29–S34.
