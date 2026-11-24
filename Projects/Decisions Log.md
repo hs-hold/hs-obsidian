@@ -55,3 +55,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 13:04: photo-less comps: infer renovation from description and price position; repeated failures to find photos are escalated to Eran (owner, voice).
 - 2026-11-24 13:05: school data from the existing API/site first, else ratings of the 3 nearby schools from Zillow/Realtor; compare subject vs comp (owner, voice).
 - 2026-11-24 13:08: tests-first PR for screen/rehab/queueGate/ingest + CI on every PR approved (owner, voice).
+- 2026-11-24 13:09: owner approved starting the full build once the Indy rehab research returns (owner, voice).
