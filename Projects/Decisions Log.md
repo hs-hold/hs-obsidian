@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-25
 tags: [project, decisions]
 ---
 # Decisions Log
@@ -87,3 +87,6 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 22:15 [decision] (Eran, chat t815u) Approved: comp-pull tool go-live, new Deal Analysis rules draft, site rehab table PR at $35/sf with the engine's tier adjustments (quick screen only).
 - 2026-11-24 ~22:55 [verified] PR 396 (engine/ only, 15 files, 157 tests) merged 9e74c05 = box deal-engine master; insurance template restored. PR 397 (ZORI quick screen: Atlanta ZORI, Indy ZORI–SAFMR range instead of 85% SAFMR; 879 tests) merged, funnel function redeployed; new fields not passed to Deal Analysis.
 - 2026-11-24 ~19:10 [verified] (Eran, chat t770u) One-off thank-you to Steele Kruzel for 303 N Franklin sent from deals@ in-thread ("running the numbers"); no further replies without owner say-so.
+
+## 2026-11-25
+- 2026-11-25 00:25 IST [verified] (Eran, chat widget t830s3348) Approved the secretary-list reconciliation: close 6 done Open Items (OI-AVON, OI-TAX-ENGINE, OI-HOLD-RULES, OI-ARV-BUILD, OI-INDY-REHAB-REVIEW, OI-ENGINE-GITHUB) with evidence, and mark 3 stale without deleting them (OI-PRESREEN, OI-RAPIDAPI, OI-PROPERTYCOUNT). OI-BIGGERPOCKETS and OI-LOG-SYNTAX left unchanged. Source: /workspace/exports/secretary-tasks-reconcile-24-11.txt.

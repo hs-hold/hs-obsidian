@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-11-23
-updated: 2026-11-24
+updated: 2026-11-25
 tags: [project, tracker]
 ---
 # Open Items
@@ -62,14 +62,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes
 - Source: [[00 Profile]] trial block 18–24 Nov; [[Criteria Map]]; [[Eran Decisions by Topic]]
 
-### OI-PRESREEN — Pre-screen vs trial criteria
-- Owner agent: Grok Bot
-- Status: waiting-owner
-- Updated: 2026-11-23 23:20
-- Next action: filter audit 23 Nov: rejects correct, but hold rules (low comps, ARV>2x price, basement unknown) hid 3 workable deals — see OI-HOLD-RULES. Still wait for OI-CRITERIA (25 Nov); no code change without approval.
-- Needs owner approval: yes (business rule and later merge)
-- Source: [[Criteria Map]], [[Deal Pipeline]]
-
 ### OI-TIMEOUT — Timeout advances the next zip
 - Owner agent: Grok Bot (cloud agent may open a PR)
 - Status: waiting-verification
@@ -77,14 +69,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: [verified] timeout fix deployed 17:05 and returned the new retry_later contract live; 46236 still had 5 rows unscreened (HTTP 546) — confirm on next daily runs that the same zip is retried.
 - Needs owner approval: yes for merge/deploy/live test; PR preparation is in the approved plan
 - Source: `supabase/functions/funnel-run-next-zip/index.ts` (retry_later sets pull_retry_after and returns nextZip); [[Deal Pipeline]]
-
-### OI-RAPIDAPI — RapidAPI pace above the ~25/day target
-- Owner agent: Grok Bot
-- Status: open
-- Updated: 2026-11-23
-- Next action: live `rapidapi_usage` for the Nov 22 155-call window is still not queryable from this helper (no Supabase connector; secrets were not used). A pre-existing dump `/workspace/deal-search-2026-11-23-extra/rapidapi_today.json` (no new RapidAPI calls) covers 23 Nov 01:24–07:25 UTC only: 113 calls, 86 of them Atlanta zips under trigger `zillow_search` (burst 06:50–07:03 UTC / 08:50–09:03 Israel), and 27 Indy under trigger `funnel`. That Atlanta burst is the likely driver of the 09:03 alert (96 calls / 24h, 90 zillow-search for-sale). Do not start further unscheduled pulls. See the RapidAPI note in progress.md.
-- Needs owner approval: no for further read-only investigation; yes to change schedules or deploy
-- Source: RapidAPI watch 22–23 Nov; that report
 
 ### OI-OFFERS — Offers submitted this week
 - Owner agent: Grok Bot / מזכירה
@@ -118,14 +102,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes
 - Source: [[2026-11-23 Indy extra search near-misses (5)]]
 
-### OI-AVON — Two sent-but-unanalysed Avon items
-- Owner agent: Deal Analysis
-- Status: waiting-owner
-- Updated: 2026-11-23
-- Next action: owner yes/no on analysing 7228 Lockford Walk N and 1881 Wynnewood Ln. Recommendation on file: no
-- Needs owner approval: yes
-- Source: [[Deal Pipeline]]
-
 ### OI-OFFMARKET — Off-market lead scope
 - Owner agent: Grok Bot
 - Status: waiting-owner
@@ -133,14 +109,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: owner decides scope, runner, and budget of the off-market-lead-generation proposal. Reminder already delivered 22 Nov.
 - Needs owner approval: yes
 - Source: [[off-market-lead-generation]], [[Indy Trip Nov 2026]]
-
-### OI-TAX-ENGINE — Engine tax-change proposal
-- Owner agent: Grok Bot
-- Status: waiting-owner
-- Updated: 2026-11-23
-- Next action: owner yes/no
-- Needs owner approval: yes
-- Source: [[Deal Pipeline]]
 
 ### OI-DROPPED-AUDIT — Audit deals dropped for missing ARV/API data
 - Owner agent: Grok Bot
@@ -190,14 +158,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no
 - Source: `/home/box/shared/zip-intel/`
 
-### OI-PROPERTYCOUNT — Health propertyCount always 0
-- Owner agent: Grok Bot
-- Status: open
-- Updated: 2026-11-23
-- Next action: treat as a stale/unused field unless a later PR is approved to fix the health payload
-- Needs owner approval: yes to change/deploy
-- Source: [[2026-11-23]] daily search note
-
 ### OI-LOG-SYNTAX — 22 Nov "log write syntax error"
 - Owner agent: Grok Bot
 - Status: open
@@ -221,14 +181,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: Steele proposes Tue 1 Dec 10:00 ET (17:00 Israel), no place; Zac Canull offers coffee Tue 9:00/9:30 ET; Cole moved to LIV Indy (colecooper@livindyrealty.com). Owner 21:05: "דואגים להכל, אל תענה לאף אחד כרגע" — no replies/drafts until the owner says. 24 Nov: Steele (23:18 Israel, 23 Nov) forwarded Tal's intro to local wholesalers and recommended the Invest With Ben opt-in list; Cole Cooper intro sent from deals@ 00:21 Israel 24 Nov (awaiting reply). Hold still in force; no replies drafted.
 - Needs owner approval: yes
 - Source: broker-replies-log.md (21:05 run); [[Steele Kruzel]]; [[Indy Brokers]]; [[Invest With Ben]]
-
-### OI-HOLD-RULES — Screen hold rules hide workable deals
-- Owner agent: Grok Bot
-- Status: waiting-owner
-- Updated: 2026-11-24 13:20
-- Next action: owner asked for conclusions + proposal, "אל תעשה כלום עדיין" (20:46). Proposal to present: revisit low-comps, ARV>2x price and basement-unknown holds (send to full analysis instead of holding). Also pending: whether Atlanta moves to the Indy ARV method (decide after conclusions). [decision] 24 Nov 12:40–12:53 call partly resolves this: ARV>2x ask → mark, don't stop (S23); missing data → estimate + 'needs verification' marker (S16); single-comp block overridable only by a true super comp (S13/S28). Implemented only via the OI-ARV-BUILD PRs.
-- Needs owner approval: yes
-- Source: /home/box/shared/deal-outcomes/filter-audit/2026-11-23-indy-20/; [[Eran Decisions by Topic]]
 
 ### OI-SITE-DISCOUNT-LABEL — Show "works at discount" on the site
 - Owner agent: Grok Bot
@@ -262,14 +214,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no
 - Source: [[Decisions Log]] 2026-11-23 16:27
 
-### OI-ARV-BUILD — 6-PR screening / rehab / ARV build
-- Owner agent: Grok Bot
-- Status: prepared
-- Updated: 2026-11-24 13:20
-- Next action: [decision] 13:09 owner: when the Indy rehab research (D5) finishes, take its results and start building everything; he expects to use the built system at 18:30 today. D5 research returned 13:15 ([[Indy Rehab Costs]]). Order (S10): tests-first PR + CI on every PR (S6/D6) → safety (site + engine) → site screening + zillow-search → ARV engine (calibration, tiered ARV, calibration). Still open: items 15 and 17–21 not yet discussed; item 15 conflicts with the 18:30 timeline. Merge/deploy only with owner approval. Fresh cloud agent per PR (owner rule).
-- Needs owner approval: yes (items 15, 17–21; merge/deploy)
-- Source: [[Eran Decisions by Topic]]; Projects/Eran Status 2026-11-24.txt; /workspace/exports/build-and-test-proposal.txt, arv-fixes-work-plan.txt
-
 ### OI-1830-CHECKS — 18:30 owner checks (labeled set + calibration sales)
 - Owner agent: Grok Bot
 - Status: waiting-owner
@@ -277,14 +221,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: one-off reminder today 18:30 Israel. D1: golden labeled set of good/bad houses for Eran to approve (not prepared yet). D2: 20 Indy + 20 Atlanta renovated sales (confirmed 13:03), collected from each bot analysis rather than a separate search, pending Eran's confirmation they are renovated.
 - Needs owner approval: yes
 - Source: [[Eran Decisions by Topic]] D1/D2
-
-### OI-INDY-REHAB-REVIEW — Owner review of Indy rehab cost table
-- Owner agent: Indianapolis Market Research
-- Status: waiting-owner
-- Updated: 2026-11-24 13:20
-- Next action: [reported] table done 13:15: <$25 and $25 tiers supported (~$18.5 and ~$25.9/sf on a 1,200 sf 3/1), but "with kitchen" lands ~$36–38/sf, above the $30 tier and the $35 cap (~$31 only with a ~$6k rental-turn kitchen). Eran reviews later; rehab defaults unchanged until he approves.
-- Needs owner approval: yes
-- Source: [[Indy Rehab Costs]]; /home/box/shared/indy-rehab-costs/
 
 ### OI-ATL-DEALS-1124 — Five Atlanta Deal Inbox analyses (24 Nov) not posted
 - Owner agent: Deal Analysis
@@ -310,14 +246,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no (decided); dispatch to confirm
 - Source: [[Eran Decisions by Topic]] S20
 
-### OI-ENGINE-GITHUB — Move deal engine to GitHub (S26)
-- Owner agent: Grok Bot
-- Status: open
-- Updated: 2026-11-24 13:20
-- Next action: [decision] 12:52 GitHub becomes source of truth for the deal engine (now at /home/box/shared/deal-engine; backup deal-engine-backup-20261124 exists on the box). Not moved yet.
-- Needs owner approval: no (decided)
-- Source: [[Eran Decisions by Topic]] S26
-
 ### OI-SECRETARY-SYNC — reconcile מזכירה task list with reality, then auto-update
 - Owner agent: Grok Bot
 - Status: open
@@ -335,6 +263,87 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: [[303 N Franklin Rd]]; [[Steele Kruzel]]
 
 ## History (closed, keep)
+
+### OI-AVON — Two sent-but-unanalysed Avon items
+- Owner agent: Deal Analysis
+- Status: closed
+- Updated: 2026-11-25
+- Next action: owner yes/no on analysing 7228 Lockford Walk N and 1881 Wynnewood Ln. Recommendation on file: no
+- Needs owner approval: yes
+- Source: [[Deal Pipeline]]
+- Evidence: [verified] 2026-11-25: skipped by Eran on 20 Nov 2026 10:02 (Deal Analysis transcript) — do not analyse or upload 7228 Lockford Walk N or 1881 Wynnewood Ln; leave them 'sent'. Source: secretary-tasks-reconcile-24-11.txt.
+
+### OI-TAX-ENGINE — Engine tax-change proposal
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: owner yes/no
+- Needs owner approval: yes
+- Source: [[Deal Pipeline]]
+- Evidence: [verified] 2026-11-25: S21 live — PRs 381/388. PR 381 (actual tax + insurance instead of $550) was in the 24 Nov 14:08 deploy; PR 388 (insurance template) merged 20:46 (100c951). Decisions Log 24 Nov 13:50/14:08 and 20:46.
+
+### OI-HOLD-RULES — Screen hold rules hide workable deals
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: owner asked for conclusions + proposal, "אל תעשה כלום עדיין" (20:46). Proposal to present: revisit low-comps, ARV>2x price and basement-unknown holds (send to full analysis instead of holding). Also pending: whether Atlanta moves to the Indy ARV method (decide after conclusions). [decision] 24 Nov 12:40–12:53 call partly resolves this: ARV>2x ask → mark, don't stop (S23); missing data → estimate + 'needs verification' marker (S16); single-comp block overridable only by a true super comp (S13/S28). Implemented only via the OI-ARV-BUILD PRs.
+- Needs owner approval: yes
+- Source: /home/box/shared/deal-outcomes/filter-audit/2026-11-23-indy-20/; [[Eran Decisions by Topic]]
+- Evidence: [verified] 2026-11-25: S16/S23/S24 live 14:08 on 24 Nov 2026 (PRs 381 and 385). ARV>2x is a flag not a stop; low-confidence goes to the bot; unverified fields are marked on the site. Decisions Log 24 Nov 14:08.
+
+### OI-ARV-BUILD — 6-PR screening / rehab / ARV build
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: [decision] 13:09 owner: when the Indy rehab research (D5) finishes, take its results and start building everything; he expects to use the built system at 18:30 today. D5 research returned 13:15 ([[Indy Rehab Costs]]). Order (S10): tests-first PR + CI on every PR (S6/D6) → safety (site + engine) → site screening + zillow-search → ARV engine (calibration, tiered ARV, calibration). Still open: items 15 and 17–21 not yet discussed; item 15 conflicts with the 18:30 timeline. Merge/deploy only with owner approval. Fresh cloud agent per PR (owner rule).
+- Needs owner approval: yes (items 15, 17–21; merge/deploy)
+- Source: [[Eran Decisions by Topic]]; Projects/Eran Status 2026-11-24.txt; /workspace/exports/build-and-test-proposal.txt, arv-fixes-work-plan.txt
+- Evidence: [verified] 2026-11-25: build wave merged through PR 397 (9968292) on 24 Nov 22:54. PRs 379–385 went live at 14:08; after S46, PRs 387–392 and 394–397 merged. Leftover work stays in other Open Items. Decisions Log 24 Nov 13:50/14:08 and 22:55.
+
+### OI-INDY-REHAB-REVIEW — Owner review of Indy rehab cost table
+- Owner agent: Indianapolis Market Research
+- Status: closed
+- Updated: 2026-11-25
+- Next action: [reported] table done 13:15: <$25 and $25 tiers supported (~$18.5 and ~$25.9/sf on a 1,200 sf 3/1), but "with kitchen" lands ~$36–38/sf, above the $30 tier and the $35 cap (~$31 only with a ~$6k rental-turn kitchen). Eran reviews later; rehab defaults unchanged until he approves.
+- Needs owner approval: yes
+- Source: [[Indy Rehab Costs]]; /home/box/shared/indy-rehab-costs/
+- Evidence: [verified] 2026-11-25: Eran approved the figures in use ($35/sf, three tiers, $8,000 per extra bath; S29/S30/S45). PR 395 merged 3a0bd90 on 24 Nov 22:45. secretary-tasks-reconcile-24-11.txt; daily note 24 Nov.
+
+### OI-ENGINE-GITHUB — Move deal engine to GitHub (S26)
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: [decision] 12:52 GitHub becomes source of truth for the deal engine (now at /home/box/shared/deal-engine; backup deal-engine-backup-20261124 exists on the box). Not moved yet.
+- Needs owner approval: no (decided)
+- Source: [[Eran Decisions by Topic]] S26
+- Evidence: [verified] 2026-11-25: engine lives under engine/ in hs-hold/hsdeals-claude-code; GitHub is the source of truth. PR 387 merged 20:46 (07ae2d7); PR 396 merged 9e74c05 at 22:54 (157 tests). Decisions Log 24 Nov 20:46 and 22:55.
+
+### OI-PRESREEN — Pre-screen vs trial criteria
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: filter audit 23 Nov: rejects correct, but hold rules (low comps, ARV>2x price, basement unknown) hid 3 workable deals — see OI-HOLD-RULES. Still wait for OI-CRITERIA (25 Nov); no code change without approval.
+- Needs owner approval: yes (business rule and later merge)
+- Source: [[Criteria Map]], [[Deal Pipeline]]
+- [stale] 2026-11-25: superseded by the 24 Nov build wave (owner approved merge+deploy at 13:50; PRs 379–385 live 14:08). What remains is the 25 Nov criteria review (OI-CRITERIA).
+
+### OI-RAPIDAPI — RapidAPI pace above the ~25/day target
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: live `rapidapi_usage` for the Nov 22 155-call window is still not queryable from this helper (no Supabase connector; secrets were not used). A pre-existing dump `/workspace/deal-search-2026-11-23-extra/rapidapi_today.json` (no new RapidAPI calls) covers 23 Nov 01:24–07:25 UTC only: 113 calls, 86 of them Atlanta zips under trigger `zillow_search` (burst 06:50–07:03 UTC / 08:50–09:03 Israel), and 27 Indy under trigger `funnel`. That Atlanta burst is the likely driver of the 09:03 alert (96 calls / 24h, 90 zillow-search for-sale). Do not start further unscheduled pulls. See the RapidAPI note in progress.md.
+- Needs owner approval: no for further read-only investigation; yes to change schedules or deploy
+- Source: RapidAPI watch 22–23 Nov; that report
+- [stale] 2026-11-25: Eran, 23 Nov 14:39 — call volume is not an issue; do not limit owner-requested searches. Decisions Log 23 Nov 14:39.
+
+### OI-PROPERTYCOUNT — Health propertyCount always 0
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25
+- Next action: treat as a stale/unused field unless a later PR is approved to fix the health payload
+- Needs owner approval: yes to change/deploy
+- Source: [[2026-11-23]] daily search note
+- [stale] 2026-11-25: field unused. The item already said to treat propertyCount as a stale/unused field unless a later PR is approved to fix the health payload; no such PR exists.
 
 ### OI-46140 — Zip intel note for 46140 claimed missing
 - Owner agent: Zip Intel
