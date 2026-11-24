@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Grok Bot"
 created: 2026-11-16
-updated: 2026-11-21
+updated: 2026-11-24
 tags: [agent]
 ---
 # Grok Bot — work log
@@ -85,3 +85,10 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Ran the ARV-logic check, 5-property blind check and the Indy 20-property filter audit with Deal Analysis; conclusions: rejects correct, hold rules hide deals ([[Open Items]] OI-HOLD-RULES).
 - Upload rule relayed to Deal Analysis: pass at ask or ≤15% off → site (20:46/20:50).
 - Reviewed hoangtng/real-estate-agents (no new bot; template ideas). Indy Tuesday replies on hold per owner (21:05).
+
+### 2026-11-24 midday (sync 13:20; from vault commits — own transcript search tool not available in the sync run)
+- Morning: read-only screening audit (funnel-screen, zillow-search, screen.ts; matches prod after PR 378), ARV tiered design, 11-PR work plan → 6-PR build+test proposal (/workspace/exports/).
+- 11:35–13:09 owner voice calls: collected all screening/ARV decisions S1–S28 and data items D1–D6 into [[Eran Decisions by Topic]] (new owner method, Nov 24). Status doc: Projects/Eran Status 2026-11-24.txt.
+- Set daily read-only quality monitor 25–27 Nov 20:00 and one-off 18:30 reminder (D1 labeled set, D2 20+20 sales).
+- 13:07 dispatched Indy rehab component research to Indianapolis Market Research (done 13:15).
+- 13:09 owner approved starting the full build when the rehab research is back; target usable system 18:30 ([[Open Items]] OI-ARV-BUILD).

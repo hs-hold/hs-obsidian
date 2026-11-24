@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Deal Analysis"
 created: 2026-11-09
-updated: 2026-11-20
+updated: 2026-11-24
 tags: [agent]
 ---
 # Deal Analysis — work log
@@ -38,3 +38,8 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 - Blind analyses for the 5-property check and Indy 20-property audit. Rule (owner 20:50): properties passing at ask or ≤15% off are always uploaded, including audit/test runs; written to its rules file (reported 20:56).
 - Posted 1318 Bacon St (passed), 3667 Cedar Pine Pl, 10160 Park Stream Dr (deal ids d8566553…, 78c86ae2…, 8ab78e22…).
 - v3 engine research re-run ~21:44–23:10 contradicts Bacon/Park Stream (OI-V3-RECHECK).
+
+### 2026-11-24 (sync 13:20; from vault commits + /home/box/shared files)
+- 08:23 [[303 N Franklin Rd]] (Indy, InvestWithBen, ask $84.9k): REJECT, flip MAO $69.3k = 18.4% off; single comp; not posted (>15% off).
+- Analyzed the 5 Atlanta deals from the Deal Inbox 08:00 scan: all REJECT/INCOMPLETE, not posted (Indy-only trial; Atlanta needs owner OK) — [[2026-11-24 Atlanta Deal Inbox batch (5)]].
+- New owner requirements for this bot (24 Nov call, [[Eran Decisions by Topic]]): wide discretion with recorded reasons (S4); super-comp rules (S5/S13/S28); missing data → estimate + 'needs verification' (S16); bot judges plausibility itself (S17); know every site data parameter and record them realistically (S22); raise low confidence by pulling more comps (S24); override limit 70% vs engine number (S25); photo-less comps inferred from description/price (D3); school ratings from API or 3 nearby schools (D4); add each analysis's renovated sold comps to the region's calibration list (D2). Build pending ([[Open Items]] OI-ARV-BUILD).

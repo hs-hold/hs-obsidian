@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Deal Inbox"
 created: 2026-11-11
-updated: 2026-11-20
+updated: 2026-11-24
 tags: [agent]
 ---
 # Deal Inbox — work log
@@ -28,3 +28,7 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 
 ### 2026-11-23 evening (from sync 23:20)
 - Receives non-Tal deals@ replies forwarded by Grok Bot (owner rule 19:19). Got Edwin's 1621 E 46th St reply; draft awaiting owner approval in its chat (OI-EDWIN-1621).
+
+### 2026-11-24 (sync 13:20; from handoff file)
+- 08:00 scan: 6 deals entered on DealFlow as Grok deals (status new) and handed to Deal Analysis: 303 N Franklin Rd (Indy, offer deadline 11/25 1pm ET), 7604 Briar Crest Ct, Lithonia 30058 TBD, Decatur 30032 TBD, 5472 Forest East Ln (subject-to), Trilby Pl SE. No wholesaler replies. Handoff: `/home/box/shared/deal-outcomes/deal-analysis-handoff-2026-11-24.md`.
+- Not in handoff: 12428 Van Spronsen Way (Invest With Ben, 01:00 Israel) — OI-VAN-SPRONSEN.

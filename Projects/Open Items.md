@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-24
 tags: [project, tracker]
 ---
 # Open Items
@@ -49,18 +49,18 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-BOUNCE — Bounced intro recipients
 - Owner agent: Grok Bot
 - Status: waiting-owner
-- Updated: 2026-11-23 23:20
-- Next action: owner chooses for KK Buys / Stacy Patlan (Tal calls, or new emails + approved resend). New 23 Nov: the 32-broker batch from Indy Research had 2 hard bounces (550 5.1.1): Jared Nelson jnelson@jnandarealty.com, Nicole Lloyd nicole@indyspropertyshop.com. Delay (not bounce) to salesteam@indytradingpost.com.
+- Updated: 2026-11-24 13:20
+- Next action: owner chooses for KK Buys / Stacy Patlan (Tal calls, or new emails + approved resend). New 23 Nov: the 32-broker batch from Indy Research had 2 hard bounces (550 5.1.1): Jared Nelson jnelson@jnandarealty.com, Nicole Lloyd nicole@indyspropertyshop.com. Delay (not bounce) to salesteam@indytradingpost.com. 24 Nov 00:31 Israel: second delivery-delay notice to salesteam@indytradingpost.com (msg 1a20a88d925d75f1); Gmail retrying 18 h; still not a final bounce.
 - Needs owner approval: yes
 - Source: broker-replies-log.md; [[Indy Trip Nov 2026]]
 
 ### OI-CRITERIA — Trial criteria review 25 Nov
 - Owner agent: Grok Bot / Deal Analysis
 - Status: waiting-owner
-- Updated: 2026-11-23
-- Next action: review 25 Nov 2026 10:00 Israel. Mapping of current contradictions is in [[Criteria Map]]. No business criteria will be changed before this decision. After the decision, internal docs may be updated to the approved version; code, merge, and deploy still need a separate batch approval.
+- Updated: 2026-11-24 13:20
+- Next action: review 25 Nov 2026 10:00 Israel. Mapping of current contradictions is in [[Criteria Map]]. No business criteria will be changed before this decision. After the decision, internal docs may be updated to the approved version; code, merge, and deploy still need a separate batch approval. 24 Nov: the screening/ARV decisions (S1–S28) were collected in the 24 Nov call; review still 25 Nov 10:00. Note item 15 (no screen change before the 25–27 Nov monitor ends) conflicts with the 18:30 build timeline — owner decision needed.
 - Needs owner approval: yes
-- Source: [[00 Profile]] trial block 18–24 Nov; [[Criteria Map]]
+- Source: [[00 Profile]] trial block 18–24 Nov; [[Criteria Map]]; [[Eran Decisions by Topic]]
 
 ### OI-PRESREEN — Pre-screen vs trial criteria
 - Owner agent: Grok Bot
@@ -217,18 +217,18 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-INDY-TUE-MEETINGS — Tue 1 Dec Indy meetings (Zac 9:00, Steele 10:00)
 - Owner agent: Grok Bot
 - Status: waiting-owner
-- Updated: 2026-11-23 23:20
-- Next action: Steele proposes Tue 1 Dec 10:00 ET (17:00 Israel), no place; Zac Canull offers coffee Tue 9:00/9:30 ET; Cole moved to LIV Indy (colecooper@livindyrealty.com). Owner 21:05: "דואגים להכל, אל תענה לאף אחד כרגע" — no replies/drafts until the owner says.
+- Updated: 2026-11-24 13:20
+- Next action: Steele proposes Tue 1 Dec 10:00 ET (17:00 Israel), no place; Zac Canull offers coffee Tue 9:00/9:30 ET; Cole moved to LIV Indy (colecooper@livindyrealty.com). Owner 21:05: "דואגים להכל, אל תענה לאף אחד כרגע" — no replies/drafts until the owner says. 24 Nov: Steele (23:18 Israel, 23 Nov) forwarded Tal's intro to local wholesalers and recommended the Invest With Ben opt-in list; Cole Cooper intro sent from deals@ 00:21 Israel 24 Nov (awaiting reply). Hold still in force; no replies drafted.
 - Needs owner approval: yes
-- Source: broker-replies-log.md (21:05 run); [[Steele Kruzel]]; [[Indy Brokers]]
+- Source: broker-replies-log.md (21:05 run); [[Steele Kruzel]]; [[Indy Brokers]]; [[Invest With Ben]]
 
 ### OI-HOLD-RULES — Screen hold rules hide workable deals
 - Owner agent: Grok Bot
 - Status: waiting-owner
-- Updated: 2026-11-23 23:20
-- Next action: owner asked for conclusions + proposal, "אל תעשה כלום עדיין" (20:46). Proposal to present: revisit low-comps, ARV>2x price and basement-unknown holds (send to full analysis instead of holding). Also pending: whether Atlanta moves to the Indy ARV method (decide after conclusions).
+- Updated: 2026-11-24 13:20
+- Next action: owner asked for conclusions + proposal, "אל תעשה כלום עדיין" (20:46). Proposal to present: revisit low-comps, ARV>2x price and basement-unknown holds (send to full analysis instead of holding). Also pending: whether Atlanta moves to the Indy ARV method (decide after conclusions). [decision] 24 Nov 12:40–12:53 call partly resolves this: ARV>2x ask → mark, don't stop (S23); missing data → estimate + 'needs verification' marker (S16); single-comp block overridable only by a true super comp (S13/S28). Implemented only via the OI-ARV-BUILD PRs.
 - Needs owner approval: yes
-- Source: /home/box/shared/deal-outcomes/filter-audit/2026-11-23-indy-20/
+- Source: /home/box/shared/deal-outcomes/filter-audit/2026-11-23-indy-20/; [[Eran Decisions by Topic]]
 
 ### OI-SITE-DISCOUNT-LABEL — Show "works at discount" on the site
 - Owner agent: Grok Bot
@@ -261,6 +261,62 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: 605 S East St and 4099 N Cheltonham Ct (Plainfield) passed the 17:05 re-pull and wait in the queue; confirm they reach Deal Analysis.
 - Needs owner approval: no
 - Source: [[Decisions Log]] 2026-11-23 16:27
+
+### OI-ARV-BUILD — 6-PR screening / rehab / ARV build
+- Owner agent: Grok Bot
+- Status: prepared
+- Updated: 2026-11-24 13:20
+- Next action: [decision] 13:09 owner: when the Indy rehab research (D5) finishes, take its results and start building everything; he expects to use the built system at 18:30 today. D5 research returned 13:15 ([[Indy Rehab Costs]]). Order (S10): tests-first PR + CI on every PR (S6/D6) → safety (site + engine) → site screening + zillow-search → ARV engine (calibration, tiered ARV, calibration). Still open: items 15 and 17–21 not yet discussed; item 15 conflicts with the 18:30 timeline. Merge/deploy only with owner approval. Fresh cloud agent per PR (owner rule).
+- Needs owner approval: yes (items 15, 17–21; merge/deploy)
+- Source: [[Eran Decisions by Topic]]; Projects/Eran Status 2026-11-24.txt; /workspace/exports/build-and-test-proposal.txt, arv-fixes-work-plan.txt
+
+### OI-1830-CHECKS — 18:30 owner checks (labeled set + calibration sales)
+- Owner agent: Grok Bot
+- Status: waiting-owner
+- Updated: 2026-11-24 13:20
+- Next action: one-off reminder today 18:30 Israel. D1: golden labeled set of good/bad houses for Eran to approve (not prepared yet). D2: 20 Indy + 20 Atlanta renovated sales (confirmed 13:03), collected from each bot analysis rather than a separate search, pending Eran's confirmation they are renovated.
+- Needs owner approval: yes
+- Source: [[Eran Decisions by Topic]] D1/D2
+
+### OI-INDY-REHAB-REVIEW — Owner review of Indy rehab cost table
+- Owner agent: Indianapolis Market Research
+- Status: waiting-owner
+- Updated: 2026-11-24 13:20
+- Next action: [reported] table done 13:15: <$25 and $25 tiers supported (~$18.5 and ~$25.9/sf on a 1,200 sf 3/1), but "with kitchen" lands ~$36–38/sf, above the $30 tier and the $35 cap (~$31 only with a ~$6k rental-turn kitchen). Eran reviews later; rehab defaults unchanged until he approves.
+- Needs owner approval: yes
+- Source: [[Indy Rehab Costs]]; /home/box/shared/indy-rehab-costs/
+
+### OI-ATL-DEALS-1124 — Five Atlanta Deal Inbox analyses (24 Nov) not posted
+- Owner agent: Deal Analysis
+- Status: waiting-owner
+- Updated: 2026-11-24 13:20
+- Next action: analyzed but not posted because the Indy-only trial was in force (owner 10:00 check-in outcome not found in files). Verdicts: 7604 Briar Crest Ct REJECT at ask (trial ~$138k = 7.1% off only on a single-comp ARV; conservative needs ~17% off); 5472 Forest East Ln (subject-to) REJECT as cash, tight sub-to; 342 Trilby Pl SE REJECT (flip pass rests on one stretched comp); Lithonia 30058 and Decatur 30032 New Western INCOMPLETE (no address). Owner decides on Atlanta posting; Briar Crest is the only one inside the ≤15% band and only on the low-confidence engine ARV.
+- Needs owner approval: yes
+- Source: /home/box/shared/deal-outcomes/analyses/2026-11-24/SUMMARY.md
+
+### OI-VAN-SPRONSEN — 12428 Van Spronsen Way (46236) not analysed
+- Owner agent: Deal Inbox / Deal Analysis
+- Status: open
+- Updated: 2026-11-24 13:20
+- Next action: Invest With Ben marketing email 01:00 Israel 24 Nov (3/2, 1,440 sf, 1991, vacant). Not in the 08:00 handoff; confirm whether it goes to Deal Analysis.
+- Needs owner approval: no
+- Source: [[Invest With Ben]]; broker-replies-log.md 09:49
+
+### OI-ATL-REHAB-RESEARCH — Atlanta cosmetic rehab research (S20)
+- Owner agent: Atlanta Market Research
+- Status: open
+- Updated: 2026-11-24 13:20
+- Next action: [decision] 12:46 research Atlanta cosmetic rehab by component and build Atlanta range + tiers like Indy. Recorded as decision only; not dispatched yet (S11 constraint was lifted at 13:09 for the build, but Atlanta research was not explicitly sent).
+- Needs owner approval: no (decided); dispatch to confirm
+- Source: [[Eran Decisions by Topic]] S20
+
+### OI-ENGINE-GITHUB — Move deal engine to GitHub (S26)
+- Owner agent: Grok Bot
+- Status: open
+- Updated: 2026-11-24 13:20
+- Next action: [decision] 12:52 GitHub becomes source of truth for the deal engine (now at /home/box/shared/deal-engine; backup deal-engine-backup-20261124 exists on the box). Not moved yet.
+- Needs owner approval: no (decided)
+- Source: [[Eran Decisions by Topic]] S26
 
 ## History (closed, keep)
 

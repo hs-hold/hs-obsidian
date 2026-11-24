@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Content Insights"
 created: 2026-11-09
-updated: 2026-11-20
+updated: 2026-11-24
 tags: [agent]
 ---
 # Content Insights — work log
@@ -27,3 +27,6 @@ Watched/transcribed Course 9 lesson 10-1 (Oren Sofrin, off-market part 1, 22:53)
 ### 2026-11-20 — rules and stop point (from sync 13:20)
 - Owner rules (via Grok Bot, 02:30–02:39): apply skills to all content received; skills are drafts only and go through Grok Bot to the owner for approval; propose (never create) new bots; task budget 4% of weekly usage with a resume-point progress file.
 - Stopped 10:05 at 87.5% weekly usage (budget reached). 10-2 recording failed; resume by re-recording 10-2, then 10-3 PropStream. 7 skill proposals await the owner.
+
+### 2026-11-24 (sync 13:20; from vault commit 09:49)
+- Research: sources for building an AI ARV / rehab-cost system — [[ARV AI Sources 2026-11-24]] (top pick PrthD/comps-agent: deterministic Python engine, LLM only explains). Research only.

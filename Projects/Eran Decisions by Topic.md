@@ -4,13 +4,14 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 ## OPEN (awaiting Eran)
 ### Screening / ARV build (work plan: /workspace/exports/arv-fixes-work-plan.txt, proposal: build-and-test-proposal.txt)
 - (none: all decisions collected 2026-11-24 12:53; data items below still missing)
+- (added by brain sync 13:20, from the 13:09 status) Proposal items 15 and 17–21 not yet discussed; presented to Eran 13:09. Item 15 (no screen change before the 25–27 Nov monitor ends) conflicts with the 18:30 build target — needs Eran's decision.
 
 ## DATA / CHECKS STILL MISSING (not decisions)
 - D1 Golden labeled set of real houses (good/bad) for Eran to approve. STATUS 12:55: acknowledged; pending Eran's review time (he needs to go through several deals). Not approved yet.
 - D2 20 renovated sales for calibration (per S18: 20 per region, Indy and Atlanta separately)
 - D3 (NEXT after 12:56 pause) Interior photos for sold comps: 25–37% of Atlanta sold comps have ≤1 photo; interiors and Indy not checked
 - D4 School-district source (HomeHarvest nearby_schools was empty; site columns school_district/school_avg source unknown)
-- D5 Indy rehab cost table by component
+- D5 Indy rehab cost table by component — STATUS 13:15: research done ([[Indy Rehab Costs]]); awaits Eran's review (kitchen tier ~$36–38/sf vs $30 tier)
 - D6 Tests missing for screen, rehab, queueGate, ingest; CI-on-PR not checked
 
 ## DONE TODAY (24.11), nothing built

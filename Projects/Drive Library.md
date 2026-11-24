@@ -4,7 +4,7 @@ status: active
 owner: H.S HOLDINGS
 market: both
 created: 2026-11-17
-updated: 2026-11-20
+updated: 2026-11-24
 tags: [project, drive]
 ---
 # Drive Library
@@ -81,3 +81,4 @@ When a bot produces something the owner may want to open later:
 - 2026-11-20 23:25: the evening sync filed 714 Cather Ct analysis (Google Doc, עסקאות), Indy contacts drip day 3 (`אנשי קשר אינדי — טפטוף 20.11.html`, אנשי קשר), and archived `analyses-2026-11-20-evening-raw.zip` (no images/photos page/PDF) in ניתוחי-עסקאות. Added 2 index lines. Nothing replaced.
 - 2026-11-21 13:15: the system overview (Hebrew Word, written 13:11 on the owner's voice request) is in דוחות ומחקר (file 184ouimmwV5Afob6GoDuP0wnmnl-F4IeI, not shared); midday sync added 1 index line. Nothing else new to file.
 - 2026-11-23 23:25: the evening sync filed in אנשי קשר (HTML) the 50 Indy brokers for 30.11–1.12 meetings; in דוחות ומחקר (Google Doc) the Indy 20-property filter audit; archived filter-audit-indy-20-2026-11-23-raw.zip in ניתוחי-עסקאות. Added 2 index lines. Nothing replaced.
+- 2026-11-24 13:25: the midday sync filed in עסקאות (Google Docs) the 303 N Franklin Rd analysis and the 5 Atlanta Deal Inbox analyses summary; in דוחות ומחקר (Google Docs) the Indy rehab cost-by-component research, the ARV AI sources research (Content Insights had put the .md in the root Research folder; left in place) and Eran's screening/rehab/ARV decisions status; archived analyses-2026-11-24-raw.zip (no images) in ניתוחי-עסקאות and research-2026-11-24.zip (rehab CSV/MD, ARV sources, /workspace/exports audit + work-plan texts) in מקורות-מחקר. Added 5 index lines. Nothing replaced.
