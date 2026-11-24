@@ -8,7 +8,7 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 ## DATA / CHECKS STILL MISSING (not decisions)
 - D1 Golden labeled set of real houses (good/bad) for Eran to approve. STATUS 12:55: acknowledged; pending Eran's review time (he needs to go through several deals). Not approved yet.
 - D2 20 renovated sales for calibration (per S18: 20 per region, Indy and Atlanta separately)
-- D3 Interior photos for sold comps: 25–37% of Atlanta sold comps have ≤1 photo; interiors and Indy not checked
+- D3 (NEXT after 12:56 pause) Interior photos for sold comps: 25–37% of Atlanta sold comps have ≤1 photo; interiors and Indy not checked
 - D4 School-district source (HomeHarvest nearby_schools was empty; site columns school_district/school_avg source unknown)
 - D5 Indy rehab cost table by component
 - D6 Tests missing for screen, rehab, queueGate, ingest; CI-on-PR not checked
@@ -19,6 +19,8 @@ Method (since 2026-11-24): every answer Eran gives, in any chat or call, is reco
 - Build+test proposal (6 PRs) → build-and-test-proposal.txt
 - ARV tiered design → arv-tiered-design.txt
 - Daily quality monitor routine Nov 25–27 20:00
+- One-off reminder today 18:30 (D1 labeled set + D2 20 renovated sales per region)
+- Full call record 12:30–12:56: Projects/Eran Status 2026-11-24.txt
 - No code, PRs or deploys today; building awaits the open decisions
 
 ## SETTLED
