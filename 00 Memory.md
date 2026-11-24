@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-24 13:23 Asia/Jerusalem from commit 082bd4d 2026-11-24 13:15 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-24 23:16 Asia/Jerusalem from commit 8375489 2026-11-24 22:47 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
@@ -12,7 +12,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Role: main coordinator; coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
 - Schedule: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
-- Latest log (2026-11-24 midday (sync 13:20; from vault commits — own …): Morning: read-only screening audit (funnel-screen, zillow-search, screen.ts; matches prod after PR 378), ARV tiered design, 11-PR work plan → 6-PR build+test proposal (/workspace/exports/). 11:35–13:09 owner voice calls: collected all screening/ARV decisions S1–S28 and data items D1–D6 into [[Eran …
+- Latest log (2026-11-24 evening (sync 23:20)): Merged/deployed site PRs 386/389–392, 395, 397 and engine PR 396 (engine/ only); box engine = repo engine/. Deal Analysis rules now call tools/comp_pull.py. Quick screen ↔ agent separation rule (t812u). Started secretary task-list reconciliation (t830u, read-only first).
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
 - Open: Get the owner's answer on the 7 skill proposals and the two Avon queue items.
@@ -170,6 +170,8 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 ## Open decisions / items (last 7 days + projects; unchecked only)
 - New: OI-ARV-BUILD, OI-1830-CHECKS, OI-INDY-REHAB-REVIEW, OI-ATL-DEALS-1124, OI-VAN-SPRONSEN, OI-ATL-REHAB-RESEARCH, OI-ENGINE-GITHUB. — [[2026-11-24]]
 - Updated: OI-BOUNCE, OI-INDY-TUE-MEETINGS, OI-HOLD-RULES, OI-CRITERIA. — [[2026-11-24]]
+- New: OI-SECRETARY-SYNC (secretary task list review + auto-update), OI-FRANKLIN-OFFER (offer deadline Wed 25 Nov 13:00 Indy = 20:00 Israel). — [[2026-11-24]]
+- Engine/site build items from today: closed per owner-chat evidence (Grok Bot 22:55–23:05 "everything live, nothing awaiting approval"). — [[2026-11-24]]
 - Tal calls [[Nolan Lamkin]] today 18:00 Israel / 11:00 ET at (317) 696-9545. — [[2026-11-23]]
 - Steele email goes out 16:00 Israel; then set call and possibly meeting Tue Dec 1 10–12 Indy. — [[2026-11-23]]
 - Add separate outreach threads (e.g. "Investor visiting Indy Dec 1–2") to the Indy broker reply watch (offered to owner, not yet approved). — [[2026-11-23]]
@@ -276,17 +278,35 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - D: (13:03–13:08) D2 calibration = 20 Indy + 20 Atlanta, collected from each analysis; D3 photo-less comps inferred from description + price, escalate repeated failures; D4 school data from API/site …
 - D: (13:09) Start building everything once the Indy rehab research returns; owner expects to use the system at 18:30 today. Items 15 and 17–21 not yet discussed; item 15 conflicts with the timeline.
 - D: Owner instruction (13:02): document everything said, across all calls.
+- D: 13:50 merge order approved; site build wave #379–#385 live by 14:08 (Grok Bot).
+- D: ~20:10–20:46 voice call: rehab method S29–S34, stress test/worst case display-only S35, super comp S36/S38, single-pull + no computed numbers incl. Zestimate S37/S39, "Deals that maybe work" page …
+- D: 22:09 [decision] (t812u) quick screen and the Deal Analysis agent are separate; optimizing one never changes the other; the agent makes the important decisions (Grok Bot).
+- D: 22:15 (t815u) approved: comp-pull tool go-live, new Deal Analysis rules draft, site rehab table PR at $35/sf incl. engine tier adjustments (Grok Bot).
+- D: 22:25–22:36 S44 bath ARV adjustment $20K per full-bath difference; S45 rehab +$8,000 per bath beyond the first (Grok Bot).
+- D: 22:44 (t829u) S46 approved all remaining: engine switch, ZORI quick range, comp-pull tool, open defaults kept (Grok Bot).
 - Owner: Explained why comp interior photos matter: to see the renovation needed to reach the renovated comp's ARV (13:02).
 - Owner: Asked whether we have a general web-research agent (13:06): no; the market/zip/content bots can all search the web.
+- Owner: Units are sqft; "1,200" house reference = 1,200 sqft (t817u).
+- Owner: Wants Steele thanked for the wholesale deal and told we are running numbers (t770u) — sent from deals@ in-thread, one-off.
+- Owner: 23:09 (t830u) secretary (מזכירה) task list is stale; wants it reviewed against reality and updated automatically.
 - C: [reported] (Deal Analysis 08:23) [[303 N Franklin Rd]] (Indy, ask $84.9k): REJECT, flip MAO $69.3k (18.4% off), single comp; borderline (without −3% road adj. 12.5% off). Offer deadline 11/25 1pm ET. …
 - C: [reported] (Deal Analysis) 5 Atlanta Deal Inbox deals all REJECT/INCOMPLETE, not posted (Indy-only trial) — [[2026-11-24 Atlanta Deal Inbox batch (5)]].
 - C: [reported] (Indianapolis Market Research 13:15) [[Indy Rehab Costs]]: <$25 and $25 tiers supported; "with kitchen" ≈ $36–38/sf, above the $30 tier and $35 cap; vinyl window $475–850.
 - C: [reported] (Grok Bot, morning) screening code read matches prod after PR 378; no calibration runs today in screening or bot.
 - C: [reported] (Content Insights 09:49) [[ARV AI Sources 2026-11-24]]: best model = deterministic comps engine + LLM that only explains (PrthD/comps-agent).
+- C: [verified] ARV research vs current method (16:20–20:03): no method switch needed; live engine already does most of it; priority adds were fixed comp-pull source and stress test (Grok Bot).
+- C: [verified] 303 N Franklin Rd (Steele / Invest With Ben wholesale, ask $84,900): FAIL at ask, not uploaded; ARV ~$190K on one comp (very low confidence), rehab ~$58K mid / $107K worst; Deal Analysis …
+- C: [verified] ZORI check (105 analysed deals vs street rent listings): Atlanta median deviation 5% (64% within 10%); Indy median 23%, ZORI systematically low; SAFMR not consistently better. Quick screen …
+- C: [verified] Engine rerun of 67 saved analyses: 13 verdict changes came from missing photos/rent comps in old data (engine discards supplied numbers), not engine error; 8-deal real test with fresh rent …
 - A: Grok Bot: audit + 6-PR proposal (/workspace/exports/), call records ([[Eran Decisions by Topic]], Projects/Eran Status 2026-11-24.txt), monitor routine 25–27 Nov 20:00 and one-off 18:30 reminder.
 - A: Deal Inbox (08:00 scan): 6 deals to Deal Analysis (handoff `/home/box/shared/deal-outcomes/deal-analysis-handoff-2026-11-24.md`).
 - A: Indianapolis Market Research: late reply log 08:58 + watch 09:49 — Steele forwarded Tal's intro to wholesalers ([[Steele Kruzel]], [[Invest With Ben]]); Cole Cooper intro sent 00:21; second delay to …
 - A: Content Insights: ARV AI sources research.
+- A: Grok Bot: site PRs 389/392/390/391/386 merged+deployed (868 tests), PR 395 site rehab table ($35/sf tiers, quick screen only), PR 396 engine/ only merged 9e74c05 (157 tests, insurance template …
+- A: Deal Analysis: 303 N Franklin Rd full analysis (/home/box/shared/deal-outcomes/analyses/2026-11-24/).
+- A: Indianapolis Market Research / broker watch: Invest With Ben (sales@investwithben.com) mail 15:30Z logged in broker-replies-log.md.
+- A: מזכירה: evening to-do reminder (34 non-quiet open items from [[Open Items]]).
+- A: Zip Intel: zip notes updated (30317, 46225, 46218, 46203, 46201, 30316, 46229, 30294, 30344, 30088, 46219) per file mtimes.
 ### [[2026-11-23]]
 - D: (Owner → Grok Bot, 12:17) New standing rule: always track local time in Atlanta and Indianapolis (both US Eastern, now UTC−5 = Israel −7h). Emails to US contacts go out only at reasonable local …
 - D: (Owner, 12:17–12:21) Email [[Steele Kruzel]] only to set up a phone call (short version); owner approved scheduling it for 09:00 Indy time Mon Nov 23 = 16:00 Israel (one-off routine …

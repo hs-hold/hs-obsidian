@@ -318,6 +318,22 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no (decided)
 - Source: [[Eran Decisions by Topic]] S26
 
+### OI-SECRETARY-SYNC — reconcile מזכירה task list with reality, then auto-update
+- Owner agent: Grok Bot
+- Status: open
+- Updated: 2026-11-24 23:15
+- Next action: Grok Bot reviewing the 34 items against vault/mail evidence (first pass read-only); show Eran the list before changing anything; then build automatic closing of evidenced items.
+- Needs owner approval: yes (before updating the list / new routine)
+- Source: owner chat t830u 23:09; [[מזכירה]]
+
+### OI-FRANKLIN-OFFER — 303 N Franklin Rd offer decision
+- Owner agent: Grok Bot
+- Status: waiting-owner
+- Updated: 2026-11-24 23:15
+- Next action: offers close Wed 25 Nov 13:00 Indy (20:00 Israel). Recommendation: pass or ~$66–69K cash. Draft reply only after Eran decides.
+- Needs owner approval: yes
+- Source: [[303 N Franklin Rd]]; [[Steele Kruzel]]
+
 ## History (closed, keep)
 
 ### OI-46140 — Zip intel note for 46140 claimed missing

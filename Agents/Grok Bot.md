@@ -92,3 +92,6 @@ Durable facts from this period were written into the shared vault (daily notes, 
 - Set daily read-only quality monitor 25–27 Nov 20:00 and one-off 18:30 reminder (D1 labeled set, D2 20+20 sales).
 - 13:07 dispatched Indy rehab component research to Indianapolis Market Research (done 13:15).
 - 13:09 owner approved starting the full build when the rehab research is back; target usable system 18:30 ([[Open Items]] OI-ARV-BUILD).
+
+### 2026-11-24 evening (sync 23:20)
+- Merged/deployed site PRs 386/389–392, 395, 397 and engine PR 396 (engine/ only); box engine = repo engine/. Deal Analysis rules now call tools/comp_pull.py. Quick screen ↔ agent separation rule (t812u). Started secretary task-list reconciliation (t830u, read-only first).
