@@ -23,3 +23,5 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-23 20:46 [decision] (Eran, Grok Bot chat): any property that passes Deal Analysis is uploaded to the deals site, including audit/test properties.
 - 2026-11-23 20:50 [decision] (Eran, Grok Bot chat): "תמיד תעלה כאלה שעובדים עם הנחה של עד 15%" — properties that pass at ask or at up to 15% off ask are always uploaded. 20:51: approved writing the rule into Deal Analysis's git rules file (done 20:56, reported).
 - 2026-11-23 21:05 [decision] (Eran, Grok Bot chat): Indy Tuesday meeting replies (Steele, Zac, Nolan) — "דואגים להכל, אל תענה לאף אחד כרגע": no replies or drafts for now.
+
+- 2026-11-24 11:40 [decision] Indianapolis full cosmetic rehab range for screening = $25–35/sqft (Eran chose $35 cap instead of the $45 found in research); replaces the $55/sqft default (rehab.ts:105-114) when the rehab-estimate PR is built. Not live yet.
