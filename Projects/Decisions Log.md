@@ -58,3 +58,4 @@ Append-only. Do not edit or delete older entries. If a decision changes, add a n
 - 2026-11-24 13:09: owner approved starting the full build once the Indy rehab research returns (owner, voice).
 
 - 2026-11-24 13:50 [decision] Eran approved fixing conflicts then merge+deploy in order. 14:05: site PRs #379 #382 #383 #380 #381 merged+deployed (main 6accf9e; migrations 20261124120000, 20261124120100; functions deal-analysis-ingest v13, funnel-screen v22, zillow-search v39). Bot rules (agent-rules 13cbf90) and deal-engine (99cc589) live. #384 then #385 merge+deploy in progress.
+- 2026-11-24 14:08 [verified] #384 (5a7d326) and #385 (f77d954) merged+deployed; migration 20261124120200 applied; deal-analysis-ingest v14, funnel-run-next-zip v11, funnel-screen v23, zillow-search v40; 818 tests pass. Full build wave live.
