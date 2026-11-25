@@ -57,7 +57,8 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-CRITERIA — Trial criteria review 25 Nov
 - Owner agent: Grok Bot / Deal Analysis
 - Status: waiting-owner
-- Updated: 2026-11-24 13:20
+- Updated: 2026-11-25 10:58
+- Eran clarification (voice, 25 Nov ~10:58) [decision]: $250/mo cash flow = a deal fully passes and works as full BRRRR. Separately, any deal with cash flow above $100/mo is flagged as good potential and reported to Eran immediately even if it misses $250 (rule in agent-rules/deal-analysis.md, 703c705). Still open: keep trial method / return to old / combine (comparison sent 25 Nov 10:04).
 - Next action: review 25 Nov 2026 10:00 Israel. Mapping of current contradictions is in [[Criteria Map]]. No business criteria will be changed before this decision. After the decision, internal docs may be updated to the approved version; code, merge, and deploy still need a separate batch approval. 24 Nov: the screening/ARV decisions (S1–S28) were collected in the 24 Nov call; review still 25 Nov 10:00. Note item 15 (no screen change before the 25–27 Nov monitor ends) conflicts with the 18:30 build timeline — owner decision needed.
 - Needs owner approval: yes
 - Source: [[00 Profile]] trial block 18–24 Nov; [[Criteria Map]]; [[Eran Decisions by Topic]]
@@ -254,15 +255,15 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes (before updating the list / new routine)
 - Source: owner chat t830u 23:09; [[מזכירה]]
 
-### OI-FRANKLIN-OFFER — 303 N Franklin Rd offer decision
-- Owner agent: Grok Bot
-- Status: waiting-owner
-- Updated: 2026-11-24 23:15
-- Next action: offers close Wed 25 Nov 13:00 Indy (20:00 Israel). Recommendation: pass or ~$66–69K cash. Draft reply only after Eran decides.
-- Needs owner approval: yes
-- Source: [[303 N Franklin Rd]]; [[Steele Kruzel]]
 
 ## History (closed, keep)
+
+### OI-FRANKLIN-OFFER — 303 N Franklin Rd offer decision
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-25 10:58
+- Evidence: Eran on voice call 25 Nov ~10:58 Israel: ignoring this deal for now; no offer, no reply. Mark done.
+- Source: [[303 N Franklin Rd]]; [[Steele Kruzel]]
 
 ### OI-AVON — Two sent-but-unanalysed Avon items
 - Owner agent: Deal Analysis
