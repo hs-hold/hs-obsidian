@@ -192,11 +192,12 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 
 ### OI-GOODPOT-HILLSIDE — 3910 Hillside Ave may meet the good-potential flag
 - Owner agent: Deal Analysis
-- Status: open
-- Updated: 2026-11-25 13:20
+- Status: closed
+- Updated: 2026-11-25 15:10
 - Next action: [hypothesis] funnel analysis 09:02 shows CF +$126/mo self-managed at the $100k ask (BRRRR cash left $64k, FAIL). That is > $100/mo, so the 10:56 rule (703c705) would flag it as good potential and report it to Eran. No flag file exists for it (only Cedar Pine has one). Deal Analysis / coordinator to confirm and report if it qualifies.
 - Needs owner approval: no (reporting only)
 - Source: `/home/box/shared/deal-outcomes/analyses/2026-11-25/funnel-46205/3910-hillside-ave.md`; [[3910 Hillside Ave]]
+- Resolution: [verified] Good-potential report on 3910 Hillside sent to Eran in Main Bot chat 2026-11-25 13:22 (BRRRR +$126/mo at ask, fails overall).
 
 ### OI-PAUL-SCHERRER — Call with Paul Scherrer (Indy broker, GPC intro)
 - Owner agent: Grok Bot (track only)
