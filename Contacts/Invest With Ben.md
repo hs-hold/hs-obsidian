@@ -10,7 +10,7 @@ website: ""
 areas: "46222, 46224, 46241, 46221, 46203, 46225, 46107, 46201, 46219, 46226, 46208, 46205, 46227, 46229, 46254, 46268, 46214, 46231, 46235, 46237, 46217, 46113, 46239, 46234, 46228, 46220, 46236"
 status: in-conversation
 created: 2026-11-16
-updated: 2026-11-24
+updated: 2026-11-25
 tags: [contact]
 ---
 # Invest With Ben
@@ -43,5 +43,9 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 - 2026-11-23 23:18 Israel: Steele Kruzel told Tal he had forwarded the intro to local wholesalers and recommended this list: https://investwithben.com/available-properties-opts-in/
 - 2026-11-24 01:00 Israel: Shannon & Claire emailed 12428 Van Spronsen Way, Indianapolis, IN 46236 (3/2, 1,440 sf, slab, 2-car, 1991, lot 10,846, vacant). No deal note yet.
 - 2026-11-24 01:14 Israel: emailed 303 N Franklin Rd, Indianapolis, IN 46219. Already analyzed the same day: REJECT under trial criteria. See [[303 N Franklin Rd]].
+
+
+- 2026-11-24 17:30 Israel: Shannon & Claire emailed 1827 N Rochester Ave, Indianapolis, IN 46222 (2/1, 736 sf, basement, 2-car, 1946, vacant). Walkthrough was that afternoon; offer deadline 11/25 3pm ET. Deal Analysis 25 Nov: **REJECT** (trial MAO $55,700, 27.6% off ask $76,900). See [[1827 N Rochester Ave]]. Already reported to the owner by Deal Inbox.
+- 2026-11-24 21:59 Israel: emailed condo 6404 Bayside S Dr, Indianapolis, IN 46250 (1/1.5, 1,130 sf, 1981, claimed ARV $200,000, ask about $104,900). Outside buy box; no reply. Already reported to the owner by Deal Inbox.
 
 See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].

@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Indianapolis Market Research"
 created: 2026-11-09
-updated: 2026-11-24
+updated: 2026-11-25
 tags: [agent]
 ---
 # Indianapolis Market Research — work log
@@ -41,3 +41,10 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 - אל Cole Cooper ב-colecooper@livindyrealty.com כבר יצא מייל מ-deals@ ב-00:21 שעון ישראל (רשום ביומן). לא נשלחה ולא הוכנה טיוטת תשובה.
 
 - 2026-11-24 13:20 (שעון ישראל): מחקר עלויות שיפוץ לפי רכיב באינדי לבקשת ערן (דרך Grok Bot). [[Indy Rehab Costs]], קבצים: /home/box/shared/indy-rehab-costs/. בבית לדוגמה של 1,200 רגל: דרגות ‎<$25 ו-$25 נתמכות (‎$18.5 ו-$25.9 לרגל), ועם מטבח מגיעים לכ-$36–38 לרגל, מעל דרגת $30. חלון ויניל: ‎$475–850 (אמצע ‎$650).
+
+## 2026-11-25 ~09:55 — מעקב תשובות יומי (10:00 שעון ישראל)
+- הריצה מצאה פריטים, אבל כולם כבר דווחו לערן אצל בוטים אחרים, ולכן לא נשלחה הודעה נוספת בצ'אט הזה. לא נשלחה ולא הוכנה טיוטת תשובה מכאן.
+- בואונס סופי ל-salesteam@indytradingpost.com (21:33 שעון ישראל, 24 בנוב׳, msg 1a20f0c66ebc056a): כבר ביומן המרכזי מ-08:59, ו-Grok Bot כבר דיווח לערן.
+- סטיל העביר ב-14:09 שעון ישראל ב-24 בנוב׳ את 303 N Franklin Rd: כבר ביומן מ-14:54, ו-Grok Bot כבר טיפל ודיווח. עודכן ב-[[Steele Kruzel]].
+- שני מיילי שיווק מ-Invest With Ben שלא היו ביומן: 1827 N Rochester Ave (46222; Deal Analysis REJECT ב-25 בנוב׳, [[1827 N Rochester Ave]]) וקונדו 6404 Bayside S Dr (46250, מחוץ ל-buy box). Deal Inbox כבר דיווח לערן בסריקת הבוקר. נוספו ליומן המרכזי ול-[[Invest With Ben]].
+
