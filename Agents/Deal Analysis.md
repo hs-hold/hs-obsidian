@@ -43,3 +43,9 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 - 08:23 [[303 N Franklin Rd]] (Indy, InvestWithBen, ask $84.9k): REJECT, flip MAO $69.3k = 18.4% off; single comp; not posted (>15% off).
 - Analyzed the 5 Atlanta deals from the Deal Inbox 08:00 scan: all REJECT/INCOMPLETE, not posted (Indy-only trial; Atlanta needs owner OK) — [[2026-11-24 Atlanta Deal Inbox batch (5)]].
 - New owner requirements for this bot (24 Nov call, [[Eran Decisions by Topic]]): wide discretion with recorded reasons (S4); super-comp rules (S5/S13/S28); missing data → estimate + 'needs verification' (S16); bot judges plausibility itself (S17); know every site data parameter and record them realistically (S22); raise low confidence by pulling more comps (S24); override limit 70% vs engine number (S25); photo-less comps inferred from description/price (D3); school ratings from API or 3 nearby schools (D4); add each analysis's renovated sold comps to the region's calibration list (D2). Build pending ([[Open Items]] OI-ARV-BUILD).
+
+### 2026-11-25 (sync 13:20; from /home/box/shared files)
+- New rule (owner voice ~10:56, agent-rules 703c705): CF > $100/mo in any scenario at ask or ≤15% off → flag "good potential" and report to Eran immediately, separate from pass/fail; $250/mo = full BRRRR pass.
+- ~08:15 [[1827 N Rochester Ave]] REJECT (trial MAO 27.6% off); Eran passed 10:02.
+- 09:02 [[2026-11-25 Indy funnel 46205 (5)]]: 5 FAIL, all POSTed rejected. [[3910 Hillside Ave]] CF +$126 self at ask (pre-rule) → OI-GOODPOT-HILLSIDE.
+- 11:23–11:26 [[3667 Cedar Pine Pl]] re-run REJECT (17.7% off), re-POSTed rejected; good-potential check = true ($148/mo at 15% off).

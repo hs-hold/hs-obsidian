@@ -14,3 +14,6 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 
 First metro ranking 2026-11-09 (modeled estimates). Later sanity-checked Deal Analysis numbers and documented a months-of-supply recipe (Redfin public zip data).
+
+### 2026-11-25 (sync 13:20; from files)
+- Delivered Atlanta cosmetic rehab research by component (S20, dispatched in the 25 Nov list review) 11:14–11:15: Tier A $18.9/sf, Tier B $26.1/sf mid → [[Atlanta Rehab Costs]]; files `/home/box/shared/atl-rehab-costs/`. OI-ATL-REHAB-RESEARCH closed.

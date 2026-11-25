@@ -48,3 +48,6 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 - סטיל העביר ב-14:09 שעון ישראל ב-24 בנוב׳ את 303 N Franklin Rd: כבר ביומן מ-14:54, ו-Grok Bot כבר טיפל ודיווח. עודכן ב-[[Steele Kruzel]].
 - שני מיילי שיווק מ-Invest With Ben שלא היו ביומן: 1827 N Rochester Ave (46222; Deal Analysis REJECT ב-25 בנוב׳, [[1827 N Rochester Ave]]) וקונדו 6404 Bayside S Dr (46250, מחוץ ל-buy box). Deal Inbox כבר דיווח לערן בסריקת הבוקר. נוספו ליומן המרכזי ול-[[Invest With Ben]].
 
+
+### 2026-11-25 (sync 13:20)
+- 09:58 reply-watch log: Rochester REJECT, Bayside condo, Steele Franklin, Trading Post hard bounce (fafec86). New Indy broker contact [[Paul Scherrer]] (intro via GPC, logged 11:20 by Grok Bot audit).

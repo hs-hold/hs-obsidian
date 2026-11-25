@@ -7,6 +7,8 @@ tags: [project, tracker]
 ---
 # Open Items
 
+Verification 2026-11-25 13:20 Israel (brain sync): closed OI-ATL-REHAB-RESEARCH (atl-rehab-costs.md on disk); moved already-closed OI-STEEL-EMAIL, OI-MERGE-BATCH, OI-SITE-UPLOAD to History; staled none; new OI-GOODPOT-HILLSIDE, OI-PAUL-SCHERRER; notes added to OI-SITE-DISCOUNT-LABEL (PR #398 open), OI-V3-RECHECK, OI-SECRETARY-SYNC. All other open items re-checked (Decisions Log, Eran Decisions by Topic, PRs, deals@ Gmail, deals calendar, shared files): no closing evidence; left open. OI-BIGGERPOCKETS untouched.
+
 Single tracker for open decisions and tasks. Fields: id, topic, owner agent, status, updated, next action, needs-owner-approval, source. History is kept at the bottom. Do not close an item without verification. Populated by the existing 13:00 / 23:00 sync — no new routine.
 
 Status values: open, waiting-owner, waiting-verification, prepared, blocked, closed.
@@ -31,15 +33,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no
 - Source: `/home/box/shared/indy-trip/broker-replies-log.md`; artifacts in `/home/box/shared/backups/2026-11-23/artifacts/`
 - Notes: 25 Nov 11:20 Israel full read-only Gmail audit (`deals@`, `after:2026/11/20`, `includeSpamTrash: true`) verified inventories A (30), B (17), C (5), Nov 23 32-broker batch, Cole Cooper, Scheetz Day 1 (Kristen Yazel & Rhonda Krebs), and Trading Post hard bounce; all deduped by Message ID in `/home/box/shared/indy-trip/broker-replies-log.md`. Found & logged previously unlogged Paul Scherrer / Welton Li intro thread (`1a20eaab39ad7504`, subject `"Paul / Eran Introduction - Indianapolis Real Estate"`) and Nolan deal-example outbound thread (`1a209d99d21b1e33`). Reported routine-prompt gaps to parent (subject filter misses Cole Cooper & Paul Scherrer; 25-msg pagination / GitHub noise; never send emails). Waiting on parent to update routine prompt.
-
-### OI-STEEL-EMAIL — Steele call-request email
-- Owner agent: Grok Bot
-- Status: closed
-- Updated: 2026-11-23 23:20
-- Next action: [verified] sent 16:05 Israel (09:05 Indy) from deals@ in-thread. Steele replied 20:05 (after call with Tal): will add Tal to wholesaler lists; proposes Tue 1 Dec 10:00 ET. Continues in OI-INDY-TUE-MEETINGS.
-- Needs owner approval: no for the already-approved send; yes for any new commitment
-- Source: [[Steele Kruzel]], thread 1a1ff4e4244967dd
-
 
 ### OI-NOLAN-CALL — Tal / Nolan call
 - Owner agent: Grok Bot (coordinate only; Tal calls)
@@ -86,24 +79,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes
 - Source: `/home/box/shared/skills-proposed/`
 - Notes: raised in 25 Nov review, no answer yet.
-
-### OI-MERGE-BATCH — Next merge/deploy batch
-- Owner agent: Grok Bot
-- Status: closed
-- Updated: 2026-11-23 23:20
-- Next action: [verified] 17:05 PRs 370/376/377 merged + deployed (209 tests, migration applied); see Decisions Log 2026-11-23 16:27. A next batch would be a new item.
-- Needs owner approval: yes
-- Source: [[Deal Pipeline]], [[Deals Site]]
-
-
-### OI-SITE-UPLOAD — Five 23 Nov analyses not on the site
-- Owner agent: Deal Analysis
-- Status: closed
-- Updated: 2026-11-23 23:20
-- Next action: [stale 2026-11-23] all five near-misses REJECT well beyond 15% off ask (e.g. 2426 E 57th St MAO 43.7% below ask); under the 20:50 upload rule they do not qualify. Nothing to upload.
-- Needs owner approval: yes
-- Source: [[2026-11-23 Indy extra search near-misses (5)]]
-
 
 ### OI-OFFMARKET — Off-market lead scope
 - Owner agent: Grok Bot
@@ -176,6 +151,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no (approved on 25 Nov voice review; PR merge/deploy remains gated)
 - Source: Grok Bot chat 20:56
 - Notes: Eran approved small site fix on 25 Nov voice review. Cloud-agent brief for hs-hold/hsdeals-claude-code (site only, TypeScript, never touch engine/, 15% "Works with discount" label instead of Rejected/Near miss) prepared and returned to coordinator to launch.
+- [verified] 2026-11-25 13:20 sync: PR #398 "Label Grok deals within 15% off as Works with discount" (branch cursor/grok-discount-label-ede4) opened 11:24 Israel, still **open / not merged**. Site-only; stage-1 screen and engine/ untouched. Next: owner OK for merge/deploy.
 
 ### OI-V3-RECHECK — v3 re-run contradicts 20:56 uploads
 - Owner agent: Deal Analysis
@@ -185,6 +161,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes for removing anything from the site
 - Source: /home/box/shared/deal-engine/reports/2026-11-23-rerun/summary.md; /home/box/shared/deal-outcomes/analyses/2026-11-23/rerun-v3/REPORT.md
 - Notes: 25 Nov voice review — Eran decided to remove all three (1318 Bacon St, 10160 Park Stream Dr, 3667 Cedar Pine Pl) from the site. Verified via read-only `deal-analysis-ingest?resolve=` that all three remain in `deals` (`analysis_source: deal analysis bot`), even though `post_results.json` (Nov 23) already posted `outcome: rejected`. `deal-analysis-ingest` has no delete/hide endpoint and `classifyAnalyst` uses a 25% band ignoring `outcome`, so Park Stream (21.2% off) and Cedar Pine (0.4% off in DB; 17.0% off after Nov 24 S44 $20K bath update) still render on Relevant. Removal requires either a direct Supabase DB write (delete/un-source the 3 rows on `ywvdyogbdptfyclgjbpf`) or a site-code filter/15%-band change; nothing modified directly.
+- [verified] 2026-11-25 13:20 sync: Cedar Pine re-POSTed 11:23 as `rejected`, `worksWithDiscount: false` (post_result.json). PR #398 (open) makes rows with outcome rejected or > 15% off render as Rejected, which would cover Park Stream and Cedar Pine once merged; 1318 Bacon St (was "passed") still needs the removal method chosen. Note: Cedar Pine is flagged good potential ($148/mo at 15% off) under the 10:56 rule — owner may want to reconsider removing it.
 
 ### OI-REPO-TEMPLATES — Templates from hoangtng/real-estate-agents
 - Owner agent: Grok Bot
@@ -204,16 +181,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: [[Eran Decisions by Topic]] D1/D2
 - Notes: raised in 25 Nov review, no answer yet.
 
-### OI-ATL-REHAB-RESEARCH — Atlanta cosmetic rehab research (S20)
-- Owner agent: Atlanta Market Research
-- Status: in-progress
-- Updated: 2026-11-25
-- Next action: [decision] 12:46 research Atlanta cosmetic rehab by component and build Atlanta range + tiers like Indy. Recorded as decision only; not dispatched yet (S11 constraint was lifted at 13:09 for the build, but Atlanta research was not explicitly sent).
-- Needs owner approval: no (decided)
-- Source: [[Eran Decisions by Topic]] S20
-- Output: `/home/box/shared/atl-rehab-costs/`
-- Notes: 25 Nov — dispatched to Atlanta Market Research; in progress.
-
 ### OI-SECRETARY-SYNC — reconcile מזכירה task list with reality, then auto-update
 - Owner agent: Grok Bot
 - Status: open
@@ -221,8 +188,63 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: Grok Bot reviewing the 34 items against vault/mail evidence (first pass read-only); show Eran the list before changing anything; then build automatic closing of evidenced items.
 - Needs owner approval: yes (before updating the list / new routine)
 - Source: owner chat t830u 23:09; [[מזכירה]]
+- [verified] 2026-11-25 13:20 sync: step 1 done — reconciliation approved 00:25 (d2ef5b0) and the 25 Nov list review executed (7bfd361, [[List Review 2026-11-25]]). Remaining: automatic closing of evidenced items (needs owner approval before any new routine).
+
+### OI-GOODPOT-HILLSIDE — 3910 Hillside Ave may meet the good-potential flag
+- Owner agent: Deal Analysis
+- Status: open
+- Updated: 2026-11-25 13:20
+- Next action: [hypothesis] funnel analysis 09:02 shows CF +$126/mo self-managed at the $100k ask (BRRRR cash left $64k, FAIL). That is > $100/mo, so the 10:56 rule (703c705) would flag it as good potential and report it to Eran. No flag file exists for it (only Cedar Pine has one). Deal Analysis / coordinator to confirm and report if it qualifies.
+- Needs owner approval: no (reporting only)
+- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-25/funnel-46205/3910-hillside-ave.md`; [[3910 Hillside Ave]]
+
+### OI-PAUL-SCHERRER — Call with Paul Scherrer (Indy broker, GPC intro)
+- Owner agent: Grok Bot (track only)
+- Status: open
+- Updated: 2026-11-25 13:20
+- Next action: Eran asked Paul (00:06 Israel) for a call from 10:00 AM EST 25 Nov (17:00 Israel). No reply and no calendar event as of 13:20 Israel. Watch the thread 1a20eaab39ad7504 and report Paul's reply to the owner (Tal-intro rule). Do not reply without owner say-so.
+- Needs owner approval: yes for any reply
+- Source: [[Paul Scherrer]]; broker-replies-log.md 11:20 audit
 
 ## History (closed, keep)
+### OI-STEEL-EMAIL — Steele call-request email
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-23 23:20
+- Next action: [verified] sent 16:05 Israel (09:05 Indy) from deals@ in-thread. Steele replied 20:05 (after call with Tal): will add Tal to wholesaler lists; proposes Tue 1 Dec 10:00 ET. Continues in OI-INDY-TUE-MEETINGS.
+- Needs owner approval: no for the already-approved send; yes for any new commitment
+- Source: [[Steele Kruzel]], thread 1a1ff4e4244967dd
+- 2026-11-25 13:20: already closed; moved to History (housekeeping).
+
+### OI-MERGE-BATCH — Next merge/deploy batch
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-23 23:20
+- Next action: [verified] 17:05 PRs 370/376/377 merged + deployed (209 tests, migration applied); see Decisions Log 2026-11-23 16:27. A next batch would be a new item.
+- Needs owner approval: yes
+- Source: [[Deal Pipeline]], [[Deals Site]]
+- 2026-11-25 13:20: already closed; moved to History (housekeeping).
+
+### OI-SITE-UPLOAD — Five 23 Nov analyses not on the site
+- Owner agent: Deal Analysis
+- Status: closed
+- Updated: 2026-11-23 23:20
+- Next action: [stale 2026-11-23] all five near-misses REJECT well beyond 15% off ask (e.g. 2426 E 57th St MAO 43.7% below ask); under the 20:50 upload rule they do not qualify. Nothing to upload.
+- Needs owner approval: yes
+- Source: [[2026-11-23 Indy extra search near-misses (5)]]
+- 2026-11-25 13:20: already closed; moved to History (housekeeping).
+
+### OI-ATL-REHAB-RESEARCH — Atlanta cosmetic rehab research (S20)
+- Owner agent: Atlanta Market Research
+- Status: closed
+- Updated: 2026-11-25 13:20
+- Next action: [decision] 12:46 research Atlanta cosmetic rehab by component and build Atlanta range + tiers like Indy. Recorded as decision only; not dispatched yet (S11 constraint was lifted at 13:09 for the build, but Atlanta research was not explicitly sent).
+- Needs owner approval: no (decided)
+- Source: [[Eran Decisions by Topic]] S20
+- Output: `/home/box/shared/atl-rehab-costs/`
+- Notes: 25 Nov — dispatched to Atlanta Market Research; in progress.
+- [verified] 2026-11-25 13:20 closed: deliverable on disk `/home/box/shared/atl-rehab-costs/atl-rehab-costs.md` (+ .csv/.json, 11:14–11:15 Israel); summary in [[Atlanta Rehab Costs]]. Engine/site use of the Atlanta tiers would be a new item.
+
 ### OI-TIMEOUT — Timeout advances the next zip
 - Owner agent: Grok Bot (cloud agent may open a PR)
 - Status: closed

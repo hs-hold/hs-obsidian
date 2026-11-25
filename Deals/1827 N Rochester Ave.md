@@ -26,3 +26,4 @@ Market: [[Indianapolis]] · Project: [[Deal Pipeline]] · Source: [[Invest With 
   - At ask: flip profit about +$2,500 (2.1% ROI) — fail. 1% rule fail (0.95%).
   - Schools average 3.0 (ALERT, below 4). Next door listed as abandoned; high vacancy and violent-incident counts nearby.
   - Full analysis: `deal-outcomes/analyses/2026-11-25/1827-n-rochester-ave-indianapolis-in-46222.md`
+- 2026-11-25 10:02 Israel [verified email] Pass sent to Invest With Ben from deals@ (msg 1a211ba49448d176, signed Eran). Closed.

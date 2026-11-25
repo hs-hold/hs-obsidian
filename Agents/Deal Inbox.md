@@ -32,3 +32,6 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 ### 2026-11-24 (sync 13:20; from handoff file)
 - 08:00 scan: 6 deals entered on DealFlow as Grok deals (status new) and handed to Deal Analysis: 303 N Franklin Rd (Indy, offer deadline 11/25 1pm ET), 7604 Briar Crest Ct, Lithonia 30058 TBD, Decatur 30032 TBD, 5472 Forest East Ln (subject-to), Trilby Pl SE. No wholesaler replies. Handoff: `/home/box/shared/deal-outcomes/deal-analysis-handoff-2026-11-24.md`.
 - Not in handoff: 12428 Van Spronsen Way (Invest With Ben, 01:00 Israel) — OI-VAN-SPRONSEN.
+
+### 2026-11-25 (sync 13:20; from handoff + Gmail)
+- 08:00 scan: 1827 N Rochester Ave (Invest With Ben, deadline 11/25 3pm ET) → Deal Analysis; pass sent 10:02. Also 10:01 pass to [[Keenan Mulherin]] on East Point (stay out of East Point; wants Clayton/Henry County). Bayside condo outside buy box, no reply.

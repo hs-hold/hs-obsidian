@@ -95,3 +95,6 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 ### 2026-11-24 evening (sync 23:20)
 - Merged/deployed site PRs 386/389–392, 395, 397 and engine PR 396 (engine/ only); box engine = repo engine/. Deal Analysis rules now call tools/comp_pull.py. Quick screen ↔ agent separation rule (t812u). Started secretary task-list reconciliation (t830u, read-only first).
+
+### 2026-11-25 (sync 13:20)
+- 00:25 secretary-list reconciliation approved (d2ef5b0). ~10:56–11:15 voice list review with Eran: good-potential rule (703c705), Franklin closed, criteria clarification, triage of 26 items ([[List Review 2026-11-25]], 7bfd361). Site label cloud agent → PR #398 (open, 11:24). Read-only Gmail audit of the broker watch 11:20; routine-prompt gaps reported (OI-C-WATCH).

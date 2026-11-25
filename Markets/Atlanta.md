@@ -34,3 +34,5 @@ One note per zip, copied from Zip Intel (`/home/box/shared/zip-intel/`). Read th
 - Profile: [[00 Profile]]
 - Project: [[Deal Pipeline]]
 - Sister market: [[Indianapolis]]
+
+- 2026-11-25: Rehab costs by component → [[Atlanta Rehab Costs]].
