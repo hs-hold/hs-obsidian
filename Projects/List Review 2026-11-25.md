@@ -7,3 +7,6 @@ Running log of Eran's answers. At the end of the review: update relevant agents 
 4. v3 rerun contradiction (1318 Bacon St, 10160 Park Stream, 3667 Cedar Pine) — REMOVE all three from the site (they fail under the current engine). Pending: execute at end of review.
 
 Method (Eran, voice 11:00): log answers only during the review; at the end of the conversation distribute to the secretary and the other agents, then start working.
+5. 1621 E 46th St (Edwin) — no answer recorded yet (skipped for now).
+6. Seven skill proposals — explained (source: Content Insights, 23 Nov, from Project X courses); no decision recorded yet.
+14. Atlanta cosmetic rehab research (S20) — verified NOT dispatched on 24 Nov (no task/output at Atlanta Market Research). Action at end of review: dispatch to Atlanta Market Research (component breakdown, range + tiers like Indy).
