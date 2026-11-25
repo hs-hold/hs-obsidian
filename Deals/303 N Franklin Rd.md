@@ -28,3 +28,4 @@ Market: [[Indianapolis]] · Project: [[Deal Pipeline]]
   - Offer deadline 11/25 1pm ET. Not posted to the site (more than 15% off, so it needs the owner's OK).
   - Full analysis: `deal-outcomes/analyses/2026-11-24/303-n-franklin-rd-indianapolis-in-46219.md`
 - 2026-11-24 16:43+: ניתוח חוזר לפי חוקים 24.11 — FAIL, MAO $69.3k (18.4%), refresh_25 $71.2k (16.1%); חסום (קומפ יחיד, ARV>2x); חוזה מכר עובד רק בריבית ≤~5.5%. לא פורסם.
+- 2026-11-25 17:22 Israel [verified email]: Briana Lomax (Invest With Ben) sent walkthrough videos (Mon walkthrough); sf on file 1,045; mechanicals unknown (msg 1a2134d098abd5f1). Owner already decided to ignore this one (25 Nov ~10:58); FYI only.

@@ -134,3 +134,5 @@ Full list, sources and vetting: [[Indy Brokers 50 for Dec meetings]]. Not contac
 Reserve (passed vetting, lower score): Amber Byrd, Ashley Wright, Sandy Ginn, Deborah King, John Stewart.
 
 - 2026-11-23 15:21 Israel: Zac Canull (zac@canull-group.com) replied: Cole moved to LIV Indy (colecooper@livindyrealty.com); offers coffee Tue 1 Dec 9:00 or 9:30 ET. On hold per owner (21:05).
+
+- 2026-11-25 16:28 Israel [verified sent]: Century 21 Scheetz staggered intro send continued — Brittany A. Faulkner (bfaulkner@c21scheetz.com, thread 1a2131ba9888d929) and Jenny Laughner (jenny@c21scheetz.com, thread 1a2131baea9ae608), subject "Coming to Indy, and we're buying". Tracked in broker-replies-log.md.

@@ -21,3 +21,4 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 - [verified] 2026-11-24 19:46 Israel: intro by Welton Li (welton@gpcrealestate.com, GPC Real Estate — same firm as [[Keenan Mulherin]]): Paul runs his own Indy brokerage, good resource for distressed properties. Thread 1a20eaab39ad7504.
 - [verified] 2026-11-24 20:01 Israel: Paul replied, happy to help with Indy opportunities; phone 317-255-7285; booking link in thread.
 - [verified] 2026-11-25 00:06 Israel: Eran (deals@) asked for a quick call starting 10:00 AM EST 25 Nov (17:00 Israel). No reply as of 13:20 Israel 25 Nov; no calendar event on deals@.
+- [verified] 2026-11-25 22:00 Israel (15:00 ET): Paul replied (msg 1a2144be0c8ec440) — sorry for the delay (client appreciation event, Thanksgiving prep); asks "Would you like to set up a call for Friday morning?" (Fri 27 Nov, ET). No reply sent; report to owner per Tal-intro rule.

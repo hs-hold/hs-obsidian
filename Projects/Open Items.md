@@ -7,6 +7,8 @@ tags: [project, tracker]
 ---
 # Open Items
 
+Verification 2026-11-25 23:25 Israel (brain sync): closed none; staled none; new OI-SCREEN-QUALITY-2511; notes added to OI-PAUL-SCHERRER (Paul replied 22:00, asks for Friday-morning call), OI-1830-CHECKS, OI-C-WATCH, OI-SQ-MEETUP, OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov), deals@ Gmail, deals calendar (no events 25 Nov–4 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
+
 Verification 2026-11-25 13:20 Israel (brain sync): closed OI-ATL-REHAB-RESEARCH (atl-rehab-costs.md on disk); moved already-closed OI-STEEL-EMAIL, OI-MERGE-BATCH, OI-SITE-UPLOAD to History; staled none; new OI-GOODPOT-HILLSIDE, OI-PAUL-SCHERRER; notes added to OI-SITE-DISCOUNT-LABEL (PR #398 open), OI-V3-RECHECK, OI-SECRETARY-SYNC. All other open items re-checked (Decisions Log, Eran Decisions by Topic, PRs, deals@ Gmail, deals calendar, shared files): no closing evidence; left open. OI-BIGGERPOCKETS untouched.
 
 Single tracker for open decisions and tasks. Fields: id, topic, owner agent, status, updated, next action, needs-owner-approval, source. History is kept at the bottom. Do not close an item without verification. Populated by the existing 13:00 / 23:00 sync — no new routine.
@@ -33,6 +35,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no
 - Source: `/home/box/shared/indy-trip/broker-replies-log.md`; artifacts in `/home/box/shared/backups/2026-11-23/artifacts/`
 - Notes: 25 Nov 11:20 Israel full read-only Gmail audit (`deals@`, `after:2026/11/20`, `includeSpamTrash: true`) verified inventories A (30), B (17), C (5), Nov 23 32-broker batch, Cole Cooper, Scheetz Day 1 (Kristen Yazel & Rhonda Krebs), and Trading Post hard bounce; all deduped by Message ID in `/home/box/shared/indy-trip/broker-replies-log.md`. Found & logged previously unlogged Paul Scherrer / Welton Li intro thread (`1a20eaab39ad7504`, subject `"Paul / Eran Introduction - Indianapolis Real Estate"`) and Nolan deal-example outbound thread (`1a209d99d21b1e33`). Reported routine-prompt gaps to parent (subject filter misses Cole Cooper & Paul Scherrer; 25-msg pagination / GitHub noise; never send emails). Waiting on parent to update routine prompt.
+- 2026-11-25 23:25 sync: 21:05 run log shows the widened watch auto-enrolled new outreach (C21 Scheetz Faulkner/Laughner) and caught non-trip replies (Briana Lomax, Keenan), but did not yet log Paul Scherrer's 22:00 reply (arrived after the run). Whether the routine prompt was updated per the 11:20 gaps is unclear from files; left open.
 
 ### OI-NOLAN-CALL — Tal / Nolan call
 - Owner agent: Grok Bot (coordinate only; Tal calls)
@@ -115,6 +118,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no for the check; yes before any contact
 - Source: [[Indy Trip Nov 2026]]
 - Notes: 25 Nov voice review — skip for now, Tal and Eran handle this; leave open.
+- 2026-11-25 23:25 sync: meetup date is tonight ET (Thanksgiving eve); no evidence of a check or attendance. Left open; likely stale after tonight.
 
 ### OI-BIGGERPOCKETS — Secretary holds BiggerPockets reminder
 - Owner agent: מזכירה
@@ -152,6 +156,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: Grok Bot chat 20:56
 - Notes: Eran approved small site fix on 25 Nov voice review. Cloud-agent brief for hs-hold/hsdeals-claude-code (site only, TypeScript, never touch engine/, 15% "Works with discount" label instead of Rejected/Near miss) prepared and returned to coordinator to launch.
 - [verified] 2026-11-25 13:20 sync: PR #398 "Label Grok deals within 15% off as Works with discount" (branch cursor/grok-discount-label-ede4) opened 11:24 Israel, still **open / not merged**. Site-only; stage-1 screen and engine/ untouched. Next: owner OK for merge/deploy.
+- [verified] 2026-11-25 23:25 sync: PR #398 still open, not merged (GitHub read only).
 
 ### OI-V3-RECHECK — v3 re-run contradicts 20:56 uploads
 - Owner agent: Deal Analysis
@@ -180,6 +185,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes
 - Source: [[Eran Decisions by Topic]] D1/D2
 - Notes: raised in 25 Nov review, no answer yet.
+- 2026-11-25 23:25 sync: no vault/box evidence that the 18:30 check ran or that D1/D2 were answered (transcripts not readable this run). Left open.
 
 ### OI-SECRETARY-SYNC — reconcile מזכירה task list with reality, then auto-update
 - Owner agent: Grok Bot
@@ -199,6 +205,14 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: `/home/box/shared/deal-outcomes/analyses/2026-11-25/funnel-46205/3910-hillside-ave.md`; [[3910 Hillside Ave]]
 - Resolution: [verified] Good-potential report on 3910 Hillside sent to Eran in Main Bot chat 2026-11-25 13:22 (BRRRR +$126/mo at ask, fails overall).
 
+### OI-SCREEN-QUALITY-2511 — Quick-screen findings: 5-per-run cap and low_comps hold
+- Owner agent: Grok Bot (site quick screen only — never the Deal Analysis agent, per 24 Nov separation rule)
+- Status: waiting-owner
+- Updated: 2026-11-25 23:25
+- Next action: owner decides whether to (a) let screen passes beyond the 5-per-run cap reach Deal Analysis (4515 Primrose Ave, 4532 Indianola Ave, 4846 Crittenden Ave, 5153 Kingsley Dr — all 13–16% off, inside the 15% rule) and (b) relax/review the `low_comps` hold (3369 Broadway St $135k ask, screen ARV $353k; 3745 Winthrop Ave). Also check the possible 30-s health polling loop on 46201/46205 (API waste watch only) and the screen missing already-renovated homes. Read-only report; nothing changed.
+- Needs owner approval: yes (any screen change / sending those houses to analysis)
+- Source: `/workspace/exports/screening-quality-25-11.txt` (20:02); Drive דוחות ומחקר "דוח איכות הסינון — 24 שעות עד 25.11.2026"; [[Deal Pipeline]]; [[2026-11-25]]
+
 ### OI-PAUL-SCHERRER — Call with Paul Scherrer (Indy broker, GPC intro)
 - Owner agent: Grok Bot (track only)
 - Status: open
@@ -206,6 +220,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: Eran asked Paul (00:06 Israel) for a call from 10:00 AM EST 25 Nov (17:00 Israel). No reply and no calendar event as of 13:20 Israel. Watch the thread 1a20eaab39ad7504 and report Paul's reply to the owner (Tal-intro rule). Do not reply without owner say-so.
 - Needs owner approval: yes for any reply
 - Source: [[Paul Scherrer]]; broker-replies-log.md 11:20 audit
+- [verified email] 2026-11-25 23:25 sync: Paul replied 22:00 Israel (msg 1a2144be0c8ec440): apologised for delay, asks "Would you like to set up a call for Friday morning?" (Fri 27 Nov ET). Not yet reported/answered per vault and log; still no calendar event. Next: report to owner (Tal-intro rule); reply only with owner say-so. Stays open.
 
 ## History (closed, keep)
 ### OI-STEEL-EMAIL — Steele call-request email

@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-25 13:21 Asia/Jerusalem from commit 7bfd361 2026-11-25 11:15 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-25 23:25 Asia/Jerusalem from commit c83fcd9 2026-11-25 15:06 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
@@ -171,6 +171,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Closed: OI-ATL-REHAB-RESEARCH (deliverable on disk). — [[2026-11-25]]
 - New: OI-GOODPOT-HILLSIDE, OI-PAUL-SCHERRER. — [[2026-11-25]]
 - Updated: OI-SITE-DISCOUNT-LABEL (PR #398 open), OI-V3-RECHECK (PR #398 would hide Park Stream/Cedar Pine; Bacon still needs a decision on method), OI-SECRETARY-SYNC (step 1 done). — [[2026-11-25]]
+- Updated: OI-PAUL-SCHERRER (Paul replied 22:00, proposes Friday-morning call → report to owner), OI-1830-CHECKS (no evidence the 18:30 check happened), OI-C-WATCH (21:05 run auto-enrolled new … — [[2026-11-25]]
+- New: OI-SCREEN-QUALITY-2511 (5-per-run cap + low_comps hold findings, owner decision). — [[2026-11-25]]
+- Closed/staled: none this run. — [[2026-11-25]]
 - New: OI-ARV-BUILD, OI-1830-CHECKS, OI-INDY-REHAB-REVIEW, OI-ATL-DEALS-1124, OI-VAN-SPRONSEN, OI-ATL-REHAB-RESEARCH, OI-ENGINE-GITHUB. — [[2026-11-24]]
 - Updated: OI-BOUNCE, OI-INDY-TUE-MEETINGS, OI-HOLD-RULES, OI-CRITERIA. — [[2026-11-24]]
 - New: OI-SECRETARY-SYNC (secretary task list review + auto-update), OI-FRANKLIN-OFFER (offer deadline Wed 25 Nov 13:00 Indy = 20:00 Israel). — [[2026-11-24]]
@@ -276,6 +279,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - C: [hypothesis] [[3910 Hillside Ave]] shows CF +$126/mo self-managed at the ask (analysis 09:02, before the 10:56 rule). It appears to meet the new good-potential rule but no flag file exists for it — …
 - C: [reported] (Atlanta Market Research 11:14) [[Atlanta Rehab Costs]]: Atlanta cosmetic tiers on a 1,400 sf reference — Light refresh $18.9/sf mid ($11.3–28.1), Standard refresh $26.1/sf mid …
 - C: [verified] (GitHub) PR #398 "Label Grok deals within 15% off as Works with discount" opened 11:24 Israel, still open (not merged). It also makes deals > 15% off or with outcome rejected show as …
+- C: [verified] (Grok Bot 15:06, c83fcd9) Good-potential report on [[3910 Hillside Ave]] delivered to Eran 13:22 (BRRRR +$126/mo at ask, fails overall); OI-GOODPOT-HILLSIDE closed.
+- C: [reported] (screening-quality report, 20:02, `/workspace/exports/screening-quality-25-11.txt`, read only) 24h quick-screen quality check: only 2 real funnel runs (07:57–08:30): 46268 58 scanned / 0 …
+- C: [verified] PR #398 (site "Works with discount" label) still open, not merged, last update 11:24 Israel. No PRs merged since the 24 Nov evening batch.
 - A: Grok Bot: reconciliation + 25 Nov secretary-list voice review (commits d2ef5b0, e1e5fe0, 1873b52 → 7bfd361); good-potential rule recorded (703c705); site-label cloud agent → PR #398 (open); full …
 - A: Deal Inbox (08:00 scan): 1827 N Rochester Ave handed to Deal Analysis (`deal-outcomes/deal-analysis-handoff-2026-11-25.md`).
 - A: Daily funnel (08:31 handoff, zips 46268 + 46205): 5 houses in 46205 to Deal Analysis (`deal-analysis-handoff-2026-11-25-funnel.md`). No 46268 rows reached the summary.
@@ -283,6 +289,11 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - A: Indianapolis Market Research (09:58): logged Rochester REJECT, Bayside condo (6404 Bayside S Dr, outside buy box), Steele Franklin forward, Trading Post hard bounce.
 - A: Atlanta Market Research: Atlanta rehab-by-component research delivered 11:14–11:15.
 - A: New Indy contact: [[Paul Scherrer]] (Scherrer Bros / United Indy, intro by Welton Li of GPC); Eran asked him for a call from 10:00 AM EST 25 Nov (17:00 Israel); no reply yet as of this sync.
+- A: Broker-reply watch 21:05 run (`indy-trip/broker-replies-log.md`): new outreach auto-enrolled — Century 21 Scheetz staggered send 16:28 Israel to Brittany Faulkner (bfaulkner@c21scheetz.com) and Jenny …
+- A: deals@ inbound (read only, not yet logged by a bot as of this sync): [[Paul Scherrer]] replied 22:00 Israel (thread 1a20eaab39ad7504, msg 1a2144be0c8ec440): apologised for the delay (client event …
+- A: [[Keenan Mulherin]] sent a new deal 17:06 Israel: "Full Rehab - Decatur - 3/1 - 1960" (small ranch, ARV assumes enclosing the carport to 4/2; tenant occupied, delivered vacant; msg 1a2133edb7540256) …
+- A: Other wholesaler blasts (Deal Inbox scope): Allen Hu 7985 Woods Rd Fairburn ($264,990 / ARV $450k), New Western Fairburn 30213, Joe Homebuyer Roswell ($571k), Invest With Ben reduced 546 N Luett Ave …
+- A: Drive: report uploaded to דוחות ומחקר and indexed (this sync).
 ### [[2026-11-24]]
 - D: (11:36–11:45) No % pass target, quality only (S1); Indy full cosmetic rehab $25–35/sf replaces $55 (S2) with sub-tiers <25 / 25 / 30-with-kitchen as a starting point (S3); wide bot discretion with …
 - D: (12:33) Build plan: 11 PRs merged into 6 (safety → site screening + zillow-search → ARV engine with calibration) (S10). Nothing built until all decisions collected (S11).

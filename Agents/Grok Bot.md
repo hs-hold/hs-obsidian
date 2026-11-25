@@ -98,3 +98,4 @@ Durable facts from this period were written into the shared vault (daily notes, 
 
 ### 2026-11-25 (sync 13:20)
 - 00:25 secretary-list reconciliation approved (d2ef5b0). ~10:56–11:15 voice list review with Eran: good-potential rule (703c705), Franklin closed, criteria clarification, triage of 26 items ([[List Review 2026-11-25]], 7bfd361). Site label cloud agent → PR #398 (open, 11:24). Read-only Gmail audit of the broker watch 11:20; routine-prompt gaps reported (OI-C-WATCH).
+- 2026-11-25 evening: screening-quality read-only report 20:02 (5-per-run cap, low_comps hold → OI-SCREEN-QUALITY-2511); broker-reply watch 21:05 run enrolled C21 Scheetz outreach. Brain sync 23:25 (transcripts not exposed).
