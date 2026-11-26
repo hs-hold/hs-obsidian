@@ -7,7 +7,7 @@ tags: [project, tracker]
 ---
 # Open Items
 
-Verification 2026-11-26 13:20 Israel (brain sync): closed none; staled OI-SQ-MEETUP (event date 25 Nov ET passed; owner 25 Nov said skip — moved to History); new OI-GOODPOT-2611, OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611; notes added to OI-PAUL-SCHERRER (reply sent 25 Nov 23:45: Tal available Fri 27 Nov 9–12 EST), OI-OFFERS (Franklin ~$60k number), OI-1830-CHECKS (calibration indy pending_owner 27/20), OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov; only #398 open), deals@ Gmail (since 25 Nov 23:25: Paul reply sent, Franklin/Ben Bennett replies sent 09:18, 7080 Stone St inbound), deals calendar (no events 26 Nov–8 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
+Verification 2026-11-26 13:20 Israel (brain sync): closed OI-GOODPOT-2611 (13:30 follow-up: owner reports found in Grok Bot chat transcript); staled OI-SQ-MEETUP (event date 25 Nov ET passed; owner 25 Nov said skip — moved to History); new OI-GOODPOT-2611, OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611; notes added to OI-PAUL-SCHERRER (reply sent 25 Nov 23:45: Tal available Fri 27 Nov 9–12 EST), OI-OFFERS (Franklin ~$60k number), OI-1830-CHECKS (calibration indy pending_owner 27/20), OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov; only #398 open), deals@ Gmail (since 25 Nov 23:25: Paul reply sent, Franklin/Ben Bennett replies sent 09:18, 7080 Stone St inbound), deals calendar (no events 26 Nov–8 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-25 23:25 Israel (brain sync): closed none; staled none; new OI-SCREEN-QUALITY-2511; notes added to OI-PAUL-SCHERRER (Paul replied 22:00, asks for Friday-morning call), OI-1830-CHECKS, OI-C-WATCH, OI-SQ-MEETUP, OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov), deals@ Gmail, deals calendar (no events 25 Nov–4 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
 
@@ -216,11 +216,12 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - [verified email] 2026-11-26 13:20 sync: deals@ (signed Eran) replied 25 Nov 23:45 Israel (msg 1a214abe36a9b09c): Friday morning works; **Tal** takes the call, available 9:00–12:00 EST Fri 27 Nov (16:00–19:00 Israel); asked Paul to pick a time, then a calendar invite. No answer from Paul yet; no deals@ calendar event. Next: watch thread 1a20eaab39ad7504; when Paul picks a time, report to owner and propose invite (owner approval). Stays open.
 ### OI-GOODPOT-2611 — Good-potential flags from 26 Nov analyses: confirm Eran was told
 - Owner agent: Grok Bot
-- Status: waiting-verification
-- Updated: 2026-11-26 13:20
+- Status: done
+- Updated: 2026-11-26 13:30
 - Next action: per rule 703c705 these must be reported to Eran immediately. The Deal Analysis runs were subagents and reported to their parent instead of a priority message to Grok Bot, so there is no file/commit evidence the owner got them: [[2856 S State Ave]] (+$497/mo at $89k ask, +$537 at 15% off; FAIL — $69.5k left in, no equity), [[321 S Hamilton Ave]] (+$199/mo at $95k; single-comp ARV), [[2170 Lilac Ln]] (mechanical +$250/mo, but ~$133.5k stays in — analyst says not real). Close with the chat/message time once confirmed delivered.
 - Needs owner approval: no (it is a report)
 - Source: `/home/box/shared/deal-outcomes/analyses/2026-11-26/funnel-46201-46203/SUMMARY.md`; `.../2170-lilac-ln-decatur-ga-30032.md` §7
+- [verified] Evidence 2026-11-26 13:30: Grok Bot main chat transcript shows the owner was told: Lilac Ln good-potential (technical, "in practice it isn't a deal") reported right after Deal Analysis's message, and 2856 S State Ave + 321 S Hamilton Ave reported in the next message, plus the flip-only Spann/Woodlawn note. Closed.
 
 ### OI-FRANKLIN-60K — 303 N Franklin Rd ~$60k number sent to IWB
 - Owner agent: Deal Inbox
