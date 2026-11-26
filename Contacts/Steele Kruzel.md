@@ -32,4 +32,4 @@ Market: [[Indianapolis]] · Category: [[Indy Brokers]] · Project: [[Indy Trip N
 - 2026-11-23 23:18 Israel: emailed that he forwarded Tal's intro to a few local wholesalers and that their emails may arrive soon; recommended https://investwithben.com/available-properties-opts-in/ . No reply, per owner hold.
 
 - 2026-11-24 14:09 Israel: forwarded an Invest With Ben wholesale deal, 303 N Franklin Rd (see [[303 N Franklin Rd]]). Suggested adding a bedroom to force equity. No new meeting time or place. Already reported to the owner by Grok Bot; this bot sent no reply.
-
+- 2026-11-26 17:09 Israel [verified email]: Tal followed up on [[303 N Franklin Rd]] with the ~$60k number (thread 1a20d75db63f2757).

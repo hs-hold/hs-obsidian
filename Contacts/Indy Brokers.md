@@ -136,3 +136,5 @@ Reserve (passed vetting, lower score): Amber Byrd, Ashley Wright, Sandy Ginn, De
 - 2026-11-23 15:21 Israel: Zac Canull (zac@canull-group.com) replied: Cole moved to LIV Indy (colecooper@livindyrealty.com); offers coffee Tue 1 Dec 9:00 or 9:30 ET. On hold per owner (21:05).
 
 - 2026-11-25 16:28 Israel [verified sent]: Century 21 Scheetz staggered intro send continued — Brittany A. Faulkner (bfaulkner@c21scheetz.com, thread 1a2131ba9888d929) and Jenny Laughner (jenny@c21scheetz.com, thread 1a2131baea9ae608), subject "Coming to Indy, and we're buying". Tracked in broker-replies-log.md.
+- 2026-11-26 16:36 Israel [verified sent]: C21 Scheetz staggered intros continued — Patricia Moura (pmoura@c21scheetz.com, thread 1a2184988cf6d1b9) and Jennie Deckert (jdeckert@c21scheetz.com, thread 1a21849614a8d4d7).
+- 2026-11-26 19:25 Israel [verified sent]: Tal followed up Zac Canull asking for a quick call "ahead of our meeting on Tuesday" (msg 1a218e3f6bf51187). No reply yet.

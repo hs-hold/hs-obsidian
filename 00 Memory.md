@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-26 13:23 Asia/Jerusalem from commit f71ee1d 2026-11-26 13:22 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-26 23:16 Asia/Jerusalem from commit 6b8c72d 2026-11-26 13:23 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
@@ -171,6 +171,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Staled: OI-SQ-MEETUP (event passed). Closed: none. — [[2026-11-26]]
 - New: OI-GOODPOT-2611 (confirm Eran got the State/Hamilton/Lilac good-potential reports), OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611. — [[2026-11-26]]
 - Updated: OI-PAUL-SCHERRER, OI-OFFERS, OI-1830-CHECKS, OI-SITE-DISCOUNT-LABEL. — [[2026-11-26]]
+- Closed: none. Staled: none. New: OI-ATL-ENDBUYER-2611. Updated: OI-TRIP-FLIGHTS, OI-INDY-TUE-MEETINGS, OI-FRANKLIN-60K, OI-PAUL-SCHERRER, OI-SCREEN-QUALITY-2511, OI-SITE-DISCOUNT-LABEL. — [[2026-11-26]]
 - Closed: OI-ATL-REHAB-RESEARCH (deliverable on disk). — [[2026-11-25]]
 - New: OI-GOODPOT-HILLSIDE, OI-PAUL-SCHERRER. — [[2026-11-25]]
 - Updated: OI-SITE-DISCOUNT-LABEL (PR #398 open), OI-V3-RECHECK (PR #398 would hide Park Stream/Cedar Pine; Bacon still needs a decision on method), OI-SECRETARY-SYNC (step 1 done). — [[2026-11-25]]
@@ -268,17 +269,26 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - D: (09:18, deals@ sent) [verified email] [[303 N Franklin Rd]]: ~$60k number sent to Invest With Ben — supersedes the 25 Nov "ignore, no offer" (now [stale]).
 - D: (09:18, deals@ sent) [verified email] Buy box stated to [[Ben Bennett (Prophet Homes)]]: Indy main focus + select Atlanta zips (South DeKalb, Clayton, Stone Mountain/Lithonia); SFR 2–5BR ≤ $300k …
 - Owner: Buy box as written to a wholesaler (09:18, see Decisions). Tal is the person for broker calls (Paul Scherrer).
+- Owner: [verified email] (Tal → deals@, 23:11) Tal's flight: Mon 30 Nov LGA 17:05 → MDW → IND 23:30 ET (Tue 1 Dec 06:30 Israel). Return not in the email. See [[Indy Trip Nov 2026]].
 - C: [reported] (Deal Analysis ~09:33) [[2170 Lilac Ln]] (Decatur 30032, Keenan, ask $150k, claimed ARV $325k): REJECT; engine ARV $187.8k very low confidence; rehab MID $67.4k; MAO trial $77.6k (48% …
 - C: [reported] (Deal Analysis ~09:33) [[7080 Stone St]] (Lithonia 30058, Greenwood Fixers, ask $187k): REJECTED; no official ARV (0 gate comps); real above-grade maybe ~1,982 sf not 3,078; schools 2.0 …
 - C: [reported] (Deal Analysis, funnel) [[2026-11-26 Indy funnel 46201+46203 (4)]]: all 4 FAIL and POSTed rejected. goodPotential YES: [[2856 S State Ave]] (+$497/mo at $89k ask) and [[321 S Hamilton …
 - C: [reported] Deal Analysis data notes: ingest 400 on non-boolean schoolsCompare.sameSchools (fixed); Overpass endpoint down (mirror); Indy vacant/abandoned layer looks stale; local prc.py fix not …
 - C: [verified] PR #398 (site "Works with discount") still open; no PRs merged since 24 Nov.
+- C: [reported] (Grok Bot daily quality monitor, 20:02) Screening 26 Nov: 556 homes screened, 19 passed, 10 queued; 5-per-run cap left out 9 passes in 46203 (incl. high confidence 1713 Nelson Ave, 1527 …
+- C: [verified] PR #398 still open; no merges since 24 Nov. Deals calendar empty 26 Nov–8 Dec.
 - A: Deal Inbox (08:00 scan): 7080 Stone St + 2170 Lilac Ln → DealFlow + handoff (`deal-analysis-handoff-2026-11-26.md`); 546 N Luett Ave (IWB, 1 bed) reported, outside buy box. 09:18 sends: Franklin …
 - A: Daily funnel: 46201 + 46203 runs (5 + 5 queued) → Deal Analysis picked 4 (`deal-analysis-handoff-2026-11-26-funnel.md`).
 - A: Deal Analysis: 2 Atlanta + 4 Indy analyses, all POSTed rejected (~09:33 and funnel batch).
 - A: Indianapolis Market Research (09:54): meeting-replies watch — no meeting offers from groups A/B; logged 546 N Luett Ave (cb29447).
 - A: New contacts: [[Ben Bennett (Prophet Homes)]], [[Joseph Ramos (Greenwood Fixers)]].
 - A: Drive: 3 analysis docs filed in עסקאות + raw zip archived (see [[Drive Library]]).
+- A: 16:36 deals@ (Tal intro): C21 Scheetz staggered intros to Patricia Moura and Jennie Deckert ("Coming to Indy, and we're buying") — [[Indy Brokers]].
+- A: 17:09 deals@ (signed Tal): follow-up to [[Steele Kruzel]] on [[303 N Franklin Rd]] — ~$60k number, wholesaler approached.
+- A: 19:25 deals@ (signed Tal): follow-up to Zac Canull asking for a call before the Tue meeting — [[Indy Brokers]].
+- A: 21:33 inbound: [[Terrance Shelton]] asks if we would buy an Atlanta SFR as end buyer and close in 8 days (→ Deal Inbox, OI-ATL-ENDBUYER-2611).
+- A: No Paul Scherrer reply with a time; no IWB reply on Franklin.
+- A: Drive: filed the 26.11 screening-quality report (דוחות ומחקר), archived the 25.11 one, index line added ([[Drive Library]]).
 ### [[2026-11-25]]
 - D: (00:25, Grok Bot chat t830s3348) [decision] Approved the secretary-list reconciliation: 6 Open Items closed with evidence, 3 marked stale (commit d2ef5b0).
 - D: (~10:56, voice, Grok Bot) [decision] Good-potential flag: any analyzed property with cash flow > $100/mo in any scenario at ask or up to 15% off is flagged and reported to Eran immediately …
