@@ -2,7 +2,7 @@
 type: agent-log
 agent: "Indianapolis Market Research"
 created: 2026-11-09
-updated: 2026-11-25
+updated: 2026-11-26
 tags: [agent]
 ---
 # Indianapolis Market Research — work log
@@ -51,3 +51,8 @@ First metro ranking 2026-11-09. Territory research and `/home/box/shared/indy-ar
 
 ### 2026-11-25 (sync 13:20)
 - 09:58 reply-watch log: Rochester REJECT, Bayside condo, Steele Franklin, Trading Post hard bounce (fafec86). New Indy broker contact [[Paul Scherrer]] (intro via GPC, logged 11:20 by Grok Bot audit).
+
+## 2026-11-26 ~09:54 — מעקב תשובות יומי (10:00 שעון ישראל)
+- אין הצעות פגישה חדשות מקבוצות א' ו-ב'. לא נשלחה ולא הוכנה טיוטת תשובה מכאן, ולא נשלחה הודעה נוספת בצ'אט הזה.
+- מייל שיווק מ-Invest With Ben על 546 N Luett Ave (46222, 1/1, 504 רגל, מבוקש כ-$34,900, ARV לפי הסיטונאי $95,000; 20:00 שעון ישראל, 25 בנוב׳, msg 1a213dda7ad57802). מחוץ ל-buy box (חדר שינה אחד). Deal Inbox כבר דיווח לערן בסריקת הבוקר. נוסף ליומן המרכזי ול-[[Invest With Ben]].
+

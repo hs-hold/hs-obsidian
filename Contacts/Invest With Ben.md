@@ -10,7 +10,7 @@ website: ""
 areas: "46222, 46224, 46241, 46221, 46203, 46225, 46107, 46201, 46219, 46226, 46208, 46205, 46227, 46229, 46254, 46268, 46214, 46231, 46235, 46237, 46217, 46113, 46239, 46234, 46228, 46220, 46236"
 status: in-conversation
 created: 2026-11-16
-updated: 2026-11-25
+updated: 2026-11-26
 tags: [contact]
 ---
 # Invest With Ben
@@ -47,5 +47,7 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 
 - 2026-11-24 17:30 Israel: Shannon & Claire emailed 1827 N Rochester Ave, Indianapolis, IN 46222 (2/1, 736 sf, basement, 2-car, 1946, vacant). Walkthrough was that afternoon; offer deadline 11/25 3pm ET. Deal Analysis 25 Nov: **REJECT** (trial MAO $55,700, 27.6% off ask $76,900). See [[1827 N Rochester Ave]]. Already reported to the owner by Deal Inbox.
 - 2026-11-24 21:59 Israel: emailed condo 6404 Bayside S Dr, Indianapolis, IN 46250 (1/1.5, 1,130 sf, 1981, claimed ARV $200,000, ask about $104,900). Outside buy box; no reply. Already reported to the owner by Deal Inbox.
+
+- 2026-11-25 20:00 Israel: Shannon & Claire emailed reduced fixer 546 N Luett Ave, Indianapolis, IN 46222 (1/1, 504 sf, slab, 1-car, 1955, lot 4,400, vacant). Claimed ARV $95,000, ask about $34,900. Outside buy box (1 bedroom); no reply. Already reported to the owner by Deal Inbox.
 
 See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
