@@ -49,3 +49,9 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 - ~08:15 [[1827 N Rochester Ave]] REJECT (trial MAO 27.6% off); Eran passed 10:02.
 - 09:02 [[2026-11-25 Indy funnel 46205 (5)]]: 5 FAIL, all POSTed rejected. [[3910 Hillside Ave]] CF +$126 self at ask (pre-rule) → OI-GOODPOT-HILLSIDE.
 - 11:23–11:26 [[3667 Cedar Pine Pl]] re-run REJECT (17.7% off), re-POSTed rejected; good-potential check = true ($148/mo at 15% off).
+
+### 2026-11-26 (sync 13:20; from /home/box/shared files)
+- ~09:33 Atlanta (owner OK'd 26 Nov via Deal Inbox): [[2170 Lilac Ln]] REJECT (goodPotential mechanical TRUE, ~$133k stays in), [[7080 Stone St]] REJECTED (no official ARV, flip only). Both POSTed rejected.
+- Funnel 46201+46203: [[2026-11-26 Indy funnel 46201+46203 (4)]] — 4 FAIL, all POSTed rejected; goodPotential YES on [[2856 S State Ave]] (+$497/mo) and [[321 S Hamilton Ave]] (+$199/mo).
+- Note: in these subagent runs the good-potential report went to the parent instead of a priority message to Grok Bot (no-contact instruction) — whether Eran was told is tracked in OI-GOODPOT-2611.
+- Local prc.py partial-story fix applied in the run's raw/ only, not committed to the shared engine.

@@ -2,10 +2,12 @@
 type: project
 status: active
 created: 2026-11-23
-updated: 2026-11-25
+updated: 2026-11-26
 tags: [project, tracker]
 ---
 # Open Items
+
+Verification 2026-11-26 13:20 Israel (brain sync): closed none; staled OI-SQ-MEETUP (event date 25 Nov ET passed; owner 25 Nov said skip — moved to History); new OI-GOODPOT-2611, OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611; notes added to OI-PAUL-SCHERRER (reply sent 25 Nov 23:45: Tal available Fri 27 Nov 9–12 EST), OI-OFFERS (Franklin ~$60k number), OI-1830-CHECKS (calibration indy pending_owner 27/20), OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov; only #398 open), deals@ Gmail (since 25 Nov 23:25: Paul reply sent, Franklin/Ben Bennett replies sent 09:18, 7080 Stone St inbound), deals calendar (no events 26 Nov–8 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-25 23:25 Israel (brain sync): closed none; staled none; new OI-SCREEN-QUALITY-2511; notes added to OI-PAUL-SCHERRER (Paul replied 22:00, asks for Friday-morning call), OI-1830-CHECKS, OI-C-WATCH, OI-SQ-MEETUP, OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov), deals@ Gmail, deals calendar (no events 25 Nov–4 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
 
@@ -68,12 +70,12 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-OFFERS — Offers submitted this week
 - Owner agent: Grok Bot / מזכירה
 - Status: waiting-owner
-- Updated: 2026-11-25
+- Updated: 2026-11-26
 - Next action: owner to state how many offers were submitted (asked in weekly metrics)
 - Needs owner approval: yes (the number comes from the owner)
 - Source: [[Metrics]]
 - Notes: raised in 25 Nov review, no answer yet.
-
+- 2026-11-26 13:20 sync: [verified email] 26 Nov 09:18 Israel deals@ sent Briana (IWB) "the number that works for us is around ~$60k" on 303 N Franklin Rd (see OI-FRANKLIN-60K). Unclear whether the owner counts this as an offer; owner number still needed.
 ### OI-SKILLS — Seven skill proposals
 - Owner agent: Grok Bot / Content Insights
 - Status: waiting-owner
@@ -109,16 +111,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes
 - Source: [[Indy Trip Nov 2026]]
 - Notes: raised in 25 Nov review, no answer yet.
-
-### OI-SQ-MEETUP — Simple Quarters meetup 25 Nov
-- Owner agent: Indianapolis Market Research
-- Status: open
-- Updated: 2026-11-25
-- Next action: confirm whether the meetup runs on Thanksgiving eve
-- Needs owner approval: no for the check; yes before any contact
-- Source: [[Indy Trip Nov 2026]]
-- Notes: 25 Nov voice review — skip for now, Tal and Eran handle this; leave open.
-- 2026-11-25 23:25 sync: meetup date is tonight ET (Thanksgiving eve); no evidence of a check or attendance. Left open; likely stale after tonight.
 
 ### OI-BIGGERPOCKETS — Secretary holds BiggerPockets reminder
 - Owner agent: מזכירה
@@ -157,7 +149,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Notes: Eran approved small site fix on 25 Nov voice review. Cloud-agent brief for hs-hold/hsdeals-claude-code (site only, TypeScript, never touch engine/, 15% "Works with discount" label instead of Rejected/Near miss) prepared and returned to coordinator to launch.
 - [verified] 2026-11-25 13:20 sync: PR #398 "Label Grok deals within 15% off as Works with discount" (branch cursor/grok-discount-label-ede4) opened 11:24 Israel, still **open / not merged**. Site-only; stage-1 screen and engine/ untouched. Next: owner OK for merge/deploy.
 - [verified] 2026-11-25 23:25 sync: PR #398 still open, not merged (GitHub read only).
-
+- [verified] 2026-11-26 13:20 sync: PR #398 still open, not merged (GitHub read only).
 ### OI-V3-RECHECK — v3 re-run contradicts 20:56 uploads
 - Owner agent: Deal Analysis
 - Status: waiting-owner
@@ -180,13 +172,13 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-1830-CHECKS — 18:30 owner checks (labeled set + calibration sales)
 - Owner agent: Grok Bot
 - Status: waiting-owner
-- Updated: 2026-11-25
+- Updated: 2026-11-26
 - Next action: one-off reminder today 18:30 Israel. D1: golden labeled set of good/bad houses for Eran to approve (not prepared yet). D2: 20 Indy + 20 Atlanta renovated sales (confirmed 13:03), collected from each bot analysis rather than a separate search, pending Eran's confirmation they are renovated.
 - Needs owner approval: yes
 - Source: [[Eran Decisions by Topic]] D1/D2
 - Notes: raised in 25 Nov review, no answer yet.
 - 2026-11-25 23:25 sync: no vault/box evidence that the 18:30 check ran or that D1/D2 were answered (transcripts not readable this run). Left open.
-
+- 2026-11-26 13:20 sync: the one-off 25 Nov 18:30 reminder time has passed; no evidence D1/D2 were answered. Funnel batch 26 Nov notes Indy calibration `pending_owner` now 27/20 (`tools/calibration.py`). Left open — the decision itself is still pending.
 ### OI-SECRETARY-SYNC — reconcile מזכירה task list with reality, then auto-update
 - Owner agent: Grok Bot
 - Status: open
@@ -216,13 +208,49 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-PAUL-SCHERRER — Call with Paul Scherrer (Indy broker, GPC intro)
 - Owner agent: Grok Bot (track only)
 - Status: open
-- Updated: 2026-11-25 13:20
+- Updated: 2026-11-26 13:20
 - Next action: Eran asked Paul (00:06 Israel) for a call from 10:00 AM EST 25 Nov (17:00 Israel). No reply and no calendar event as of 13:20 Israel. Watch the thread 1a20eaab39ad7504 and report Paul's reply to the owner (Tal-intro rule). Do not reply without owner say-so.
 - Needs owner approval: yes for any reply
 - Source: [[Paul Scherrer]]; broker-replies-log.md 11:20 audit
 - [verified email] 2026-11-25 23:25 sync: Paul replied 22:00 Israel (msg 1a2144be0c8ec440): apologised for delay, asks "Would you like to set up a call for Friday morning?" (Fri 27 Nov ET). Not yet reported/answered per vault and log; still no calendar event. Next: report to owner (Tal-intro rule); reply only with owner say-so. Stays open.
+- [verified email] 2026-11-26 13:20 sync: deals@ (signed Eran) replied 25 Nov 23:45 Israel (msg 1a214abe36a9b09c): Friday morning works; **Tal** takes the call, available 9:00–12:00 EST Fri 27 Nov (16:00–19:00 Israel); asked Paul to pick a time, then a calendar invite. No answer from Paul yet; no deals@ calendar event. Next: watch thread 1a20eaab39ad7504; when Paul picks a time, report to owner and propose invite (owner approval). Stays open.
+### OI-GOODPOT-2611 — Good-potential flags from 26 Nov analyses: confirm Eran was told
+- Owner agent: Grok Bot
+- Status: waiting-verification
+- Updated: 2026-11-26 13:20
+- Next action: per rule 703c705 these must be reported to Eran immediately. The Deal Analysis runs were subagents and reported to their parent instead of a priority message to Grok Bot, so there is no file/commit evidence the owner got them: [[2856 S State Ave]] (+$497/mo at $89k ask, +$537 at 15% off; FAIL — $69.5k left in, no equity), [[321 S Hamilton Ave]] (+$199/mo at $95k; single-comp ARV), [[2170 Lilac Ln]] (mechanical +$250/mo, but ~$133.5k stays in — analyst says not real). Close with the chat/message time once confirmed delivered.
+- Needs owner approval: no (it is a report)
+- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-26/funnel-46201-46203/SUMMARY.md`; `.../2170-lilac-ln-decatur-ga-30032.md` §7
+
+### OI-FRANKLIN-60K — 303 N Franklin Rd ~$60k number sent to IWB
+- Owner agent: Deal Inbox
+- Status: open
+- Updated: 2026-11-26 13:20
+- Next action: [verified email] 26 Nov 09:18 Israel deals@ (signed Eran) told Briana Lomax / Invest With Ben "the number that works for us is around ~$60k" and asked if still available and if the seller has room (msg 1a216b86cfaf253d, thread 1a20ab0d09784316). Supersedes the 25 Nov "ignore" decision. Watch for reply and route to Deal Inbox/owner; no further reply without owner say-so.
+- Needs owner approval: yes for any further reply/offer
+- Source: [[303 N Franklin Rd]]; [[Invest With Ben]]
+
+### OI-ATL-COUNTERS-2611 — Counter or pass on 2170 Lilac Ln and 7080 Stone St
+- Owner agent: Deal Inbox (owner decides)
+- Status: waiting-owner
+- Updated: 2026-11-26 13:20
+- Next action: both REJECTED by Deal Analysis 26 Nov ~09:33. Suggested counters (owner only, nothing sent): [[2170 Lilac Ln]] $78k–$100k cash with walkthrough + ≥7 days DD + refundable EMD (Keenan's terms are 0 DD, $5k EMD, close 12/20); [[7080 Stone St]] $135k–$150k cash, flip only, inspection contingency. Owner decides counter vs pass; no reply sent to either wholesaler as of 13:20.
+- Needs owner approval: yes
+- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-26/`; Drive עסקאות docs 26 Nov
 
 ## History (closed, keep)
+
+### OI-SQ-MEETUP — Simple Quarters meetup 25 Nov
+- Owner agent: Indianapolis Market Research
+- Status: closed
+- Updated: 2026-11-26
+- Next action: confirm whether the meetup runs on Thanksgiving eve
+- Needs owner approval: no for the check; yes before any contact
+- Source: [[Indy Trip Nov 2026]]
+- Notes: 25 Nov voice review — skip for now, Tal and Eran handle this; leave open.
+- 2026-11-25 23:25 sync: meetup date is tonight ET (Thanksgiving eve); no evidence of a check or attendance. Left open; likely stale after tonight.
+- [stale] 2026-11-26: the meetup date (25 Nov evening ET, Thanksgiving eve) has passed; owner 25 Nov voice review said skip (Tal and Eran handle). No evidence of attendance. Nothing left to do.
+
 ### OI-STEEL-EMAIL — Steele call-request email
 - Owner agent: Grok Bot
 - Status: closed

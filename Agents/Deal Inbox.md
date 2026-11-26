@@ -35,3 +35,7 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 
 ### 2026-11-25 (sync 13:20; from handoff + Gmail)
 - 08:00 scan: 1827 N Rochester Ave (Invest With Ben, deadline 11/25 3pm ET) → Deal Analysis; pass sent 10:02. Also 10:01 pass to [[Keenan Mulherin]] on East Point (stay out of East Point; wants Clayton/Henry County). Bayside condo outside buy box, no reply.
+
+### 2026-11-26 (sync 13:20; from handoff + Gmail)
+- 08:00 scan: 2 Atlanta deals → DealFlow + handoff `deal-analysis-handoff-2026-11-26.md`: [[7080 Stone St]] (Joseph Ramos, Greenwood Fixers) and [[2170 Lilac Ln]] (Keenan). Owner OK to analyze relayed 09:18. Reported 546 N Luett Ave (IWB, 1 bed, outside buy box).
+- 09:18 sent from deals@ (signed Eran): ~$60k number to Briana on [[303 N Franklin Rd]]; buy-box reply to [[Ben Bennett (Prophet Homes)]].

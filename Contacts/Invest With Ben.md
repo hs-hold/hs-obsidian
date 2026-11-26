@@ -51,3 +51,5 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 - 2026-11-25 20:00 Israel: Shannon & Claire emailed reduced fixer 546 N Luett Ave, Indianapolis, IN 46222 (1/1, 504 sf, slab, 1-car, 1955, lot 4,400, vacant). Claimed ARV $95,000, ask about $34,900. Outside buy box (1 bedroom); no reply. Already reported to the owner by Deal Inbox.
 
 See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
+
+- [verified email] 2026-11-26 09:18 Israel: deals@ (signed Eran) replied to Briana Lomax on [[303 N Franklin Rd]] — rehab ~$58k vs realistic ARV ~$171k, "the number that works for us is around ~$60k"; asked if still available and if the seller has room (msg 1a216b86cfaf253d).
