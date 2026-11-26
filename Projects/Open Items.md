@@ -7,7 +7,7 @@ tags: [project, tracker]
 ---
 # Open Items
 
-Verification 2026-11-26 23:15 Israel (brain sync): closed none; staled none; new OI-ATL-ENDBUYER-2611; notes added to OI-TRIP-FLIGHTS (outbound Mon 30 Nov verified from Tal's forwarded itinerary; return still unknown), OI-INDY-TUE-MEETINGS (Tal followed up Zac 19:25), OI-FRANKLIN-60K (Steele told 17:09; no IWB reply), OI-PAUL-SCHERRER (no time from Paul, no calendar event), OI-SCREEN-QUALITY-2511 (26 Nov monitor report), OI-SITE-DISCOUNT-LABEL (PR #398 open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov), deals@ Gmail since 13:20 (C21 sends, Steele/Zac follow-ups, Terrance inquiry, Tal flight), deals calendar (no events 26 Nov–8 Dec), shared files (only broker log 16:37 and the 20:02 quality report changed): no closing evidence; left open. Transcript tools not exposed to this executor. OI-BIGGERPOCKETS untouched.
+Verification 2026-11-26 23:15 Israel (brain sync): closed none; staled none; new OI-ATL-ENDBUYER-2611, OI-DEALSCORE-2611; notes added to OI-TRIP-FLIGHTS (outbound Mon 30 Nov verified from Tal's forwarded itinerary; return still unknown), OI-INDY-TUE-MEETINGS (Tal followed up Zac 19:25), OI-FRANKLIN-60K (Steele told 17:09; no IWB reply), OI-PAUL-SCHERRER (no time from Paul, no calendar event), OI-SCREEN-QUALITY-2511 (26 Nov monitor report), OI-SITE-DISCOUNT-LABEL (PR #398 open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov), deals@ Gmail since 13:20 (C21 sends, Steele/Zac follow-ups, Terrance inquiry, Tal flight), deals calendar (no events 26 Nov–8 Dec), shared files (only broker log 16:37 and the 20:02 quality report changed): no closing evidence; left open. Own Grok Bot chat transcript read OK (no owner decisions since 13:20; earlier question cards unanswered); the 8 teammate transcripts failed ("Only your own transcript is readable here…"). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-26 13:20 Israel (brain sync): closed OI-GOODPOT-2611 (13:30 follow-up: owner reports found in Grok Bot chat transcript); staled OI-SQ-MEETUP (event date 25 Nov ET passed; owner 25 Nov said skip — moved to History); new OI-GOODPOT-2611, OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611; notes added to OI-PAUL-SCHERRER (reply sent 25 Nov 23:45: Tal available Fri 27 Nov 9–12 EST), OI-OFFERS (Franklin ~$60k number), OI-1830-CHECKS (calibration indy pending_owner 27/20), OI-SITE-DISCOUNT-LABEL (PR #398 still open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov; only #398 open), deals@ Gmail (since 25 Nov 23:25: Paul reply sent, Franklin/Ben Bennett replies sent 09:18, 7080 Stone St inbound), deals calendar (no events 26 Nov–8 Dec), shared files: no closing evidence; left open. Transcripts not readable this run (tools not exposed). OI-BIGGERPOCKETS untouched.
 
@@ -256,6 +256,14 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: [verified email] 21:33 Israel, Terrance Shelton (Support and Management Services, acquisitionsinspired@gmail.com, msg 1a21958fe29260cc) asks whether we would buy an Atlanta SFR as end buyer from someone who already has it under contract, and whether we can fund and close in 8 calendar days and what is needed upfront. No property named. Route to Deal Inbox; owner decides whether/how to answer. Nothing sent.
 - Needs owner approval: yes (any reply)
 - Source: deals@ Gmail; [[Terrance Shelton]]
+
+### OI-DEALSCORE-2611 — dealscore.net off-market marketplace: how to use it
+- Owner agent: Grok Bot
+- Status: waiting-owner
+- Updated: 2026-11-26 23:15
+- Next action: [reported] 16:51 Israel Eran sent https://dealscore.net/off-market-deals (wholesaler off-market deal marketplace that grades deals, no fee; listings load dynamically). Grok Bot asked whether to (1) check its Indy deals now, (2) evaluate it as a regular deal source, or (3) keep it as reference only. No answer yet. Do nothing beyond that until Eran decides.
+- Needs owner approval: yes (owner decision)
+- Source: Grok Bot chat transcript 2026-11-26 16:51; [[2026-11-26]]
 
 ## History (closed, keep)
 

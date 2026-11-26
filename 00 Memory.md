@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-26 23:16 Asia/Jerusalem from commit 6b8c72d 2026-11-26 13:23 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-26 23:18 Asia/Jerusalem from commit 1e5320a 2026-11-26 23:16 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
@@ -171,7 +171,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Staled: OI-SQ-MEETUP (event passed). Closed: none. — [[2026-11-26]]
 - New: OI-GOODPOT-2611 (confirm Eran got the State/Hamilton/Lilac good-potential reports), OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611. — [[2026-11-26]]
 - Updated: OI-PAUL-SCHERRER, OI-OFFERS, OI-1830-CHECKS, OI-SITE-DISCOUNT-LABEL. — [[2026-11-26]]
-- Closed: none. Staled: none. New: OI-ATL-ENDBUYER-2611. Updated: OI-TRIP-FLIGHTS, OI-INDY-TUE-MEETINGS, OI-FRANKLIN-60K, OI-PAUL-SCHERRER, OI-SCREEN-QUALITY-2511, OI-SITE-DISCOUNT-LABEL. — [[2026-11-26]]
+- Closed: none. Staled: none. New: OI-ATL-ENDBUYER-2611, OI-DEALSCORE-2611. Updated: OI-TRIP-FLIGHTS, OI-INDY-TUE-MEETINGS, OI-FRANKLIN-60K, OI-PAUL-SCHERRER, OI-SCREEN-QUALITY-2511 … — [[2026-11-26]]
 - Closed: OI-ATL-REHAB-RESEARCH (deliverable on disk). — [[2026-11-25]]
 - New: OI-GOODPOT-HILLSIDE, OI-PAUL-SCHERRER. — [[2026-11-25]]
 - Updated: OI-SITE-DISCOUNT-LABEL (PR #398 open), OI-V3-RECHECK (PR #398 would hide Park Stream/Cedar Pine; Bacon still needs a decision on method), OI-SECRETARY-SYNC (step 1 done). — [[2026-11-25]]
