@@ -28,3 +28,4 @@ Market: [[Atlanta]] · Source: [[Keenan Mulherin]] · Pipeline: [[Deal Pipeline]
   - Counter range (owner only, **not sent**): $78k–$100k cash, only with interior walkthrough + ≥7 days DD (sewer scope) + refundable EMD.
   - POSTed to deal-analysis-ingest by dealId: HTTP 200, outcome rejected; not auto-posted.
   - Full analysis: `/home/box/shared/deal-outcomes/analyses/2026-11-26/2170-lilac-ln-decatur-ga-30032.md` · Drive: [ניתוח 2026-11-26](https://docs.google.com/document/d/18FNfhnNDYCXh857wWJqj34LqCzPYeWs-dzvsQrLR6hQ/edit)
+- 2026-11-27 22:44 Israel [verified email] Re-offered by another wholesaler, [[Josiah Reed]] (jrwholesaleshouses@gmail.com), at **$160,000** (ARV claim $325k, vacant at closing) — $10k above Keenan's $150k. Same analysis applies (REJECT; counter idea $78–100k, owner only). No reply sent. See OI-ATL-COUNTERS-2611.

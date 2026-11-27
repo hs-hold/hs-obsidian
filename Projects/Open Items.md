@@ -7,6 +7,8 @@ tags: [project, tracker]
 ---
 # Open Items
 
+Verification 2026-11-27 23:19 Israel (evening brain sync): closed none; staled none; notes added to OI-SCREEN-QUALITY-2511 (PR #399 low_comps exception opened 14:50, owner-approved Option 1; queue-gap root cause; new questions a/b), OI-BUYBOX-REQ-2711 (Joel done 14:05/16:17; Rooted still open), OI-ATL-ENDBUYER-2611 (reply sent 14:05, waiting on Terrance), OI-PAUL-SCHERRER (follow-up 14:35, no reply), OI-ATL-COUNTERS-2611 (Lilac re-offered $160k by Josiah Reed). All other open items re-checked against Decisions Log, Eran Decisions by Topic (unchanged since 13:21), PRs (only #399 opened; no merges since #398), deals@ Gmail since 13:15 incl. spam, deals calendar (no events 27 Nov–4 Dec), shared files (broker log 21:05) and /workspace/exports (quality report, queue-gap): no closing evidence; left open. Transcript search failed this run (no transcript tool exposed to the executor; own + 8 teammate transcripts unread). OI-BIGGERPOCKETS untouched.
+
 Verification 2026-11-27 13:40 Israel (follow-up; Grok Bot transcript read by the parent run, the 8 teammate transcripts refused): closed none; staled none; new OI-DAILY-SEARCH-INTERRUPT, OI-REANALYZE-2711; notes added to OI-PAUL-SCHERRER, OI-SCREEN-QUALITY-2511, OI-DEALSCORE-2611 (both cards asked 26–27 Nov, unanswered), OI-GOODPOT-2711 (Gladstone told 12:25/12:36; the other two unclear). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-27 13:15 Israel (brain sync): closed OI-SITE-DISCOUNT-LABEL (PR #398 merged 11:36, 98eaef97) and OI-TRIP-FLIGHTS (return Thu 3 Dec, Tal's United email msg 1a219c622f496d0e); staled none; moved already-closed OI-GOODPOT-HILLSIDE and OI-GOODPOT-2611 to History; new OI-GOODPOT-2711, OI-BUYBOX-REQ-2711; notes added to OI-V3-RECHECK, OI-PAUL-SCHERRER, OI-ATL-ENDBUYER-2611, OI-SCREEN-QUALITY-2511, OI-1830-CHECKS, OI-INDY-TUE-MEETINGS, OI-FRANKLIN-60K, OI-NOLAN-CALL. All other open items re-checked against Decisions Log, Eran Decisions by Topic (no new SETTLED entries), PRs (only #398 changed), deals@ Gmail since 26 Nov 23:16 (only Tal's United email), deals calendar (no events 26 Nov–8 Dec), shared files (funnel 27 Nov, broker log 08:55): no closing evidence; left open. Transcript search failed this run (no transcript tool exposed to the executor; own + 8 teammate transcripts unread). OI-BIGGERPOCKETS untouched.
@@ -183,17 +185,19 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-SCREEN-QUALITY-2511 — Quick-screen findings: 5-per-run cap and low_comps hold
 - Owner agent: Grok Bot (site quick screen only — never the Deal Analysis agent, per 24 Nov separation rule)
 - Status: waiting-owner
-- Updated: 2026-11-27 13:40
+- Updated: 2026-11-27 23:19
 - Next action: owner decides whether to (a) let screen passes beyond the 5-per-run cap reach Deal Analysis (4515 Primrose Ave, 4532 Indianola Ave, 4846 Crittenden Ave, 5153 Kingsley Dr — all 13–16% off, inside the 15% rule) and (b) relax/review the `low_comps` hold (3369 Broadway St $135k ask, screen ARV $353k; 3745 Winthrop Ave). Also check the possible 30-s health polling loop on 46201/46205 (API waste watch only) and the screen missing already-renovated homes. Read-only report; nothing changed.
 - Needs owner approval: yes (any screen change / sending those houses to analysis)
 - Source: `/workspace/exports/screening-quality-25-11.txt` (20:02); Drive דוחות ומחקר "דוח איכות הסינון — 24 שעות עד 25.11.2026"; [[Deal Pipeline]]; [[2026-11-25]]
 - Notes: 2026-11-26 20:02 [reported] Daily quality monitor (26 Nov, `/workspace/sq-26-11.txt`, Drive doc 1j42idf2UMSq6nlosxKsUgfPIzNoBZVSAQqjkehRpne0): same pattern — 5-per-run cap left out 9 passes in 46203 (incl. high-confidence 1713 Nelson Ave $99.9k, 1527 Lexington Ave $215k); low_comps hold blocked 149, 18 priced below the screen MAO (strongest 1814 New St $149.9k, 2 renovated comps 0.1–0.2 mi); 46208 never scanned, health polling every ~30 s (hypothesis: loop). Asks Eran (a) raise/drop cap, (b) release low_comps with 2 renovated comps ≤0.5 mi, (c) no medium confidence with 0–1 comps, (d) no change. No commits to main since #397.
 - 2026-11-27 13:15 sync: [reported] 46208 was scanned today (run 000cd2f4, queued 5) and 46218 (run 8e6b7d78, queued 2). New finding for the same screen: the queue marked 2 already-sold/closed listings as for_sale (2420 Bond St, 1428 W 34th St) and re-queued 2153 N DeQuincy St (analysed 9 Nov). Still waiting on owner (a)–(d).
 - 2026-11-27 13:40 follow-up: asked 26–27 Nov, unanswered. At 11:10 Eran replied to the screening-filter card (5-per-run cap, low_comps hold, medium confidence) with a different question, so the decision is still open. [reported] The 3-day quality monitor's day-2 report went to Eran 26 Nov 20:02. Today's 27 Nov run is the last one, and that run deletes the routine.
+- 2026-11-27 23:19 sync: [reported] Eran approved "Option 1" low_comps exception (~14:42) → **PR #399** opened 14:50 (site only; open, not merged/deployed) — covers (b) partly. [verified] Final 3-day report (20:05) + queue-gap investigation (20:36, `/workspace/exports/queue-gap-8-houses-2026-11-27.txt`): 8 screen passes never queued (7 cut by the 5-per-run cap in 46208; 3423 N Sherman Dr wrongly blocked by dedupe vs un-analysed intake row eda9dc57); fix options A/B/C (C recommended: cap 8 + carry-over, 7-day expiry). New questions to Eran: (a) fix the 8-not-queued gap? (b) replace $550 holding default with real tax+insurance? Drive: https://docs.google.com/document/d/1JKfn73pPXtIXYPJnpzi6MP_QL4dvDeiJ_Gy4zq-Zln0/edit. Left open (cap decision + PR #399 merge pending owner).
+
 ### OI-PAUL-SCHERRER — Call with Paul Scherrer (Indy broker, GPC intro)
 - Owner agent: Grok Bot (track only)
 - Status: open
-- Updated: 2026-11-27 13:40
+- Updated: 2026-11-27 23:19
 - Next action: Eran asked Paul (00:06 Israel) for a call from 10:00 AM EST 25 Nov (17:00 Israel). No reply and no calendar event as of 13:20 Israel. Watch the thread 1a20eaab39ad7504 and report Paul's reply to the owner (Tal-intro rule). Do not reply without owner say-so.
 - Needs owner approval: yes for any reply
 - Source: [[Paul Scherrer]]; broker-replies-log.md 11:20 audit
@@ -202,6 +206,8 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Notes: 2026-11-26 23:15 Next action superseded: reply was sent 25 Nov 23:45 (Tal, Fri 27 Nov 9:00–12:00 EST = 16:00–19:00 Israel). No reply from Paul with a time as of 23:13 Israel, and no event on the deals calendar 26 Nov–8 Dec. Watch thread 1a20eaab39ad7504 tomorrow morning.
 - 2026-11-27 13:15 sync: no reply from Paul with a time (deals@ search since 26 Nov), no event on the deals calendar 26 Nov–8 Dec. Tal's offered window is today 16:00–19:00 Israel (9:00–12:00 EST). Left open.
 - 2026-11-27 13:40 follow-up [reported] (Grok Bot chat): at the 07:18 inactivity check-in Paul still had not picked a time. Grok Bot told Eran a reminder could go out around 15:30 Israel (8:30 Indy). No owner answer and no send seen. Left open.
+- 2026-11-27 23:19 sync: [verified email] deals@ follow-up sent 14:35 Israel (msg 1a21d013997218d5, new thread 1a21d0127c2ff5aa) asking for a call with Tal today or early next week. No reply from Paul by 23:19; Fri 9–12 EST window passed; no calendar event 27 Nov–4 Dec. Watch both threads. Left open.
+
 ### OI-FRANKLIN-60K — 303 N Franklin Rd ~$60k number sent to IWB
 - Owner agent: Deal Inbox
 - Status: open
@@ -215,19 +221,21 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-ATL-COUNTERS-2611 — Counter or pass on 2170 Lilac Ln and 7080 Stone St
 - Owner agent: Deal Inbox (owner decides)
 - Status: waiting-owner
-- Updated: 2026-11-26 13:20
+- Updated: 2026-11-27 23:19
 - Next action: both REJECTED by Deal Analysis 26 Nov ~09:33. Suggested counters (owner only, nothing sent): [[2170 Lilac Ln]] $78k–$100k cash with walkthrough + ≥7 days DD + refundable EMD (Keenan's terms are 0 DD, $5k EMD, close 12/20); [[7080 Stone St]] $135k–$150k cash, flip only, inspection contingency. Owner decides counter vs pass; no reply sent to either wholesaler as of 13:20.
 - Needs owner approval: yes
 - Source: `/home/box/shared/deal-outcomes/analyses/2026-11-26/`; Drive עסקאות docs 26 Nov
+- 2026-11-27 23:19 sync: [verified email, spam folder] 2170 Lilac Ln re-offered by another wholesaler, [[Josiah Reed]] (msg 1a21ec0efe1b58d9, 22:44 Israel) at $160,000 (vs Keenan $150k). No reply to anyone. Still owner's call (counter vs pass). Left open.
 
 ### OI-ATL-ENDBUYER-2611 — Atlanta end-buyer / 8-day close inquiry (Terrance Shelton)
 - Owner agent: Deal Inbox
-- Status: waiting-owner
-- Updated: 2026-11-26 23:15
+- Status: open
+- Updated: 2026-11-27 23:19
 - Next action: [verified email] 21:33 Israel, Terrance Shelton (Support and Management Services, acquisitionsinspired@gmail.com, msg 1a21958fe29260cc) asks whether we would buy an Atlanta SFR as end buyer from someone who already has it under contract, and whether we can fund and close in 8 calendar days and what is needed upfront. No property named. Route to Deal Inbox; owner decides whether/how to answer. Nothing sent.
 - Needs owner approval: yes (any reply)
 - Source: deals@ Gmail; [[Terrance Shelton]]
 - 2026-11-27 13:15 sync: [verified] routed to Deal Inbox by the 08:55 broker-reply watch (broker-replies-log.md). No reply sent. Left open (owner decides).
+- 2026-11-27 23:19 sync: [verified email] deals@ (signed Eran) replied 14:05 Israel (msg 1a21ce540a0675b6): yes to assigned contracts; send address/price/photos/condition; 8-day close judged per deal. Now waiting on Terrance (no reply by 23:19). Left open (waiting on Terrance).
 
 ### OI-DEALSCORE-2611 — dealscore.net off-market marketplace: how to use it
 - Owner agent: Grok Bot
@@ -248,10 +256,11 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 ### OI-BUYBOX-REQ-2711 — Wholesaler buy-box requests (Armstrong Capital, Rooted Property Group)
 - Owner agent: Deal Inbox
 - Status: waiting-owner
-- Updated: 2026-11-27 13:15
+- Updated: 2026-11-27 23:19
 - Next action: [verified log] 08:55 watch routed to Deal Inbox: [[Joel Armstrong (Armstrong Capital Group)]] (msg 1a21b5d3ea6af1b1) asks for our buy box; [[John Shauberger (Rooted Property Group)]] (msg 1a2185bc802e34b4) follows up on the Atlanta buy box. The 26 Nov buy box sent to Ben Bennett could be reused; any reply needs owner say-so. Nothing sent.
 - Needs owner approval: yes (any reply)
 - Source: `/home/box/shared/indy-trip/broker-replies-log.md` (2026-11-27 08:55 entry)
+- 2026-11-27 23:19 sync: [verified email] Joel Armstrong part done — buy box sent 14:05 Israel (msg 1a21ce52aede47fe), Joel confirmed saved 16:17 (msg 1a21d613f50d4f9a). Rooted Property Group (John Shauberger, msg 1a2185bc802e34b4, in spam) still unanswered. Left open for Rooted only.
 
 ### OI-DAILY-SEARCH-INTERRUPT — 'Daily deal search 8:00' routine interrupted 2 days running
 - Owner agent: Grok Bot
