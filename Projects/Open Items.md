@@ -7,6 +7,8 @@ tags: [project, tracker]
 ---
 # Open Items
 
+Verification 2026-11-27 23:35 Israel (addendum from Grok Bot transcript): closed none; staled none; OI-SCREEN-QUALITY-2511 — questions (a)/(b) answered "both" by Eran 20:32; open now: cap-fix choice, releasing never-analysed deals rows (Sherman), tax 1.4%/1.6% approval (cards 20:37–20:38). Teammate transcripts refused this run.
+
 Verification 2026-11-27 23:19 Israel (evening brain sync): closed none; staled none; notes added to OI-SCREEN-QUALITY-2511 (PR #399 low_comps exception opened 14:50, owner-approved Option 1; queue-gap root cause; new questions a/b), OI-BUYBOX-REQ-2711 (Joel done 14:05/16:17; Rooted still open), OI-ATL-ENDBUYER-2611 (reply sent 14:05, waiting on Terrance), OI-PAUL-SCHERRER (follow-up 14:35, no reply), OI-ATL-COUNTERS-2611 (Lilac re-offered $160k by Josiah Reed). All other open items re-checked against Decisions Log, Eran Decisions by Topic (unchanged since 13:21), PRs (only #399 opened; no merges since #398), deals@ Gmail since 13:15 incl. spam, deals calendar (no events 27 Nov–4 Dec), shared files (broker log 21:05) and /workspace/exports (quality report, queue-gap): no closing evidence; left open. Transcript search failed this run (no transcript tool exposed to the executor; own + 8 teammate transcripts unread). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-27 13:40 Israel (follow-up; Grok Bot transcript read by the parent run, the 8 teammate transcripts refused): closed none; staled none; new OI-DAILY-SEARCH-INTERRUPT, OI-REANALYZE-2711; notes added to OI-PAUL-SCHERRER, OI-SCREEN-QUALITY-2511, OI-DEALSCORE-2611 (both cards asked 26–27 Nov, unanswered), OI-GOODPOT-2711 (Gladstone told 12:25/12:36; the other two unclear). OI-BIGGERPOCKETS untouched.
