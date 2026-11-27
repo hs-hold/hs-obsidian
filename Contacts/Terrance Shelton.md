@@ -12,3 +12,4 @@ tags: [contact, wholesaler]
 
 ## Log
 - 2026-11-26 21:33 Israel [verified email] (msg 1a21958fe29260cc): asks whether we would buy an Atlanta-area SFR as end buyer from someone who already has it under contract; quotes our "close in 21 days or less"; asks if we can fund and close in 8 calendar days and what we need upfront. No address given. No reply sent. Tracked in [[Open Items]] OI-ATL-ENDBUYER-2611.
+- 2026-11-27 08:55 Israel: routed to Deal Inbox by the broker-reply watch (non-trip reply). No reply sent as of 13:15.

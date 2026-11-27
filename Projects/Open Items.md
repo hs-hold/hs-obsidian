@@ -2,10 +2,12 @@
 type: project
 status: active
 created: 2026-11-23
-updated: 2026-11-26
+updated: 2026-11-27
 tags: [project, tracker]
 ---
 # Open Items
+
+Verification 2026-11-27 13:15 Israel (brain sync): closed OI-SITE-DISCOUNT-LABEL (PR #398 merged 11:36, 98eaef97) and OI-TRIP-FLIGHTS (return Thu 3 Dec, Tal's United email msg 1a219c622f496d0e); staled none; moved already-closed OI-GOODPOT-HILLSIDE and OI-GOODPOT-2611 to History; new OI-GOODPOT-2711, OI-BUYBOX-REQ-2711; notes added to OI-V3-RECHECK, OI-PAUL-SCHERRER, OI-ATL-ENDBUYER-2611, OI-SCREEN-QUALITY-2511, OI-1830-CHECKS, OI-INDY-TUE-MEETINGS, OI-FRANKLIN-60K, OI-NOLAN-CALL. All other open items re-checked against Decisions Log, Eran Decisions by Topic (no new SETTLED entries), PRs (only #398 changed), deals@ Gmail since 26 Nov 23:16 (only Tal's United email), deals calendar (no events 26 Nov–8 Dec), shared files (funnel 27 Nov, broker log 08:55): no closing evidence; left open. Transcript search failed this run (no transcript tool exposed to the executor; own + 8 teammate transcripts unread). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-26 23:15 Israel (brain sync): closed none; staled none; new OI-ATL-ENDBUYER-2611, OI-DEALSCORE-2611; notes added to OI-TRIP-FLIGHTS (outbound Mon 30 Nov verified from Tal's forwarded itinerary; return still unknown), OI-INDY-TUE-MEETINGS (Tal followed up Zac 19:25), OI-FRANKLIN-60K (Steele told 17:09; no IWB reply), OI-PAUL-SCHERRER (no time from Paul, no calendar event), OI-SCREEN-QUALITY-2511 (26 Nov monitor report), OI-SITE-DISCOUNT-LABEL (PR #398 open). All other open items re-checked against Decisions Log, Eran Decisions by Topic, PRs (no merges since 24 Nov), deals@ Gmail since 13:20 (C21 sends, Steele/Zac follow-ups, Terrance inquiry, Tal flight), deals calendar (no events 26 Nov–8 Dec), shared files (only broker log 16:37 and the 20:02 quality report changed): no closing evidence; left open. Own Grok Bot chat transcript read OK (no owner decisions since 13:20; earlier question cards unanswered); the 8 teammate transcripts failed ("Only your own transcript is readable here…"). OI-BIGGERPOCKETS untouched.
 
@@ -49,6 +51,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no
 - Source: [[Nolan Lamkin]], thread 1a1ff1abd91802e5, event on deals@ calendar
 - Notes: 25 Nov voice review — skip for now, Tal and Eran handle this; leave open.
+- 2026-11-27 13:15 sync: no new Nolan mail; hold unchanged. Left open.
 
 ### OI-BOUNCE — Bounced intro recipients
 - Owner agent: Grok Bot
@@ -78,6 +81,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: [[Metrics]]
 - Notes: raised in 25 Nov review, no answer yet.
 - 2026-11-26 13:20 sync: [verified email] 26 Nov 09:18 Israel deals@ sent Briana (IWB) "the number that works for us is around ~$60k" on 303 N Franklin Rd (see OI-FRANKLIN-60K). Unclear whether the owner counts this as an offer; owner number still needed.
+
 ### OI-SKILLS — Seven skill proposals
 - Owner agent: Grok Bot / Content Insights
 - Status: waiting-owner
@@ -105,16 +109,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: [[Deal Pipeline]]
 - Notes: raised in 25 Nov review, no answer yet.
 
-### OI-TRIP-FLIGHTS — Tal's exact flight dates
-- Owner agent: Grok Bot
-- Status: waiting-owner
-- Updated: 2026-11-26 23:15
-- Next action: owner confirms flight dates
-- Needs owner approval: yes
-- Source: [[Indy Trip Nov 2026]]
-- Notes: raised in 25 Nov review, no answer yet.
-- Notes: 2026-11-26 23:15 [verified email] Tal forwarded his Southwest itinerary to deals@ (23:11 Israel, msg 1a219b39b8044b98): **outbound Mon 30 Nov** LGA 17:05 → Chicago MDW (change) → IND 23:30 ET (= Tue 1 Dec 06:30 Israel). Return flight is not in this email, so the item stays open only for the return date. Booking/ticket numbers deliberately not stored.
-
 ### OI-BIGGERPOCKETS — Secretary holds BiggerPockets reminder
 - Owner agent: מזכירה
 - Status: quiet standing reminder (owner decision 2026-11-23 16:26)
@@ -122,7 +116,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: keep stored silently; do NOT surface proactively, in open-item lists, digests or notifications; mention only if the owner raises it
 - Needs owner approval: no
 - Source: [[2026-11-23]]
-
 
 ### OI-EDWIN-1621 — Edwin reply on 1621 E 46th St (subject-to)
 - Owner agent: Deal Inbox
@@ -142,19 +135,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: broker-replies-log.md (21:05 run); [[Steele Kruzel]]; [[Indy Brokers]]; [[Invest With Ben]]
 - Notes: raised in 25 Nov review, no answer yet.
 - Notes: 2026-11-26 23:15 [verified email] Tal (deals@, 19:25 Israel, msg 1a218e3f6bf51187) followed up with Zac Canull: asks for a quick call today/tomorrow "ahead of our meeting on Tuesday" — Tal treats the Tue 1 Dec coffee (9:00/9:30 ET, Tinker Coffee – The Firehouse, 5555 N Illinois St) as on. No written confirmation of the exact time from Zac yet; no calendar event. Steele 10:00 still has no place. Owner hold seems lifted for Tal's own replies (unclear; left open).
-
-### OI-SITE-DISCOUNT-LABEL — Show "works at discount" on the site
-- Owner agent: Grok Bot
-- Status: prepared
-- Updated: 2026-11-26 23:15
-- Next action: Cedar Pine / Park Stream appear "rejected" on the site because they fail at ask. Offered a small PR (20:56); no answer yet.
-- Needs owner approval: no (approved on 25 Nov voice review; PR merge/deploy remains gated)
-- Source: Grok Bot chat 20:56
-- Notes: Eran approved small site fix on 25 Nov voice review. Cloud-agent brief for hs-hold/hsdeals-claude-code (site only, TypeScript, never touch engine/, 15% "Works with discount" label instead of Rejected/Near miss) prepared and returned to coordinator to launch.
-- [verified] 2026-11-25 13:20 sync: PR #398 "Label Grok deals within 15% off as Works with discount" (branch cursor/grok-discount-label-ede4) opened 11:24 Israel, still **open / not merged**. Site-only; stage-1 screen and engine/ untouched. Next: owner OK for merge/deploy.
-- [verified] 2026-11-25 23:25 sync: PR #398 still open, not merged (GitHub read only).
-- [verified] 2026-11-26 13:20 sync: PR #398 still open, not merged (GitHub read only).
-- Notes: 2026-11-26 23:15 PR #398 still open (GitHub read 23:13); no merges since 24 Nov.
+- 2026-11-27 13:15 sync: no reply from Zac or Steele in deals@ since 26 Nov 19:25; no events on the deals calendar 26 Nov–8 Dec. Trip is Mon 30 Nov – Thu 3 Dec (OI-TRIP-FLIGHTS closed). Left open.
 
 ### OI-V3-RECHECK — v3 re-run contradicts 20:56 uploads
 - Owner agent: Deal Analysis
@@ -165,6 +146,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: /home/box/shared/deal-engine/reports/2026-11-23-rerun/summary.md; /home/box/shared/deal-outcomes/analyses/2026-11-23/rerun-v3/REPORT.md
 - Notes: 25 Nov voice review — Eran decided to remove all three (1318 Bacon St, 10160 Park Stream Dr, 3667 Cedar Pine Pl) from the site. Verified via read-only `deal-analysis-ingest?resolve=` that all three remain in `deals` (`analysis_source: deal analysis bot`), even though `post_results.json` (Nov 23) already posted `outcome: rejected`. `deal-analysis-ingest` has no delete/hide endpoint and `classifyAnalyst` uses a 25% band ignoring `outcome`, so Park Stream (21.2% off) and Cedar Pine (0.4% off in DB; 17.0% off after Nov 24 S44 $20K bath update) still render on Relevant. Removal requires either a direct Supabase DB write (delete/un-source the 3 rows on `ywvdyogbdptfyclgjbpf`) or a site-code filter/15%-band change; nothing modified directly.
 - [verified] 2026-11-25 13:20 sync: Cedar Pine re-POSTed 11:23 as `rejected`, `worksWithDiscount: false` (post_result.json). PR #398 (open) makes rows with outcome rejected or > 15% off render as Rejected, which would cover Park Stream and Cedar Pine once merged; 1318 Bacon St (was "passed") still needs the removal method chosen. Note: Cedar Pine is flagged good potential ($148/mo at 15% off) under the 10:56 rule — owner may want to reconsider removing it.
+- 2026-11-27 13:15 sync: [verified] PR #398 merged 11:36 (98eaef97) — per its rules, Park Stream and Cedar Pine (outcome rejected / >15% off) should now render as Rejected on the site; 1318 Bacon St (posted passed) still needs the removal method chosen. Not checked on the live site. Left open.
 
 ### OI-REPO-TEMPLATES — Templates from hoangtng/real-estate-agents
 - Owner agent: Grok Bot
@@ -185,6 +167,8 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Notes: raised in 25 Nov review, no answer yet.
 - 2026-11-25 23:25 sync: no vault/box evidence that the 18:30 check ran or that D1/D2 were answered (transcripts not readable this run). Left open.
 - 2026-11-26 13:20 sync: the one-off 25 Nov 18:30 reminder time has passed; no evidence D1/D2 were answered. Funnel batch 26 Nov notes Indy calibration `pending_owner` now 27/20 (`tools/calibration.py`). Left open — the decision itself is still pending.
+- 2026-11-27 13:15 sync: funnel 27 Nov added calibration result_official.json for 4 more Indy houses (pending owner confirmation). D1/D2 still unanswered per written sources. Left open.
+
 ### OI-SECRETARY-SYNC — reconcile מזכירה task list with reality, then auto-update
 - Owner agent: Grok Bot
 - Status: open
@@ -194,15 +178,6 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Source: owner chat t830u 23:09; [[מזכירה]]
 - [verified] 2026-11-25 13:20 sync: step 1 done — reconciliation approved 00:25 (d2ef5b0) and the 25 Nov list review executed (7bfd361, [[List Review 2026-11-25]]). Remaining: automatic closing of evidenced items (needs owner approval before any new routine).
 
-### OI-GOODPOT-HILLSIDE — 3910 Hillside Ave may meet the good-potential flag
-- Owner agent: Deal Analysis
-- Status: closed
-- Updated: 2026-11-25 15:10
-- Next action: [hypothesis] funnel analysis 09:02 shows CF +$126/mo self-managed at the $100k ask (BRRRR cash left $64k, FAIL). That is > $100/mo, so the 10:56 rule (703c705) would flag it as good potential and report it to Eran. No flag file exists for it (only Cedar Pine has one). Deal Analysis / coordinator to confirm and report if it qualifies.
-- Needs owner approval: no (reporting only)
-- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-25/funnel-46205/3910-hillside-ave.md`; [[3910 Hillside Ave]]
-- Resolution: [verified] Good-potential report on 3910 Hillside sent to Eran in Main Bot chat 2026-11-25 13:22 (BRRRR +$126/mo at ask, fails overall).
-
 ### OI-SCREEN-QUALITY-2511 — Quick-screen findings: 5-per-run cap and low_comps hold
 - Owner agent: Grok Bot (site quick screen only — never the Deal Analysis agent, per 24 Nov separation rule)
 - Status: waiting-owner
@@ -211,6 +186,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes (any screen change / sending those houses to analysis)
 - Source: `/workspace/exports/screening-quality-25-11.txt` (20:02); Drive דוחות ומחקר "דוח איכות הסינון — 24 שעות עד 25.11.2026"; [[Deal Pipeline]]; [[2026-11-25]]
 - Notes: 2026-11-26 20:02 [reported] Daily quality monitor (26 Nov, `/workspace/sq-26-11.txt`, Drive doc 1j42idf2UMSq6nlosxKsUgfPIzNoBZVSAQqjkehRpne0): same pattern — 5-per-run cap left out 9 passes in 46203 (incl. high-confidence 1713 Nelson Ave $99.9k, 1527 Lexington Ave $215k); low_comps hold blocked 149, 18 priced below the screen MAO (strongest 1814 New St $149.9k, 2 renovated comps 0.1–0.2 mi); 46208 never scanned, health polling every ~30 s (hypothesis: loop). Asks Eran (a) raise/drop cap, (b) release low_comps with 2 renovated comps ≤0.5 mi, (c) no medium confidence with 0–1 comps, (d) no change. No commits to main since #397.
+- 2026-11-27 13:15 sync: [reported] 46208 was scanned today (run 000cd2f4, queued 5) and 46218 (run 8e6b7d78, queued 2). New finding for the same screen: the queue marked 2 already-sold/closed listings as for_sale (2420 Bond St, 1428 W 34th St) and re-queued 2153 N DeQuincy St (analysed 9 Nov). Still waiting on owner (a)–(d).
 
 ### OI-PAUL-SCHERRER — Call with Paul Scherrer (Indy broker, GPC intro)
 - Owner agent: Grok Bot (track only)
@@ -222,15 +198,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - [verified email] 2026-11-25 23:25 sync: Paul replied 22:00 Israel (msg 1a2144be0c8ec440): apologised for delay, asks "Would you like to set up a call for Friday morning?" (Fri 27 Nov ET). Not yet reported/answered per vault and log; still no calendar event. Next: report to owner (Tal-intro rule); reply only with owner say-so. Stays open.
 - [verified email] 2026-11-26 13:20 sync: deals@ (signed Eran) replied 25 Nov 23:45 Israel (msg 1a214abe36a9b09c): Friday morning works; **Tal** takes the call, available 9:00–12:00 EST Fri 27 Nov (16:00–19:00 Israel); asked Paul to pick a time, then a calendar invite. No answer from Paul yet; no deals@ calendar event. Next: watch thread 1a20eaab39ad7504; when Paul picks a time, report to owner and propose invite (owner approval). Stays open.
 - Notes: 2026-11-26 23:15 Next action superseded: reply was sent 25 Nov 23:45 (Tal, Fri 27 Nov 9:00–12:00 EST = 16:00–19:00 Israel). No reply from Paul with a time as of 23:13 Israel, and no event on the deals calendar 26 Nov–8 Dec. Watch thread 1a20eaab39ad7504 tomorrow morning.
-
-### OI-GOODPOT-2611 — Good-potential flags from 26 Nov analyses: confirm Eran was told
-- Owner agent: Grok Bot
-- Status: done
-- Updated: 2026-11-26 13:30
-- Next action: per rule 703c705 these must be reported to Eran immediately. The Deal Analysis runs were subagents and reported to their parent instead of a priority message to Grok Bot, so there is no file/commit evidence the owner got them: [[2856 S State Ave]] (+$497/mo at $89k ask, +$537 at 15% off; FAIL — $69.5k left in, no equity), [[321 S Hamilton Ave]] (+$199/mo at $95k; single-comp ARV), [[2170 Lilac Ln]] (mechanical +$250/mo, but ~$133.5k stays in — analyst says not real). Close with the chat/message time once confirmed delivered.
-- Needs owner approval: no (it is a report)
-- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-26/funnel-46201-46203/SUMMARY.md`; `.../2170-lilac-ln-decatur-ga-30032.md` §7
-- [verified] Evidence 2026-11-26 13:30: Grok Bot main chat transcript shows the owner was told: Lilac Ln good-potential (technical, "in practice it isn't a deal") reported right after Deal Analysis's message, and 2856 S State Ave + 321 S Hamilton Ave reported in the next message, plus the flip-only Spann/Woodlawn note. Closed.
+- 2026-11-27 13:15 sync: no reply from Paul with a time (deals@ search since 26 Nov), no event on the deals calendar 26 Nov–8 Dec. Tal's offered window is today 16:00–19:00 Israel (9:00–12:00 EST). Left open.
 
 ### OI-FRANKLIN-60K — 303 N Franklin Rd ~$60k number sent to IWB
 - Owner agent: Deal Inbox
@@ -240,6 +208,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes for any further reply/offer
 - Source: [[303 N Franklin Rd]]; [[Invest With Ben]]
 - Notes: 2026-11-26 23:15 [verified email] 17:09 Israel deals@ (signed Tal, msg 1a21867c11b6d992) told Steele Kruzel the ~$60k number (rehab ~$58k, ARV ~$171k; bedroom-add idea not counted) and that we approached the wholesaler. No reply from Briana/IWB as of 23:13. Still open.
+- 2026-11-27 13:15 sync: no reply from Briana/IWB or Steele in deals@ as of 13:15. Left open.
 
 ### OI-ATL-COUNTERS-2611 — Counter or pass on 2170 Lilac Ln and 7080 Stone St
 - Owner agent: Deal Inbox (owner decides)
@@ -256,6 +225,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: [verified email] 21:33 Israel, Terrance Shelton (Support and Management Services, acquisitionsinspired@gmail.com, msg 1a21958fe29260cc) asks whether we would buy an Atlanta SFR as end buyer from someone who already has it under contract, and whether we can fund and close in 8 calendar days and what is needed upfront. No property named. Route to Deal Inbox; owner decides whether/how to answer. Nothing sent.
 - Needs owner approval: yes (any reply)
 - Source: deals@ Gmail; [[Terrance Shelton]]
+- 2026-11-27 13:15 sync: [verified] routed to Deal Inbox by the 08:55 broker-reply watch (broker-replies-log.md). No reply sent. Left open (owner decides).
 
 ### OI-DEALSCORE-2611 — dealscore.net off-market marketplace: how to use it
 - Owner agent: Grok Bot
@@ -265,7 +235,66 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: yes (owner decision)
 - Source: Grok Bot chat transcript 2026-11-26 16:51; [[2026-11-26]]
 
+### OI-GOODPOT-2711 — Good-potential flags from 27 Nov funnel: confirm Eran was told
+- Owner agent: Grok Bot
+- Status: open
+- Updated: 2026-11-27 13:15
+- Next action: per rule 703c705 report immediately: [[3350 N Gladstone Ave]] (PASS at $54,900 ask, CF +$337/mo, auto-posted), [[1043 W 36th St]] (+$170 at 15% off, FAIL), [[1315 W 34th St]] (+$136 at ask but $104.6k stays in, FAIL). No file/commit evidence the owner got them (transcripts unreadable this run). Close with the chat/message time once confirmed delivered.
+- Needs owner approval: no (it is a report)
+- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-27/funnel-46208-46218/SUMMARY.md`; [[2026-11-27 Indy funnel 46208+46218 (4)]]
+
+### OI-BUYBOX-REQ-2711 — Wholesaler buy-box requests (Armstrong Capital, Rooted Property Group)
+- Owner agent: Deal Inbox
+- Status: waiting-owner
+- Updated: 2026-11-27 13:15
+- Next action: [verified log] 08:55 watch routed to Deal Inbox: [[Joel Armstrong (Armstrong Capital Group)]] (msg 1a21b5d3ea6af1b1) asks for our buy box; [[John Shauberger (Rooted Property Group)]] (msg 1a2185bc802e34b4) follows up on the Atlanta buy box. The 26 Nov buy box sent to Ben Bennett could be reused; any reply needs owner say-so. Nothing sent.
+- Needs owner approval: yes (any reply)
+- Source: `/home/box/shared/indy-trip/broker-replies-log.md` (2026-11-27 08:55 entry)
+
 ## History (closed, keep)
+### OI-TRIP-FLIGHTS — Tal's exact flight dates
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-27 13:15
+- Next action: owner confirms flight dates
+- Needs owner approval: yes
+- Source: [[Indy Trip Nov 2026]]
+- Notes: raised in 25 Nov review, no answer yet.
+- Notes: 2026-11-26 23:15 [verified email] Tal forwarded his Southwest itinerary to deals@ (23:11 Israel, msg 1a219b39b8044b98): **outbound Mon 30 Nov** LGA 17:05 → Chicago MDW (change) → IND 23:30 ET (= Tue 1 Dec 06:30 Israel). Return flight is not in this email, so the item stays open only for the return date. Booking/ticket numbers deliberately not stored.
+- [verified email] Evidence 2026-11-27 13:15 sync: Tal forwarded his United booking to deals@ 26 Nov 23:32 Israel (msg 1a219c622f496d0e): **return Thu 3 Dec** UA 2037 Chicago ORD 11:55 CT → Newark EWR 15:14 ET. Trip = Mon 30 Nov – Thu 3 Dec. Both dates come from Tal's own itineraries, so no owner confirmation needed. Closed. (IND→Chicago leg on 3 Dec not in mail.)
+
+### OI-SITE-DISCOUNT-LABEL — Show "works at discount" on the site
+- Owner agent: Grok Bot
+- Status: closed
+- Updated: 2026-11-27 13:15
+- Next action: Cedar Pine / Park Stream appear "rejected" on the site because they fail at ask. Offered a small PR (20:56); no answer yet.
+- Needs owner approval: no (approved on 25 Nov voice review; PR merge/deploy remains gated)
+- Source: Grok Bot chat 20:56
+- Notes: Eran approved small site fix on 25 Nov voice review. Cloud-agent brief for hs-hold/hsdeals-claude-code (site only, TypeScript, never touch engine/, 15% "Works with discount" label instead of Rejected/Near miss) prepared and returned to coordinator to launch.
+- [verified] 2026-11-25 13:20 sync: PR #398 "Label Grok deals within 15% off as Works with discount" (branch cursor/grok-discount-label-ede4) opened 11:24 Israel, still **open / not merged**. Site-only; stage-1 screen and engine/ untouched. Next: owner OK for merge/deploy.
+- [verified] 2026-11-25 23:25 sync: PR #398 still open, not merged (GitHub read only).
+- [verified] 2026-11-26 13:20 sync: PR #398 still open, not merged (GitHub read only).
+- Notes: 2026-11-26 23:15 PR #398 still open (GitHub read 23:13); no merges since 24 Nov.
+- [verified] Evidence 2026-11-27 13:15 sync: PR #398 **merged** 2026-11-27 11:36 Israel (09:36:35Z), merge commit 98eaef97, branch cursor/grok-discount-label-ede4 (GitHub read only). Closed. Deploy is automatic for the site; not checked on the live site this run.
+
+### OI-GOODPOT-HILLSIDE — 3910 Hillside Ave may meet the good-potential flag
+- Owner agent: Deal Analysis
+- Status: closed
+- Updated: 2026-11-25 15:10
+- Next action: [hypothesis] funnel analysis 09:02 shows CF +$126/mo self-managed at the $100k ask (BRRRR cash left $64k, FAIL). That is > $100/mo, so the 10:56 rule (703c705) would flag it as good potential and report it to Eran. No flag file exists for it (only Cedar Pine has one). Deal Analysis / coordinator to confirm and report if it qualifies.
+- Needs owner approval: no (reporting only)
+- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-25/funnel-46205/3910-hillside-ave.md`; [[3910 Hillside Ave]]
+- Resolution: [verified] Good-potential report on 3910 Hillside sent to Eran in Main Bot chat 2026-11-25 13:22 (BRRRR +$126/mo at ask, fails overall).
+
+### OI-GOODPOT-2611 — Good-potential flags from 26 Nov analyses: confirm Eran was told
+- Owner agent: Grok Bot
+- Status: done
+- Updated: 2026-11-26 13:30
+- Next action: per rule 703c705 these must be reported to Eran immediately. The Deal Analysis runs were subagents and reported to their parent instead of a priority message to Grok Bot, so there is no file/commit evidence the owner got them: [[2856 S State Ave]] (+$497/mo at $89k ask, +$537 at 15% off; FAIL — $69.5k left in, no equity), [[321 S Hamilton Ave]] (+$199/mo at $95k; single-comp ARV), [[2170 Lilac Ln]] (mechanical +$250/mo, but ~$133.5k stays in — analyst says not real). Close with the chat/message time once confirmed delivered.
+- Needs owner approval: no (it is a report)
+- Source: `/home/box/shared/deal-outcomes/analyses/2026-11-26/funnel-46201-46203/SUMMARY.md`; `.../2170-lilac-ln-decatur-ga-30032.md` §7
+- [verified] Evidence 2026-11-26 13:30: Grok Bot main chat transcript shows the owner was told: Lilac Ln good-potential (technical, "in practice it isn't a deal") reported right after Deal Analysis's message, and 2856 S State Ave + 321 S Hamilton Ave reported in the next message, plus the flip-only Spann/Woodlawn note. Closed.
+
 
 ### OI-SQ-MEETUP — Simple Quarters meetup 25 Nov
 - Owner agent: Indianapolis Market Research

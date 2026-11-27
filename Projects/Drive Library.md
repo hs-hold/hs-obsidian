@@ -4,7 +4,7 @@ status: active
 owner: H.S HOLDINGS
 market: both
 created: 2026-11-17
-updated: 2026-11-25
+updated: 2026-11-27
 tags: [project, drive]
 ---
 # Drive Library
@@ -86,3 +86,4 @@ When a bot produces something the owner may want to open later:
 - 2026-11-25 23:25 sync: uploaded "דוח איכות הסינון — 24 שעות עד 25.11.2026" (Google Doc, id `1kD_7dYzw7itIU4fFiCxQ4v9tP2hfw2vxa_pKgGoFN1E`) to דוחות ומחקר and added an index line. The 23 Nov 20-property screening check stays (different scope).
 - 2026-11-26 13:20 sync: filed in עסקאות (Google Docs) [2170 Lilac Ln — ניתוח 2026-11-26](https://docs.google.com/document/d/18FNfhnNDYCXh857wWJqj34LqCzPYeWs-dzvsQrLR6hQ/edit), [7080 Stone St — ניתוח 2026-11-26](https://docs.google.com/document/d/1BBASQrPu5PsgdNTxltXx5lUA53yBKfpuNWuktnqlhp8/edit), [אינדי 46201+46203 — 4 נכסים](https://docs.google.com/document/d/15SvhBUF0T4XMAuIXt-BVhWUvk-pn-TyoIck8jYFuC5o/edit); archived `analyses-2026-11-26-raw.zip` (no images/HTML, file 1JYwQ48FXDmIYVvCGTg6eRdDf2w-TQ82i) in ניתוחי-עסקאות. Added 3 index lines. Nothing replaced.
 - 2026-11-26 23:15 sync: filed [דוח איכות הסינון — 24 שעות עד 26.11.2026](https://docs.google.com/document/d/1j42idf2UMSq6nlosxKsUgfPIzNoBZVSAQqjkehRpne0/edit) (Google Doc) in דוחות ומחקר; moved the 25.11 report (`1kD_7dYzw7itIU4fFiCxQ4v9tP2hfw2vxa_pKgGoFN1E`) to archive מקורות-מחקר (same series, replaced). Added 1 index line.
+- 2026-11-27 13:15 sync: filed in עסקאות (Google Doc) [אינדי 46208+46218 — 4 נכסים (27.11.2026)](https://docs.google.com/document/d/1K0xO0jdgv4fk-ve9zrB1KE6DfU8IXUdDKj98c2eJOF4/edit); archived `analyses-2026-11-27-raw.zip` (md/json/py + handoff; no images/HTML/rent_raw; file 1mLNrtwZEI-UoyOn3I-aOs7aOEwnAMXVu) in ניתוחי-עסקאות. Added 1 index line. Nothing replaced.

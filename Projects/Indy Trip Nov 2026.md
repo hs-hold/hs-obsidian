@@ -15,7 +15,7 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 ## Key facts (verified only — add source)
 - Research files on the box: `/home/box/shared/indy-trip/` and `/workspace/indy-trip/` (contacts, brokers, wholesalers, contractors, territory PDFs, trip workbook).
 - Territory / contact coverage: the 33 zips in [[33 Zips]] / [[Indianapolis]]. Not a funnel change (owner, 2026-11-16).
-- Working trip window used in the contact workbook: Mon–Wed 23–25 Nov 2026; Thanksgiving Thu–Fri 26–27 Nov (most offices closed). ~~Tal's exact flight dates are still unconfirmed~~ [stale 2026-11-26]: [verified email 2026-11-26 23:11] Tal flies **Mon 30 Nov** LGA 17:05 → Chicago MDW → IND 23:30 ET (Southwest; booking details not stored). Return flight not yet known.
+- Working trip window used in the contact workbook: Mon–Wed 23–25 Nov 2026; Thanksgiving Thu–Fri 26–27 Nov (most offices closed). ~~Tal's exact flight dates are still unconfirmed~~ [stale 2026-11-26]: [verified email 2026-11-26 23:11] Tal flies **Mon 30 Nov** LGA 17:05 → Chicago MDW → IND 23:30 ET (Southwest; booking details not stored). Return flight not yet known. [verified email 2026-11-26 23:32] **Return Thu 3 Dec**: United UA 2037 Chicago ORD 11:55 CT → Newark EWR 15:14 ET (booking details not stored); IND→Chicago leg on 3 Dec not in mail. Trip = Mon 30 Nov – Thu 3 Dec.
 - Events checked 2026-11-16 (research only, nobody contacted):
   - **Tue 24 Nov, 7–10 PM EST:** Property Deal Network, Turner's Bar, 1060 N Capitol Ave 46204. Confirmed on Meetup. Free; buy one drink at full price; age 25+; smart casual. https://www.meetup.com/propertydealnetwork/events/317107458/
   - **Wed 25 Nov, 6 PM:** Simple Quarters Indy Investor MeetUp, 6767 E Washington St 46219. Date inferred from the site's "last Wednesday of each month" rule. Thanksgiving eve — **not confirmed** that it runs. https://www.simplequarters.com/resources/meetups
@@ -36,7 +36,7 @@ Tal's trip to Indianapolis, late November 2026 — meet as many local players as
 ## Open tasks
 Canonical live list: [[Open Items]]. Items below are kept as history.
 
-- [ ] Add Tal's exact flight dates once the owner confirms them
+- [x] Add Tal's exact flight dates — done 2026-11-27 (outbound Mon 30 Nov, return Thu 3 Dec, from Tal's forwarded itineraries)
 - [ ] Confirm whether Simple Quarters MeetUp runs on Wed 25 Nov (Thanksgiving eve)
 - [ ] If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals"
 - [ ] Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2

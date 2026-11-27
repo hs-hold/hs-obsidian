@@ -4,14 +4,13 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-26 23:18 Asia/Jerusalem from commit 1e5320a 2026-11-26 23:16 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-27 13:18 Asia/Jerusalem from commit f9ec9b2 2026-11-26 23:18 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)
 ### Grok Bot — [[Grok Bot]]
 - Role: main coordinator; coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
-- Schedule: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
 - Latest log (2026-11-25 (sync 13:20)): 00:25 secretary-list reconciliation approved (d2ef5b0). ~10:56–11:15 voice list review with Eran: good-potential rule (703c705), Franklin closed, criteria clarification, triage of 26 items ([[List Review 2026-11-25]], 7bfd361). Site label cloud agent → PR #398 (open, 11:24). Read-only Gmail audit …
 - Open: Register the 5 grok-trestle skills with all bots
 - Open: Owner: connect Obsidian desktop/mobile via Obsidian Git (guide section 4)
@@ -26,10 +25,10 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Tell the owner whenever Deal Analysis data is not fully certain or is hard to obtain, so he can compromise and still get the data (owner, 2026-11-13).
 - Rule: Deep micro-location check (owner, 2026-11-17): when a deal shows high potential, [[Deal Analysis]] investigates the micro-area in depth before the verdict: which side of the highway or creek it is on, comps from the …
 - Rule: Grok Deals shows only deals Deal Analysis has reviewed, at high quality: comps with notes, rehab breakdown, verdict, each comp's real time-to-sell, and whether it crosses a highway (owner, 2026-11-11).
-- Latest log (2026-11-26 (sync 13:20; from /home/box/shared files)): ~09:33 Atlanta (owner OK'd 26 Nov via Deal Inbox): [[2170 Lilac Ln]] REJECT (goodPotential mechanical TRUE, ~$133k stays in), [[7080 Stone St]] REJECTED (no official ARV, flip only). Both POSTed rejected. Funnel 46201+46203: [[2026-11-26 Indy funnel 46201+46203 (4)]] — 4 FAIL, all POSTed rejected …
+- Latest log (2026-11-27 (sync 13:15; from /home/box/shared files)): Funnel 46208+46218: [[2026-11-27 Indy funnel 46208+46218 (4)]] — [[3350 N Gladstone Ave]] PASS (auto-posted), 3 FAIL POSTed rejected; goodPotential YES on Gladstone, [[1043 W 36th St]], [[1315 W 34th St]] (delivery to Eran tracked in OI-GOODPOT-2711). prc.py partial-story fix again local only …
 - Recent ([[2026-11-21]]): (Deal Analysis, 21:52) [[1375 Kipling St SE]] (Atlanta 30315, off-market wholesaler via Deal Inbox) — REJECT at $99k ask; trial MAO $90.9k (8.2% off); flip passes at ask.
 - Recent ([[2026-11-23]]): (Deal Analysis, ~09:50–10:00) Analyzed 5 near-misses (files /home/box/shared/deal-outcomes/analyses/2026-11-23/, not posted to the site).
-- Last activity seen in vault: 2026-11-26
+- Last activity seen in vault: 2026-11-27
 ### Atlanta Market Research — [[Atlanta Market Research]]
 - Role: Market research analyst.
 - Job: Studies the metro Atlanta, Georgia housing market by zip code and identifies the zip codes most likely to produce deals that meet the owner's criteria: monthly rent at least 1% of total investment (purchase plus rehab), flip profit at least $30,000 after selling costs, and ROI at least 15% on total …
@@ -59,19 +58,15 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Job: consume it fully, understand it, write the conclusions down, and propose how to apply them inside our business.
 - Rules/data: `/home/box/shared/content-insights`, `/home/box/shared/skills-proposed`
 - Rule: Content Insights studies content in depth and sends action plans to Grok Bot, which proposes to the owner; video study only with approval (owner, 2026-11-17).
-- Schedule: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
 - Latest log (2026-11-24 (sync 13:20; from vault commit 09:49)): Research: sources for building an AI ARV / rehab-cost system — [[ARV AI Sources 2026-11-24]] (top pick PrthD/comps-agent: deterministic Python engine, LLM only explains). Research only.
-- Recent ([[2026-11-20]]): (Content Insights, 02:46) Video 10-1 (off-market part 1) transcribed and summarised. Key point: build the Indy team base first (agent for comps/rents, contractor for quick rehab estimates, attorney, inspector, title) …
-- Recent ([[2026-11-20]]): (Content Insights, 10:05) Stopped at 87.5% weekly usage (the 4% budget; started 84.8%). Video 10-2 recording captured only ~11.5 min and the transcript is unusable; no notes. Resume: re-record 10-2 from 00:00, then 10-3 …
 - Last activity seen in vault: 2026-11-24
 ### Deal Inbox — [[Deal Inbox]]
 - Role: Email deal intake.
 - Job: Reads the Gmail inbox where wholesalers send off-market deals, extracts every deal, enters it on the DealFlow site as a Grok deal, hands it to the Deal Analysis bot, and prepares replies to wholesalers (answers, requests for missing info, counteroffers). It NEVER sends email itself: every reply is …
 - Rules/data: `/home/box/shared/agent-rules/deal-inbox.md`, `/home/box/shared/tools/insert_deal.py`, `/home/box/shared/zip-intel`, `/home/box/shared/deal-outcomes/deal-analysis-handoff-2026-11-24.md`
 - Rule: Deal Inbox does Stage 1 (buy box) only; Deal Analysis does ARV, rehab, max offer, and go/no-go.
-- Latest log (2026-11-26 (sync 13:20; from handoff + Gmail)): 08:00 scan: 2 Atlanta deals → DealFlow + handoff `deal-analysis-handoff-2026-11-26.md`: [[7080 Stone St]] (Joseph Ramos, Greenwood Fixers) and [[2170 Lilac Ln]] (Keenan). Owner OK to analyze relayed 09:18. Reported 546 N Luett Ave (IWB, 1 bed, outside buy box). 09:18 sent from deals@ (signed Eran) …
-- Recent ([[2026-11-20]]): (Deal Inbox / owner, ~20:43) Owner asked for an analysis of a WhatsApp wholesale lead from wholesaler Adam ([[Adam (Atlanta wholesaler)]]) — [[714 Cather Ct]], Stone Mountain GA 30088, ask $143k. Of Adam's 5-property …
-- Last activity seen in vault: 2026-11-26
+- Latest log (2026-11-27 (sync 13:15)): Routed from the 08:55 watch: Terrance Shelton (8-day close, OI-ATL-ENDBUYER-2611), Joel Armstrong (Armstrong Capital Group, buy-box request), John Shauberger (Rooted Property Group, Atlanta buy-box follow-up) → OI-BUYBOX-REQ-2711. No evidence of replies.
+- Last activity seen in vault: 2026-11-27
 ### מזכירה — [[מזכירה]]
 - Role: Personal secretary.
 - Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
@@ -168,6 +163,9 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - 2026-11-17: A reminder was set for 20:00 Asia/Jerusalem to connect the bots; do not start the skill rollout until he confirms. ([[Obsidian Vault]])
 
 ## Open decisions / items (last 7 days + projects; unchecked only)
+- Closed: OI-SITE-DISCOUNT-LABEL (PR #398 merged 98eaef97), OI-TRIP-FLIGHTS (return flight 3 Dec in Tal's forwarded United email). — [[2026-11-27]]
+- New: OI-GOODPOT-2711, OI-BUYBOX-REQ-2711. — [[2026-11-27]]
+- Updated: OI-V3-RECHECK, OI-PAUL-SCHERRER, OI-ATL-ENDBUYER-2611, OI-SCREEN-QUALITY-2511, OI-1830-CHECKS, OI-INDY-TUE-MEETINGS. — [[2026-11-27]]
 - Staled: OI-SQ-MEETUP (event passed). Closed: none. — [[2026-11-26]]
 - New: OI-GOODPOT-2611 (confirm Eran got the State/Hamilton/Lilac good-potential reports), OI-FRANKLIN-60K, OI-ATL-COUNTERS-2611. — [[2026-11-26]]
 - Updated: OI-PAUL-SCHERRER, OI-OFFERS, OI-1830-CHECKS, OI-SITE-DISCOUNT-LABEL. — [[2026-11-26]]
@@ -209,18 +207,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Owner decision: add Beech Grove / Speedway / Greenfield to future outreach wording? — [[2026-11-21]]
 - Claude code review: owner to give Claude repo access and the handoff brief; any changes come back as PRs for the single merge batch. — [[2026-11-21]]
 - Still open from midday: fix funnel-run-next-zip timeout zip-skip; check funnel logs + RapidAPI status (no record yet of it being done). — [[2026-11-21]]
-- Owner: which of the 7 skill proposals to approve (and whether any new bot: Off-Market / Acquisitions / Rehab Desk). Update ~10:30–13:00: #3 call scripts dropped for Tal; off-market leads under … — [[2026-11-20]]
-- Owner: analyse the two Avon items (7228 Lockford Walk N, 1881 Wynnewood Ln) or leave them? Recommendation: leave. — [[2026-11-20]]
-- Next merge batch (one batch): PR 370 + PR 376, plus proposed fixes: read-only `deal_queue` peek (GET must not consume), screened-listing count in the funnel health response, "ready for full … — [[2026-11-20]]
-- Content Insights: re-record video 10-2, then 10-3 — only within a new owner-approved budget (4% used up). — [[2026-11-20]]
-- Indy contacts drip day 3 today ~18:15 (attorney/title, insurance, local bank, investor groups), then delete the routine. — [[2026-11-20]]
-- Trial-vs-old criteria comparison Nov 25 10:00. — [[2026-11-20]]
-- Owner: off-market leads skill decisions — scope (checklist/filter for inbound leads vs a paid outreach machine), who runs it (Deal Inbox + Zip Intel vs a new Off-Market Desk bot), budget (if a … — [[2026-11-20]]
-- Reminder Sun Nov 22 10:00 Israel time: off-market outreach methods. — [[2026-11-20]]
-- Legal review before any call/text/email outreach at volume. — [[2026-11-20]]
-- Consider for Tal's trip: driving for dollars + meeting estate/eviction attorneys, estate-sale companies, PMs (see [[Indy Trip Nov 2026]]). — [[2026-11-20]]
-- Backfill owner chat / voice messages after 13:21 from transcripts on the next sync (tool unavailable this run), incl. any answers on the 7 skill proposals, the Avon queue items and the off-market … — [[2026-11-20]]
-- Wholesaler Adam's other 4 properties: out of buy box — no reply drafted (check whether the owner wants one). — [[2026-11-20]]
 - Known gap: needs_comps and held are dead ends in practice: 85% of screened Indy listings (879 of 1,040) never get a decision. — [[Deal Pipeline - How It Works]]
 - Known gap: The screening ARV uses total sqft including basements, so ARV is inflated in basement zips. — [[Deal Pipeline - How It Works]]
 - Known gap: The SAFMR table is missing 18 of the 34 Indy zips, so those listings land in "held". — [[Deal Pipeline - How It Works]]
@@ -246,7 +232,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Duplicate-deals request from a voice call on 2026-11-17 was not received in full — waiting for the owner to restate it — [[Deals Site]]
 - Contract Desk and מזכירה still have no document outputs to file — [[Drive Library]]
 - דוחות ומחקר is ready for future reports; current research lives in Pages (linked in the index) and in שווקים ומיקודים — [[Drive Library]]
-- Add Tal's exact flight dates once the owner confirms them — [[Indy Trip Nov 2026]]
 - Confirm whether Simple Quarters MeetUp runs on Wed 25 Nov (Thanksgiving eve) — [[Indy Trip Nov 2026]]
 - If Tal lands by 19 Nov, consider CIREIA "Dinner and Deals" — [[Indy Trip Nov 2026]]
 - Deep recheck of older (v1) contacts was left open — 116 v1 rows were not re-fetched in v2 — [[Indy Trip Nov 2026]]
@@ -263,6 +248,19 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Confirm the twice-daily harvest routine is actually scheduled after this backfill — [[Obsidian Vault]]
 
 ## Key recent outcomes (last 7 days, newest first; D=decision, Owner=owner info, C=conclusion, H=happened, A=agent work)
+### [[2026-11-27]]
+- D: (11:36 Israel, GitHub) [verified] PR #398 "Label Grok deals within 15% off as Works with discount" merged to main (merge commit 98eaef97) by the hs-hold account. This was the 25 Nov voice-approved …
+- Owner: (26 Nov 23:32 Israel, deals@) [verified email] Tal forwarded his United booking (msg 1a219c622f496d0e): return Thu 3 Dec, UA 2037 Chicago ORD 11:55 CT → Newark EWR 15:14 ET (19:55–22:14 Israel). With …
+- C: [reported] (Deal Analysis, ~10:13) [[2026-11-27 Indy funnel 46208+46218 (4)]]: [[3350 N Gladstone Ave]] PASS (trial PASS at the $54,900 ask, CF +$337/mo; old-method BRRRR target at ≤ $48,200 = 12.2% …
+- C: [reported] goodPotential YES: Gladstone (+$337), 1043 W 36th (+$170 at 15% off), 1315 W 34th (+$136, but $104.6k stays in). Per rule 703c705 these must reach Eran immediately — delivery not …
+- C: [reported] Queue status is stale: 2 of 7 funnel rows were already sold/closed (2420 Bond St closed $23k 13 Nov; 1428 W 34th sold $75k 20 Nov) while the queue said for_sale. 2153 N DeQuincy St …
+- C: [reported] prc.py partial-story bug confirmed again; fix still local only, not committed to the shared engine.
+- A: Daily funnel (screen): 46208 run queued 5, 46218 run queued 2 (both ok) → handoff `deal-analysis-handoff-2026-11-27-funnel.md` (4 of 7 picked).
+- A: Deal Analysis: 4 Indy analyses POSTed (1 passed, 3 rejected); calibration result_official.json added for all four (pending owner).
+- A: Grok Bot broker-reply watch (08:55): routed to Deal Inbox (not owner): Terrance Shelton 8-day-close question; Joel Armstrong (Armstrong Capital Group) asks for buy box; John Shauberger (Rooted …
+- A: System: box state rolled back ~09:51 Israel (all `/home/box/shared` mtimes reset); Deal Analysis re-created its run files; no duplicate posts.
+- A: No vault commits by other bots since 23:18.
+- A: Drive: [אינדי 46208+46218 — 4 נכסים (27.11.2026)](https://docs.google.com/document/d/1K0xO0jdgv4fk-ve9zrB1KE6DfU8IXUdDKj98c2eJOF4/edit) in עסקאות; raw zip archived (see [[Drive Library]]).
 ### [[2026-11-26]]
 - D: (25 Nov 23:45, deals@ sent, signed Eran) [verified email] [[Paul Scherrer]] call Fri 27 Nov morning; Tal takes it, 9:00–12:00 EST (16:00–19:00 Israel). Awaiting Paul's time.
 - D: (~09:18, via Deal Inbox) [reported] OK to analyze Atlanta deals [[2170 Lilac Ln]] and [[7080 Stone St]] despite Indy-only focus.
@@ -439,41 +437,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - A: (Grok Bot, ~20:00) Created routine "Indy broker reply watch" (09:00/15:00/21:00, ends Dec 6): reports replies from the 28 delivered recipients, never replies itself.
 - A: (Reply watch 20:59 → Grok Bot) First reply: [[Nolan Lamkin]] (Century 21 Scheetz) at 20:50 — works with investors, asked when Tal can talk.
 - A: (Grok Bot, 21:42) Owner sent (via draft card, from deals@hs-hold.com, in Nolan's thread) Tal's reply: Sunday ~11 am, else any time Monday.
-### [[2026-11-20]]
-- D: (Grok Bot chat, ~02:30, owner) Content → skills: [[Content Insights]] turns course content into reusable skills. If a new skill would be best run by a new dedicated bot, Grok Bot proposes that bot to …
-- D: (Grok Bot chat, 02:38, owner) Content Insights applies the skills rule to all content received so far (6 courses' text, course 1 insights, video 10-1) and keeps studying the course. Budget for this …
-- D: (Grok Bot chat, 02:39, owner) No skill is saved without approval. Content Insights drafts each skill to `/home/box/shared/skills-proposed/<slug>.md` and sends it to Grok Bot; Grok Bot brings it to …
-- D: (Grok Bot chat, ~02:50) 7 skill drafts were put to the owner (multi-select). Grok Bot's recommendation: approve the skills into existing bots first, and consider a new bot only when the work becomes …
-- D: (Deal Analysis / owner, 07:12) Owner approved analysing the 4244 Canby Ln wholesale lead.
-- D: (Grok Bot chat, ~10:30–13:00, owner) Tal does not need a call script. Skill proposal #3 [[seller-and-wholesaler-call-scripts]] is dropped as far as Tal's trip is concerned. The owner chose to discuss …
-- D: (Deal Inbox / owner, ~20:43) Owner asked for an analysis of a WhatsApp wholesale lead from wholesaler Adam ([[Adam (Atlanta wholesaler)]]) — [[714 Cather Ct]], Stone Mountain GA 30088, ask $143k. Of …
-- D: (Deal Analysis / owner via Deal Inbox, by ~23:21) Owner asked to post the 714 Cather Ct payload to the site; it was posted (deal `b74f7b63`).
-- Owner: (Grok Bot chat, 02:38–02:39) The owner set the 4% budget and approval flow above in his own words; he wants Content Insights to remember where it stopped and continue from that point.
-- Owner: (Grok Bot chat, ~10:30–13:00) Owner thought ~40% of weekly usage had been used overnight (it was ~2.7%).
-- Owner: (Voice call, ~10:30–13:00) Owner asked for 2026 owner-identification tools without skip tracing, and for creative, less-common legal ways to reach owners by phone/text/email. He didn't understand the …
-- Owner: (Grok Bot chat, ~10:30–13:00) Owner: "תזכיר לי את זה בהמשך" — remind him of the outreach-methods research later.
-- Owner: (Deal Inbox, 20:43) Owner forwarded wholesaler Adam's WhatsApp blast (19:27) in chat; no email copy exists. Photos were a Google Photos link; no ARV/rehab/occupancy/access was given by the wholesaler.
-- C: (Deal Analysis, 07:22) [[4244 Canby Ln]] (Decatur GA 30035; New Western $139k, also MLS $145k): REJECT. ARV $254k, rehab $56.7k, rent $1,800 → cash flow $30/mo at 65% LTV; trial MAO $105.4k (27.3% …
-- C: (Grok Bot, 08:07) Daily search: zips 46140 and 46142 pulled one after the other, no failures; 46140 queued 1, 46142 queued 0. Next due zip 46143. Usage ~0% for the run (86.7% weekly; resets Sat Nov …
-- C: (Deal Analysis, 08:19) [[1019 N Broadway St]] (Greenfield 46140, ask $149.9k): REJECT. ARV $189.2k (screen $205.7k), rehab $75.8k (screen $39.1k), rent $1,500. Trial MAO $70.8k (52.8% below ask); old …
-- C: (Deal Analysis, 08:19) Queue bug: `GET deal-analysis-ingest?limit=5` marks items 'sent' even if not analysed. Two Nov 19 items from 46123 (7228 Lockford Walk N, Avon $405k; 1881 Wynnewood Ln, Avon …
-- C: (Content Insights, 02:46) Video 10-1 (off-market part 1) transcribed and summarised. Key point: build the Indy team base first (agent for comps/rents, contractor for quick rehab estimates, attorney …
-- C: (Content Insights, 10:05) Stopped at 87.5% weekly usage (the 4% budget; started 84.8%). Video 10-2 recording captured only ~11.5 min and the transcript is unusable; no notes. Resume: re-record 10-2 …
-- C: (Grok Bot, ~10:30–13:00) Usage check: the owner asked whether 40% of weekly usage was used overnight. No — the weekly limit rose only ~2.7% (84.8% → 87.5%), mostly Content Insights (self-stopped at …
-- C: (Grok Bot, voice-call research, ~10:30–13:00) Owner identification without skip tracing (2026): public records give owner name + mailing address, not phone; a skip-traced number gives no legal …
-- C: (Grok Bot, ~10:30–13:00) Creative/underused outreach methods, scored for fit (1–10): Indy official lists — unsafe buildings, long-term vacant property program (new from Jan 2026), demolition lists …
-- C: (Deal Analysis, 20:57) [[714 Cather Ct]] (30088, off-market, hoarder condition, 4/2, 1,788 sf, 1981): REJECT. ARV $225k (conservative $215k), rehab $87.5k, rent $2,200. Trial: cash left $122k at 65% …
-- A: (Content Insights, 02:46) 7 skill proposals (drafts, not installed), in `Learning/Skill proposals/` and `/home/box/shared/skills-proposed/`: [[offer-mao-calculation]] (Deal Analysis) …
-- A: (Grok Bot) Relayed the owner's skills rules to Content Insights; sent the 46140 item to Deal Analysis with trial + old BRRRR criteria; reported the result to the owner in Hebrew (08:20) with two …
-- A: (Grok Bot, ~10:24) Looked up PropStream plan pricing (ties to video 10-3 / off-market skill). No conclusion recorded.
-- A: (מזכירה, morning) To-do reminder: watch BiggerPockets podcasts; a clarifying question to the owner is still unanswered.
-- A: (Drive sync, 13:2x) Filed both deal analyses as Google Docs in עסקאות and a raw zip in the archive. See [[Drive Library]].
-- A: (Grok Bot, ~10:30–13:00) Walked the owner through the [[off-market-lead-generation]] draft (2020 funnel; course cost ~$1,000–1,300 per round, outdated; mass SMS problematic under TCPA) and posed 3 …
-- A: (Grok Bot, ~10:30–13:00) Ran two research passes from the voice call and posted the tool table + ranked method list to the chat.
-- A: (Grok Bot, ~10:30–13:00) Set a reminder for Sun Nov 22 10:00 Israel time (routine `reminder-off-market-outreach-methods`), before Tal's trip, with the recommendation, ranked list and tool comparison …
-- A: (Grok Bot routine, 18:21) Indy contacts drip day 3 (last day): 10 new contacts — insurance 3, bank/credit union 4, title/closing attorney 2, investor groups 1. Top: Killion & Hall Insurance (8/10 …
-- A: (Deal Analysis, 20:57) Wrote [[714 Cather Ct]] to the vault and the analysis files to `/home/box/shared/deal-outcomes/analyses/2026-11-20/`.
-- A: (Drive sync, 23:25) Filed the Cather analysis (Google Doc, עסקאות), the drip day-3 page (HTML, אנשי קשר), raw Cather zip in the archive (ניתוחי-עסקאות). See [[Drive Library]].
 
 ## Where to look (folder map)
 [[00 Profile]] rules/criteria · [[Open Items]] tracker · [[Canonical Sources]] · [[Decisions Log]] · [[conventions]] · Agents/ bot logs · Projects/ project notes (pipeline: [[Deal Pipeline - How It Works]], criteria differences: [[Criteria Map]]) · Notes/Daily/ daily notes · Deals/ one note per property · Markets/ Atlanta + Indianapolis zip notes · Contacts/ · Meetings/ · Learning/ course notes · 00 Inbox/ · _system/ tooling. Box-only rules: `/home/box/shared/agent-rules/`. Outreach replies: `/home/box/shared/indy-trip/broker-replies-log.md`.

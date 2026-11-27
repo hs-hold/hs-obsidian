@@ -55,3 +55,7 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 - Funnel 46201+46203: [[2026-11-26 Indy funnel 46201+46203 (4)]] — 4 FAIL, all POSTed rejected; goodPotential YES on [[2856 S State Ave]] (+$497/mo) and [[321 S Hamilton Ave]] (+$199/mo).
 - Note: in these subagent runs the good-potential report went to the parent instead of a priority message to Grok Bot (no-contact instruction) — whether Eran was told is tracked in OI-GOODPOT-2611.
 - Local prc.py partial-story fix applied in the run's raw/ only, not committed to the shared engine.
+
+### 2026-11-27 (sync 13:15; from /home/box/shared files)
+- Funnel 46208+46218: [[2026-11-27 Indy funnel 46208+46218 (4)]] — [[3350 N Gladstone Ave]] PASS (auto-posted), 3 FAIL POSTed rejected; goodPotential YES on Gladstone, [[1043 W 36th St]], [[1315 W 34th St]] (delivery to Eran tracked in OI-GOODPOT-2711).
+- prc.py partial-story fix again local only; Plans A/B/C have no written definition (analyst used an assumption); box rollback mid-run handled, no duplicate posts.

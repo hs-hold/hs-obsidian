@@ -39,3 +39,6 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 ### 2026-11-26 (sync 13:20; from handoff + Gmail)
 - 08:00 scan: 2 Atlanta deals → DealFlow + handoff `deal-analysis-handoff-2026-11-26.md`: [[7080 Stone St]] (Joseph Ramos, Greenwood Fixers) and [[2170 Lilac Ln]] (Keenan). Owner OK to analyze relayed 09:18. Reported 546 N Luett Ave (IWB, 1 bed, outside buy box).
 - 09:18 sent from deals@ (signed Eran): ~$60k number to Briana on [[303 N Franklin Rd]]; buy-box reply to [[Ben Bennett (Prophet Homes)]].
+
+### 2026-11-27 (sync 13:15)
+- Routed from the 08:55 watch: Terrance Shelton (8-day close, OI-ATL-ENDBUYER-2611), Joel Armstrong (Armstrong Capital Group, buy-box request), John Shauberger (Rooted Property Group, Atlanta buy-box follow-up) → OI-BUYBOX-REQ-2711. No evidence of replies.
