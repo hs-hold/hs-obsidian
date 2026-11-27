@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-27 13:18 Asia/Jerusalem from commit f9ec9b2 2026-11-26 23:18 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-27 13:21 Asia/Jerusalem from commit b342092 2026-11-27 13:18 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (10)

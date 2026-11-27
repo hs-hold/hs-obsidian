@@ -40,3 +40,4 @@ The partners' deal website (Grok Deals / Grok Analyses) — the only place analy
 - 2026-11-17: PR 367 — status badges + Unavailable tab.
 - 2026-11-17: PR 368 — All / Indianapolis / Georgia filter on Grok Deals (merge 80a35d9). PR 369 — same filter on Funnel Grok analyses (/funnel/grok, merge 2b0f7ca). Both live.
 - 2026-11-17: PR 370 — motivated-seller flag (code-only phrase matcher in src/utils/motivatedSeller.ts; strong phrases score 3). Backfill matched 2,120 / 13,674 listings and 381 / 1,992 deals. Not merged, edge functions not deployed; suggestion: show the badge only on strong phrases.
+- 2026-11-27 11:36: PR #398 (Works with discount ≤15% off, else Rejected) merged by Eran himself (hs-hold account), merge 98eaef97. Live per the 12:25 Supabase check; deploy not independently confirmed. Relevant 7: 2202 Woodlawn, 1446 Spann, 3425 Longleaf, 3350 N Gladstone, 4436 Malibu, 1613 Draper, 607 E 50th.

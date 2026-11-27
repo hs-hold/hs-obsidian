@@ -23,3 +23,4 @@ Market: [[Indianapolis]] · Batch: [[2026-11-26 Indy funnel 46201+46203 (4)]]
   - MAO BRRRR $44.9k (62.6% off) · Trial $45.0k · Flip $152.0k (above ask).
   - POSTed with queueId: HTTP 200, outcome rejected, worksWithDiscount false; not auto-posted (nothing passes at ask or ≤15% off).
   - Full analysis: `/home/box/shared/deal-outcomes/analyses/2026-11-26/funnel-46201-46203/` · Drive: [אינדי 46201+46203 — 4 נכסים](https://docs.google.com/document/d/15SvhBUF0T4XMAuIXt-BVhWUvk-pn-TyoIck8jYFuC5o/edit)
+- [verified] 2026-11-27 12:25 Israel (live Supabase, via Grok Bot chat): after PR #398 (15% rule) this deal is one of 7 **relevant** on the site: pass at ask $119.9K, flip ~$68K.

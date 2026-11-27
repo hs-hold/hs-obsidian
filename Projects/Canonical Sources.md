@@ -2,7 +2,7 @@
 type: project
 status: active
 created: 2026-11-23
-updated: 2026-11-23
+updated: 2026-11-27
 tags: [project, memory]
 ---
 # Canonical Sources
@@ -24,6 +24,7 @@ Map of where authoritative information lives. [verified] 2026-11-23. If two plac
 - Zip intel notes: `/home/box/shared/zip-intel/<zip>.md`
 - Full deal analyses: `/home/box/shared/deal-outcomes/analyses/`
 - Site and funnel code: GitHub `hs-hold/hsdeals-claude-code` (changes only via PR; merge/deploy need a separate owner batch)
+- Who changes the site [verified process, 2026-11-27 11:10, Grok Bot chat]: only Grok Bot, through a new Cursor cloud agent per change that opens a PR in hs-hold/hsdeals-claude-code. Nothing merges without Eran's approval. The site auto-deploys after a merge. Deal Analysis never touches code and only uploads deals as data.
 - Criteria differences across files (mapping only, no new business rule): [[Criteria Map]]
 - Drive library: only inside the Content Insights folder, see [[Drive Library]]
 - Secrets: never in the vault or Drive. Live on the box under `/home/box/shared/secrets/` or the owner's password manager.

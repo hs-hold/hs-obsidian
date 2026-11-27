@@ -63,3 +63,4 @@ PASSED (flip), conditional on inspection. Active (GAMLS ASGA #10788071 + FMLS), 
 Analyses and source files (latest used for the numbers above):
 - 2026-11-12 (analysis): `/home/box/shared/deal-outcomes/analyses/2026-11-12/3425-longleaf-dr-decatur-ga-30032.md`
 - 2026-11-12 (payload): `/home/box/shared/deal-outcomes/analyses/2026-11-12/3425-longleaf-dr-decatur-ga-30032.payload.json`
+- [verified] 2026-11-27 12:25 Israel (live Supabase, via Grok Bot chat): after PR #398 (15% rule) this deal is one of 7 **relevant** on the site: pass at ask $119.9K (flip), ARV $254K. Analyzed before the 24 Nov engine change. Optional re-analysis offered to Eran, not requested (OI-REANALYZE-2711).

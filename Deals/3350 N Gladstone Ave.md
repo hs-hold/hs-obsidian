@@ -27,3 +27,5 @@ Market: [[Indianapolis]] · Zip: [[46218]] · Batch: [[2026-11-27 Indy funnel 46
   - Listing agent: Scott White, Apex Realty (public MLS syndication).
   - Calibration: result_official.json added (pending owner confirmation).
   - Full analysis: `/home/box/shared/deal-outcomes/analyses/2026-11-27/funnel-46208-46218/SUMMARY.md`
+- [verified] 2026-11-27 12:25 Israel (live Supabase, via Grok Bot chat): after PR #398 (15% rule) this deal is one of 7 **relevant** on the site: works at 12% off ($48.2K), CF +$337, ARV from 2 comps. Presented to Eran in the Grok Bot chat at 12:25 and 12:36.
+  - **CONFLICT (unresolved, no pick):** the analysis file above (`SUMMARY.md`, Deal Analysis ~10:13) says **trial PASS at the $54,900 ask**. The site/engine summary at 12:25 says **works with 12% discount (MAO $48.2K)**, which matches the old-method BRRRR MAO. **The site's computed label is "works with 12% discount".** Both kept with their sources.
