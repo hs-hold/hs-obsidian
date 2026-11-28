@@ -10,7 +10,7 @@ website: ""
 areas: "46222, 46224, 46241, 46221, 46203, 46225, 46107, 46201, 46219, 46226, 46208, 46205, 46227, 46229, 46254, 46268, 46214, 46231, 46235, 46237, 46217, 46113, 46239, 46234, 46228, 46220, 46236"
 status: in-conversation
 created: 2026-11-16
-updated: 2026-11-26
+updated: 2026-11-28
 tags: [contact]
 ---
 # Invest With Ben
@@ -50,6 +50,7 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 
 - 2026-11-25 20:00 Israel: Shannon & Claire emailed reduced fixer 546 N Luett Ave, Indianapolis, IN 46222 (1/1, 504 sf, slab, 1-car, 1955, lot 4,400, vacant). Claimed ARV $95,000, ask about $34,900. Outside buy box (1 bedroom); no reply. Already reported to the owner by Deal Inbox.
 
-See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
-
 - [verified email] 2026-11-26 09:18 Israel: deals@ (signed Eran) replied to Briana Lomax on [[303 N Franklin Rd]] — rehab ~$58k vs realistic ARV ~$171k, "the number that works for us is around ~$60k"; asked if still available and if the seller has room (msg 1a216b86cfaf253d).
+- 2026-11-28 01:00 Israel: weekly inventory email (Gmail 1a21f3cee50efffa). Deal Inbox sent four Indy buy-box addresses to Deal Analysis: 3457 N Hartman Dr (46226), 4726 Stratford Ave (46201), 332 N Fleming St (46222), 2116 N Arlington Ave (46218). The rest, including 4416 E Clayton Ct in Bloomington and the previously skipped 6404 Bayside S Dr condo, were outside the buy box; no reply. Already reported to the owner by Deal Inbox.
+
+See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].
