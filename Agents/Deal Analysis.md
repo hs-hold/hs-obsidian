@@ -59,3 +59,7 @@ Key durable output from this period lives in `Deals/` and `/home/box/shared/deal
 ### 2026-11-27 (sync 13:15; from /home/box/shared files)
 - Funnel 46208+46218: [[2026-11-27 Indy funnel 46208+46218 (4)]] — [[3350 N Gladstone Ave]] PASS (auto-posted), 3 FAIL POSTed rejected; goodPotential YES on Gladstone, [[1043 W 36th St]], [[1315 W 34th St]] (delivery to Eran tracked in OI-GOODPOT-2711).
 - prc.py partial-story fix again local only; Plans A/B/C have no written definition (analyst used an assumption); box rollback mid-run handled, no duplicate posts.
+
+### 2026-11-28 (sync 13:30; from /home/box/shared files)
+- IWB weekly funnel: [[2026-11-28 Indy IWB weekly (4)]] — [[4726 Stratford Ave]] FAIL at ask / trial PASS at 15% off (posted 10:29, passed, 7e323777; owner decisions on rehab tier, ARV>2× block, GLA), [[3457 N Hartman Dr]] FAIL, [[2116 N Arlington Ave]] FAIL, [[332 N Fleming St]] INCOMPLETE (0 comps). goodPotential TRUE on Stratford, Hartman, Arlington (OI-GOODPOT-2811).
+- Applied the owner's 27 Nov comp complaints: hard zip boundaries as geometry, wider-GLA tier off (local patch only), fallback only on zero strict survivors, road-class check for subject and comps. Calibration rows added (not committed). Tax district 701 IPS vs MSD Warren conflict raised (OI-IWB-2811).

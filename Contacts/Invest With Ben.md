@@ -52,5 +52,6 @@ Market: [[Indianapolis]] · Category: [[Indy Wholesalers]]
 
 - [verified email] 2026-11-26 09:18 Israel: deals@ (signed Eran) replied to Briana Lomax on [[303 N Franklin Rd]] — rehab ~$58k vs realistic ARV ~$171k, "the number that works for us is around ~$60k"; asked if still available and if the seller has room (msg 1a216b86cfaf253d).
 - 2026-11-28 01:00 Israel: weekly inventory email (Gmail 1a21f3cee50efffa). Deal Inbox sent four Indy buy-box addresses to Deal Analysis: 3457 N Hartman Dr (46226), 4726 Stratford Ave (46201), 332 N Fleming St (46222), 2116 N Arlington Ave (46218). The rest, including 4416 E Clayton Ct in Bloomington and the previously skipped 6404 Bayside S Dr condo, were outside the buy box; no reply. Already reported to the owner by Deal Inbox.
+- 2026-11-28 ~08:50 Israel [reported] Deal Analysis results on the four: [[4726 Stratford Ave]] trial PASS at 15% off (posted to site 10:29 as passed), [[3457 N Hartman Dr]] FAIL, [[2116 N Arlington Ave]] FAIL, [[332 N Fleming St]] INCOMPLETE. Batch [[2026-11-28 Indy IWB weekly (4)]]. Nothing sent to IWB.
 
 See also [[broker-search-prompt]] and [[Indy Trip Nov 2026]].

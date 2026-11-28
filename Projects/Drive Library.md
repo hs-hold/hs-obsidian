@@ -4,7 +4,7 @@ status: active
 owner: H.S HOLDINGS
 market: both
 created: 2026-11-17
-updated: 2026-11-27
+updated: 2026-11-28
 tags: [project, drive]
 ---
 # Drive Library
@@ -88,3 +88,4 @@ When a bot produces something the owner may want to open later:
 - 2026-11-26 23:15 sync: filed [דוח איכות הסינון — 24 שעות עד 26.11.2026](https://docs.google.com/document/d/1j42idf2UMSq6nlosxKsUgfPIzNoBZVSAQqjkehRpne0/edit) (Google Doc) in דוחות ומחקר; moved the 25.11 report (`1kD_7dYzw7itIU4fFiCxQ4v9tP2hfw2vxa_pKgGoFN1E`) to archive מקורות-מחקר (same series, replaced). Added 1 index line.
 - 2026-11-27 13:15 sync: filed in עסקאות (Google Doc) [אינדי 46208+46218 — 4 נכסים (27.11.2026)](https://docs.google.com/document/d/1K0xO0jdgv4fk-ve9zrB1KE6DfU8IXUdDKj98c2eJOF4/edit); archived `analyses-2026-11-27-raw.zip` (md/json/py + handoff; no images/HTML/rent_raw; file 1mLNrtwZEI-UoyOn3I-aOs7aOEwnAMXVu) in ניתוחי-עסקאות. Added 1 index line. Nothing replaced.
 - 2026-11-27 23:19: the evening sync filed in דוחות ומחקר the Google Doc [דוח איכות הסינון — סופי 27.11.2026 + 8 בתים שלא נכנסו לתור](https://docs.google.com/document/d/1JKfn73pPXtIXYPJnpzi6MP_QL4dvDeiJ_Gy4zq-Zln0/edit) (final 3-day monitor + queue-gap investigation); raw low_comps build prompt archived in מקורות-מחקר (`1bQuvpL45X9ljgvYUsyh6TC_GiCCtDDzC`). The 26.11 daily report stays (separate dated report). Added 1 index line.
+- 2026-11-28 13:30 sync: filed in עסקאות (Google Doc) [אינדי IWB — 4 נכסים (28.11.2026)](https://docs.google.com/document/d/1YSxzb5-sy2BxBg5uX00RosY9vDO1uE9A0IMN6YSV8T0/edit); archived `analyses-2026-11-28-raw.zip` (md/json/py + 2 handoffs; no images/HTML/large GIS files; file 1ASKchYytUjoN105DR4Dlu6Dm5SJpSvPo) in ניתוחי-עסקאות. Added 1 index line. Nothing replaced.

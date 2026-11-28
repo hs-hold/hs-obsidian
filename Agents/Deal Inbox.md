@@ -42,3 +42,6 @@ Gmail connected at deals@hs-hold.com. Stage 1 buy-box intake; hands buy-box deal
 
 ### 2026-11-27 (sync 13:15)
 - Routed from the 08:55 watch: Terrance Shelton (8-day close, OI-ATL-ENDBUYER-2611), Joel Armstrong (Armstrong Capital Group, buy-box request), John Shauberger (Rooted Property Group, Atlanta buy-box follow-up) → OI-BUYBOX-REQ-2711. No evidence of replies.
+
+### 2026-11-28 (sync 13:30; from inbox-scan + handoff + Gmail)
+- 08:00 scan (11 msgs): IWB weekly → 4 Indy buy-box deals to Deal Analysis (handoff `deal-analysis-handoff-2026-11-28.md`). **Site entry failed: `insert_deal.py` could not run (SUPABASE_ACCESS_TOKEN missing in the environment)**; JSONs left in `/workspace/inbox-2026-11-28/`. Lilac Ln 2nd wholesaler (Josiah Reed $160k) FYI, no reply. Outside box: rest of IWB, Unmatched Offers Fairburn 30213 / Moores Mill 30327. Joel Armstrong 5 preforeclosure auctions → short draft proposed, nothing sent.
