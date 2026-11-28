@@ -7,6 +7,8 @@ tags: [project, tracker]
 ---
 # Open Items
 
+Verification 2026-11-28 13:24 Israel (follow-up; Grok Bot main chat since 27 Nov 23:19 read by the parent run; the 8 teammate transcripts refused "Only your own transcript is readable here", fallback vault commits + /home/box/shared): closed none; staled none; new OI-RAPIDAPI-COUNT-2811, OI-DEALINBOX-SITE-2811, OI-EVE-GMAIL-2811; notes added to OI-DAILY-SEARCH-INTERRUPT, OI-IWB-2811, OI-GOODPOT-2811. Correction to the 13:30 line: the midday commit was 13:22, and its "no transcript tool" wording is superseded by this line. OI-BIGGERPOCKETS untouched.
+
 Verification 2026-11-28 13:30 Israel (midday brain sync): closed none; staled none; new OI-GOODPOT-2811, OI-IWB-2811; notes added to OI-DAILY-SEARCH-INTERRUPT (28 Nov run finished 08:36 after a 07:57 timeout; who ran it unclear), OI-BUYBOX-REQ-2711 (Joel sent 5 preforeclosure auctions 05:23, nothing sent), OI-ATL-ENDBUYER-2611, OI-PAUL-SCHERRER, OI-ATL-COUNTERS-2611, OI-INDY-TUE-MEETINGS, OI-FRANKLIN-60K, OI-GOODPOT-2711, OI-SCREEN-QUALITY-2511 (all: no new reply/merge). All other open items re-checked against Decisions Log, Eran Decisions by Topic (unchanged since 24 Nov), PRs (no merges since #398; #399 open), deals@ Gmail since 27 Nov 23:19 incl. spam, deals calendar (empty 27 Nov–8 Dec), shared files (IWB funnel 28 Nov, handoffs, broker log 09:52): no closing evidence; left open. Transcript search failed this run (no transcript tool exposed to the executor; own + 8 teammate transcripts unread). OI-BIGGERPOCKETS untouched.
 
 Verification 2026-11-27 23:35 Israel (addendum from Grok Bot transcript): closed none; staled none; OI-SCREEN-QUALITY-2511 — questions (a)/(b) answered "both" by Eran 20:32; open now: cap-fix choice, releasing never-analysed deals rows (Sherman), tax 1.4%/1.6% approval (cards 20:37–20:38). Teammate transcripts refused this run.
@@ -283,6 +285,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Needs owner approval: no (fixing the routine itself); yes if the fix changes search scope
 - Source: Grok Bot chat transcript 27 Nov ~08:00 (read by the parent run); [[2026-11-27]]
 - 2026-11-28 13:30 sync: [verified file] 28 Nov: first call 07:57 got `retry_later` "Signal timed out" on 46219 (`/workspace/daily-deal-search/log-20261128.txt`); a `run.sh` created 08:00 then completed 46217 (18 batches) and 46225 (9 batches), DONE 08:36, 0 queued in both (`log-20261128b.txt`). Unclear whether the routine itself or an executor by hand ran run.sh. Left open.
+- 2026-11-28 13:24 follow-up: [reported, Grok Bot chat ~08:37] report to Eran: 46217 (~450 listings) + 46225 (~225) scanned, none passed the quick screen, nothing sent to analysis. **46219 failed on timeout and was skipped — not pulled since 9 Nov.** Bot offered to investigate; no owner answer seen. Same issue as this item (timeouts in the 8:00 routine); scope now includes getting 46219 pulled again. Left open.
 
 ### OI-REANALYZE-2711 — Optional re-analysis of Longleaf, Malibu, Draper
 - Owner agent: Deal Analysis (on owner request)
@@ -299,6 +302,7 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: per rule 703c705 report immediately: [[4726 Stratford Ave]] (trial PASS at 15% off, CF $292 at ask / $388 at 15% off; posted to site 10:29 as passed, deal 7e323777), [[3457 N Hartman Dr]] ($546 at ask on 2 rent comps, FAIL), [[2116 N Arlington Ave]] ($448 at ask but $110.8k stays in, FAIL). Deal Analysis reported to its parent, not to Grok Bot directly. Close with the chat/message time once delivery is confirmed.
 - Needs owner approval: no (it is a report)
 - Source: `/home/box/shared/deal-outcomes/analyses/2026-11-28/funnel-iwb/SUMMARY.md`; [[2026-11-28 Indy IWB weekly (4)]]
+- 2026-11-28 13:24 follow-up: [reported, Grok Bot chat] Stratford was discussed with Eran 10:13–10:29 (site problem, deal created, caveats). Whether the goodPotential flags for Hartman and Arlington were reported to Eran is not seen in the chat. Left open for those two.
 
 ### OI-IWB-2811 — Owner decisions on 28 Nov IWB deals (Stratford conditions, Fleming, tax district 701)
 - Owner agent: Deal Analysis (owner decides)
@@ -307,6 +311,31 @@ Status values: open, waiting-owner, waiting-verification, prepared, blocked, clo
 - Next action: (1) [[4726 Stratford Ave]]: rehab tier (kitchen_30 at 792 sf), ARV > 2× ask engine block, GLA basis 792 vs 1,152 — before any offer (IWB: walkthrough TBD, COE 9 Dec). (2) [[3457 N Hartman Dr]]: accept $1,795 rent on 2 comps? (walkthrough 2 Dec, deadline 3 Dec). (3) [[332 N Fleming St]]: approve wider hand-pulled comp search + I2/DA zoning check, or drop. (4) Tax district 701: IPS (engine, Census) vs MSD Warren (`districts.md`) — which is canonical. Nothing sent to IWB.
 - Needs owner approval: yes
 - Source: SUMMARY.md "Needs the parent / owner"; [[2026-11-28 Indy IWB weekly (4)]]
+- 2026-11-28 13:24 follow-up: [reported, Grok Bot chat] Deal Analysis called the Stratford 15%-off PASS uncertain (fails at 1,152 sqft; ARV >2× ask guard flagged; sqft sources 792 / 1,152 / 1,512). Stratford is on the site (created by Grok Bot ~10:24–10:29, analysis posted with caveats visible). A Deal Inbox draft email to IWB asking the true sqft of 4726 Stratford **awaits Eran's approval** (nothing sent). Left open.
+
+### OI-RAPIDAPI-COUNT-2811 — RapidAPI counter (11) vs ~90 calls in 24h
+- Owner agent: Grok Bot
+- Status: open (low priority)
+- Updated: 2026-11-28 13:24
+- Next action: [reported, Grok Bot chat ~08:5x] usage shown to Eran: 11 of 6,000 used, resets 27 Dec 17:52 Israel; but ~90 calls in the last 24h (mostly Zillow) do not match the counter of 11. Bot offered to check for a loop, duplicate calls or a counting fault. Read-only check only. Per the owner rule (23 Nov) never limit searches or cut deal quantity/quality; only look for waste.
+- Needs owner approval: no for the read-only check; yes for any schedule/code change
+- Source: Grok Bot chat 28 Nov ~08:5x; closed OI-RAPIDAPI (history)
+
+### OI-DEALINBOX-SITE-2811 — Let Deal Inbox create deals on the site (token access)
+- Owner agent: Grok Bot (owner decides)
+- Status: waiting-owner
+- Updated: 2026-11-28 13:24
+- Next action: [verified per chat] 28 Nov Deal Inbox could not create site deals (`insert_deal.py`: SUPABASE_ACCESS_TOKEN missing). Partly resolved 10:24–10:29: Eran created a new Supabase personal access token and gave it to Grok Bot only; Grok Bot verified access and created the Stratford deal. Deal Inbox still cannot create deals on its own. Ask Eran how Deal Inbox should get access (share the token with Deal Inbox, or route Deal Inbox deal creation through Grok Bot). Never write the token value into the vault or shared files.
+- Needs owner approval: yes
+- Source: Grok Bot chat 28 Nov 10:13–10:29; Deal Inbox inbox-scan 28 Nov
+
+### OI-EVE-GMAIL-2811 — Connect siheholdings Gmail for Eve Offer Replies
+- Owner agent: [[Eve Offer Replies]] (owner action)
+- Status: waiting-owner
+- Updated: 2026-11-28 13:24
+- Next action: [reported, Grok Bot chat] the new Eve Offer Replies agent (created ~12:0x) found its Gmail connector signed in as deals@ and added a second account "siheholdings". At 12:15 a connect card waits for Eran to sign in with siheholdings@gmail.com in Eve's chat. Until then Eve cannot read the offer-reply mailbox.
+- Needs owner approval: yes (owner sign-in)
+- Source: Grok Bot chat 28 Nov ~12:0x–12:15
 
 ## History (closed, keep)
 ### OI-TRIP-FLIGHTS — Tal's exact flight dates

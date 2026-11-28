@@ -116,6 +116,7 @@ updated: 2026-11-17
 - [[Zip Intel]]
 - [[Content Insights]]
 - [[Deal Inbox]]
+- [[Eve Offer Replies]] (offer-campaign broker replies, siheholdings@gmail.com, read only; created 2026-11-28)
 - [[מזכירה]] (secretary)
 
 ## Active projects

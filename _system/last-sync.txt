@@ -1,1 +1,1 @@
-2026-11-28 13:30 IST (Asia/Jerusalem) — scheduled sync (midday)
+2026-11-28 13:24 IST (Asia/Jerusalem) — brain sync follow-up (Grok Bot main chat items; teammate transcripts refused). Previous: midday sync committed 13:22 (3efe342; file had said 13:30).

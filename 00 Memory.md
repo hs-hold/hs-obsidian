@@ -4,7 +4,7 @@ generated: true
 tags: [memory]
 ---
 # 00 Memory — compressed team brain
-Generated 2026-11-28 13:22 Asia/Jerusalem from commit 5c5ccbe 2026-11-28 09:53 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
+Generated 2026-11-28 13:24 Asia/Jerusalem from commit 3efe342 2026-11-28 13:22 by `_system/scripts/build_memory_file.py`. Do not edit by hand (overwritten every run).
 Read this first. If a topic is missing, search the vault (folder map at the bottom), then answer.
 
 ## Bots (11)
@@ -65,6 +65,11 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Rule: Deal Inbox does Stage 1 (buy box) only; Deal Analysis does ARV, rehab, max offer, and go/no-go.
 - Latest log (2026-11-28 (sync 13:30; from inbox-scan + handoff + Gmail)): 08:00 scan (11 msgs): IWB weekly → 4 Indy buy-box deals to Deal Analysis (handoff `deal-analysis-handoff-2026-11-28.md`). Site entry failed: `insert_deal.py` could not run (SUPABASE_ACCESS_TOKEN missing in the environment); JSONs left in `/workspace/inbox-2026-11-28/`. Lilac Ln 2nd wholesaler …
 - Last activity seen in vault: 2026-11-28
+### Eve Offer Replies — [[Eve Offer Replies]]
+- Role: offer-campaign broker replies, siheholdings@gmail.com, read only; created 2026-11-28; Offer-reply tracker.
+- Job: watch the siheholdings@gmail.com mailbox (connect it through your Gmail connector) for replies to those offer campaigns, from now on. First, sample a small set of recent campaign emails and replies to learn what they look like (subject patterns, sender name eve, typical broker responses: accepted …
+- Latest log (2026-11-28 ~12:0x — created): Created by Grok Bot (id 1f681f03-89da-41fa-b9a4-45f45dd8dcb3). Its Gmail connector was signed in as deals@, so it added a second account "siheholdings". At 12:15 the connect card waits for Eran to sign in with siheholdings@gmail.com → [[Open Items]] OI-EVE-GMAIL-2811.
+- Last activity seen in vault: 2026-11-28
 ### מזכירה — [[מזכירה]]
 - Role: Personal secretary.
 - Job: keep the owner's notes and things-to-remember (e.g. where information is stored, such as: the Send Offers website data is saved on the owner's own computer), set time-based reminders via routines, track to-dos and follow-ups, and remind the owner when asked. Save every note to durable memory so it …
@@ -76,10 +81,6 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - Role: coordinates the other bots, the deals site/pipeline, the vault and Drive library; talks to the owner (chat + voice).
 - Rules/data: `/home/box/shared/agent-rules`
 - Latest log (נקודות פתוחות (פרק 8 במסמך)): אחוז הרזרבות (12% בפועל לעומת 18% בקובץ), דמי ניהול, חלון הקומפס, חציון משוקלל או רגיל, הגדרה ל-Plans A/B/C, ו-deal-search.md שלא עודכן. ראה גם: [[Deal Analysis]]
-- Last activity seen in vault: unknown
-### Eve Offer Replies — (no Agents/ note)
-- Role: Offer-reply tracker.
-- Job: watch the siheholdings@gmail.com mailbox (connect it through your Gmail connector) for replies to those offer campaigns, from now on. First, sample a small set of recent campaign emails and replies to learn what they look like (subject patterns, sender name eve, typical broker responses: accepted …
 - Last activity seen in vault: unknown
 
 ## Owner rules & active criteria (from [[00 Profile]] + project decisions)
@@ -250,7 +251,7 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 - C: [verified file] (10:29) Stratford POSTed to the site: outcome passed, dealId 7e323777-0939-4571-9977-4c1655d370a0 (15% upload rule).
 - C: [reported] goodPotential TRUE: Stratford, Hartman ($546 on 2 rent comps), Arlington ($448, $111k stays in) → per rule 703c705 must reach Eran; delivery not verifiable → OI-GOODPOT-2811.
 - C: [reported] Tax district 701: engine/Census say IPS, `districts.md` says MSD Warren → OI-IWB-2811.
-- A: Deal Inbox (08:00 scan, 11 msgs): IWB weekly → 4 Indy deals to Deal Analysis; site entry failed (SUPABASE_ACCESS_TOKEN missing in that run); Lilac Ln 2nd-wholesaler FYI (Josiah Reed $160k); Joel …
+- A: Deal Inbox (08:00 scan, 11 msgs): IWB weekly → 4 Indy deals to Deal Analysis; site entry failed (SUPABASE_ACCESS_TOKEN missing in that run) — partly resolved 10:24–10:29: Grok Bot now holds a token …
 - A: Daily deal search: 07:57 call `retry_later` "Signal timed out" (46219); run.sh 08:00 screened 46217 (18 batches) and 46225 (9), DONE 08:36, 0 queued in both (OI-DAILY-SEARCH-INTERRUPT note).
 - A: Indianapolis Market Research (09:52 watch, vault commit 5c5ccbe): no meeting time/place offers; IWB blast already reported by Deal Inbox.
 - A: Offer-reply tracking notes built ~12:17 (`/workspace/offer-replies/`, siheholdings@gmail.com, read only): 27 broker replies 8 Sep–17 Nov, none since → [[2026-11-16 Send Offers]].
@@ -429,4 +430,3 @@ Read this first. If a topic is missing, search the vault (folder map at the bott
 
 ## Gaps in sources
 - bot 'Deal Analysis - שיטת ניתוח' has no readable profile.json
-- bot 'Eve Offer Replies' has no Agents/ note
